@@ -1,4 +1,4 @@
-# Identification des utilisateurs de Copilote
+# Identification des utilisateurs de Copilote: Projet ML
 
 Projet de bureau d’étude (BE) du module **MOD 7.2 — Introduction à la science des données**, associé à la compétition Kaggle **« Qui utilise mon appli ? v2026/2027 — Groupe 2 »**.
 
