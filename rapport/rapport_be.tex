@@ -1,0 +1,369 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+\usepackage[margin=2.1cm]{geometry}
+\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage{booktabs,tabularx,array}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\definecolor{accent}{RGB}{34,65,91}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.4em}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.16}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Identification des utilisateurs de Copilote}
+\fancyhead[R]{\small BE MOD 7.2}
+\fancyfoot[L]{\small Version de travail -- 12 octobre 2026}
+\fancyfoot[R]{\thepage}
+\setlength{\headheight}{14pt}
+\newcommand{\afaire}[1]{\par\smallskip\textcolor{accent}{\textbf{À réaliser.}} #1\par}
+\newcommand{\sourceexploration}{\textit{Source : sorties enregistrées de \texttt{datamanip/001.ipynb}, jeu d'entraînement.}}
+\hypersetup{pdftitle={Identification des utilisateurs de Copilote -- Rapport de BE},pdflang={fr-FR}}
+
+\begin{document}
+\thispagestyle{plain}
+\begin{center}
+{\Large\bfseries\color{accent} Identification des utilisateurs de Copilote}\par
+\vspace{0.35em}
+{\large Rapport de bureau d'étude}\par
+MOD 7.2 -- Introduction à la science des données\\
+Compétition Kaggle -- Groupe 2\\[0.5em]
+\textit{Version de travail du 12 octobre 2026}
+\end{center}
+
+\textbf{État du travail.} Cette première version présente le problème, les données
+et l'exploration initiale déjà effectuée. Aucun modèle n'a été entraîné et aucun
+score de classification n'est disponible. Les sections consacrées à la suite
+de l'étude indiquent explicitement les travaux restant à mener. Les auteurs
+seront renseignés lors de la finalisation du rapport.
+
+\section{Introduction}
+Copilote est un logiciel édité par Infologic pour le secteur agroalimentaire.
+Son utilisation produit des traces décrivant les actions réalisées au cours
+d'une session, ainsi que certains éléments de leur contexte. Ces traces
+permettent d'étudier les habitudes d'utilisation du logiciel : fonctionnalités
+sollicitées, écrans consultés et interactions effectuées.
+
+Le projet pose la question suivante : peut-on reconnaître un utilisateur à
+partir d'une session d'utilisation ? Dans le contexte présenté par le BE,
+les testeurs internes utilisent différents profils pour tester le logiciel.
+Identifier le testeur à partir de ses traces pourrait faciliter le signalement
+des problèmes. La reconnaissance des habitudes pourrait aussi contribuer
+à repérer des comportements inhabituels sur un compte. Cette dernière
+application constitue une motivation ; elle n'est pas évaluée directement
+dans les données disponibles.
+
+\section{Problématique et objectifs}
+\subsection{Une classification supervisée multiclasse}
+L'unité d'observation est la \textbf{session}. La cible est l'identifiant de
+l'utilisateur, nommé \texttt{util} dans le tableau d'exploration. Le jeu
+d'entraînement comporte 247 utilisateurs distincts : il s'agit donc d'une
+classification supervisée à 247 classes. À partir du navigateur et de la
+séquence de traces d'une session, la solution devra prédire un identifiant
+utilisateur d'origine.
+
+L'enjeu est de construire une représentation qui distingue les habitudes
+des utilisateurs malgré la variabilité de leurs sessions. Une fréquence
+élevée dans l'ensemble du jeu ne suffit pas à prouver qu'une action est
+discriminante. Il faudra mesurer l'apport des caractéristiques sur des
+sessions réservées à la validation.
+
+\subsection{Cadre du rendu}
+Les consignes demandent un rapport PDF de 5 à 8 pages, un code Python
+réexécutable avec ses dépendances et les prédictions sur le jeu de test.
+Le dépôt des prédictions est prévu sur Moodle et sur la compétition Kaggle
+du groupe 2. L'échéance annoncée dans le notebook de consignes est le
+\textbf{9 novembre 2026 au soir}. Le rapport final devra justifier les
+caractéristiques et les méthodes, préciser les métriques et discuter les
+résultats et leurs limites.
+
+\newpage
+\section{Présentation des données et préparation initiale}
+\subsection{Organisation des fichiers}
+Les données sont fournies sous forme de fichiers texte séparés par des
+virgules, sans en-tête. Chaque ligne représente une session ; le nombre
+de champs varie selon la longueur de la séquence. Dans l'entraînement,
+les deux premiers champs sont l'identifiant utilisateur et le navigateur.
+Dans le test, l'identifiant est absent et le navigateur est le premier champ.
+
+\begin{center}
+\begin{tabularx}{\linewidth}{l r Y}
+\toprule
+Fichier & Sessions & Rôle \\
+\midrule
+\texttt{train.csv} & 3\,279 & Apprentissage et validation ; identités connues. \\
+\texttt{test.csv} & 324 & Prédictions à produire ; identités non fournies. \\
+\texttt{sample\_submission.csv} & 324 & Exemple du format de soumission. \\
+\bottomrule
+\end{tabularx}
+\end{center}
+\textit{Source : README du projet. L'exploration décrite ici porte uniquement sur le train.}
+
+\subsection{Contenu d'une trace}
+Une séquence mêle des actions et des marqueurs temporels. Certaines actions
+portent des informations supplémentaires, repérées par leurs délimiteurs.
+Ces informations ne sont pas nécessairement présentes dans chaque action.
+
+\begin{center}
+\begin{tabularx}{\linewidth}{l Y}
+\toprule
+Élément & Signification retenue \\
+\midrule
+Nom de l'action & Interaction, par exemple double-clic ou saisie dans un champ. \\
+\texttt{(\ldots)} & Écran ou contexte de l'action. \\
+\texttt{<\ldots>} & Configuration d'écran. \\
+\texttt{\$\ldots\$} & Chaîne de fiche, regroupement logique dans le logiciel. \\
+Suffixe \texttt{1} & Action effectuée en modification dans la fiche. \\
+\texttt{tXX} & Repère de fenêtre temporelle exprimé en secondes. \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+Le nombre total de traces inclut les marqueurs temporels : il ne doit donc
+pas être confondu avec le nombre d'actions. Le plus grand repère temporel
+est utilisé comme indicateur descriptif, sans être assimilé à une durée
+exacte de session. Des repères peuvent être répétés.
+
+\subsection{Conservation et contrôles des données}
+Le notebook lit les lignes une à une et conserve les traces sous forme de
+listes. Il construit \texttt{df\_raw} avec quatre colonnes :
+\texttt{session\_id}, \texttt{util}, \texttt{navigateur} et \texttt{traces}.
+Le numéro de ligne sert de repère et ne constitue pas une caractéristique
+d'identification prévue. Les transformations sont effectuées dans
+\texttt{df\_train}. Les listes de traces sont également copiées pour éviter
+de partager des objets modifiables avec le tableau brut.
+
+Les contrôles enregistrés ne détectent aucune valeur manquante dans les
+quatre colonnes initiales, aucun identifiant ou navigateur vide et aucun
+champ de trace vide. Aucun doublon strict n'est observé en comparant
+l'utilisateur, le navigateur et la séquence complète, sans le numéro de
+ligne. Cela n'exclut pas des sessions proches ni des anomalies de contenu.
+Les vérifications finales confirment le même nombre de sessions et la
+conservation des colonnes brutes dans la copie de travail.
+
+\sourceexploration
+
+\newpage
+\section{Exploration du jeu d'entraînement}
+\subsection{Répartition des utilisateurs et navigateurs}
+Les 3\,279 sessions se répartissent entre 247 classes. Le nombre de sessions
+par utilisateur varie de 4 à 75, avec une médiane de 12 et une moyenne
+de 13,28. Les premier et troisième quartiles sont respectivement 7 et 16.
+Le déséquilibre des classes et le faible nombre d'exemples de certains
+utilisateurs devront être pris en compte dans la validation.
+
+\begin{center}
+\begin{tabular}{lrr}
+\toprule
+Navigateur & Sessions & Part des sessions \\
+\midrule
+Firefox & 1\,466 & 44,71\,\% \\
+Google Chrome & 1\,339 & 40,84\,\% \\
+Microsoft Edge & 451 & 13,75\,\% \\
+Opera & 23 & 0,70\,\% \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Firefox et Chrome regroupent 85,55\,\% des sessions. Le croisement entre
+utilisateur et navigateur montre qu'un seul navigateur est observé pour
+chacun des 247 utilisateurs dans le train. Plusieurs utilisateurs partagent
+toutefois le même navigateur : cet indice ne suffit pas à identifier une
+personne. Sa stabilité dans de nouvelles sessions n'est pas démontrée.
+
+\subsection{Longueur des sessions}
+Les marqueurs reconnus par l'expression régulière \texttt{t\textbackslash d+}
+sur la totalité de la trace sont séparés des actions. Le notebook calcule
+ensuite le nombre d'actions, le nombre de marqueurs et le plus grand repère.
+
+\begin{center}
+\small
+\begin{tabular}{lrrrrr}
+\toprule
+Indicateur & Minimum & Q1 & Médiane & Q3 & Maximum \\
+\midrule
+Actions & 0 & 153 & 340 & 818,5 & 11\,977 \\
+Marqueurs temporels & 1 & 38 & 82 & 197,5 & 2\,491 \\
+Dernier repère (s) & 5 & 185 & 395 & 945 & 11\,790 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+La moyenne du nombre d'actions est de 692,36, contre une médiane de 340.
+Cette différence et le maximum de 11\,977 actions indiquent une forte
+asymétrie des longueurs. Des comptages bruts risquent ainsi de refléter
+la longueur de la session autant que les habitudes de son utilisateur.
+La comparaison avec des fréquences normalisées est une piste pour la suite.
+
+\subsection{Session sans action}
+Une session, repérée par \texttt{session\_id = 1252}, appartient à
+l'utilisateur \texttt{fvc}, sous Google Chrome, et contient uniquement
+\texttt{t5}, \texttt{t10} et \texttt{t15}. Elle est conservée à ce stade.
+L'absence d'action n'est pas un champ vide : la session contient des
+informations temporelles et un navigateur, mais aucun contenu d'action.
+
+La future chaîne de traitement devra accepter ce cas et gérer les ratios
+dont le dénominateur est nul. L'effet de cette session sur l'apprentissage
+ou l'évaluation n'a pas encore été mesuré. Sa conservation évite une
+suppression décidée sans analyse de son incidence.
+
+\sourceexploration
+
+\newpage
+\subsection{Types d'actions et contextes}
+Le type d'action est obtenu en séparant le nom des informations de contexte
+au premier délimiteur parenthèse, chevron ou dollar, puis en retirant
+l'éventuel suffixe final \texttt{1}. Les contextes sont extraits à l'aide
+des délimiteurs présents dans la trace, sans compléter les valeurs absentes.
+
+\begin{center}
+\begin{tabularx}{\linewidth}{Y r Y}
+\toprule
+Information & Valeurs distinctes & Valeur la plus fréquente \\
+\midrule
+Types d'actions & 35 & Exécution d'un bouton \\
+Écrans ou contextes & 418 & \texttt{MAINT} \\
+Configurations & 219 & \texttt{DEF\_03/24} \\
+Chaînes de fiches & 76 & \texttt{VT} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+L'exécution d'un bouton représente 510\,645 occurrences et la saisie dans
+un champ 265\,633 occurrences dans l'ensemble du train. Ces comptages
+portent sur des occurrences, et non sur le nombre de sessions ou
+d'utilisateurs. Ils sont sensibles aux sessions longues et aux répétitions.
+Ils ne constituent pas des mesures de l'importance prédictive des actions.
+
+Les écrans, configurations et chaînes peuvent renseigner sur les activités
+ou les contextes de travail propres à certains utilisateurs. Cette utilité
+reste une hypothèse. La présence de nombreuses modalités suggère une
+représentation potentiellement creuse, dont la construction et le traitement
+des modalités nouvelles devront être définis avant l'entraînement.
+
+\subsection{Actions en modification}
+Le notebook compte comme action en modification toute action terminée
+par \texttt{1}. Pour une session $s$ ayant $n_s$ actions, dont $m_s$ en
+modification, la proportion est définie par :
+\[
+ p_s=\frac{m_s}{n_s}\quad\text{si } n_s>0.
+\]
+Pour la session sans action, cette proportion est laissée manquante :
+elle est indéfinie et ne doit pas être interprétée comme une proportion nulle.
+
+\begin{center}
+\begin{tabularx}{\linewidth}{Y r}
+\toprule
+Indicateur & Valeur \\
+\midrule
+Médiane du nombre d'actions en modification par session & 34 \\
+Moyenne du nombre d'actions en modification par session & 108,30 \\
+Médiane des proportions par session & 9,09\,\% \\
+Moyenne des proportions par session & 15,54\,\% \\
+Sessions avec une proportion définie & 3\,278 \\
+Sessions avec une proportion non définie & 1 \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+La moyenne de 15,54\,\% est la moyenne des proportions sur les sessions
+dont le ratio est défini. Chaque session y a le même poids ; elle ne
+correspond pas à la proportion obtenue en regroupant toutes les actions.
+Le comportement en modification constitue une caractéristique candidate,
+dont l'apport devra être évalué conjointement avec les autres variables.
+
+\subsection{Bilan de l'exploration}
+Les données sont exploitables sur le plan des contrôles de structure
+effectués, mais présentent des longueurs très variables et des classes
+inégalement représentées. Le navigateur, la composition des actions et
+leurs contextes fournissent des pistes de caractérisation. À ce stade,
+aucune observation descriptive ne permet de conclure à la fiabilité
+d'un système d'identification.
+
+\sourceexploration
+
+\newpage
+\section{Méthodologie envisagée}
+\afaire{Construire une représentation par session et comparer son apport
+en validation. Le tableau ci-dessous décrit des pistes, pas des choix
+déjà validés ni des modèles déjà entraînés.}
+
+\begin{center}
+\small
+\begin{tabularx}{\linewidth}{l Y}
+\toprule
+Famille & Caractéristiques candidates et question à examiner \\
+\midrule
+Informations globales & Navigateur, nombre d'actions, marqueurs et dernier repère ; apport du contexte et de la longueur. \\
+Actions & Comptages et fréquences par type ; intérêt de normaliser les sessions longues. \\
+Contextes & Présence ou fréquence des écrans, configurations et chaînes ; apport des usages métiers. \\
+Modification & Nombre et proportion d'actions en modification ; traitement explicite du ratio indéfini. \\
+Séquences & Motifs courts ou transitions ; apport éventuel de l'ordre des actions. \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+Une référence simple, par exemple la prédiction de la classe la plus
+fréquente de l'apprentissage, permettra de situer les performances. Des
+classifieurs adaptés à des variables numériques et catégorielles ou à
+des représentations creuses seront ensuite comparés. La liste finale
+des méthodes, leurs paramètres et les transformations seront renseignés
+après les expériences. L'identité cible et le numéro de ligne devront
+être exclus des variables explicatives.
+
+\section{Validation et métriques}
+\afaire{Fixer une séparation stratifiée des sessions étiquetées, vérifier
+la représentation de toutes les classes et consigner la graine aléatoire.
+Avec au moins quatre sessions par classe, une validation croisée à quatre
+plis est une option à examiner ; les scores des classes rares resteront
+sensibles au petit nombre d'exemples.}
+
+Les vocabulaires, encodages, normalisations et éventuelles imputations
+devront être ajustés sur la partie apprentissage de chaque séparation.
+Les données de validation serviront à comparer les solutions ; le test
+sans étiquettes ne permet pas de calculer un score local. Une séparation
+aléatoire par session évalue l'identification sur des sessions réservées,
+sans démontrer une robustesse à un changement temporel ou d'environnement.
+
+L'accuracy mesurera la proportion de sessions correctement classées.
+Le F1 combine précision et rappel, avec $F_1=2PR/(P+R)$ lorsque le
+dénominateur est non nul. Le README mentionne un F1 moyen pour Kaggle,
+mais son mode de moyenne reste à confirmer. Un F1 macro, moyenne non
+pondérée des F1 par classe, est envisagé en complément pour examiner
+le déséquilibre ; il ne sera pas présenté comme la métrique officielle
+tant que ce point n'aura pas été vérifié.
+
+\section{Résultats de classification}
+\afaire{Présenter les scores de référence et des modèles sur le même
+protocole, les paramètres retenus et la variabilité éventuelle entre plis.
+Aucun score, classement Kaggle ou fichier de prédictions n'est disponible
+à ce stade. Les tableaux descriptifs précédents sont les seuls résultats
+actuellement documentés.}
+
+\section{Discussion et conclusion provisoire}
+\afaire{Analyser les erreurs, les classes rares et l'apport des familles
+de variables par des comparaisons avec et sans ces variables. Discuter
+la dépendance au navigateur et aux contextes, ainsi que la session sans
+action. Documenter l'environnement effectivement testé : les consignes
+évoquent Python 3.14, tandis que le dépôt indique actuellement Python 3.11.}
+
+L'exploration fournit une base pour construire la chaîne de classification.
+La prochaine étape est de définir un protocole de validation et une première
+représentation des sessions, puis de mesurer leurs performances. La
+solution retenue devra enfin produire 324 prédictions, dans l'ordre du
+test, aux colonnes \texttt{RowId} (de 1 à 324) et \texttt{prediction}.
+
+\vfill
+{\footnotesize\textbf{Documents de référence locaux :}
+\texttt{README.md} ; \texttt{Notebooks/BE\_CS1\_instructions.ipynb} ;
+\texttt{datamanip/001.ipynb}. Les constats d'exploration proviennent des
+sorties enregistrées du dernier notebook ; aucune nouvelle expérience
+de classification n'a été exécutée pour cette rédaction.}
+\end{document}
