@@ -1,4 +1,4 @@
-## Status (phase 2/8 verified, 2026-10-13)
+## Status (phases 3–4/8 verified, 2026-10-13)
 Original notebooks and user edits preserved. Phase 1 gate passed on Python 3.13.13.
 
 ## Done
@@ -13,6 +13,14 @@ Original notebooks and user edits preserved. Phase 1 gate passed on Python 3.13.
 ## Current best
 No new evaluation yet. Prior roadmap scores are not imported as current results.
 
+## Phases 3–4 gate
+- Implemented fold-local sparse text/context/browser/numeric feature pipelines,
+  optional context propagation and character n-grams.
+- `make test`: 14 passed, including held-out vocabulary/scaling isolation tests.
+- `make features` completed: distributions, categorical boxplots, clustered
+  Spearman matrix, SVD projection, ANOVA/Kruskal and corrected p-values.
+- Feature diagnostics use the training data only and do not select predictive columns.
+
 ## Phase 2 gate
 - `make test`: 12 passed; `make eda` completed; ruff check/format passed.
 - `reports/results/eda.json`: no exact duplicates or train/test overlap; no user
@@ -21,7 +29,7 @@ No new evaluation yet. Prior roadmap scores are not imported as current results.
 - Clock gaps remain proxies; train/test KS comparisons are descriptive only.
 
 ## Next 3 actions
-1. Complete fold-local feature representations and leakage tests.
+1. Run development-only model selection, then locked holdout evaluation.
 2. Build fold-local features and compare models.
 3. Verify Python 3.14 compatibility before delivery.
 

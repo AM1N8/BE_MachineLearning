@@ -77,6 +77,10 @@ def main() -> None:
 
         if args.phase == "eda":
             run_eda(config)
+        elif args.phase == "features":
+            from copilote.features import run_feature_analysis
+
+            run_feature_analysis(config)
 
 
 if __name__ == "__main__":
