@@ -1,0 +1,23 @@
+{
+  "role": "Post-lock diagnostic; never used to change selected model",
+  "points": [
+    {
+      "fraction": 0.35,
+      "train_sessions": 853,
+      "train_macro_f1": 1.0,
+      "holdout_macro_f1": 0.8901375901722163
+    },
+    {
+      "fraction": 0.65,
+      "train_sessions": 1583,
+      "train_macro_f1": 0.9998934398934399,
+      "holdout_macro_f1": 0.9079362793046782
+    },
+    {
+      "fraction": 1.0,
+      "train_sessions": 2623,
+      "train_macro_f1": 0.9997508362025793,
+      "holdout_macro_f1": 0.9405084909359435
+    }
+  ]
+}

@@ -12,6 +12,8 @@ data/*
 !data/README.md
 artifacts/
 outputs/
+reports/results/experiments/
+copilote-submission.zip
 .pytest_cache/
 .ruff_cache/
 .coverage*

@@ -1,0 +1,1318 @@
+{
+  "provenance": {
+    "config": {
+      "seed": 42,
+      "paths": {
+        "train": "data/train.csv",
+        "test": "data/test.csv",
+        "sample_submission": "data/sample_submission.csv"
+      },
+      "cv": {
+        "folds": 4,
+        "repeats": 3,
+        "selection_metric": "macro_f1",
+        "holdout_fraction": 0.2
+      },
+      "features": {
+        "min_df": 2,
+        "max_features": 60000,
+        "ngram_max": 3,
+        "svd_components": 64
+      },
+      "models": {
+        "C": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "class_weight": [
+          null,
+          "balanced"
+        ],
+        "trees": 150,
+        "n_jobs": 2
+      },
+      "submission": {
+        "id_column": "RowId",
+        "target_column": "prediction",
+        "id_base": 1
+      },
+      "report": {
+        "team": "Équipe — identité non communiquée",
+        "group": "TD non communiqué",
+        "repo_url": "URL non communiquée"
+      }
+    },
+    "config_hash": "7f1ab5a402216cae95133680b6425f35f3e714255eb5341231550d27a22ae0ac",
+    "source_hash": "fbb2236406d2e3f8c7c75d7407dbb1a1b7f90bbe1345018e74e77fe56e2520aa",
+    "input_hashes": {
+      "train": "b1d32fed43795dd081add8ebac0c73211d719b58d66bb05d43e445e9a6491649",
+      "test": "a6d8728583924e65012ef70d1dc7f6e03f6a24d2453d12845e7aed30519cbece"
+    },
+    "git_commit": "11b106445a2b9f8cc5c7a53b1110037d24833c9a",
+    "git_dirty": true,
+    "python": "3.13.13"
+  },
+  "selected": "linear_balanced",
+  "evaluation_signature": "4395525bfd2dc28206e9dd9b5566252cb87d3006dde0738a25f096f3fd63f4f7",
+  "models": {
+    "winner": {
+      "metrics": {
+        "accuracy": 0.9512195121951219,
+        "macro_f1": 0.9405084909359435,
+        "weighted_f1": 0.9469819237537161,
+        "balanced_accuracy": 0.9465651307756571,
+        "top3": 0.989329268292683,
+        "top5": 0.9908536585365854,
+        "log_loss": 4.112255657014247
+      },
+      "probability_kind": "uncalibrated_score_softmax",
+      "calibration": {
+        "ece": 0.9335566134003661,
+        "bins": [
+          {
+            "low": 0.0,
+            "count": 656,
+            "confidence": 0.01766289879475576,
+            "accuracy": 0.9512195121951219
+          }
+        ],
+        "coverage": [
+          {
+            "coverage": 0.25,
+            "accuracy": 1.0,
+            "threshold": 0.02172817127071188
+          },
+          {
+            "coverage": 0.5,
+            "accuracy": 1.0,
+            "threshold": 0.016669629761492954
+          },
+          {
+            "coverage": 0.75,
+            "accuracy": 1.0,
+            "threshold": 0.013088414029352772
+          },
+          {
+            "coverage": 1.0,
+            "accuracy": 0.9512195121951219,
+            "threshold": 0.006408913935535993
+          }
+        ]
+      },
+      "examples": {
+        "confident_correct": {
+          "row_id": 405,
+          "truth": "vfo",
+          "prediction": "vfo",
+          "confidence": 0.9217327225396887,
+          "tokens": 2561,
+          "method": "coefficient_times_feature",
+          "intercept": -0.9963177254704173,
+          "contribution_sum": 1.8650000924069259,
+          "top_contributions": [
+            {
+              "feature": "raw::Raccourci Clic sur une grille d'historique de recherche",
+              "value": 0.12498670261546499
+            },
+            {
+              "feature": "browser::Google Chrome",
+              "value": -0.05323163469008667
+            },
+            {
+              "feature": "raw::Chainage1 Création d'un écran(MAINT)",
+              "value": 0.0467970879277023
+            },
+            {
+              "feature": "raw::Double-clic1 Lancement d'une action générique",
+              "value": 0.04028223732086756
+            },
+            {
+              "feature": "raw::Lancement d'une action générique Chainage1",
+              "value": 0.03130513326510017
+            },
+            {
+              "feature": "raw::Retour sur un écran(infologic.infoc.statmodif.fichierbase.StatFBController)1 Sélection d'un écran1",
+              "value": 0.028726214521165045
+            },
+            {
+              "feature": "raw::Exécution d'un bouton$VT$ Raccourci",
+              "value": 0.028295014349957827
+            },
+            {
+              "feature": "raw::Exécution d'un bouton$VT$",
+              "value": 0.027986235906447252
+            },
+            {
+              "feature": "raw::Sélection d'un écran1 Double-clic1",
+              "value": 0.026832959262049472
+            },
+            {
+              "feature": "raw::Clic sur une grille d'historique de recherche Saisie dans un champ$VT$",
+              "value": 0.02541105012168484
+            },
+            {
+              "feature": "raw::Sélection d'un écran(infologic.infoc.statmodif.fichierbase.StatFBController)1 Sélection d'un écran1",
+              "value": 0.024596103711375158
+            },
+            {
+              "feature": "raw::Clic sur une grille d'historique de recherche Exécution d'un bouton$VT$",
+              "value": 0.024528674472733717
+            },
+            {
+              "feature": "raw::Création d'un écran(MAINT) Retour sur un écran(infologic.infoc.statmodif.fichierbase.StatFBController)1",
+              "value": 0.023653144138375957
+            },
+            {
+              "feature": "raw::Création d'un écran(MAINT) Exécution d'un bouton$VT$",
+              "value": 0.023178839091254715
+            }
+          ]
+        },
+        "uncertain_correct": {
+          "row_id": 2993,
+          "truth": "sbz",
+          "prediction": "sbz",
+          "confidence": 0.06027605656346243,
+          "tokens": 408,
+          "method": "coefficient_times_feature",
+          "intercept": -0.9337494416430343,
+          "contribution_sum": 0.3932779350809842,
+          "top_contributions": [
+            {
+              "feature": "browser::Google Chrome",
+              "value": -0.10458094354336864
+            },
+            {
+              "feature": "raw::Raccourci Double-clic",
+              "value": 0.10457316491721963
+            },
+            {
+              "feature": "raw::Double-clic Saisie dans un champ",
+              "value": 0.06011212351851981
+            },
+            {
+              "feature": "raw::Saisie dans un champ Raccourci",
+              "value": 0.0444130452409157
+            },
+            {
+              "feature": "raw::Sélection d'un écran(infologic.core.gui.controllers.BlankController) Exécution d'un bouton",
+              "value": 0.04067454774640969
+            },
+            {
+              "feature": "raw::Création d'un écran(MAINT) Sélection d'un écran",
+              "value": 0.027945753211657723
+            },
+            {
+              "feature": "raw::Raccourci Sélection d'un écran(infologic.core.gui.controllers.BlankController)",
+              "value": 0.0251467078554335
+            },
+            {
+              "feature": "raw::Raccourci Saisie dans un champ",
+              "value": 0.024845188484786434
+            },
+            {
+              "feature": "raw::Double-clic Sélection d'un écran",
+              "value": 0.023725186354210424
+            },
+            {
+              "feature": "raw::Sélection d'un écran(infologic.core.gui.controllers.BlankController)",
+              "value": 0.023503604882738702
+            },
+            {
+              "feature": "raw::Sélection d'un écran Exécution d'un bouton<DEF_03/24>$SV$",
+              "value": 0.020261899791812858
+            },
+            {
+              "feature": "raw::Sélection d'un écran(infologic.core.gui.controllers.BlankController) Raccourci",
+              "value": 0.018534560757251708
+            },
+            {
+              "feature": "raw::Exécution d'un bouton<DEF_03/24>$SV$ Raccourci",
+              "value": 0.014919902423119746
+            },
+            {
+              "feature": "raw::Sélection d’un onglet Création d'un écran(infologic.orga.modules.OR_RECHERCHEINFO.RechercheInfoController)",
+              "value": 0.014060668976648866
+            }
+          ]
+        },
+        "confident_wrong": {
+          "row_id": 2049,
+          "truth": "iyf",
+          "prediction": "cjr",
+          "confidence": 0.862924973799123,
+          "tokens": 237,
+          "method": "coefficient_times_feature",
+          "intercept": -0.9206554429913406,
+          "contribution_sum": 0.5021417123114028,
+          "top_contributions": [
+            {
+              "feature": "browser::Google Chrome",
+              "value": -0.07851522108524696
+            },
+            {
+              "feature": "raw::Exécution d'un bouton1 Exécution d'un bouton",
+              "value": 0.05254467192336525
+            },
+            {
+              "feature": "raw::Saisie dans un champ Saisie dans un champ1",
+              "value": 0.037029712845396794
+            },
+            {
+              "feature": "raw::Fermeture d'une dialogue1 Exécution d'un bouton",
+              "value": 0.036160217038792714
+            },
+            {
+              "feature": "raw::Exécution d'un bouton Exécution d'un bouton1",
+              "value": 0.03357421935452261
+            },
+            {
+              "feature": "raw::Exécution d'un bouton1 Saisie dans un champ1",
+              "value": 0.03233785519445337
+            },
+            {
+              "feature": "raw::Exécution d'un bouton Sélection d'un écran1",
+              "value": 0.03125657174193323
+            },
+            {
+              "feature": "raw::Sélection d'un écran1",
+              "value": 0.028566043686895817
+            },
+            {
+              "feature": "raw::Exécution d'un bouton1",
+              "value": 0.027219144100045025
+            },
+            {
+              "feature": "raw::Exécution d'un bouton1 Sélection d'un écran",
+              "value": 0.024306506638654565
+            },
+            {
+              "feature": "raw::Saisie dans un champ1",
+              "value": 0.024082097536428423
+            },
+            {
+              "feature": "raw::Sélection d’un onglet",
+              "value": 0.022828626139173063
+            },
+            {
+              "feature": "raw::Exécution d'un bouton Saisie dans un champ1",
+              "value": 0.022531631411718392
+            },
+            {
+              "feature": "raw::Exécution d'un bouton Sélection d'un écran",
+              "value": 0.020972038540685703
+            }
+          ]
+        }
+      },
+      "grouped_permutation": [
+        {
+          "family": "raw",
+          "columns": 39326,
+          "macro_f1_loss_mean": 0.9333144162590313,
+          "std": 0.003241710846874736
+        },
+        {
+          "family": "browser",
+          "columns": 4,
+          "macro_f1_loss_mean": 0.11329898600655235,
+          "std": 0.00855069298994939
+        }
+      ],
+      "global_coefficients": [
+        {
+          "feature": "browser::Google Chrome",
+          "value": 0.29987465940154634
+        },
+        {
+          "feature": "browser::Firefox",
+          "value": 0.297991392786702
+        },
+        {
+          "feature": "browser::Microsoft Edge",
+          "value": 0.2747996804466891
+        },
+        {
+          "feature": "raw::Lancement d'un tableau de bord",
+          "value": 0.1445236739418872
+        },
+        {
+          "feature": "raw::Entrée en saisie dans un formulaire",
+          "value": 0.14021253886576115
+        },
+        {
+          "feature": "raw::Sélection d'un flag",
+          "value": 0.13742626046724332
+        },
+        {
+          "feature": "raw::Clic sur une grille d'historique de recherche",
+          "value": 0.134371525463221
+        },
+        {
+          "feature": "raw::Raccourci",
+          "value": 0.12410073597631115
+        },
+        {
+          "feature": "raw::Filtrage / Tri",
+          "value": 0.1054029459727421
+        },
+        {
+          "feature": "raw::Retour sur un écran",
+          "value": 0.09874775870604302
+        },
+        {
+          "feature": "raw::Sélection d'un écran(infologic.crm.modules.CRM_PLANNING.planning.PlanningController)<INSTALLATEUR>",
+          "value": 0.095028064581217
+        },
+        {
+          "feature": "raw::Affichage d'un toast",
+          "value": 0.09282437375276274
+        },
+        {
+          "feature": "raw::Clic sur une checkbox",
+          "value": 0.08808447989715895
+        },
+        {
+          "feature": "raw::Double-clic",
+          "value": 0.08327061424533994
+        },
+        {
+          "feature": "raw::Clic sur une grille d'historique de recherche Exécution d'un bouton",
+          "value": 0.08306427434934213
+        },
+        {
+          "feature": "raw::Sélection d'un écran(infologic.core.gui.controllers.BlankController)",
+          "value": 0.08096009376845091
+        },
+        {
+          "feature": "raw::Sélection d'un écran(infologic.core.FichiersController)",
+          "value": 0.08008472272156368
+        },
+        {
+          "feature": "raw::Raccourci Lancement d'une action générique",
+          "value": 0.07834235430020463
+        },
+        {
+          "feature": "raw::Saisie dans un champ Saisie dans un champ",
+          "value": 0.07711460545182049
+        },
+        {
+          "feature": "raw::Raccourci Exécution d'un bouton",
+          "value": 0.07563879083965835
+        }
+      ],
+      "class_coefficients": {
+        "skm": [
+          {
+            "feature": "raw::Raccourci1 Raccourci dans l'édition de table1",
+            "value": 1.0384562721634307
+          },
+          {
+            "feature": "raw::Action de table1 Lancement d'une action générique",
+            "value": 0.9324972701361589
+          },
+          {
+            "feature": "raw::Raccourci(fr.infologic.compta.client.modules.saisiecrit.SaisiEcritForm)",
+            "value": 0.765505398283077
+          },
+          {
+            "feature": "raw::Raccourci(fr.infologic.compta.client.modules.saisiecrit.SaisiEcritForm) Saisie dans un champ",
+            "value": 0.765505398283077
+          },
+          {
+            "feature": "raw::Saisie dans un champ1 Raccourci dans l'édition de table1",
+            "value": -0.7596720858791688
+          },
+          {
+            "feature": "raw::Création d'un écran(infologic.core.gui.controllers.nested.InputFormNestedWindow)<ADM_055>",
+            "value": 0.6112382261364716
+          },
+          {
+            "feature": "raw::Sélection d’un onglet<ADM_055>1",
+            "value": 0.5224585780796612
+          },
+          {
+            "feature": "raw::Raccourci Saisie dans un champ",
+            "value": 0.4451885515724447
+          },
+          {
+            "feature": "raw::Raccourci dans l'édition de table1",
+            "value": 0.44248491662645684
+          },
+          {
+            "feature": "raw::Raccourci dans l'édition de table1 Affichage d'une dialogue1",
+            "value": 0.44248491662645684
+          }
+        ],
+        "slq": [
+          {
+            "feature": "raw::Création d'un écran(infologic.core.gui.controllers.nested.InputFormNestedWindow) Saisie dans un champ(infologic.infoc.statmodif.fichierbase.StatFBController)1",
+            "value": 0.6685640354639835
+          },
+          {
+            "feature": "raw::Exécution d'un bouton(fr.infologic.global.client.modules.pdfviewer.PdfViewerForm)",
+            "value": 0.6006668406691219
+          },
+          {
+            "feature": "raw::Sélection d’un onglet(infologic.orga.modules.OR_INTERVENTION.intervention.InterventionController)<Feuille_Presence>",
+            "value": 0.5651698936814337
+          },
+          {
+            "feature": "raw::Saisie dans un champ(infologic.infoc.statmodif.fichierbase.StatFBController)1 Saisie dans un champ1",
+            "value": 0.561249786887288
+          },
+          {
+            "feature": "raw::Affichage d'une dialogue(fr.infologic.core.client.modules.menu.homescreen.HomeViewController) Exécution d'un bouton",
+            "value": 0.5575677755712436
+          },
+          {
+            "feature": "raw::Affichage d'une dialogue(fr.infologic.core.client.modules.menu.homescreen.HomeViewController)",
+            "value": 0.5540362044563599
+          },
+          {
+            "feature": "raw::Exécution d'un bouton Exécution d'un bouton(fr.infologic.global.client.modules.pdfviewer.PdfViewerForm)",
+            "value": 0.5065599543694196
+          },
+          {
+            "feature": "browser::Firefox",
+            "value": -0.5035662247500522
+          },
+          {
+            "feature": "raw::Chainage Sélection d’un onglet(infologic.orga.modules.OR_INTERVENTION.intervention.InterventionController)<Feuille_Presence>",
+            "value": 0.453490243557175
+          },
+          {
+            "feature": "raw::Sélection d’un onglet(infologic.orga.modules.OR_INTERVENTION.intervention.InterventionController)<Feuille_Presence> Sélection d’un onglet",
+            "value": 0.4355667021797488
+          }
+        ],
+        "cjr": [
+          {
+            "feature": "raw::Sélection d'un écran(infologic.core.gui.controllers.BlankController)<SuiviProdLog>",
+            "value": 0.7678818195612395
+          },
+          {
+            "feature": "raw::Clic sur une grille d'historique de recherche Création d'un écran",
+            "value": 0.5808642242478588
+          },
+          {
+            "feature": "browser::Firefox",
+            "value": -0.5171139657250009
+          },
+          {
+            "feature": "raw::Sélection d'un écran(infologic.acti.modules.AT_ACTIVITES.compterendu.CompteRenduForm)",
+            "value": 0.47402624609071714
+          },
+          {
+            "feature": "raw::Sélection d'un écran(infologic.global.modules.GL_FORMULAIRE.FormulaireForm)",
+            "value": 0.4562686514439089
+          },
+          {
+            "feature": "raw::Sélection d'un écran(CVRH)",
+            "value": 0.40474969330844074
+          },
+          {
+            "feature": "raw::Sélection d'un écran(infologic.crm.modules.CRM_DEMANDE_FORMATION.demande.DemandeController)",
+            "value": 0.39500950512160526
+          },
+          {
+            "feature": "raw::Sélection d’un onglet Affichage d'une arborescence",
+            "value": 0.3906123870814835
+          },
+          {
+            "feature": "raw::Sélection d'un écran(infologic.global.modules.GL_QUESTIONNAIRE.ModeleQuestionnaireForm)",
+            "value": 0.3899074020999251
+          },
+          {
+            "feature": "raw::Exécution d'un bouton1 Exécution d'un bouton1",
+            "value": 0.36679835834893787
+          }
+        ],
+        "flj": [
+          {
+            "feature": "raw::Saisie dans un champ1 Raccourci dans l'édition de table1",
+            "value": 1.2013290812353226
+          },
+          {
+            "feature": "raw::Création d'un écran(infologic.core.gui.controllers.nested.InputFormNestedWindow)<LERCNAT>",
+            "value": 1.1114228537578894
+          },
+          {
+            "feature": "raw::Sélection d’un onglet<LERCNAT>1",
+            "value": 0.8402662645172796
+          },
+          {
+            "feature": "raw::Sélection d’un onglet<LERCNAT>",
+            "value": 0.8252852727078748
+          },
+          {
+            "feature": "raw::Création d'un écran(infologic.core.gui.controllers.nested.InputFormNestedWindow)<EV_BK>",
+            "value": 0.7898299257963408
+          },
+          {
+            "feature": "raw::Sélection d’un onglet<EV_BK>",
+            "value": 0.7054582121152757
+          },
+          {
+            "feature": "raw::Sélection d’un onglet<EV_BK>1",
+            "value": 0.6968804528936661
+          },
+          {
+            "feature": "raw::Raccourci dans l'édition de table1",
+            "value": 0.5062430378793394
+          },
+          {
+            "feature": "raw::Raccourci dans l'édition de table1 Affichage d'une dialogue1",
+            "value": 0.5062430378793394
+          },
+          {
+            "feature": "raw::Raccourci1 Raccourci dans l'édition de table1",
+            "value": -0.43854860088499836
+          }
+        ]
+      },
+      "confusion_pairs": [
+        {
+          "truth": "skm",
+          "prediction": "slq",
+          "count": 2
+        },
+        {
+          "truth": "akx",
+          "prediction": "hvh",
+          "count": 1
+        },
+        {
+          "truth": "ajo",
+          "prediction": "szr",
+          "count": 1
+        },
+        {
+          "truth": "azn",
+          "prediction": "wht",
+          "count": 1
+        },
+        {
+          "truth": "azx",
+          "prediction": "guh",
+          "count": 1
+        },
+        {
+          "truth": "bos",
+          "prediction": "czi",
+          "count": 1
+        },
+        {
+          "truth": "ald",
+          "prediction": "fuy",
+          "count": 1
+        },
+        {
+          "truth": "flj",
+          "prediction": "skm",
+          "count": 1
+        },
+        {
+          "truth": "flj",
+          "prediction": "slq",
+          "count": 1
+        },
+        {
+          "truth": "gvp",
+          "prediction": "wem",
+          "count": 1
+        },
+        {
+          "truth": "iyf",
+          "prediction": "cjr",
+          "count": 1
+        },
+        {
+          "truth": "jew",
+          "prediction": "fgc",
+          "count": 1
+        }
+      ],
+      "accuracy_by_length": [
+        {
+          "length_bucket": "[0.0, 100.0)",
+          "mean": 0.9024390243902439,
+          "count": 41
+        },
+        {
+          "length_bucket": "[100.0, 500.0)",
+          "mean": 0.9226006191950464,
+          "count": 323
+        },
+        {
+          "length_bucket": "[2000.0, inf)",
+          "mean": 1.0,
+          "count": 66
+        },
+        {
+          "length_bucket": "[500.0, 2000.0)",
+          "mean": 0.9867256637168141,
+          "count": 226
+        }
+      ],
+      "accuracy_by_browser": [
+        {
+          "browser": "Firefox",
+          "mean": 0.9553264604810997,
+          "count": 291
+        },
+        {
+          "browser": "Google Chrome",
+          "mean": 0.9333333333333333,
+          "count": 270
+        },
+        {
+          "browser": "Microsoft Edge",
+          "mean": 0.9888888888888889,
+          "count": 90
+        },
+        {
+          "browser": "Opera",
+          "mean": 1.0,
+          "count": 5
+        }
+      ]
+    },
+    "forest": {
+      "metrics": {
+        "accuracy": 0.9146341463414634,
+        "macro_f1": 0.8832114698035156,
+        "weighted_f1": 0.9026708635299022,
+        "balanced_accuracy": 0.8869160079686396,
+        "top3": 0.9710365853658537,
+        "top5": 0.9817073170731707,
+        "log_loss": 1.2137056588004795
+      },
+      "probability_kind": "native",
+      "calibration": {
+        "ece": 0.5045020325203252,
+        "bins": [
+          {
+            "low": 0.0,
+            "count": 20,
+            "confidence": 0.08033333333333333,
+            "accuracy": 0.35
+          },
+          {
+            "low": 0.1,
+            "count": 104,
+            "confidence": 0.15519230769230768,
+            "accuracy": 0.7115384615384616
+          },
+          {
+            "low": 0.2,
+            "count": 119,
+            "confidence": 0.2526050420168067,
+            "accuracy": 0.9243697478991597
+          },
+          {
+            "low": 0.30000000000000004,
+            "count": 108,
+            "confidence": 0.34598765432098766,
+            "accuracy": 0.9814814814814815
+          },
+          {
+            "low": 0.4,
+            "count": 78,
+            "confidence": 0.4465811965811965,
+            "accuracy": 0.9871794871794872
+          },
+          {
+            "low": 0.5,
+            "count": 90,
+            "confidence": 0.5465925925925925,
+            "accuracy": 1.0
+          },
+          {
+            "low": 0.6000000000000001,
+            "count": 54,
+            "confidence": 0.6507407407407407,
+            "accuracy": 0.9814814814814815
+          },
+          {
+            "low": 0.7000000000000001,
+            "count": 52,
+            "confidence": 0.7447435897435898,
+            "accuracy": 1.0
+          },
+          {
+            "low": 0.8,
+            "count": 29,
+            "confidence": 0.8333333333333334,
+            "accuracy": 1.0
+          },
+          {
+            "low": 0.9,
+            "count": 2,
+            "confidence": 0.9066666666666666,
+            "accuracy": 1.0
+          }
+        ],
+        "coverage": [
+          {
+            "coverage": 0.25,
+            "accuracy": 0.9939024390243902,
+            "threshold": 0.5666666666666667
+          },
+          {
+            "coverage": 0.5,
+            "accuracy": 0.9939024390243902,
+            "threshold": 0.36666666666666664
+          },
+          {
+            "coverage": 0.75,
+            "accuracy": 0.9817073170731707,
+            "threshold": 0.24
+          },
+          {
+            "coverage": 1.0,
+            "accuracy": 0.9146341463414634,
+            "threshold": 0.05333333333333334
+          }
+        ]
+      },
+      "examples": {
+        "confident_correct": {
+          "row_id": 2140,
+          "truth": "fwh",
+          "prediction": "fwh",
+          "confidence": 0.9066666666666666,
+          "tokens": 1369,
+          "method": "exact_tree_path_probability_increments_not_SHAP",
+          "root_prior": 0.0038963019443385466,
+          "contribution_sum": 0.9027703647223282,
+          "tree_probability_variance": 0.08462222222222221,
+          "top_contributions": [
+            {
+              "feature": "raw::Lancement d'un tableau de bord Exécution d'un bouton$GP$",
+              "value": 0.03343044713849167
+            },
+            {
+              "feature": "raw::Exécution d'un bouton(MAINT)<DEF_03/24>$GP$",
+              "value": 0.0331684215603822
+            },
+            {
+              "feature": "raw::Exécution d'un bouton Exécution d'un bouton(MAINT)<DEF_03/24>$GP$",
+              "value": 0.030105552429763347
+            },
+            {
+              "feature": "raw::Exécution d'un bouton$GP$ Retour sur un écran",
+              "value": 0.028767539377086024
+            },
+            {
+              "feature": "raw::Lancement d'un tableau de bord Saisie dans un champ$GP$",
+              "value": 0.026275139036103134
+            },
+            {
+              "feature": "raw::Fermeture d'une dialogue$GP$ Exécution d'un bouton(infologic.core.gui.controllers.BlankController)<MT_AppelN1>",
+              "value": 0.024838295105636378
+            },
+            {
+              "feature": "raw::Lancement d'un tableau de bord Ouverture d'un panel(infologic.core.gui.controllers.BlankController)<MT_AppelN1>",
+              "value": 0.024556825027327055
+            },
+            {
+              "feature": "raw::Affichage d'une dialogue$GP$ Retour sur un écran",
+              "value": 0.022449981577562794
+            },
+            {
+              "feature": "raw::Affichage d'une dialogue$GP$ Fermeture d'une dialogue$GP$",
+              "value": 0.02212971263612705
+            },
+            {
+              "feature": "raw::Exécution d'un bouton(MAINT)<DEF_03/24>$GP$ Affichage d'une dialogue$GP$",
+              "value": 0.01987467777818178
+            },
+            {
+              "feature": "raw::Sélection d'un écran$GP$ Retour sur un écran",
+              "value": 0.01974424850713578
+            },
+            {
+              "feature": "raw::Retour sur un écran Fermeture d'une dialogue$GP$",
+              "value": 0.019733562477695976
+            },
+            {
+              "feature": "raw::Exécution d'un bouton(infologic.core.gui.controllers.BlankController)<MT_AppelN1> Exécution d'un bouton(MAINT)<DEF_03/24>$GP$",
+              "value": 0.019618686850486827
+            },
+            {
+              "feature": "raw::Exécution d'un bouton(MAINT)<DEF_03/24>$GP$ Lancement d'une action générique",
+              "value": 0.018805333893322132
+            }
+          ]
+        },
+        "uncertain_correct": {
+          "row_id": 1605,
+          "truth": "itt",
+          "prediction": "itt",
+          "confidence": 0.06666666666666667,
+          "tokens": 6772,
+          "method": "exact_tree_path_probability_increments_not_SHAP",
+          "root_prior": 0.0012047274113610369,
+          "contribution_sum": 0.06546193925530563,
+          "tree_probability_variance": 0.06222222222222223,
+          "top_contributions": [
+            {
+              "feature": "raw::Exécution d'un bouton(infologic.orga.modules.OR_FICHIERTRAVAIL.InstanceForm)<TELEM_MINIMAL>",
+              "value": 0.009692307692307693
+            },
+            {
+              "feature": "raw::Raccourci<STD> Exécution d'un bouton1",
+              "value": 0.0064761904761904765
+            },
+            {
+              "feature": "raw::Fermeture d'une dialogue$ST$ Exécution d'un bouton$ST$",
+              "value": 0.006420549948213144
+            },
+            {
+              "feature": "raw::Affichage d'une dialogue$ST$ Lancement d'une action générique",
+              "value": 0.006384180790960452
+            },
+            {
+              "feature": "raw::Fermeture d'une dialogue Sélection d’un onglet",
+              "value": -0.005333333333333334
+            },
+            {
+              "feature": "raw::Sélection d'un écran(infologic.orga.modules.OR_NOTEVERSION.NoteVersionForm)",
+              "value": 0.004839506172839506
+            },
+            {
+              "feature": "raw::Double-clic Sélection d'un écran(infologic.core.gui.controllers.BlankController)",
+              "value": 0.004663576344992274
+            },
+            {
+              "feature": "raw::Affichage d'une dialogue1 Raccourci",
+              "value": 0.004000796602225972
+            },
+            {
+              "feature": "raw::Saisie dans un champ$VT$ Exécution d'un bouton$VT$",
+              "value": 0.003337783147052602
+            },
+            {
+              "feature": "raw::Double-clic Retour sur un écran(infologic.core.gui.controllers.BlankController)",
+              "value": 0.0033340251673854055
+            },
+            {
+              "feature": "raw::Raccourci Saisie dans un champ1",
+              "value": 0.003310384394721744
+            },
+            {
+              "feature": "raw::Double-clic Raccourci",
+              "value": 0.0029203205687349286
+            },
+            {
+              "feature": "raw::Double-clic Fermeture d'une dialogue",
+              "value": -0.002564102564102564
+            },
+            {
+              "feature": "raw::Raccourci1 Double-clic1",
+              "value": -0.0022222222222222222
+            }
+          ]
+        },
+        "confident_wrong": {
+          "row_id": 2805,
+          "truth": "flj",
+          "prediction": "skm",
+          "confidence": 0.62,
+          "tokens": 145,
+          "method": "exact_tree_path_probability_increments_not_SHAP",
+          "root_prior": 0.022678866437920952,
+          "contribution_sum": 0.597321133562079,
+          "tree_probability_variance": 0.23560000000000006,
+          "top_contributions": [
+            {
+              "feature": "raw::Fermeture d'une dialogue Saisie dans un champ<FactHA(SM)>1",
+              "value": 0.06366904246096744
+            },
+            {
+              "feature": "raw::Raccourci1 Raccourci dans l'édition de table1",
+              "value": 0.04977291465232454
+            },
+            {
+              "feature": "raw::Raccourci dans l'édition de table1",
+              "value": 0.04944698291634206
+            },
+            {
+              "feature": "raw::Saisie dans un champ<FactHA(SM)>1",
+              "value": 0.047783706467646674
+            },
+            {
+              "feature": "raw::Saisie dans un champ(infologic.achats.modules.AC_FACTURATION.forms.FactureAchForm)",
+              "value": 0.042591915911555436
+            },
+            {
+              "feature": "raw::Raccourci dans l'édition de table1 Affichage d'une dialogue1",
+              "value": 0.04130732134908797
+            },
+            {
+              "feature": "raw::Saisie dans un champ1 Raccourci1",
+              "value": 0.03645314395902473
+            },
+            {
+              "feature": "raw::Saisie dans un champ<FactHA(SM)>1 Saisie dans un champ1",
+              "value": 0.033932974165963324
+            },
+            {
+              "feature": "raw::Affichage d'une dialogue1 Exécution d'un bouton1",
+              "value": 0.028532040551932217
+            },
+            {
+              "feature": "raw::Exécution d'un bouton1",
+              "value": 0.025670034573677183
+            },
+            {
+              "feature": "raw::Saisie dans un champ(infologic.achats.modules.AC_FACTURATION.forms.FactureAchForm) Exécution d'un bouton",
+              "value": 0.02384539368558409
+            },
+            {
+              "feature": "raw::Raccourci1",
+              "value": 0.023452785856216768
+            },
+            {
+              "feature": "raw::Raccourci1 Saisie dans un champ1",
+              "value": 0.018970844740022003
+            },
+            {
+              "feature": "raw::Fermeture d'une dialogue1 Exécution d'un bouton1",
+              "value": -0.014404362715026962
+            }
+          ]
+        }
+      },
+      "grouped_permutation": [
+        {
+          "family": "raw",
+          "columns": 39326,
+          "macro_f1_loss_mean": 0.8791861751343074,
+          "std": 0.0027615773335199403
+        },
+        {
+          "family": "browser",
+          "columns": 4,
+          "macro_f1_loss_mean": 0.09291669962119908,
+          "std": 0.011970604828097243
+        }
+      ],
+      "impurity_importances_biased": [
+        {
+          "feature": "browser::Google Chrome",
+          "value": 0.003432741753100815
+        },
+        {
+          "feature": "browser::Firefox",
+          "value": 0.0029921009296693542
+        },
+        {
+          "feature": "raw::Clic sur une grille d'historique de recherche",
+          "value": 0.002936779142871271
+        },
+        {
+          "feature": "raw::Double-clic",
+          "value": 0.0023277506811983464
+        },
+        {
+          "feature": "raw::Affichage d'une dialogue",
+          "value": 0.0023039549139279246
+        },
+        {
+          "feature": "raw::Exécution d'un bouton",
+          "value": 0.002258909553180201
+        },
+        {
+          "feature": "raw::Fermeture d'une dialogue",
+          "value": 0.0020939278673971196
+        },
+        {
+          "feature": "raw::Exécution d'un bouton1",
+          "value": 0.0020875311588042975
+        },
+        {
+          "feature": "raw::Saisie dans un champ",
+          "value": 0.002061743810792699
+        },
+        {
+          "feature": "raw::Chainage",
+          "value": 0.0020585918157454792
+        },
+        {
+          "feature": "raw::Saisie dans un champ Exécution d'un bouton",
+          "value": 0.002017551741403839
+        },
+        {
+          "feature": "raw::Lancement d'une action générique",
+          "value": 0.0019560141730592846
+        },
+        {
+          "feature": "browser::Microsoft Edge",
+          "value": 0.001952284860436457
+        },
+        {
+          "feature": "raw::Lancement d'un tableau de bord",
+          "value": 0.0019520782313604645
+        },
+        {
+          "feature": "raw::Saisie dans un champ Saisie dans un champ",
+          "value": 0.0019366033181835937
+        },
+        {
+          "feature": "raw::Filtrage / Tri",
+          "value": 0.001925814090463314
+        },
+        {
+          "feature": "raw::Exécution d'un bouton Exécution d'un bouton",
+          "value": 0.0019092420371258911
+        },
+        {
+          "feature": "raw::Raccourci",
+          "value": 0.0018830671584001784
+        },
+        {
+          "feature": "raw::Création d'un écran(infologic.core.gui.controllers.nested.InputFormNestedWindow)",
+          "value": 0.001876547632759705
+        },
+        {
+          "feature": "raw::Affichage d'une dialogue Exécution d'un bouton",
+          "value": 0.0018524407799287079
+        }
+      ],
+      "confusion_pairs": [
+        {
+          "truth": "flj",
+          "prediction": "skm",
+          "count": 2
+        },
+        {
+          "truth": "cjr",
+          "prediction": "slq",
+          "count": 2
+        },
+        {
+          "truth": "xkr",
+          "prediction": "oqa",
+          "count": 2
+        },
+        {
+          "truth": "zqs",
+          "prediction": "wjn",
+          "count": 2
+        },
+        {
+          "truth": "azx",
+          "prediction": "guh",
+          "count": 1
+        },
+        {
+          "truth": "azn",
+          "prediction": "wht",
+          "count": 1
+        },
+        {
+          "truth": "cqp",
+          "prediction": "bgn",
+          "count": 1
+        },
+        {
+          "truth": "bos",
+          "prediction": "czi",
+          "count": 1
+        },
+        {
+          "truth": "eqw",
+          "prediction": "fvc",
+          "count": 1
+        },
+        {
+          "truth": "esu",
+          "prediction": "hjs",
+          "count": 1
+        },
+        {
+          "truth": "flj",
+          "prediction": "slq",
+          "count": 1
+        },
+        {
+          "truth": "fuz",
+          "prediction": "zus",
+          "count": 1
+        }
+      ],
+      "accuracy_by_length": [
+        {
+          "length_bucket": "[0.0, 100.0)",
+          "mean": 0.8048780487804879,
+          "count": 41
+        },
+        {
+          "length_bucket": "[100.0, 500.0)",
+          "mean": 0.8730650154798761,
+          "count": 323
+        },
+        {
+          "length_bucket": "[2000.0, inf)",
+          "mean": 0.9848484848484849,
+          "count": 66
+        },
+        {
+          "length_bucket": "[500.0, 2000.0)",
+          "mean": 0.9734513274336283,
+          "count": 226
+        }
+      ],
+      "accuracy_by_browser": [
+        {
+          "browser": "Firefox",
+          "mean": 0.9209621993127147,
+          "count": 291
+        },
+        {
+          "browser": "Google Chrome",
+          "mean": 0.9,
+          "count": 270
+        },
+        {
+          "browser": "Microsoft Edge",
+          "mean": 0.9333333333333333,
+          "count": 90
+        },
+        {
+          "browser": "Opera",
+          "mean": 1.0,
+          "count": 5
+        }
+      ]
+    }
+  },
+  "calibrated": {
+    "ece": 0.1367069949210603,
+    "bins": [
+      {
+        "low": 0.0,
+        "count": 1,
+        "confidence": 0.09388964003338171,
+        "accuracy": 0.0
+      },
+      {
+        "low": 0.1,
+        "count": 4,
+        "confidence": 0.1779454641211704,
+        "accuracy": 0.25
+      },
+      {
+        "low": 0.2,
+        "count": 7,
+        "confidence": 0.2623182868752218,
+        "accuracy": 0.42857142857142855
+      },
+      {
+        "low": 0.30000000000000004,
+        "count": 5,
+        "confidence": 0.3429333357762005,
+        "accuracy": 0.6
+      },
+      {
+        "low": 0.4,
+        "count": 24,
+        "confidence": 0.4564098246955986,
+        "accuracy": 0.6666666666666666
+      },
+      {
+        "low": 0.5,
+        "count": 21,
+        "confidence": 0.5610384717569018,
+        "accuracy": 0.7142857142857143
+      },
+      {
+        "low": 0.6000000000000001,
+        "count": 29,
+        "confidence": 0.6483886538729136,
+        "accuracy": 0.8620689655172413
+      },
+      {
+        "low": 0.7000000000000001,
+        "count": 60,
+        "confidence": 0.7594149776142664,
+        "accuracy": 0.9833333333333333
+      },
+      {
+        "low": 0.8,
+        "count": 401,
+        "confidence": 0.8695111037368057,
+        "accuracy": 0.9925187032418953
+      },
+      {
+        "low": 0.9,
+        "count": 104,
+        "confidence": 0.9074390241452568,
+        "accuracy": 1.0
+      }
+    ],
+    "coverage": [
+      {
+        "coverage": 0.25,
+        "accuracy": 1.0,
+        "threshold": 0.8937484444972214
+      },
+      {
+        "coverage": 0.5,
+        "accuracy": 1.0,
+        "threshold": 0.8724712484670075
+      },
+      {
+        "coverage": 0.75,
+        "accuracy": 0.9939024390243902,
+        "threshold": 0.8126258748449035
+      },
+      {
+        "coverage": 1.0,
+        "accuracy": 0.9512195121951219,
+        "threshold": 0.09388964003338171
+      }
+    ]
+  },
+  "pruned_tree": {
+    "role": "Illustration only, depth 2 on log1p dense statistics",
+    "holdout_accuracy": 0.0350609756097561
+  },
+  "redundancy": {
+    "reference_columns": 39330,
+    "comparisons": [
+      {
+        "variant": "linear_unigrams",
+        "columns_removed": 35100,
+        "development_macro_f1_loss": 0.04931049520378705,
+        "within_half_percentage_point": false
+      },
+      {
+        "variant": "linear_without_browser",
+        "columns_removed": 4,
+        "development_macro_f1_loss": 0.03555507368673039,
+        "within_half_percentage_point": false
+      }
+    ],
+    "caveat": "Paired development folds; this descriptive tolerance is not an equivalence confidence interval. Dense correlation alone does not establish predictive redundancy."
+  },
+  "interpretation": {
+    "confidence": "La confiance native, le softmax des marges et la calibration sigmoïde ne sont pas interchangeables. La courbe et l'ECE sont mesurées uniquement sur le holdout. L'abstention est une analyse a posteriori, sans modifier la soumission.",
+    "local": "Le SVM se décompose exactement en coefficient × TF-IDF plus intercept. Pour la forêt, les variations de probabilité le long des chemins expliquent la prédiction, sans constituer des valeurs de Shapley. Les identifiants de module suggèrent une habitude, pas une preuve métier.",
+    "global": "Les coefficients et importances d'impureté dépendent du codage; ces dernières favorisent les variables riches. La permutation groupée détruit un bloc complet et quantifie sa dépendance prédictive conditionnelle au modèle ajusté.",
+    "redundancy": "Corrélation, bigrammes redondants et navigateur constant ne signifient pas causalité. La suppression d'un bloc est vérifiée en CV de développement; la tolérance de 0,5 point ne remplace pas une analyse d'incertitude."
+  },
+  "repeated_selected": {
+    "accuracy": 0.9661481134042109,
+    "macro_f1": 0.9584665900223005,
+    "weighted_f1": 0.96343602514751,
+    "balanced_accuracy": 0.9608824951429237,
+    "top3": 0.9896314164606848,
+    "top5": 0.9928845657504194,
+    "log_loss": 4.12603366914367,
+    "fit_seconds": 3.3548560532499323
+  }
+}

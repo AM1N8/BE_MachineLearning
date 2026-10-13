@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "config": {
+      "seed": 42,
+      "paths": {
+        "train": "data/train.csv",
+        "test": "data/test.csv",
+        "sample_submission": "data/sample_submission.csv"
+      },
+      "cv": {
+        "folds": 4,
+        "repeats": 3,
+        "selection_metric": "macro_f1",
+        "holdout_fraction": 0.2
+      },
+      "features": {
+        "min_df": 2,
+        "max_features": 60000,
+        "ngram_max": 3,
+        "svd_components": 64
+      },
+      "models": {
+        "C": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "class_weight": [
+          null,
+          "balanced"
+        ],
+        "trees": 150,
+        "n_jobs": 2
+      },
+      "submission": {
+        "id_column": "RowId",
+        "target_column": "prediction",
+        "id_base": 1
+      },
+      "report": {
+        "team": "Équipe — identité non communiquée",
+        "group": "TD non communiqué",
+        "repo_url": "URL non communiquée"
+      }
+    },
+    "config_hash": "7f1ab5a402216cae95133680b6425f35f3e714255eb5341231550d27a22ae0ac",
+    "source_hash": "fbb2236406d2e3f8c7c75d7407dbb1a1b7f90bbe1345018e74e77fe56e2520aa",
+    "input_hashes": {
+      "train": "b1d32fed43795dd081add8ebac0c73211d719b58d66bb05d43e445e9a6491649",
+      "test": "a6d8728583924e65012ef70d1dc7f6e03f6a24d2453d12845e7aed30519cbece"
+    },
+    "git_commit": "11b106445a2b9f8cc5c7a53b1110037d24833c9a",
+    "git_dirty": true,
+    "python": "3.13.13"
+  },
+  "executed": true,
+  "notebook": "notebooks/copilote.ipynb"
+}
