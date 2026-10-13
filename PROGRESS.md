@@ -1,4 +1,4 @@
-## Status (phase 1/8 verified, 2026-10-13)
+## Status (phase 2/8 verified, 2026-10-13)
 Original notebooks and user edits preserved. Phase 1 gate passed on Python 3.13.13.
 
 ## Done
@@ -13,8 +13,15 @@ Original notebooks and user edits preserved. Phase 1 gate passed on Python 3.13.
 ## Current best
 No new evaluation yet. Prior roadmap scores are not imported as current results.
 
+## Phase 2 gate
+- `make test`: 12 passed; `make eda` completed; ruff check/format passed.
+- `reports/results/eda.json`: no exact duplicates or train/test overlap; no user
+  with multiple browsers; 206 test-only token types (0.00101065 occurrence fraction).
+- Generated per-session CSV descriptors and two interpreted EDA figure panels.
+- Clock gaps remain proxies; train/test KS comparisons are descriptive only.
+
 ## Next 3 actions
-1. Run and interpret EDA.
+1. Complete fold-local feature representations and leakage tests.
 2. Build fold-local features and compare models.
 3. Verify Python 3.14 compatibility before delivery.
 
