@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 from collections import Counter, defaultdict
-from pathlib import Path
 from typing import Any
 
 import matplotlib
@@ -15,6 +14,7 @@ import pandas as pd
 from scipy.stats import ks_2samp
 
 from copilote.io import Session, read_sessions, write_json
+from copilote.plots import save_figure
 from copilote.settings import provenance
 from copilote.tokens import parse_token
 
@@ -50,14 +50,6 @@ def session_statistics(row: Session) -> dict[str, float]:
         "repetition_fraction": sum(a.action == b.action for a, b in zip(events, events[1:]))
         / max(len(events) - 1, 1),
     }
-
-
-def save_figure(name: str) -> None:
-    """Save a compact, print-ready figure in the common output directory."""
-    Path("reports/figures").mkdir(parents=True, exist_ok=True)
-    plt.tight_layout()
-    plt.savefig(f"reports/figures/{name}.pdf", bbox_inches="tight")
-    plt.close()
 
 
 def run_eda(config: dict[str, Any]) -> dict[str, Any]:
@@ -98,7 +90,10 @@ def run_eda(config: dict[str, Any]) -> dict[str, Any]:
         "test_sessions": len(test),
         "classes": len(support),
         "class_support": dict(sorted(support.items())),
-        "support_summary": pd.Series(list(support.values())).describe().to_dict(),
+        "support_summary": pd.Series(list(support.values()))
+        .describe()
+        .replace({np.nan: None})
+        .to_dict(),
         "browsers": {
             name: dict(Counter(r.browser for r in rows))
             for name, rows in (("train", train), ("test", test))
@@ -110,12 +105,12 @@ def run_eda(config: dict[str, Any]) -> dict[str, Any]:
         "vocabulary_sizes": {name: len(v) for name, v in vocabulary.items()},
         "test_only_token_types": len(vocabulary["test"] - vocabulary["train"]),
         "test_oov_token_fraction": sum(t not in vocabulary["train"] for r in test for t in r.tokens)
-        / sum(len(r.tokens) for r in test),
+        / max(sum(len(r.tokens) for r in test), 1),
         "zero_action_sessions": {
             name: int((frame.actions == 0).sum()) for name, frame in frames.items()
         },
         "statistics": {
-            name: frame.describe(percentiles=[0.05, 0.5, 0.95]).to_dict()
+            name: frame.describe(percentiles=[0.05, 0.5, 0.95]).replace({np.nan: None}).to_dict()
             for name, frame in frames.items()
         },
         "shift": drift,

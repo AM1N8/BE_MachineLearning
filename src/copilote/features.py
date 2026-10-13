@@ -169,12 +169,11 @@ def feature_names(features: FeatureUnion) -> np.ndarray:
 def run_feature_analysis(config: dict[str, Any]) -> dict[str, Any]:
     """Describe training features; all supervised tests are exploratory, not selection."""
     import matplotlib.pyplot as plt
-    from scipy.cluster.hierarchy import leaves_list, linkage
+    from scipy.cluster.hierarchy import dendrogram, leaves_list, linkage
 
     train = read_sessions(config["paths"]["train"], labelled=True)
     y = np.array([str(r.label) for r in train])
     labels = sorted(set(y))
-    codes = {label: index for index, label in enumerate(labels)}
     numbers = pd.DataFrame([session_statistics(r) for r in train])
     correlations = numbers.corr(method="spearman").fillna(0)
     order = leaves_list(linkage(correlations.to_numpy(), method="average"))
@@ -184,12 +183,21 @@ def run_feature_analysis(config: dict[str, Any]) -> dict[str, Any]:
     plt.yticks(range(len(order)), numbers.columns[order], fontsize=6)
     plt.colorbar(label="Corrélation de Spearman")
     save_figure("feature_correlations")
+    plt.figure(figsize=(10, 3))
+    dendrogram(
+        linkage(correlations.to_numpy(), method="average"),
+        labels=numbers.columns,
+        leaf_rotation=90,
+        leaf_font_size=7,
+    )
+    plt.ylabel("Distance entre profils de corrélation")
+    save_figure("feature_dendrogram")
     fig, axes = plt.subplots(1, 3, figsize=(11, 3))
     selected = [0, 15, 152, 199]
     for ax, column in zip(axes, ["actions", "clock_max_seconds", "unique_screens"]):
         ax.boxplot(
             [numbers.loc[y == labels[code], column] for code in selected],
-            tick_labels=selected,
+            tick_labels=[f"{code}: {labels[code]}" for code in selected],
             showfliers=False,
         )
         ax.set(xlabel="Code utilisateur (catégoriel)", ylabel=column)
@@ -204,7 +212,13 @@ def run_feature_analysis(config: dict[str, Any]) -> dict[str, Any]:
     svd = TruncatedSVD(n_components=2, random_state=config["seed"])
     projection = svd.fit_transform(matrix)
     plt.figure(figsize=(6, 4))
-    plt.scatter(*projection.T, c=[codes[v] for v in y], cmap="turbo", s=5, alpha=0.5)
+    top_users = pd.Series(y).value_counts().head(10).index
+    plt.scatter(
+        *projection[~np.isin(y, top_users)].T, c="lightgray", s=4, alpha=0.3, label="Autres"
+    )
+    for label in top_users:
+        plt.scatter(*projection[y == label].T, s=9, alpha=0.7, label=label)
+    plt.legend(fontsize=6, ncol=2)
     plt.xlabel("SVD 1")
     plt.ylabel("SVD 2")
     plt.title("Projection descriptive du train (couleurs catégorielles)")

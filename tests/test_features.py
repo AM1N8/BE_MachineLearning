@@ -51,3 +51,41 @@ def test_context_and_empty_session_features_are_finite():
     )
     matrix = features.fit_transform([first, second, Session(2, "b", (), "a")])
     assert np.isfinite(matrix.data).all()
+
+
+def test_descriptive_analysis_exports_finite_artifacts(tmp_path, monkeypatch):
+    """Exercise the plotting path with enough categorical users for course boxplots."""
+    import json
+    from pathlib import Path
+
+    from copilote.eda import run_eda
+    from copilote.features import run_feature_analysis
+    from copilote.settings import load_config
+
+    config = load_config("configs/default.yaml")
+    train = tmp_path / "train.csv"
+    test = tmp_path / "test.csv"
+    train.write_text(
+        "\n".join(
+            f"u{k:03},browser{k % 2},start,action{k}(screen{k}),t{5 * (i + 1)},end"
+            for k in range(200)
+            for i in range(3)
+        )
+        + "\n"
+    )
+    test.write_text("browser0,start,unseen(screen),t15,end\n")
+    config["paths"].update(train=str(train), test=str(test))
+    monkeypatch.chdir(tmp_path)
+    Path("reports/results").mkdir(parents=True)
+    eda = run_eda(config)
+    features = run_feature_analysis(config)
+    assert eda["users_with_multiple_browsers"] == 0
+    assert features["sparse"]
+    assert features["matrix_shape"][0] == 600
+    assert Path("reports/figures/feature_projection.png").is_file()
+    assert (
+        json.loads(Path("reports/results/features.json").read_text())["categorical_code_mapping"][
+            "199"
+        ]
+        == "u199"
+    )
