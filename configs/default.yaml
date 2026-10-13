@@ -1,0 +1,28 @@
+seed: 42
+paths:
+  train: data/train.csv
+  test: data/test.csv
+  sample_submission: data/sample_submission.csv
+cv:
+  folds: 4
+  repeats: 3
+  selection_metric: macro_f1
+  holdout_fraction: 0.2
+features:
+  min_df: 2
+  max_features: 60000
+  ngram_max: 3
+  svd_components: 64
+models:
+  C: [0.5, 1.0, 2.0]
+  class_weight: [null, balanced]
+  trees: 150
+  n_jobs: 2
+submission:
+  id_column: RowId
+  target_column: prediction
+  id_base: 1
+report:
+  team: "Équipe — identité non communiquée"
+  group: "TD non communiqué"
+  repo_url: "URL non communiquée"

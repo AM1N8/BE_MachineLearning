@@ -8,3 +8,19 @@ wheels/
 
 # Virtual environments
 .venv
+data/*
+!data/README.md
+artifacts/
+outputs/
+.pytest_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.toc
