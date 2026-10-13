@@ -81,6 +81,35 @@ def main() -> None:
             from copilote.features import run_feature_analysis
 
             run_feature_analysis(config)
+        elif args.phase in ("train", "fast"):
+            from copilote.evaluate import run_training
+
+            run_training(config, force=args.force, fast=args.phase == "fast")
+        elif args.phase == "interpret":
+            from copilote.interpret import run_interpretation
+
+            run_interpretation(config)
+        elif args.phase == "predict":
+            from copilote.predict import run_prediction
+
+            run_prediction(config)
+        elif args.phase == "report":
+            from copilote.report import run_report
+
+            run_report(config)
+        elif args.phase == "all":
+            from copilote.evaluate import run_training
+            from copilote.features import run_feature_analysis
+            from copilote.interpret import run_interpretation
+            from copilote.predict import run_prediction
+            from copilote.report import run_report
+
+            run_eda(config)
+            run_feature_analysis(config)
+            run_training(config, force=args.force)
+            run_interpretation(config)
+            run_prediction(config)
+            run_report(config)
 
 
 if __name__ == "__main__":
