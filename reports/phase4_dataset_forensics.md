@@ -1,6 +1,6 @@
 # Phase 4 — Forensics du jeu de données (stage A)
 
-Artéfacts : `reports/results/phase4/b0e04d98bc12/` (manifeste signé par hachage des sources et
+Artéfacts : `reports/results/phase4/b4608c40db82/` (manifeste signé par hachage des sources et
 des données, graine 42). Script : `uv run python -m copilote.phase4_forensics`.
 Tous les chiffres cités ci-dessous proviennent de `forensics.json`, `session_timing_train.csv`,
 `session_timing_test.csv`, `suffix_by_action.csv`, `tempo_per_user.csv`, `dwell_per_user_screen.csv`.

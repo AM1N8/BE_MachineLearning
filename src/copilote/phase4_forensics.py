@@ -160,7 +160,9 @@ def decompose(row: Session) -> dict[str, Any]:
         "gap_p90": _quantile(gap_values, 0.9),
         "gap_max": _quantile(gap_values, 1.0),
         "gap_valid_fraction": len(gap_values) / max(events - 1, 1),
-        "events_per_active_tick": float(np.median(ticks_per_active)) if ticks_per_active.size else 0.0,
+        "events_per_active_tick": float(np.median(ticks_per_active))
+        if ticks_per_active.size
+        else 0.0,
         "dwell_median": _quantile(dwell_values, 0.5),
         "dwell_p90": _quantile(dwell_values, 0.9),
         "dwell_entropy": entropy,
@@ -195,7 +197,9 @@ def suffix_action_table(rows: list[Session]) -> pd.DataFrame:
 
 def token_association(rows: list[Session]) -> dict[str, Any]:
     """Descriptive in-sample token/user exclusivity and chi-square association."""
-    session_counts = [Counter(raw for raw in row.tokens if parse_token(raw).seconds is None) for row in rows]
+    session_counts = [
+        Counter(raw for raw in row.tokens if parse_token(raw).seconds is None) for row in rows
+    ]
     token_users: dict[str, set[str]] = {}
     for row, counts in zip(rows, session_counts):
         for token in counts:
@@ -332,7 +336,10 @@ def run(seed: int = 42) -> dict[str, Any]:
     train_rows = [decompose(row) for row in train]
     test_rows = [decompose(row) for row in test]
     train_frame = pd.DataFrame(
-        [{key: value for key, value in row.items() if key != "screen_seconds"} for row in train_rows]
+        [
+            {key: value for key, value in row.items() if key != "screen_seconds"}
+            for row in train_rows
+        ]
     )
     test_frame = pd.DataFrame(
         [{key: value for key, value in row.items() if key != "screen_seconds"} for row in test_rows]

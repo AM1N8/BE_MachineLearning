@@ -181,7 +181,7 @@ Official metric; team names, TD group, repository URL; grader Python; French rep
 
 ## Phase 4 gate A (forensics) — 2026-10-17
 - New module `src/copilote/phase4_forensics.py` (lint clean, 55 tests pass); artifacts in
-  `reports/results/phase4/b0e04d98bc12/` (manifest signed, seed 42); French report
+  `reports/results/phase4/b4608c40db82/` (manifest signed, seed 42); French report
   `reports/phase4_dataset_forensics.md`.
 - Key facts: gaps ∈ {0,5,10,15} s only; zero clock resets; 99.9% sessions have every 5 s tick
   active; 2,270,247 train events; suffix « 1 » = 15.64% of events, on 31/36 actions, per-action
@@ -191,3 +191,24 @@ Official metric; team names, TD group, repository URL; grader Python; French rep
 - Tokens: 2,961/7,087 user-exclusive in-sample; 47.3% of sessions contain one; 7 users none.
 - No train/test shift (KS all p > 0.05; suffix_fraction p 0.064 borderline).
 - Next: Phase B error analysis on phase2 OOF artifacts + this timing table.
+
+## Phase 4 gate B (error analysis) — 2026-10-17
+- New module `src/copilote/phase4_errors.py` (lint clean, 55 tests pass); artifacts in
+  `reports/results/phase4/01d6e62d3636/` (manifest signed, seed 42); French report
+  `reports/phase4_error_analysis.md`. Fold-local exclusive tokens recomputed per fold
+  (train half only); splits verified identical to phase2/extreme.
+- Key facts: errors vs correct medians — length 130 vs 353, OOV 0.0194 vs 0.0026,
+  suffix_fraction 0.0204 vs 0.0918 (4.5x), dwell_top_fraction 0.571 vs 0.436.
+- Negative result (honest): snap rule (fold-local exclusive-token override) net-negative in
+  all 6 variants; worst breaks 950/6357 correct (macro-F1 0.818); best 8 fixed / 61 broken.
+  Direction 4 (hard residual correction) falsified; signal anti-correlated with errors
+  (correct sessions have MORE truth-exclusive support: 26.9% vs 17.9%).
+- Taxonomy of 201 errors: short 6, exclusive_missed 36, top2_recoverable 86, close_margin 60,
+  confident_wrong 13. Always-wrong 78: 14 snap_fixable, 32 rerankable, 32 hard; perfect
+  top-2 reranker ceiling 41/78.
+- Confusion pairs: 113 distinct, all top-10 same-browser; flj->skm 11 errors (9 with
+  truth-exclusive support, 7 top-2); azn has only 4 train sessions; ngs->slq never top-2.
+- Signatures delta recomputed on historical protocol: 16 corrected / 6 introduced
+  (9/16 corrected had truth-exclusive support, 0/6 introduced).
+- Phase C priorities: tempo/suffix sparse fusion first (strongest new discriminators),
+  then margin fusion baseline+signatures; sequence/markov stays closed (phase 1 negative).
