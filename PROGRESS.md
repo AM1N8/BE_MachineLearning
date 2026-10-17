@@ -1,5 +1,130 @@
-## Status (phases 5–8/8 verified, 2026-10-13)
+## Authorized experimental export (2026-10-17)
+- User explicitly requested the exact unpromoted contextual-signatures challenger.
+- Refit all 24 original folds: predictions exactly reproduced; frozen source/data
+  hashes and disjoint folds verified. No new tuning or test-dependent training.
+- Trained on all 3279 labels; exported context_signatures_experimental.csv (324 rows).
+  One change: RowId 237 czi -> pgm. Baseline CSV and model hashes unchanged.
+- Same-process scores and fresh-process predictions reload exactly; sample order,
+  columns, labels and missing values checked. 55 tests and lint passed.
+- Report: reports/context_signatures_experimental.md. Experimental only: unchanged
+  promotion criteria still fail; no automatic Kaggle submission.
+
+## Phase 2 completed gate (2026-10-17)
+- Executed 136 outer model evaluations: five behavioral ablations plus nested top-2
+  reranking on historical folds; four candidates confirmed on seeds 43 and 44.
+- Contextual signatures improved macro-F1/accuracy on all three protocols but failed
+  corrected lower-confidence gates. Reranking corrected 14 and damaged 16 repeated
+  predictions. KEEP BASELINE; no phase2_challenger.csv generated.
+- Results: reports/results/phase2/a1d191a9b558. Reports phase2_research.md and
+  phase2_error_analysis.md include paired metrics, persistent errors and length strata.
+- `make phase2` completed, reusing fingerprinted fits and regenerating audit/reports;
+  24 internal split audits passed and a fresh model reload reproduced all 324 baseline
+  predictions. Original best_verified.csv SHA-256 preserved.
+- Final checks: 55 tests passed (10 existing SQLite ResourceWarnings), lint passed
+  for 39 files. Overall pytest coverage 54%; phase2_models.py 100%; orchestration and
+  report generation verified end-to-end rather than covered by pytest.
+- Inspected local competition evaluation/rules and both READMEs. F1 averaging remains unspecified.
+- Training-only audit: no explicit chronology/group ID; weak row/first-clock correlation,
+  no multi-browser users. Excluded empty trigram sets from proximity comparisons after
+  inspecting the shortest persistent errors (0–2 events); these are not duplicate evidence.
+- Persistent 78 sessions exported with nearest same/other-user similarity and context coverage.
+- Five fixed context-aware ablations and a nested global-aware reranker implemented;
+  eight new boundary/vocabulary/OOF isolation tests passed. Protocol frozen in phase2_research.md.
+
+## Improvement research gate (2026-10-17)
+- User reports public score 0.980; exact Kaggle F1 averaging still inaccessible/unverified.
+- Added audit, fold-local error analysis and five fixed challengers in improvement.py
+  and improvement_boundaries.py; all eight historical baseline folds reproduced exactly.
+- Five challengers evaluated on paired 4×2 splits; three and baseline also evaluated
+  on seed 43 (4×2). No candidate passed the unchanged promotion gate.
+- Event-only mask gained F1 on historical folds but regressed on seed 43. Rare binary
+  features slightly improved accuracy on both seeds without credible macro-F1 gain.
+- Decision KEEP BASELINE; best_verified.csv preserved, no challenger declared verified.
+- Results: reports/results/improvement/4e7e8c2ad9a6; report leaderboard_improvement.md.
+- Final verification: 47 tests passed (16 existing SQLite ResourceWarnings), lint passed
+  for 34 files, git diff --check passed. Fresh-process baseline reload reproduced all
+  324 predictions and the original CSV hash; final_verification.json records the gate.
+
+## Status (recommended Kaggle submission verified, 2026-10-17)
 Original notebooks and user edits preserved. Gates passed on Python 3.13.13.
+
+## Final submission gate (2026-10-17)
+- Read the full project requirements, existing experiments, evaluation description and
+  sample schema. Finished the existing `extreme` campaign with its original fingerprint,
+  candidates, split protocol and promotion rule; predictive sources/config/lock unchanged.
+- Completed outer fold 7, the 4×2 nested comparison, and final inner selection. An interrupted
+  final Optuna trial was resumed with sampler replay and cached folds, preserving its budget.
+- `reports/results/extreme/1ba1ee389f73/nested_validation.json`: reference macro-F1
+  0.961251 ± 0.010938, accuracy 0.969350; nested-selected ensemble macro-F1 0.961320.
+  Paired gain +0.000069, corrected 95% lower bound −0.002336, only 3/8 improved folds,
+  repeat gains −0.000337 / +0.000475. Predeclared promotion gate failed: reference retained.
+- `submissions/best_verified.csv` is the recommended upload, identical to `competitive.csv`.
+  Exactly 324 rows, `RowId,prediction`, IDs 1–324 in sample order; no unknown/missing labels.
+  SHA-256: `ea7174fbb9a23453a84aa3716f43091b96e4e658187e2c1bca655070e251595d`.
+- Added `make submission` (also included in `make all`) to refit the locked winner on all
+  3,279 training sessions and require the recorded CSV hash. Saved
+  `artifacts/best_verified.joblib`; a fresh Python process reproduced all predictions.
+  Provenance: `reports/results/best_submission.json`, `submissions/best_verified.json`.
+- Generated `extreme_candidate.csv` for traceability; it was not promoted. Report:
+  `reports/best_submission.md`. The supplied evaluation says mean F1; macro averaging is
+  the local interpretation, exact Kaggle implementation unconfirmed. Kaggle score unknown.
+- Verified nested/predict pipelines, `make submission`, `make test` (44 passed), and
+  fresh-process model/schema/hash checks; `make lint` (31 formatted files) and
+  `git diff --check` passed. Existing Optuna/SQLite ResourceWarnings remain.
+  Full historical report/notebook pipeline was not rerun during this finalization.
+
+## Second-round search gate (2026-10-15)
+- Added `similarity.py`, `advanced.py`, `configs/advanced.yaml`, and nine isolation/geometry/
+  serialization tests. `make advanced` reruns the search with fingerprinted caches and is
+  included in `make all`. No dependency changes.
+- Evaluated 33 candidates: 31 new variants and two existing references. Families: per-class
+  nearest sessions, user centroids, square-root TF-IDF, cosine polynomial kernel SVC/ridge,
+  fixed-weight hybrids, BM25, supervised user-IDF and class-entropy feature weighting.
+- All learned representations, class weights/profiles and browser support remain fold-local.
+  Held-out transforms cannot modify vocabulary/IDF/training matrices; supervised weighting
+  has an explicit fit/transform consistency test. Sparse token matrices remain sparse.
+- `reports/results/advanced/comparison.csv`: development winner `hellinger_svm_c10`,
+  accuracy 0.959203 and macro-F1 0.948678, versus previous 0.958824 / 0.945621.
+  Choice frozen before final benchmarks under the existing one-fold-std simplicity rule.
+- `reports/results/advanced/validation.json`: repeated accuracy 0.967673 / macro-F1 0.959197,
+  versus previous 0.968487 / 0.960052. Mean paired accuracy change -0.000814; improves only
+  3/12 folds. Historical holdout accuracy 0.961890, macro-F1 0.945851. No robust gain established.
+- The initial similarity-only stage retained the previous model; a second development-only
+  expansion tested weighting variants. This is adaptive search, not an independent test;
+  repeated CV and the already-used reserve remain descriptive, never tuning objectives.
+- `submissions/advanced.csv`: 324 validated predictions from the development-selected model;
+  persisted estimator reload reproduced every prediction. Existing competitive submission
+  retained. No leaderboard evaluation or tuning; Kaggle score remains unknown.
+- Verified `make lint` (25 formatted files), `make test` (37 passed), `make advanced` including
+  cache reuse, and `git diff --check`. Full historical report/notebook pipeline not rerun.
+- Generated French results: `reports/advanced.md`. Negative results retained; D11 explains
+  model families, selection and the failure to confirm the development improvement.
+
+## Competitive extension gate (2026-10-15)
+- Added isolated training-only search: `src/copilote/competitive.py`, 52 declared variants in
+  `configs/competitive.yaml`; reproducible with `make competitive` (also included in `make all`).
+- All 52 candidates evaluated on identical development folds (2,623 sessions, 3 folds).
+  Train-only vocabulary/IDF, augmentation, class/browser support, and NB weights.
+  Search, selection, repeated validation and submission have matching predictive signatures.
+- Frozen choice: `browser_mask_c3`, balanced LinearSVC C=3, raw event TF-IDF 1–2 grams and
+  browser, with fold-learned browser support restriction. Best raw development mean was
+  `experts_c10`; its small improvement does not justify complexity under the declared rule.
+- `reports/results/competitive/validation.json`: repeated 4×3 accuracy 0.968487 (baseline
+  0.966148), macro-F1 0.960052 (baseline 0.958467). Paired accuracy gain 0.002339,
+  improvement in 9/12 folds; no claim of statistical significance or independent validation.
+- Historical holdout: accuracy 0.960366, macro-F1 0.952335, 656 sessions. Reused benchmark,
+  not a fresh untouched test; no model selection on these results.
+- Negative results recorded for nonlinear kernels, NB-SVM, longer n-grams, numeric/style
+  views, alternate regularization, binary/count representations and within-fold augmentation.
+- `submissions/competitive.csv`: 324 rows, sample schema/order checked, no missing/unknown
+  labels, train-only final fit, `transductive=false`, SHA-256 and provenance recorded.
+  Persisted model reloaded in a separate Python process and reproduced all 324 predictions.
+- `reports/competitive.md` generated from JSON/CSV; error diagnostics cover development only.
+  Raw excerpts are confined to ignored `artifacts/competitive/`, absent from report results.
+- Gates passed: `make competitive`, `make lint` (22 files), `make test` (28 passed).
+  Original full report/notebook pipeline was not rerun during this extension.
+- Kaggle score and official metric remain unknown. No leaderboard-driven tuning or submission
+  through the Kaggle API. Local metrics do not establish a score above 0.993.
 
 ## Done
 - Inspected source, roadmap, data layout and environment.
@@ -53,3 +178,16 @@ Official metric; team names, TD group, repository URL; grader Python; French rep
   deleting local files. Historical git objects remain.
 - Clock and context semantics are hypotheses; do not describe them as proven.
 - Python 3.13.5 specifically is not installed; available 3.13 is 3.13.13 (and 3.14.7).
+
+## Phase 4 gate A (forensics) — 2026-10-17
+- New module `src/copilote/phase4_forensics.py` (lint clean, 55 tests pass); artifacts in
+  `reports/results/phase4/b0e04d98bc12/` (manifest signed, seed 42); French report
+  `reports/phase4_dataset_forensics.md`.
+- Key facts: gaps ∈ {0,5,10,15} s only; zero clock resets; 99.9% sessions have every 5 s tick
+  active; 2,270,247 train events; suffix « 1 » = 15.64% of events, on 31/36 actions, per-action
+  rates 0.11–0.57; 8.7% of suffix events carry explicit groups (falsifies "same context" rule).
+- Timing scalars: KW H up to 1,313 (dwell_top_fraction) but LR probe alone 0.060 macro-F1 →
+  complementary sparse fusion only (tempo family planned in Phase C).
+- Tokens: 2,961/7,087 user-exclusive in-sample; 47.3% of sessions contain one; 7 users none.
+- No train/test shift (KS all p > 0.05; suffix_fraction p 0.064 borderline).
+- Next: Phase B error analysis on phase2 OOF artifacts + this timing table.
