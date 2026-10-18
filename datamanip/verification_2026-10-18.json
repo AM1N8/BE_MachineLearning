@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-18",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "sklearn": "1.8.0",
+  "display": "no-op for terminal audit (IPython absent)",
+  "duration_s": 97.92,
+  "selected": "Spécialistes",
+  "results": [
+    {
+      "approche": "Spécialistes",
+      "f1_macro_cv": 88.04,
+      "ecart_type_cv": 1.24,
+      "accuracy_cv": 90.28,
+      "retenue_par_cv": true,
+      "accuracy": 91.46,
+      "f1_macro": 89.05,
+      "f1_pondere": 90.42
+    },
+    {
+      "approche": "Filtre navigateur",
+      "f1_macro_cv": 87.75,
+      "ecart_type_cv": 1.59,
+      "accuracy_cv": 90.05,
+      "retenue_par_cv": false,
+      "accuracy": 91.62,
+      "f1_macro": 88.76,
+      "f1_pondere": 90.49
+    },
+    {
+      "approche": "Global",
+      "f1_macro_cv": 87.75,
+      "ecart_type_cv": 1.59,
+      "accuracy_cv": 90.05,
+      "retenue_par_cv": false,
+      "accuracy": 91.62,
+      "f1_macro": 88.76,
+      "f1_pondere": 90.49
+    }
+  ],
+  "checks": "all assertions passed"
+}
