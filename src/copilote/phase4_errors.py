@@ -18,7 +18,7 @@ from copilote.tokens import filled_context, parse_token
 
 OOF_PATH = "reports/results/improvement/4e7e8c2ad9a6/baseline_oof.csv"
 SPLITS_PATH = "reports/results/improvement/4e7e8c2ad9a6/research_splits.json"
-FORENSICS_PATH = "reports/results/phase4/b4608c40db82/session_timing_train.csv"
+FORENSICS_PATH = "reports/results/phase4/d524c6ba3719/session_timing_train.csv"
 PHASE2_DIR = Path("reports/results/phase2/a1d191a9b558")
 TIMING_COLUMNS = (
     "duration",

@@ -7,10 +7,10 @@ les mécanismes de sauvetage envisagés (tokens exclusifs fold-locaux, reranking
 fusion de marges).
 
 **Sources (artefacts signés).** Module `src/copilote/phase4_errors.py` ; résultats dans
-`reports/results/phase4/01d6e62d3636/` (manifeste : hash des sources + entrées + seed 42).
+`reports/results/phase4/b2d89ec23226/` (manifeste : hash des sources + entrées + seed 42).
 Entrées : `reports/results/improvement/4e7e8c2ad9a6/baseline_oof.csv` (OOF 8 folds avec
 diagnostics), `research_splits.json` (mêmes folds, vérifiés identiques aux splits phase 2 et
-extremes), `reports/results/phase4/b4608c40db82/session_timing_train.csv` (scalaires
+extremes), `reports/results/phase4/d524c6ba3719/session_timing_train.csv` (scalaires
 tempo/suffixe/dwell par session), OOF phase 2 `research_baseline_{0..7}.csv` et
 `research_signatures_{0..7}.csv`. Toute exclusivité de token est **recomputée fold-par-fold
 sur la moitié d'entraînement uniquement** (aucune consultation de la session évaluée) ;

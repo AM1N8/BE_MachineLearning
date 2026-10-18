@@ -181,7 +181,7 @@ Official metric; team names, TD group, repository URL; grader Python; French rep
 
 ## Phase 4 gate A (forensics) — 2026-10-17
 - New module `src/copilote/phase4_forensics.py` (lint clean, 55 tests pass); artifacts in
-  `reports/results/phase4/b4608c40db82/` (manifest signed, seed 42); French report
+  `reports/results/phase4/d524c6ba3719/` (manifest signed, seed 42); French report
   `reports/phase4_dataset_forensics.md`.
 - Key facts: gaps ∈ {0,5,10,15} s only; zero clock resets; 99.9% sessions have every 5 s tick
   active; 2,270,247 train events; suffix « 1 » = 15.64% of events, on 31/36 actions, per-action
@@ -194,7 +194,7 @@ Official metric; team names, TD group, repository URL; grader Python; French rep
 
 ## Phase 4 gate B (error analysis) — 2026-10-17
 - New module `src/copilote/phase4_errors.py` (lint clean, 55 tests pass); artifacts in
-  `reports/results/phase4/01d6e62d3636/` (manifest signed, seed 42); French report
+  `reports/results/phase4/b2d89ec23226/` (manifest signed, seed 42); French report
   `reports/phase4_error_analysis.md`. Fold-local exclusive tokens recomputed per fold
   (train half only); splits verified identical to phase2/extreme.
 - Key facts: errors vs correct medians — length 130 vs 353, OOV 0.0194 vs 0.0026,
@@ -212,3 +212,36 @@ Official metric; team names, TD group, repository URL; grader Python; French rep
   (9/16 corrected had truth-exclusive support, 0/6 introduced).
 - Phase C priorities: tempo/suffix sparse fusion first (strongest new discriminators),
   then margin fusion baseline+signatures; sequence/markov stays closed (phase 1 negative).
+
+## Phase 4 gates C+D (experiments and validation) — 2026-10-18
+- New module `src/copilote/phase4_candidates.py` (ruff clean; 9 tests in `tests/test_phase4.py`,
+  64 pass total). Stages `research|confirm|seed44`, manifest-signed dirs, resumable,
+  submissions asserted unchanged at the end of every stage.
+- Research (seed 42, `85b76c4630ba/comparison.csv`): tempo family mostly weak/negative
+  (dwell −0.0019, scalars −0.0006), fusion ≈ baseline as predicted; overlap analysis found
+  signatures/burst corrections disjoint with zero antagonism; signatures weight ladder
+  0.2→1.0 unimodal (peak w06 +0.0040, collapse at w10 −0.0044); hybrids sig_burst_w05
+  (+0.0045) / sig_burst_w06 (+0.0046). Nobody passes lower95>0.
+- Confirm (seed 43, `8492d196609f/confirmation.csv`): weight-ladder gains wash out
+  (w06 +0.0007); the burst block replicates (sig_burst 8/8 folds, lower95 −0.0006,
+  best ever). Seed 44 (`951bd7da5015/seed44_comparison.csv`): sig_burst_w05 +0.0034,
+  only candidate with both repeats positive on all three protocols; dominates signatures
+  everywhere. Still nobody passes the promotion criterion.
+- Pooled secondary evidence (24 folds, post-hoc, `85b76c4630ba/pooled_evidence.json`):
+  sig_burst_w05 mean +0.003419, lower95 +0.001842, 19/24 wins.
+- French report `reports/phase4_experiment_results.md`; decision record D14 in
+  docs/DECISIONS.md.
+
+## Phase 4 gates E+F (final candidate and submission) — 2026-10-18
+- New module `src/copilote/phase4_challenger.py` (ruff clean): `reproduce` re-fits all 24
+  challenger folds (research/confirm/seed44) — predictions reproduced exactly; `export`
+  fits sig_burst_w05 on the 3 279 labelled sessions only and writes
+  `submissions/phase4_challenger.csv` (RowId 1..324 aligned with the sample, joblib reload
+  exact, transductive=false, automatic_submission=false).
+- Challenger export `reports/results/phase4/c8a3d88dbf5c/`: 3/324 changed rows vs
+  best_verified (125 zro→bgn, 237 czi→pgm, 290 usy→vsb), 2/324 vs context_signatures
+  (125, 290); protected submissions verified unchanged (hashes before=after).
+- Promotion FAILED (lower95 negative on all three protocols) → champion stays
+  `submissions/best_verified.csv` (Kaggle 0.980); challenger exported as
+  EXPERIMENTAL_NOT_PROMOTED, same discipline as phase 3. Recommendation and bounded
+  risk analysis in French report `reports/phase4_final_recommendation.md`.

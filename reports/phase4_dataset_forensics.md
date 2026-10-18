@@ -1,6 +1,6 @@
 # Phase 4 — Forensics du jeu de données (stage A)
 
-Artéfacts : `reports/results/phase4/b4608c40db82/` (manifeste signé par hachage des sources et
+Artéfacts : `reports/results/phase4/d524c6ba3719/` (manifeste signé par hachage des sources et
 des données, graine 42). Script : `uv run python -m copilote.phase4_forensics`.
 Tous les chiffres cités ci-dessous proviennent de `forensics.json`, `session_timing_train.csv`,
 `session_timing_test.csv`, `suffix_by_action.csv`, `tempo_per_user.csv`, `dwell_per_user_screen.csv`.
@@ -11,8 +11,8 @@ Tous les chiffres cités ci-dessous proviennent de `forensics.json`, `session_ti
   événements ne prennent que les valeurs {0, 5, 10, 15} s ; l'horloge ne se réinitialise jamais ;
   les sessions sont actives en continu. Les scalaires de tempo (cadence, bouffée d'événements par
   tick, pauses maximales, concentration du temps sur un écran, taux de suffixe « 1 ») sont
-  massivement associés aux utilisateurs (Kruskal–Wallis H jusqu'à 1 313, p ~ 1e-144), mais un
-  classifieur linéaire seul n'atteint que 0,060 de macro-F1 (247 classes) : ce signal n'est
+  massivement associés aux utilisateurs (Kruskal–Wallis H jusqu'à 1 465, p ~ 1e-171), mais un
+  classifieur linéaire seul n'atteint que 0,069 de macro-F1 (247 classes) : ce signal n'est
   exploitable qu'en **fusion complémentaire** avec le modèle sparse, pas isolément.
 - **Le suffixe « 1 » n'est pas « même contexte que précédemment »** : 8,7 % des événements
   porteurs du suffixe ont des groupes explicites. C'est plutôt un marqueur style par action et
@@ -54,6 +54,7 @@ Kruskal–Wallis par caractéristique (niveaux session, 247 groupes, Bonferroni 
 
 | caractéristique | H | p (Bonferroni) |
 |---|---|---|
+| dwell_entropy | 1 464,6 | 5,8e-171 |
 | dwell_top_fraction | 1 313,2 | 7,5e-144 |
 | gap_max | 1 239,9 | 5,7e-131 |
 | suffix_fraction | 1 228,8 | 4,9e-129 |
@@ -64,8 +65,8 @@ Kruskal–Wallis par caractéristique (niveaux session, 247 groupes, Bonferroni 
 | dwell_p90 / gap_p90 | 306,7 | 0,087 (non significatif après correction) |
 
 Sondes de signal (régression logistique standardisée, 5 folds stratifiés, graine 42 —
-**exploratoires, pas une sélection**) : tempo seul 0,0142, dwell seul 0,0032, suffixe seul 0,0187,
-tout combiné **0,0599** de macro-F1. Conclusion : signal marginal réel mais non linéairement
+**exploratoires, pas une sélection**) : tempo seul 0,0142, dwell seul 0,0064, suffixe seul 0,0187,
+tout combiné **0,0694** de macro-F1. Conclusion : signal marginal réel mais non linéairement
 séparable seul → à tester en blocs sparse complémentaires (famille « tempo » : tokens
 action×bouffée, action×suffixe, écran×concentration temporelle), selon la même méthodologie que
 la famille signatures (bloc binaire pondéré, sélection chi² dans les plis).
@@ -95,8 +96,11 @@ Par utilisateur (`tempo_per_user.csv`, médianes) : durée médiane par utilisat
 - 416 clés d'écran distinctes (tuples remplis), 7 413 paires (utilisateur, écran) dans
   `dwell_per_user_screen.csv`.
 - `dwell_top_fraction` (part du temps totale passée sur l'écran dominant) : médiane 0,438,
-  p90 0,808 — la **concentration temporelle varie fortement** et c'est la caractéristique la
-  plus associée à l'utilisateur (H = 1 313,2).
+  p90 0,808 — la **concentration temporelle varie fortement** (H = 1 313,2).
+- `dwell_entropy` (entropie de la répartition du temps entre écrans) est la caractéristique la
+  plus associée à l'utilisateur (H = 1 464,6). Correction apportée lors de la phase C : la
+  convention 0·log2(0) = 0 n'était pas appliquée (2 188/3 279 sessions avaient une entropie
+  NaN dans la première exécution) ; les artéfacts ont été régénérés intégralement.
 - Exemples de dwell cumulés maximaux : vfo/MAINT 23 805 s (35 visites), wvy/MAINT 23 400 s (12),
   nwt/CRM_COMPTE.CompteForm 22 655 s (20), txk/idem 19 790 s (16).
 - `dwell_median` et `dwell_p90` sont quasi constants (0 / 5 s) : seul le **profil de

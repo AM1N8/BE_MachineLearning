@@ -121,7 +121,7 @@ def decompose(row: Session) -> dict[str, Any]:
     shares = np.asarray(list(screen_seconds.values()), dtype=float)
     entropy = 0.0
     if total_dwell > 0:
-        probabilities = shares / total_dwell
+        probabilities = shares[shares > 0] / total_dwell
         entropy = float(-np.sum(probabilities * np.log2(probabilities)))
 
     suffix_events = suffix_with_groups = suffix_after_explicit = 0
