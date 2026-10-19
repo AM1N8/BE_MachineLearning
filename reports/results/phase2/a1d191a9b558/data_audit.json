@@ -1,0 +1,26 @@
+{
+  "rows": 3279,
+  "classes": 247,
+  "persistent_sessions": 78,
+  "near_duplicate_pairs": 0,
+  "cross_label_near_pairs": 0,
+  "groups": 3279,
+  "max_group": 1,
+  "exact_event_sequence_duplicates": 0,
+  "multi_browser_users": 0,
+  "adjacent_same_label_fraction": 0.004881025015253203,
+  "random_expected_adjacent_fraction": 0.005542322777688773,
+  "row_first_clock_spearman": 0.01928239798535829,
+  "sessions_clock_decreases": 0,
+  "explicit_screen_events": 288307,
+  "missing_screen_events": 1981940,
+  "official_metric": "F1 score moyen; averaging unspecified",
+  "metric_verified": false,
+  "id_semantics": "row position only; no explicit timestamp, date or source-session group",
+  "group_definition": "connected components of event-trigram set Jaccard >= .9 and length ratio >= .9; label-free",
+  "source_hashes": {
+    "evaluation.md": "7d7cb36b18510f71e2cc19b8fd7c4e22608d31c8cb274125b19e5957bc4b4e78",
+    "rules.md": "735fa1d105837626cfd0b387525a9943ebc2dbbcf4ed00b8e6bed8a21594f8d3",
+    "data/README.md": "e6ccf3260c34e36b502a20320aa9474f9cf8e783ac3c155bb49acd12bf451952"
+  }
+}

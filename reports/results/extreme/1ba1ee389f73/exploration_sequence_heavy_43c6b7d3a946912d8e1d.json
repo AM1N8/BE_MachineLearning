@@ -1,0 +1,47 @@
+{
+  "name": "sequence_heavy",
+  "spec": {
+    "raw": 0,
+    "unigram": 0.5,
+    "bigram": 1,
+    "trigram": 0.5
+  },
+  "stage": "exploration",
+  "signature": "1ba1ee389f7393f00c1317c762f3712fbd36032ddbe46946dee313a7f97f7833",
+  "mean": {
+    "accuracy": 0.9565361229159857,
+    "macro_f1": 0.9454653116049867
+  },
+  "std": {
+    "accuracy": 0.00992123766436187,
+    "macro_f1": 0.01666496141084304
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.9622857142857143,
+      "macro_f1": 0.9574879291431477,
+      "seconds": 16.332717880999553,
+      "warnings": []
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.9450800915331807,
+      "macro_f1": 0.9264419530560593,
+      "seconds": 16.320477123001183,
+      "warnings": []
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.9622425629290617,
+      "macro_f1": 0.9524660526157531,
+      "seconds": 16.674409358995035,
+      "warnings": []
+    }
+  ],
+  "wall_seconds": 49.405316563999804,
+  "fit_seconds": 49.32760436299577,
+  "scores": "artifacts/extreme/scores_43c6b7d3a946912d8e1d.npz",
+  "predictions": "reports/results/extreme/1ba1ee389f73/exploration_sequence_heavy_43c6b7d3a946912d8e1d.csv",
+  "official_metric": "F1 score moyen confirmed in supplied evaluation; macro averaging interpretation, backend unspecified"
+}

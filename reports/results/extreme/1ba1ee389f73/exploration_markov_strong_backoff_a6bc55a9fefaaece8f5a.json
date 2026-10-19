@@ -1,0 +1,46 @@
+{
+  "name": "markov_strong_backoff",
+  "spec": {
+    "method": "markov",
+    "order": 2,
+    "mu": 100
+  },
+  "stage": "exploration",
+  "signature": "1ba1ee389f7393f00c1317c762f3712fbd36032ddbe46946dee313a7f97f7833",
+  "mean": {
+    "accuracy": 0.9149748283752861,
+    "macro_f1": 0.9111474390172326
+  },
+  "std": {
+    "accuracy": 0.019265099261560583,
+    "macro_f1": 0.01759594023215061
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.936,
+      "macro_f1": 0.9280215437175742,
+      "seconds": 7.906741869002872,
+      "warnings": []
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.8981693363844394,
+      "macro_f1": 0.8929090828979274,
+      "seconds": 7.956192969002586,
+      "warnings": []
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.9107551487414187,
+      "macro_f1": 0.9125116904361963,
+      "seconds": 7.935297030999209,
+      "warnings": []
+    }
+  ],
+  "wall_seconds": 23.867257049001637,
+  "fit_seconds": 23.798231869004667,
+  "scores": "artifacts/extreme/scores_a6bc55a9fefaaece8f5a.npz",
+  "predictions": "reports/results/extreme/1ba1ee389f73/exploration_markov_strong_backoff_a6bc55a9fefaaece8f5a.csv",
+  "official_metric": "F1 score moyen confirmed in supplied evaluation; macro averaging interpretation, backend unspecified"
+}

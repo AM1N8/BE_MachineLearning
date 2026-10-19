@@ -1,0 +1,26 @@
+{
+  "status": "EXPERIMENTAL_NOT_PROMOTED",
+  "spec": {
+    "model": "sig_burst_w05",
+    "signatures_weight": 0.5,
+    "tempo_weight": 0.3,
+    "tempo_parts": [
+      "burst"
+    ]
+  },
+  "output_directory": "reports/results/phase4/c8a3d88dbf5c",
+  "train_rows": 3279,
+  "test_rows": 324,
+  "changed_vs_best_verified": 3,
+  "changed_vs_context_signatures": 2,
+  "protected_after": {
+    "submissions/best_verified.csv": "ea7174fbb9a23453a84aa3716f43091b96e4e658187e2c1bca655070e251595d",
+    "submissions/context_signatures_experimental.csv": "c2d14a684f77e3cbe03c2873e3812f203a3226da5879d31ff845e2097f55760e"
+  },
+  "csv_sha256": "c29fd2fe2f04003914467cf29b6ad287f6afc535f70bfe80ce1a69c7fd514003",
+  "model_sha256": "64897926bcf2af0d650c0cd63fe7ed528e1ef7f86b7e85dc305086ece89b2119",
+  "model_reload_exact": true,
+  "transductive": false,
+  "automatic_submission": false,
+  "promotion_criteria_changed": false
+}

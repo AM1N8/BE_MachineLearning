@@ -245,3 +245,43 @@ Official metric; team names, TD group, repository URL; grader Python; French rep
   `submissions/best_verified.csv` (Kaggle 0.980); challenger exported as
   EXPERIMENTAL_NOT_PROMOTED, same discipline as phase 3. Recommendation and bounded
   risk analysis in French report `reports/phase4_final_recommendation.md`.
+
+## Phase 5 — Audit de généralisation avant optimisation — 2026-10-18
+
+- Résultat négatif enregistré : scores publics communiqués par l'utilisateur
+  baseline 0,980 / signatures 0,983 / hybride phase 4 0,970. La recommandation
+  exploratoire de phase 4 était trop optimiste ; ses rapports et son fichier
+  restent conservés. Aucune étiquette cachée n'est inférée des scores.
+- Nouveaux modules `phase5_audit.py` et `phase5_analysis.py` : audit signé des
+  différences de soumissions, métrique disponible, découpages historiques,
+  distributions, proximité structurelle et incertitude sur petits holdouts.
+  Résultats canoniques : `reports/results/phase5/1ed0b3ef63ea/`.
+- Métrique : `evaluation.md` indique « F1 score moyen », sans confirmer la moyenne
+  exacte, les classes absentes ou la taille publique. Macro-F1 sklearn reste une
+  convention de travail explicitement conditionnelle.
+- Différences vérifiées : hybride contre baseline aux RowId 125, 237, 290 ;
+  hybride contre signatures aux RowId 125 et 290. Marges documentées ; aucun
+  changement de test décidé à partir du leaderboard.
+- Douze petits holdouts stratifiés (324 sessions, 232 classes vraies), quatre
+  stress-tests groupés, trois modèles figés : 48 ajustements, sans recherche.
+  Exécution initiale `4922593685dd`, réutilisation contrôlée dans le répertoire
+  canonique après ajout du module d'analyse (`refit_reuse.json`).
+- Résultat principal hybride − signatures : gain +0,000172, IC corrigé à 95 %
+  [−0,003236 ; +0,003580], 4 victoires / 4 défaites / 4 égalités ; aucun contraste
+  principal ne passe le critère corrigé + Holm. Signatures − baseline passe
+  seulement le stress-test secondaire à quatre découpages (p Holm 0,0399), dont
+  la composition en classes diffère : pas de promotion globale.
+- Les 24 plis historiques réutilisent six fois les mêmes 3 279 sessions ; les
+  nouvelles graines ne créent aucune observation indépendante. Simulations de
+  petits sous-ensembles et bootstraps par session/utilisateur sont conditionnels,
+  pas des confirmations externes. Les signatures peuvent perdre sur petit holdout.
+- Pas de rupture claire des variables scalaires ni du vocabulaire test par
+  rapport aux holdouts. AUC de source atypique 0,3801 ; 39 permutations entièrement
+  réajustées donnent p bilatérale exploratoire 0,025. Ce diagnostic ne démontre
+  ni un drift causal ni l'origine de la régression Kaggle.
+- Rapport français `reports/phase5_validation_audit.md`, décision D15 : priorité
+  au contrat de métrique/échantillonnage et à une vraie confirmation nouvelle.
+  Trois hypothèses maximum ; aucun nouveau modèle/CSV car le critère principal
+  n'appuie pas l'optimisation. Signatures reste le meilleur public expérimental ;
+  la baseline reste le champion vérifié. Hachages des soumissions et modèles
+  existants inchangés. `make lint` réussi ; `make test` : 67 tests réussis.

@@ -1,0 +1,47 @@
+{
+  "name": "champion",
+  "spec": {
+    "method": "champion"
+  },
+  "stage": "outer2_inner",
+  "signature": "1ba1ee389f7393f00c1317c762f3712fbd36032ddbe46946dee313a7f97f7833",
+  "mean": {
+    "accuracy": 0.947134617866325,
+    "macro_f1": 0.9277325872388505
+  },
+  "std": {
+    "accuracy": 0.0036931952409304707,
+    "macro_f1": 0.0017220007104598609
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.9439024390243902,
+      "macro_f1": 0.9266497430757413,
+      "seconds": 2.9029465440034983,
+      "warnings": []
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.9463414634146341,
+      "macro_f1": 0.9268297542059466,
+      "seconds": 3.0556842660007533,
+      "warnings": [
+        "unclosed database in <sqlite3.Connection object at 0x7fb9505384f0>",
+        "unclosed database in <sqlite3.Connection object at 0x7fb94ff776a0>"
+      ]
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.9511599511599511,
+      "macro_f1": 0.9297182644348636,
+      "seconds": 2.8447364300009212,
+      "warnings": []
+    }
+  ],
+  "wall_seconds": 8.886438966997957,
+  "fit_seconds": 8.803367240005173,
+  "scores": "artifacts/extreme/scores_a533c1cdc3047830618e.npz",
+  "predictions": "reports/results/extreme/1ba1ee389f73/outer2_inner_champion_a533c1cdc3047830618e.csv",
+  "official_metric": "F1 score moyen confirmed in supplied evaluation; macro averaging interpretation, backend unspecified"
+}

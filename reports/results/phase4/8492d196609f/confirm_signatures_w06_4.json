@@ -1,0 +1,8 @@
+{
+  "experiment": "signatures_w06",
+  "fold": 4,
+  "seconds": 11.243216116999974,
+  "accuracy": 0.9707317073170731,
+  "macro_f1": 0.9636353115276669,
+  "weighted_f1": 0.9688724920862654
+}

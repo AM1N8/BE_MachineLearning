@@ -1,0 +1,4 @@
+RowId,best_verified,context_signatures,challenger,changed_vs_best_verified,changed_vs_context_signatures,challenger_top2_gap,baseline_top2_gap,signatures_top2_gap,challenger_was_baseline_second,challenger_was_signatures_second,supported_classes
+125,zro,zro,bgn,True,True,0.0194357631841513,0.0592558130000124,0.0295475353789375,False,True,114
+237,czi,pgm,pgm,True,False,0.096919777415711,0.0550239961896155,0.0031460334901632,True,False,114
+290,usy,usy,vsb,True,True,0.0039553371907374,0.0364699668067127,0.0197657707117286,True,True,114

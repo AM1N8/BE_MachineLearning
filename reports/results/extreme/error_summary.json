@@ -1,0 +1,251 @@
+{
+  "champion": {
+    "oof_predictions": 9837,
+    "errors": 310,
+    "sessions_wrong_all_repeats": 66,
+    "sessions_wrong_once_or_more": 149,
+    "top_confusions": [
+      {
+        "truth": "flj",
+        "prediction": "skm",
+        "errors": 15
+      },
+      {
+        "truth": "skm",
+        "prediction": "slq",
+        "errors": 9
+      },
+      {
+        "truth": "ald",
+        "prediction": "fuy",
+        "errors": 7
+      },
+      {
+        "truth": "azn",
+        "prediction": "wht",
+        "errors": 6
+      },
+      {
+        "truth": "esu",
+        "prediction": "lgd",
+        "errors": 6
+      },
+      {
+        "truth": "lfq",
+        "prediction": "czi",
+        "errors": 6
+      },
+      {
+        "truth": "azx",
+        "prediction": "guh",
+        "errors": 6
+      },
+      {
+        "truth": "zok",
+        "prediction": "lra",
+        "errors": 5
+      },
+      {
+        "truth": "yrb",
+        "prediction": "zqs",
+        "errors": 5
+      },
+      {
+        "truth": "mmm",
+        "prediction": "byo",
+        "errors": 5
+      },
+      {
+        "truth": "hll",
+        "prediction": "guh",
+        "errors": 4
+      },
+      {
+        "truth": "slq",
+        "prediction": "skm",
+        "errors": 4
+      },
+      {
+        "truth": "vyu",
+        "prediction": "oec",
+        "errors": 4
+      },
+      {
+        "truth": "udj",
+        "prediction": "qkd",
+        "errors": 4
+      },
+      {
+        "truth": "cuw",
+        "prediction": "zyk",
+        "errors": 3
+      }
+    ]
+  },
+  "sqrt_tfidf": {
+    "oof_predictions": 9837,
+    "errors": 318,
+    "sessions_wrong_all_repeats": 73,
+    "sessions_wrong_once_or_more": 141,
+    "top_confusions": [
+      {
+        "truth": "flj",
+        "prediction": "skm",
+        "errors": 16
+      },
+      {
+        "truth": "azn",
+        "prediction": "wht",
+        "errors": 9
+      },
+      {
+        "truth": "skm",
+        "prediction": "slq",
+        "errors": 7
+      },
+      {
+        "truth": "ald",
+        "prediction": "fuy",
+        "errors": 6
+      },
+      {
+        "truth": "lfq",
+        "prediction": "czi",
+        "errors": 6
+      },
+      {
+        "truth": "udj",
+        "prediction": "qkd",
+        "errors": 6
+      },
+      {
+        "truth": "azx",
+        "prediction": "guh",
+        "errors": 6
+      },
+      {
+        "truth": "esu",
+        "prediction": "lgd",
+        "errors": 5
+      },
+      {
+        "truth": "slq",
+        "prediction": "skm",
+        "errors": 5
+      },
+      {
+        "truth": "zok",
+        "prediction": "lra",
+        "errors": 5
+      },
+      {
+        "truth": "zok",
+        "prediction": "sps",
+        "errors": 5
+      },
+      {
+        "truth": "urs",
+        "prediction": "slq",
+        "errors": 4
+      },
+      {
+        "truth": "akx",
+        "prediction": "oqa",
+        "errors": 3
+      },
+      {
+        "truth": "cuw",
+        "prediction": "zyk",
+        "errors": 3
+      },
+      {
+        "truth": "itt",
+        "prediction": "akx",
+        "errors": 3
+      }
+    ]
+  },
+  "original": {
+    "oof_predictions": 9837,
+    "errors": 333,
+    "sessions_wrong_all_repeats": 72,
+    "sessions_wrong_once_or_more": 159,
+    "top_confusions": [
+      {
+        "truth": "flj",
+        "prediction": "skm",
+        "errors": 18
+      },
+      {
+        "truth": "skm",
+        "prediction": "slq",
+        "errors": 11
+      },
+      {
+        "truth": "ald",
+        "prediction": "fuy",
+        "errors": 7
+      },
+      {
+        "truth": "slq",
+        "prediction": "skm",
+        "errors": 7
+      },
+      {
+        "truth": "esu",
+        "prediction": "lgd",
+        "errors": 6
+      },
+      {
+        "truth": "zok",
+        "prediction": "lra",
+        "errors": 6
+      },
+      {
+        "truth": "lfq",
+        "prediction": "czi",
+        "errors": 6
+      },
+      {
+        "truth": "azn",
+        "prediction": "wht",
+        "errors": 6
+      },
+      {
+        "truth": "azx",
+        "prediction": "guh",
+        "errors": 6
+      },
+      {
+        "truth": "mmm",
+        "prediction": "byo",
+        "errors": 5
+      },
+      {
+        "truth": "mmm",
+        "prediction": "txk",
+        "errors": 5
+      },
+      {
+        "truth": "yrb",
+        "prediction": "zqs",
+        "errors": 5
+      },
+      {
+        "truth": "udj",
+        "prediction": "qkd",
+        "errors": 5
+      },
+      {
+        "truth": "tmn",
+        "prediction": "xgv",
+        "errors": 4
+      },
+      {
+        "truth": "opp",
+        "prediction": "jpm",
+        "errors": 4
+      }
+    ]
+  }
+}

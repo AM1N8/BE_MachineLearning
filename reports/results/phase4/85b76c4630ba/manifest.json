@@ -1,0 +1,103 @@
+{
+  "sources": {
+    "phase4_candidates": "4f2d5403b14e8bac202009e057c1a984592e6a26a9eab50d965b4284382f60e4",
+    "phase4_forensics": "ce1acf40dcc057483bb8bb3d717837c6a25b17a14bc58212bcbe78c5322d03e4",
+    "phase2_models": "124f3efc4aff01b197837e7c61cfb8e9b307a50ef62ec780d76a28d5e06aeb67",
+    "competitive": "9c04d32d0e467d4a75da55f8330ab920b6920e78fdbef014248bd09bb3ee7eb4",
+    "improvement": "5336e9d6ce686e0c73e11b46e1980dab26aabe45d06ba042a8ed50ffd8247999",
+    "features": "321e7ed45f4a575398bf4d06d308b892fdf66379084452325440085229e4e556",
+    "tokens": "564db372e8308dc73471e5dfba509e9400f7a77633d3adb576c2596c2667b26e",
+    "io": "254d2a6330c53a1a8ec06e7e87145f13eb06cfafcb7c50807637f824beb6f38b"
+  },
+  "train": "b1d32fed43795dd081add8ebac0c73211d719b58d66bb05d43e445e9a6491649",
+  "lock": "6060b8552973941140076ce78286df1be571aa8c913b9009aafde74f7c6c2d96",
+  "historical_splits": "2c27712f709554bea070a833754d67c1250ccaa95ff4e4b581c2e9ed7c84eac7",
+  "submissions": {
+    "best_verified": "ea7174fbb9a23453a84aa3716f43091b96e4e658187e2c1bca655070e251595d",
+    "context_signatures_experimental": "c2d14a684f77e3cbe03c2873e3812f203a3226da5879d31ff845e2097f55760e"
+  },
+  "seed": 42,
+  "confirmation_seed": 43,
+  "additional_seed": 44,
+  "block_weight": 0.3,
+  "select_percentile": 20,
+  "tempo_parts": {
+    "tempo_suffix": [
+      "suffix"
+    ],
+    "tempo_burst": [
+      "burst"
+    ],
+    "tempo_dwell": [
+      "dwell"
+    ],
+    "tempo_scalars": [
+      "scalars"
+    ],
+    "tempo_all": [
+      "suffix",
+      "burst",
+      "dwell",
+      "scalars"
+    ]
+  },
+  "fusions": {
+    "fusion_raw": {
+      "alpha": 0.3,
+      "standardize": false
+    },
+    "fusion_std": {
+      "alpha": 0.5,
+      "standardize": true
+    }
+  },
+  "signature_weights": {
+    "signatures_w02": 0.2,
+    "signatures_w04": 0.4,
+    "signatures_w05": 0.5,
+    "signatures_w06": 0.6,
+    "signatures_w07": 0.7,
+    "signatures_w10": 1.0
+  },
+  "hybrids": {
+    "sig_burst": {
+      "signatures_weight": 0.3,
+      "tempo_weight": 0.3
+    },
+    "sig_burst_w05": {
+      "signatures_weight": 0.5,
+      "tempo_weight": 0.3
+    },
+    "sig_burst_w06": {
+      "signatures_weight": 0.6,
+      "tempo_weight": 0.3
+    },
+    "sig_burst_merge": {
+      "merged_weight": 0.3,
+      "tempo_parts": [
+        "burst"
+      ]
+    }
+  },
+  "bucket_edges": {
+    "events_per_second": [
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5
+    ],
+    "suffix_fraction": [
+      0.05,
+      0.15,
+      0.3,
+      0.5
+    ],
+    "events_per_active_tick": [
+      1,
+      2,
+      3
+    ]
+  },
+  "stage": "research"
+}

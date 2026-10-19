@@ -1,0 +1,8 @@
+{
+  "experiment": "tempo_burst",
+  "fold": 0,
+  "seconds": 5.836807315999977,
+  "accuracy": 0.9780487804878049,
+  "macro_f1": 0.9808382102834824,
+  "weighted_f1": 0.9765471589699176
+}

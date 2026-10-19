@@ -1,0 +1,79 @@
+row_id,label,browser,length,min_margin,max_truth_excl_raw,max_truth_excl_sig,second_eq_truth_any,snap_fixable,category
+3257,hll,Google Chrome,320,0.0990867443905568,0,0,False,False,hard
+988,hll,Google Chrome,196,0.0596266526760388,0,0,False,False,hard
+2146,gvp,Google Chrome,104,0.0961636765075548,0,0,False,False,hard
+2640,ngs,Google Chrome,187,0.2950446178026185,0,0,False,False,hard
+1251,fvc,Google Chrome,1,0.0155545338520083,0,0,False,False,hard
+1340,lra,Microsoft Edge,277,0.7270434213037199,0,0,False,False,hard
+2612,slq,Google Chrome,51,0.0571363106590147,0,0,False,False,hard
+1491,skm,Google Chrome,50,0.9813638450576369,0,0,False,False,hard
+1561,akx,Google Chrome,85,0.0900295183482602,0,0,False,False,hard
+1566,nyk,Firefox,217,0.0874691348824695,0,0,False,False,hard
+1570,jew,Firefox,115,0.1315157329091175,0,0,False,False,hard
+1691,wht,Google Chrome,97,0.0928401177144071,0,0,False,False,hard
+1703,hll,Google Chrome,307,0.0722735073097002,0,0,False,False,hard
+2503,ycb,Google Chrome,642,0.008054244514981,0,0,False,False,hard
+2000,urs,Google Chrome,2221,0.0071025178048342,0,0,False,False,hard
+2259,azx,Google Chrome,105,0.077300735453795,0,0,False,False,hard
+982,flj,Google Chrome,92,0.0829298975522581,1,1,False,False,hard
+2686,mmm,Firefox,223,0.1875504567655137,0,0,False,False,hard
+2684,zus,Firefox,2,0.0037431872138681,0,0,False,False,hard
+883,ngs,Google Chrome,165,0.1766098962822549,0,0,False,False,hard
+3182,oqa,Google Chrome,335,0.1785810051205758,0,1,False,False,hard
+3141,fou,Google Chrome,1,0.0292805033798859,0,0,False,False,hard
+3135,tdk,Firefox,229,0.0931247384691312,0,0,False,False,hard
+3101,mmm,Firefox,100,0.0323826779786617,0,2,False,False,hard
+2756,yvq,Google Chrome,158,0.0528366530464743,0,2,False,False,hard
+346,hll,Google Chrome,91,0.4001181542154225,0,0,False,False,hard
+3091,meh,Firefox,102,0.0464158501679472,0,1,False,False,hard
+302,akx,Google Chrome,120,0.0528845652749817,0,0,False,False,hard
+2236,flj,Google Chrome,280,0.4745319704503424,0,0,False,False,hard
+618,ald,Google Chrome,65,0.2684039342283948,0,0,False,False,hard
+3026,nkb,Google Chrome,255,0.0019058186406406,0,0,False,False,hard
+3045,kwi,Firefox,109,0.0060555363731744,0,0,False,False,hard
+3191,tmn,Firefox,145,0.0726628397062564,0,5,True,False,rerankable
+2889,iyf,Google Chrome,71,0.0616667982270331,0,0,True,False,rerankable
+2275,fmz,Google Chrome,96,0.0895636464525936,0,0,True,False,rerankable
+2354,guh,Google Chrome,77,0.0009815853838383,0,0,True,False,rerankable
+2427,pgm,Firefox,309,0.1072936135117912,0,1,True,False,rerankable
+3084,mmo,Google Chrome,79,0.3229531546550107,0,0,True,False,rerankable
+2534,opp,Firefox,241,0.0343361710763506,1,16,True,False,rerankable
+2658,ufc,Google Chrome,428,0.0115894107549724,1,0,True,False,rerankable
+2562,xkr,Google Chrome,605,0.1142071703213108,0,1,True,False,rerankable
+2596,zok,Microsoft Edge,113,0.0772779978073845,0,0,True,False,rerankable
+2993,sbz,Google Chrome,392,0.0228175017902972,0,0,True,False,rerankable
+2901,flj,Google Chrome,47,0.0982557714215374,0,0,True,False,rerankable
+2955,azn,Google Chrome,83,0.217837760277172,0,0,True,False,rerankable
+4,ald,Google Chrome,173,0.0740332718081814,0,0,True,False,rerankable
+1166,udj,Microsoft Edge,98,0.1376750059548007,0,1,True,False,rerankable
+827,vyu,Firefox,152,0.0442031165965529,0,0,True,False,rerankable
+574,pou,Firefox,121,0.2654141696484551,0,2,True,False,rerankable
+2151,opp,Firefox,676,0.5453742903299349,0,1,True,False,rerankable
+417,zro,Firefox,77,0.0144639811571519,0,0,True,False,rerankable
+298,bos,Firefox,128,0.1113256376885921,0,0,True,False,rerankable
+1050,azx,Google Chrome,435,0.2356817317728666,0,0,True,False,rerankable
+297,azn,Google Chrome,87,0.1267524391962194,0,0,True,False,rerankable
+640,ald,Google Chrome,101,0.064575723880542,0,0,True,False,rerankable
+695,vyu,Firefox,126,0.2187538385461004,0,0,True,False,rerankable
+136,rvh,Google Chrome,413,0.0617886962655214,1,2,True,False,rerankable
+1675,xby,Firefox,73,0.0606510886191207,0,0,True,False,rerankable
+1694,tmn,Firefox,1405,0.2550592776251744,0,0,True,False,rerankable
+1731,lgd,Firefox,591,0.3711385013599652,0,0,True,False,rerankable
+91,xby,Firefox,82,0.1708111947774354,0,0,True,False,rerankable
+1834,itt,Google Chrome,901,0.3736544492416329,0,1,True,False,rerankable
+1922,zok,Microsoft Edge,694,0.0881663047958161,0,0,True,False,rerankable
+1379,slq,Google Chrome,32,0.1307940571992119,0,0,True,False,rerankable
+122,syt,Firefox,170,0.0014496656106934,0,1,False,True,snap_fixable
+576,lfq,Firefox,245,0.1156803955717069,2,14,True,True,snap_fixable
+2049,iyf,Google Chrome,188,0.5172464147112363,1,0,True,True,snap_fixable
+2805,flj,Google Chrome,125,0.8458179134107746,1,5,True,True,snap_fixable
+873,yrb,Microsoft Edge,83,0.2725672143469774,1,1,True,True,snap_fixable
+2828,hzx,Microsoft Edge,77,0.1129379835297428,0,6,False,True,snap_fixable
+924,yvq,Google Chrome,130,0.0089067307832345,1,0,False,True,snap_fixable
+950,pyb,Firefox,76,0.3264432622053186,0,1,True,True,snap_fixable
+1083,muz,Google Chrome,182,0.0203297922305264,1,6,True,True,snap_fixable
+1627,rmf,Microsoft Edge,64,0.0234213553772434,1,0,False,True,snap_fixable
+2488,flj,Google Chrome,47,0.3723928435680798,1,2,True,True,snap_fixable
+3255,lfq,Firefox,83,0.2526547269160938,2,20,True,True,snap_fixable
+786,skm,Google Chrome,40,0.0528141810984077,1,0,False,True,snap_fixable
+1776,sii,Firefox,173,0.0710477904839194,1,2,True,True,snap_fixable

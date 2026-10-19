@@ -1,0 +1,22 @@
+{
+  "status": "EXPERIMENTAL_NOT_PROMOTED",
+  "configuration": "behavioral_model('signatures')",
+  "source_directory": "reports/results/phase2/a1d191a9b558",
+  "train_rows": 3279,
+  "test_rows": 324,
+  "changed": 1,
+  "protected": {
+    "submissions/best_verified.csv": "ea7174fbb9a23453a84aa3716f43091b96e4e658187e2c1bca655070e251595d",
+    "artifacts/best_verified.joblib": "cbb0e32c6a73c2445cfc62443b28e1b1a3a1db7c6a140128d0121effb7740c7f",
+    "submissions/competitive.csv": "ea7174fbb9a23453a84aa3716f43091b96e4e658187e2c1bca655070e251595d",
+    "artifacts/competitive_final.joblib": "6387bc833f01c3ce91f5ed74c511526aac285b2c0acd42b8639d54e10680dd0e"
+  },
+  "csv_sha256": "c2d14a684f77e3cbe03c2873e3812f203a3226da5879d31ff845e2097f55760e",
+  "model_sha256": "9f4f24eb4c742494e0d895097ebf366752e56a4e304f23d7e4e1df37c9d32503",
+  "test_sha256": "a6d8728583924e65012ef70d1dc7f6e03f6a24d2453d12845e7aed30519cbece",
+  "sample_sha256": "6607b0e41d201359fb820172b6e726679fb53fda6502850309cb95aa42f95578",
+  "model_reload_exact": true,
+  "transductive": false,
+  "automatic_submission": false,
+  "promotion_criteria_changed": false
+}

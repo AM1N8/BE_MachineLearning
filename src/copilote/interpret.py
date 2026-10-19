@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from sklearn.metrics import accuracy_score, f1_score
-from sklearn.tree import DecisionTreeClassifier, plot_tree
+from sklearn.tree import DecisionTreeClassifier
 from threadpoolctl import threadpool_limits
 
 from copilote.evaluate import probabilities, scores
@@ -109,7 +109,8 @@ def run_interpretation(config: dict[str, Any]) -> dict[str, Any]:
         "models": {},
         "calibrated": reliability(y, calibrated_proba, calibrated.classes_),
     }
-    fig, axes = plt.subplots(1, 2, figsize=(10, 3.5))
+    fig, axes = plt.subplots(1, 2, figsize=(8.4, 3.2), constrained_layout=True)
+    plot_labels = {"winner": "SVM retenu", "forest": "Forêt aléatoire"}
     for name, model in (("winner", winner), ("forest", forest)):
         proba, probability_kind = probabilities(model, valid)
         predicted = model.predict(valid)
@@ -131,13 +132,13 @@ def run_interpretation(config: dict[str, Any]) -> dict[str, Any]:
             [b["confidence"] for b in calibration["bins"]],
             [b["accuracy"] for b in calibration["bins"]],
             "o-",
-            label=name,
+            label=plot_labels[name],
         )
         axes[1].plot(
             [p["coverage"] for p in calibration["coverage"]],
             [p["accuracy"] for p in calibration["coverage"]],
             "o-",
-            label=name,
+            label=plot_labels[name],
         )
         details = {
             "metrics": scores(y, predicted, proba, model.classes_),
@@ -270,19 +271,31 @@ def run_interpretation(config: dict[str, Any]) -> dict[str, Any]:
         [b["confidence"] for b in cal["bins"]],
         [b["accuracy"] for b in cal["bins"]],
         "o-",
-        label="sigmoïde interne",
+        label="SVM calibré",
     )
     axes[1].plot(
         [p["coverage"] for p in cal["coverage"]],
         [p["accuracy"] for p in cal["coverage"]],
         "o-",
-        label="sigmoïde interne",
+        label="SVM calibré",
     )
     axes[0].plot([0, 1], [0, 1], "k--", linewidth=0.7)
     axes[0].set(xlabel="Confiance moyenne", ylabel="Exactitude observée", xlim=(0, 1), ylim=(0, 1))
-    axes[1].set(xlabel="Couverture retenue", ylabel="Exactitude", ylim=(0, 1))
+    coverage_values = [
+        point["accuracy"]
+        for model_name in ("winner", "forest")
+        for point in result["models"][model_name]["calibration"]["coverage"]
+    ] + [point["accuracy"] for point in result["calibrated"]["coverage"]]
+    axes[1].set(
+        xlabel="Couverture retenue",
+        ylabel="Exactitude",
+        xlim=(0.2, 1.02),
+        ylim=(max(0.0, min(coverage_values) - 0.04), 1.01),
+    )
     for ax in axes:
-        ax.legend(fontsize=8)
+        ax.grid(alpha=0.2)
+    axes[0].legend(fontsize=7, loc="lower right")
+    axes[1].legend(fontsize=7, loc="lower right")
     save_figure("confidence")
     # A small dense-statistics tree illustrates rules, not the selected predictor.
     from sklearn.feature_extraction import DictVectorizer
@@ -294,16 +307,72 @@ def run_interpretation(config: dict[str, Any]) -> dict[str, Any]:
     tree = DecisionTreeClassifier(
         max_depth=2, min_samples_leaf=20, random_state=config["seed"]
     ).fit(dense, y_train)
-    plt.figure(figsize=(12, 4))
-    plot_tree(
-        tree,
-        feature_names=vectorizer.get_feature_names_out(),
-        class_names=tree.classes_,
-        impurity=False,
-        proportion=True,
-        filled=True,
-        fontsize=6,
-    )
+    fig, ax = plt.subplots(figsize=(8.5, 3.2), constrained_layout=True)
+    ax.set_axis_off()
+    structure = tree.tree_
+    leaves_below: dict[int, int] = {}
+
+    def count_leaves(node: int) -> int:
+        left, right = structure.children_left[node], structure.children_right[node]
+        leaves_below[node] = 1 if left == right else count_leaves(left) + count_leaves(right)
+        return leaves_below[node]
+
+    count_leaves(0)
+    positions: dict[int, tuple[float, float]] = {}
+    next_leaf = 0
+
+    def place(node: int, depth: int) -> float:
+        nonlocal next_leaf
+        left, right = structure.children_left[node], structure.children_right[node]
+        if left == right:
+            x = (next_leaf + 0.5) / leaves_below[0]
+            next_leaf += 1
+        else:
+            x = (place(left, depth + 1) + place(right, depth + 1)) / 2
+        positions[node] = (x, 0.92 - depth * 0.37)
+        return x
+
+    place(0, 0)
+    feature_labels = vectorizer.get_feature_names_out()
+    display_names = {
+        "action_entropy": "entropie d'actions",
+        "clock_gap_mean": "écart temporel moyen",
+        "suffix_fraction": "fraction de suffixes",
+        "token_count": "nombre de jetons",
+        "unique_actions": "actions distinctes",
+    }
+    for node, (x, y_node) in positions.items():
+        left, right = structure.children_left[node], structure.children_right[node]
+        samples = structure.weighted_n_node_samples[node] / structure.weighted_n_node_samples[0]
+        if left == right:
+            values = structure.value[node][0]
+            label = f"Classe {tree.classes_[int(np.argmax(values))]}\n{samples:.0%} des sessions"
+            color = "#e7f3ec"
+        else:
+            feature = str(feature_labels[structure.feature[node]])
+            feature = display_names.get(feature, feature.replace("_", " "))
+            label = f"{feature} ≤ {structure.threshold[node]:.2f}\n{samples:.0%} des sessions"
+            color = "#e8f0f8"
+        ax.text(
+            x,
+            y_node,
+            label,
+            ha="center",
+            va="center",
+            fontsize=7,
+            bbox={"boxstyle": "round,pad=0.45", "facecolor": color, "edgecolor": "#718096"},
+        )
+        if left != right:
+            for child, branch in ((left, "oui"), (right, "non")):
+                cx, cy = positions[child]
+                ax.annotate(
+                    "",
+                    xy=(cx, cy + 0.055),
+                    xytext=(x, y_node - 0.055),
+                    arrowprops={"arrowstyle": "->", "color": "#718096", "lw": 0.8},
+                )
+                ax.text((x + cx) / 2, (y_node + cy) / 2, branch, fontsize=6, color="#52606d")
+    ax.set(xlim=(0, 1), ylim=(-0.02, 1.05))
     save_figure("pruned_tree")
     result["pruned_tree"] = {
         "role": "Illustration only, depth 2 on log1p dense statistics",
@@ -339,14 +408,43 @@ def run_interpretation(config: dict[str, Any]) -> dict[str, Any]:
         "redundancy": "Corrélation, bigrammes redondants et navigateur constant ne signifient pas causalité. La suppression d'un bloc est vérifiée en CV de développement; la tolérance de 0,5 point ne remplace pas une analyse d'incertitude.",
     }
     write_json("reports/results/interpretability.json", result)
-    comparison = pd.read_csv("reports/results/model_comparison.csv").sort_values("macro_f1_mean")
-    plt.figure(figsize=(8, 7))
-    plt.barh(comparison.name, comparison.macro_f1_mean, xerr=comparison.macro_f1_std)
-    plt.xlabel("Macro-F1, moyenne ± écart-type (4 plis × 3 répétitions)")
+    comparison = pd.read_csv("reports/results/model_comparison.csv")
+    representative = [
+        "majority",
+        "random",
+        "browser",
+        "linear_unigrams",
+        "linear",
+        "linear_balanced",
+        "complement_nb",
+        "rbf",
+        "forest",
+        "mlp",
+        "stacking",
+    ]
+    comparison = comparison[comparison.name.isin(representative)].sort_values("macro_f1_mean")
+    labels = {
+        "majority": "Majoritaire",
+        "random": "Aléatoire",
+        "browser": "Navigateur",
+        "linear_unigrams": "SVM, unigrammes",
+        "linear": "SVM linéaire",
+        "linear_balanced": "SVM pondéré",
+        "complement_nb": "Naïf Bayes",
+        "rbf": "SVM RBF",
+        "forest": "Forêt",
+        "mlp": "Perceptron",
+        "stacking": "Empilement",
+    }
+    plt.figure(figsize=(7.5, 3.8))
+    plt.barh(comparison.name.map(labels), comparison.macro_f1_mean, xerr=comparison.macro_f1_std)
+    plt.xlabel("F1-macro, moyenne ± écart-type (4 plis × 3 répétitions)")
+    plt.xlim(left=0)
+    plt.grid(axis="x", alpha=0.2)
     save_figure("model_comparison")
     learning = json.loads(Path("reports/results/learning_curve.json").read_text())["points"]
     plt.figure(figsize=(6, 3))
-    for key, label in (("train_macro_f1", "apprentissage"), ("holdout_macro_f1", "holdout")):
+    for key, label in (("train_macro_f1", "apprentissage"), ("holdout_macro_f1", "validation")):
         plt.plot(
             [v["train_sessions"] for v in learning], [v[key] for v in learning], "o-", label=label
         )

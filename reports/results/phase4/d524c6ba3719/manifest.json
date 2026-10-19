@@ -1,0 +1,12 @@
+{
+  "sources": {
+    "phase4_forensics": "ce1acf40dcc057483bb8bb3d717837c6a25b17a14bc58212bcbe78c5322d03e4",
+    "tokens": "564db372e8308dc73471e5dfba509e9400f7a77633d3adb576c2596c2667b26e",
+    "io": "254d2a6330c53a1a8ec06e7e87145f13eb06cfafcb7c50807637f824beb6f38b",
+    "improvement": "5336e9d6ce686e0c73e11b46e1980dab26aabe45d06ba042a8ed50ffd8247999"
+  },
+  "train": "b1d32fed43795dd081add8ebac0c73211d719b58d66bb05d43e445e9a6491649",
+  "test": "a6d8728583924e65012ef70d1dc7f6e03f6a24d2453d12845e7aed30519cbece",
+  "seed": 42,
+  "stage": "forensics"
+}

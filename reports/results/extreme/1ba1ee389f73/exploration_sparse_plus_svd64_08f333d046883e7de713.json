@@ -1,0 +1,45 @@
+{
+  "name": "sparse_plus_svd64",
+  "spec": {
+    "svd": 64,
+    "svd_weight": 0.3
+  },
+  "stage": "exploration",
+  "signature": "1ba1ee389f7393f00c1317c762f3712fbd36032ddbe46946dee313a7f97f7833",
+  "mean": {
+    "accuracy": 0.9576798518034216,
+    "macro_f1": 0.9439556379419808
+  },
+  "std": {
+    "accuracy": 0.009920858788433863,
+    "macro_f1": 0.01582662316567454
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.9634285714285714,
+      "macro_f1": 0.9484830947187053,
+      "seconds": 16.926435529996525,
+      "warnings": []
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.9462242562929062,
+      "macro_f1": 0.9263586580334928,
+      "seconds": 17.18192386800365,
+      "warnings": []
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.9633867276887872,
+      "macro_f1": 0.957025161073744,
+      "seconds": 16.982675906001532,
+      "warnings": []
+    }
+  ],
+  "wall_seconds": 51.16678490400227,
+  "fit_seconds": 51.09103530400171,
+  "scores": "artifacts/extreme/scores_08f333d046883e7de713.npz",
+  "predictions": "reports/results/extreme/1ba1ee389f73/exploration_sparse_plus_svd64_08f333d046883e7de713.csv",
+  "official_metric": "F1 score moyen confirmed in supplied evaluation; macro averaging interpretation, backend unspecified"
+}

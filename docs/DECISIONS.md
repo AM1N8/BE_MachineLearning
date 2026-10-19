@@ -144,3 +144,39 @@ Full evidence: reports/phase4_experiment_results.md,
 reports/phase4_final_recommendation.md and signed artifacts under
 reports/results/phase4/ (research 85b76c4630ba, confirm 8492d196609f,
 seed44 951bd7da5015, challenger export c8a3d88dbf5c).
+
+## D15 — Audit generalization before further model optimization
+
+Context: the user reported public scores of 0.980 for the baseline, 0.983 for
+contextual signatures and 0.970 for the phase 4 burst hybrid. The hybrid had
+failed the original promotion criterion; its pooled evidence was post-hoc and
+the confirmation seeds were subsequently used to select its final weight.
+
+Options: (a) continue parameter search, (b) undo particular test predictions
+using leaderboard feedback, (c) audit the frozen models, scorer assumptions,
+split dependence, feature transfer and small-holdout uncertainty first.
+
+Choice: execute (c), with three frozen models, twelve 324-session stratified
+holdouts and four similarity-group stress holdouts; no new model, export or
+automatic submission. Keep the existing signatures submission as the best
+user-reported public result, retaining its experimental status. The original
+verified baseline remains the project's verified champion.
+
+Rationale: the primary corrected hybrid-minus-signatures interval includes zero
+and its mean gain is effectively null. Repeated seeds add no independent data.
+The available evaluation text says "F1 score moyen" without specifying exact
+averaging, absent-class policy or public subset size. Scalar and vocabulary
+transfer checks do not show a clear test-only breakdown; the atypical reverse
+source AUC remains exploratory evidence requiring collection provenance, not
+an explanation established from hidden labels. No test flip is adjudicated.
+
+Next gate: confirm the scoring and sampling contract, preregister one paired
+comparison and coverage sensitivities, then obtain genuinely new confirmation
+observations or usable collection metadata before claiming a promotion.
+Support-stable feature influence is a possible future hypothesis, not a model
+authorized by the present audit.
+
+Evidence: reports/phase5_validation_audit.md and signed JSON/CSV under
+reports/results/phase5/1ed0b3ef63ea/. Refits were first run under 4922593685dd
+and reused only after exact dependency, input and split checks. Earlier models,
+submissions and reports are preserved.

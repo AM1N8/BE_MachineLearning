@@ -1,0 +1,18 @@
+{
+  "signature": "56f29a9ab050c8c166a69ed03fb51be2de484aee4ad530fd73b121b47c2cde19",
+  "selected": "hellinger_svm_c10",
+  "spec": {
+    "method": "weighted_svm",
+    "power": 0.5,
+    "tf": "counts",
+    "C": 10,
+    "complexity": 1
+  },
+  "rows": 324,
+  "train_sha256": "b1d32fed43795dd081add8ebac0c73211d719b58d66bb05d43e445e9a6491649",
+  "test_sha256": "a6d8728583924e65012ef70d1dc7f6e03f6a24d2453d12845e7aed30519cbece",
+  "submission_sha256": "2eacc13a54d5c1fefe8bdca513a3eb75be0f4acba89f0d940d1355ad22c8cfbc",
+  "validated": true,
+  "transductive": false,
+  "kaggle_score": null
+}

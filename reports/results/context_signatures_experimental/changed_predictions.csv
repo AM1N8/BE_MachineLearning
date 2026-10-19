@@ -1,0 +1,2 @@
+RowId,baseline,challenger,changed,baseline_top2_gap,challenger_top2_gap,baseline_advantage_over_challenger,challenger_advantage_over_baseline,challenger_was_baseline_second,supported_classes
+237,czi,pgm,True,0.05502399618961551,0.0031460334901632914,0.05502399618961551,0.0031460334901632914,True,114

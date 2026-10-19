@@ -1,0 +1,44 @@
+{
+  "name": "champion",
+  "spec": {
+    "method": "champion"
+  },
+  "stage": "outer5_inner",
+  "signature": "1ba1ee389f7393f00c1317c762f3712fbd36032ddbe46946dee313a7f97f7833",
+  "mean": {
+    "accuracy": 0.9581132056741812,
+    "macro_f1": 0.9492697680859759
+  },
+  "std": {
+    "accuracy": 0.0006899354988175894,
+    "macro_f1": 0.00557566201805015
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.9585365853658536,
+      "macro_f1": 0.9503983285667849,
+      "seconds": 2.8933669079997344,
+      "warnings": []
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.9573170731707317,
+      "macro_f1": 0.9432161554298404,
+      "seconds": 2.926015716002439,
+      "warnings": []
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.9584859584859585,
+      "macro_f1": 0.9541948202613022,
+      "seconds": 2.8132724479946773,
+      "warnings": []
+    }
+  ],
+  "wall_seconds": 8.704578935001337,
+  "fit_seconds": 8.632655071996851,
+  "scores": "artifacts/extreme/scores_25774d31b33b2c7d854d.npz",
+  "predictions": "reports/results/extreme/1ba1ee389f73/outer5_inner_champion_25774d31b33b2c7d854d.csv",
+  "official_metric": "F1 score moyen confirmed in supplied evaluation; macro averaging interpretation, backend unspecified"
+}

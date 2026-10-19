@@ -1,0 +1,4 @@
+a,b,n,disagreements,a_wrong_b_correct,a_correct_b_wrong,both_wrong,oracle_accuracy_not_achievable_score
+champion,sqrt_tfidf,9837,193,65,73,245,0.975094032733557
+champion,original,9837,72,14,37,296,0.9699095252617668
+sqrt_tfidf,original,9837,230,78,93,240,0.9756023177798109

@@ -1,0 +1,24 @@
+{
+  "browsers": [
+    "Firefox",
+    "Google Chrome",
+    "Microsoft Edge",
+    "Opera"
+  ],
+  "counts": [
+    [
+      1466,
+      1339,
+      451,
+      23
+    ],
+    [
+      147,
+      133,
+      42,
+      2
+    ]
+  ],
+  "chi2": 0.197131585280615,
+  "pvalue": 0.9780510243982949
+}

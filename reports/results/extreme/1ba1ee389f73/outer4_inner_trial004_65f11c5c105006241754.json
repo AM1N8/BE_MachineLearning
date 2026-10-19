@@ -1,0 +1,47 @@
+{
+  "name": "trial004",
+  "spec": {
+    "C": 0.43503430275076255,
+    "min_df": 3,
+    "class_weight": "balanced",
+    "skip": 0.5986629236379359
+  },
+  "stage": "outer4_inner",
+  "signature": "1ba1ee389f7393f00c1317c762f3712fbd36032ddbe46946dee313a7f97f7833",
+  "mean": {
+    "accuracy": 0.9450946524117256,
+    "macro_f1": 0.9326151642254583
+  },
+  "std": {
+    "accuracy": 0.01167634711729728,
+    "macro_f1": 0.01009634525002933
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.9560975609756097,
+      "macro_f1": 0.9422408179503554,
+      "seconds": 18.760447934000695,
+      "warnings": []
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.9463414634146341,
+      "macro_f1": 0.9334985010004125,
+      "seconds": 18.62512803899881,
+      "warnings": []
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.9328449328449329,
+      "macro_f1": 0.9221061737256069,
+      "seconds": 18.73754516599729,
+      "warnings": []
+    }
+  ],
+  "wall_seconds": 56.24565817000257,
+  "fit_seconds": 56.123121138996794,
+  "scores": "artifacts/extreme/scores_65f11c5c105006241754.npz",
+  "predictions": "reports/results/extreme/1ba1ee389f73/outer4_inner_trial004_65f11c5c105006241754.csv",
+  "official_metric": "F1 score moyen confirmed in supplied evaluation; macro averaging interpretation, backend unspecified"
+}

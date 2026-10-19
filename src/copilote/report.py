@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import re
 import subprocess
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -16,6 +17,7 @@ from copilote.settings import provenance
 LATEX_DIR = Path("reports/latex")
 PREAMBLE = r"""\documentclass[11pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
+\usepackage{cmap}
 \usepackage[T1]{fontenc}
 \IfFileExists{french.ldf}{\usepackage[french]{babel}}{%
   \usepackage[english]{babel}%
@@ -25,6 +27,10 @@ PREAMBLE = r"""\documentclass[11pt,a4paper]{article}
 \usepackage[margin=2cm]{geometry}
 \usepackage{graphicx}
 \usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{placeins}
+\usepackage[protrusion=true,expansion=false]{microtype}
 \usepackage{amsmath}
 \usepackage{xcolor}
 \usepackage{caption}
@@ -33,8 +39,32 @@ PREAMBLE = r"""\documentclass[11pt,a4paper]{article}
 \captionsetup{font=small}
 \setlength{\parskip}{0.35em}
 \setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\frenchspacing
 \newcommand{\code}[1]{\texttt{\detokenize{#1}}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 """
+
+FRENCH_MONTHS = (
+    "janvier",
+    "février",
+    "mars",
+    "avril",
+    "mai",
+    "juin",
+    "juillet",
+    "août",
+    "septembre",
+    "octobre",
+    "novembre",
+    "décembre",
+)
+
+
+def _french_date(value: date) -> str:
+    """Format a date in French independently of installed Babel language files."""
+    return f"{value.day} {FRENCH_MONTHS[value.month - 1]} {value.year}"
 
 
 def read_json(path: str | Path) -> dict[str, Any]:
@@ -60,7 +90,7 @@ def latex_table(frame: pd.DataFrame, caption: str, label: str, float_format: str
 
 
 def comparison_table(config: dict[str, Any]) -> str:
-    """Model comparison table restricted to the most informative rows for the page budget."""
+    """Render a compact, readable subset of measured model comparisons."""
     frame = pd.read_csv("reports/results/model_comparison.csv")
     keep = [
         "majority",
@@ -69,51 +99,45 @@ def comparison_table(config: dict[str, Any]) -> str:
         "linear_unigrams",
         "linear",
         "linear_balanced",
-        "logistic",
-        "sgd_elasticnet",
         "ridge",
         "complement_nb",
         "rbf",
-        "poly",
         "forest",
-        "extra_trees",
-        "hist_gradient",
         "mlp",
-        "knn",
-        "soft_vote",
         "stacking",
     ]
     frame = frame[frame.name.isin(keep)].copy()
-    frame["modèle"] = frame.name
-    table = frame[
-        [
-            "modèle",
-            "accuracy_mean",
-            "accuracy_std",
-            "macro_f1_mean",
-            "macro_f1_std",
-            "balanced_accuracy_mean",
-            "top5_mean",
-            "log_loss_mean",
-            "fit_seconds_mean",
-        ]
-    ]
-    table.columns = [
-        "Modèle",
-        "Acc",
-        "±",
-        "F1-macro",
-        "±",
-        "Acc. équil.",
-        "Top-5",
-        "Log-loss",
-        "Temps (s)",
-    ]
-    return latex_table(
+    labels = {
+        "majority": "Classe majoritaire",
+        "random": "Aléatoire",
+        "browser": "Navigateur seul",
+        "linear_unigrams": "SVM linéaire, unigrammes",
+        "linear": "SVM linéaire",
+        "linear_balanced": "SVM linéaire, pondéré",
+        "ridge": "Ridge",
+        "complement_nb": "Naïf Bayes complémentaire",
+        "rbf": "SVM RBF",
+        "forest": "Forêt aléatoire",
+        "mlp": "Perceptron multicouche",
+        "stacking": "Empilement",
+    }
+    frame["Modèle"] = frame.name.map(labels)
+    frame["Exactitude"] = frame.apply(
+        lambda row: f"{row.accuracy_mean:.3f} ({row.accuracy_std:.3f})", axis=1
+    )
+    frame["F1-macro"] = frame.apply(
+        lambda row: f"{row.macro_f1_mean:.3f} ({row.macro_f1_std:.3f})", axis=1
+    )
+    frame["Équil."] = frame.balanced_accuracy_mean.map(lambda value: f"{value:.3f}")
+    frame["Top-5"] = frame.top5_mean.map(lambda value: f"{value:.3f}")
+    frame["Temps (s)"] = frame.fit_seconds_mean.map(lambda value: f"{value:.1f}")
+    table = frame[["Modèle", "Exactitude", "F1-macro", "Équil.", "Top-5", "Temps (s)"]]
+    rendered = latex_table(
         table,
-        "Comparaison des modèles : moyenne ± écart-type sur 4 plis stratifiés × 3 répétitions (train complet).",
+        "Comparaison sur 4 plis stratifiés et 3 répétitions (moyenne (écart-type) pour exactitude et F1-macro).",
         "tab:models",
     )
+    return rendered.replace("\\begin{table}[htbp]", "\\begin{table}[!htbp]\n\\small")
 
 
 def family_table() -> str:
@@ -123,43 +147,51 @@ def family_table() -> str:
     families = pd.DataFrame(
         [
             [
-                "A. Actions brutes",
-                "Séquence complète des actions/écrans/configs",
-                "généalogie du comportement",
-                "unigrammes→trigrammes",
+                "A. Séquence",
+                "Actions complètes et contextes associés",
+                "Signature des parcours",
+                "1-3-grammes",
             ],
             [
                 "B. Action seule",
-                "verbe d'action sans contexte",
-                "style d'usage",
-                "unigrammes→trigrammes",
+                "Verbe d'action sans contexte",
+                "Style d'usage",
+                "1-3-grammes",
             ],
             [
                 "C. Contexte",
-                "écran, config, chaîne, paires action-contexte",
-                "module métier utilisé",
-                "unigrammes→trigrammes",
+                "Écran, configuration, chaîne et paires",
+                "Module métier utilisé",
+                "1-3-grammes",
             ],
             [
-                "D. Position/Temps",
-                "début/fin de session, intervalles tNN discrétisés",
-                "rythme et point d'entrée",
-                "unigrammes positionnels",
+                "D. Position",
+                "Début, fin et intervalles temporels",
+                "Rythme et point d'entrée",
+                "Unigrammes positionnels",
             ],
             [
-                "E. Statistiques",
-                "statistiques de session (longueur, entropie, resets)",
-                "profil quantitatif",
+                "E. Stats",
+                "Longueur, entropie et remises à zéro",
+                "Profil quantitatif",
                 "19 variables standardisées",
             ],
         ],
         columns=["Famille", "Contenu", "Hypothèse comportementale", "Encodage"],
     )
-    return latex_table(
+    rendered = latex_table(
         families,
-        f"Familles de caractéristiques et hypothèses associées (matrice brute de {dimensions} colonnes).",
+        f"Familles de caractéristiques et hypothèses associées (matrice brute de {dimensions:,} colonnes).".replace(
+            ",", " "
+        ),
         "tab:families",
     )
+    rendered = rendered.replace("\\begin{table}[htbp]", "\\begin{table}[!htbp]\n\\small")
+    rendered = rendered.replace(
+        "\\begin{tabular}{llll}",
+        "\\begin{tabularx}{\\linewidth}{>{\\raggedright\\arraybackslash}p{2.2cm} Y Y >{\\raggedright\\arraybackslash}p{2.7cm}}",
+    )
+    return rendered.replace("\\end{tabular}", "\\end{tabularx}")
 
 
 def _length_label(bucket: object) -> str:
@@ -171,8 +203,8 @@ def _length_label(bucket: object) -> str:
     if len(numbers) < 2:
         return str(bucket)
     low = f"{float(numbers[0]):.0f}"
-    high = numbers[1]
-    return f"{low}-{high}" if high != "inf" else f"{low}+"
+    high = numbers[1] if numbers[1] == "inf" else f"{float(numbers[1]):.0f}"
+    return f"{low}–{high}" if high != "inf" else f"{low}+"
 
 
 def build_tex(config: dict[str, Any]) -> str:
@@ -190,10 +222,19 @@ def build_tex(config: dict[str, Any]) -> str:
     selected_std = evaluation["repeated"][selected]["std"]
     headline = holdout["metrics"]
     report = config["report"]
+    learning_frame = pd.DataFrame(learning)[
+        ["fraction", "train_sessions", "train_macro_f1", "holdout_macro_f1"]
+    ].copy()
+    learning_frame["fraction"] = learning_frame.fraction.map(lambda value: f"{value:.0%}")
+    learning_frame["train_macro_f1"] = learning_frame.train_macro_f1.map(
+        lambda value: f"{value:.3f}"
+    )
+    learning_frame["holdout_macro_f1"] = learning_frame.holdout_macro_f1.map(
+        lambda value: f"{value:.3f}"
+    )
+    learning_frame.columns = ["Part du train", "Sessions", "F1 train", "F1 validation"]
     learning_table = latex_table(
-        pd.DataFrame(learning)[
-            ["fraction", "train_sessions", "train_macro_f1", "holdout_macro_f1"]
-        ],
+        learning_frame,
         "Courbe d'apprentissage du modèle retenu (diagnostic post-verrouillage).",
         "tab:learning",
     )
@@ -201,6 +242,11 @@ def build_tex(config: dict[str, Any]) -> str:
         pd.DataFrame(interpretation["models"]["winner"]["grouped_permutation"])
         .sort_values("macro_f1_loss_mean", ascending=False)
         .head(8)
+    )
+    permutation["family"] = (
+        permutation["family"]
+        .map({"raw": "Séquence brute", "browser": "Navigateur"})
+        .fillna(permutation["family"])
     )
     permutation.columns = ["Famille", "Colonnes", "Perte F1-macro", "Écart-type"]
     permutation_table = latex_table(
@@ -210,6 +256,10 @@ def build_tex(config: dict[str, Any]) -> str:
     )
     length_frame = pd.DataFrame(interpretation["models"]["winner"]["accuracy_by_length"])
     length_frame["length_bucket"] = length_frame["length_bucket"].map(_length_label)
+    length_order = {"0–100": 0, "100–500": 1, "500–2000": 2, "2000+": 3}
+    length_frame = length_frame.sort_values(
+        "length_bucket", key=lambda values: values.map(length_order)
+    )
     length_frame.columns = ["Longueur (tokens)", "Exactitude", "Sessions"]
     length_table = latex_table(
         length_frame, "Exactitude par tranche de longueur de session (holdout).", "tab:length"
@@ -220,18 +270,22 @@ def build_tex(config: dict[str, Any]) -> str:
         confusion, "Principales confusions sur le holdout.", "tab:confusion", float_format="%d"
     )
     support = sorted(eda["class_support"].values())
+    team = report["team"]
+    group = report["group"]
+    if "non communiqué" in team.lower() or "non communiqué" in group.lower():
+        team, group = "Projet Copilote", "Rapport de science des données"
     return (
         PREAMBLE
         + rf"""
 \title{{Classification de sessions Copilote par utilisateur}}
-\author{{{report["team"]} \\ {report["group"]} \\ \url{{{report["repo_url"]}}}}}
-\date{{\today}}
+\author{{{team} \\ {group}}}
+\date{{{_french_date(date.today())}}}
 \begin{{document}}
 \maketitle
 
 \section{{Introduction}}
 Copilote est l'application de gestion documentaire d'Infologic. Chaque session est une
-séquence d'actions \code{{action(écran,config,chaîne)1}} où le suffixe \code{{1}} marque une
+séquence d'actions de la forme \code{{action(screen,config,chain)1}} où le suffixe \code{{1}} marque une
 fin d'action, et où les jetons \code{{tNN}} encodent un repère temporel. La tâche est
 d'attribuer chaque session à l'un des {loading["classes"]} utilisateurs enregistrés. Les
 classes sont très déséquilibrées (de {min(support)} à {max(support)} sessions; objectif Kaggle
@@ -256,6 +310,7 @@ Le décalage train/test est décrit par des tests de Kolmogorov-Smirnov descript
 \includegraphics[width=\linewidth]{{eda_overview.pdf}}
 \caption{{Vue d'ensemble : distribution des longueurs, entropie d'actions et repères temporels.}}
 \end{{figure}}
+\FloatBarrier
 
 \section{{Construction des caractéristiques}}
 Toutes les transformations sont ajustées à l'intérieur des plis d'apprentissage. Le tableau
@@ -289,8 +344,9 @@ navigateur ni de la classe majoritaire.
 
 \begin{{figure}}[htbp]\centering
 \includegraphics[width=0.9\linewidth]{{model_comparison.pdf}}
-\caption{{Comparaison des modèles (moyenne ± écart-type, 4 plis × 3 répétitions).}}
+\caption{{Comparaison des modèles (moyenne ± écart-type, 4 plis et 3 répétitions).}}
 \end{{figure}}
+\FloatBarrier
 
 \subsection{{Ablations et courbe d'apprentissage}}
 Les ablations par famille (tableau \ref{{tab:permutation}}) et la courbe
@@ -300,8 +356,11 @@ post-verrouillage; elles n'ont pas servi à choisir le modèle.
 {learning_table}
 \begin{{figure}}[htbp]\centering
 \includegraphics[width=0.6\linewidth]{{learning_curve.pdf}}
-\caption{{Courbe d'apprentissage : macro-F1 train et holdout selon la taille d'apprentissage.}}
+\caption{{Courbe d'apprentissage : macro-F1 apprentissage et validation selon la taille d'apprentissage.}}
 \end{{figure}}
+Le F1 d'entraînement reste à 1,000 aux trois tailles, tandis que le score de validation
+progresse de 0,890 à 0,941 : le modèle mémorise le train et bénéficie encore de davantage
+de sessions. Cette courbe post-sélection est un diagnostic, pas une estimation indépendante.
 
 \subsection{{Analyse des erreurs}}
 L'exactitude baisse sur les sessions très courtes, où le signal disponible est faible, alors que
@@ -314,27 +373,31 @@ confusions se concentrent entre utilisateurs partageant les mêmes modules (tabl
 \end{{figure}}
 {length_table}
 {confusion_table}
+\FloatBarrier
 
 \section{{Interprétabilité et discussion}}
 \textbf{{Confiance.}} L'ECE mesuré sur le holdout est
-{interpretation["models"]["winner"]["calibration"]["ece"]:.3f}. Le SVM natif n'expose pas de
-probabilités; la log-loss et la fiabilité reposent sur un softmax de marges explicitement non
-calibré, ou sur la calibration sigmoïde interne. L'analyse d'abstention montre qu'une couverture
-réduite augmente l'exactitude (figure précédente).
+{interpretation["models"]["winner"]["calibration"]["ece"]:.3f} pour le softmax non calibré des marges,
+contre {interpretation["calibrated"]["ece"]:.3f} après calibration sigmoïde interne. Le SVM natif
+n'expose pas de probabilités; les valeurs calibrées servent à exprimer la confiance, sans modifier
+les prédictions de classe. L'analyse d'abstention montre qu'une couverture réduite augmente
+ l'exactitude (figure précédente).\par\smallskip
 \textbf{{Explication locale.}} Pour le modèle retenu, la contribution d'un jeton est exactement
 \code{{coefficient $\times$ valeur TF-IDF}} plus l'ordonnée à l'origine; pour la forêt aléatoire,
 nous fournissons une décomposition exacte des probabilités le long des chemins, sans prétendre à
 des valeurs de Shapley. Un arbre de profondeur 2 sur les statistiques denses illustre des règles
-lisibles.
+ lisibles.\par\smallskip
 \begin{{figure}}[htbp]\centering
 \includegraphics[width=\linewidth]{{pruned_tree.pdf}}
 \caption{{Arbre de profondeur 2 sur statistiques denses (illustration pédagogique, pas le modèle retenu).}}
 \end{{figure}}
+\par\smallskip
 \textbf{{Variables influentes et redondance.}} La permutation groupée (tableau
-\ref{{tab:permutation}}) montre l'apport des familles A/C; les motifs récurrents
+\ref{{tab:permutation}}) montre que la séquence brute domine et que le navigateur contribue
+secondairement; les motifs récurrents
 (écran\,$\to$\,action) ont un sens comportemental. La sélection de représentants de clusters
 permet de retirer des colonnes redondantes avec une perte mesurée, documentée dans
-\code{{interpretability.json}}.
+\code{{interpretability.json}}.\par\smallskip
 \textbf{{Limites.}} {len(support)} classes avec peu de sessions chacune, dérive temporelle,
 test de {loading["test_sessions"]} lignes bruité, et ré-identification potentielle des
 utilisateurs: autant de raisons de préférer un modèle simple et validé à un score fragile.
@@ -355,7 +418,15 @@ d'équité par utilisateur, sous contrainte de confidentialité. La soumission
 def check_page_count(minimum: int = 5, maximum: int = 8) -> int:
     """Compile the report and fail unless the PDF page count is within bounds."""
     command = ["latexmk", "-pdf", "-interaction=nonstopmode", "-halt-on-error", "main.tex"]
-    subprocess.run(command, cwd=LATEX_DIR, check=True, capture_output=True, text=True)
+    subprocess.run(
+        command,
+        cwd=LATEX_DIR,
+        check=True,
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+    )
     info = subprocess.run(
         ["pdfinfo", "main.pdf"], cwd=LATEX_DIR, check=True, capture_output=True, text=True
     )

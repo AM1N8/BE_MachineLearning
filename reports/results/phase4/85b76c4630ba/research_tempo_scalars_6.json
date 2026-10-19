@@ -1,0 +1,8 @@
+{
+  "experiment": "tempo_scalars",
+  "fold": 6,
+  "seconds": 7.470791075000307,
+  "accuracy": 0.9573170731707317,
+  "macro_f1": 0.9453366512976572,
+  "weighted_f1": 0.9534858721010839
+}

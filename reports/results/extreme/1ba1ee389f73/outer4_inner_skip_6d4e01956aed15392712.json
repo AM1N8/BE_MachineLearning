@@ -1,0 +1,44 @@
+{
+  "name": "skip",
+  "spec": {
+    "skip": 0.5
+  },
+  "stage": "outer4_inner",
+  "signature": "1ba1ee389f7393f00c1317c762f3712fbd36032ddbe46946dee313a7f97f7833",
+  "mean": {
+    "accuracy": 0.94916366379781,
+    "macro_f1": 0.9338945186698213
+  },
+  "std": {
+    "accuracy": 0.006750470426412108,
+    "macro_f1": 0.005188530373231374
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.9560975609756097,
+      "macro_f1": 0.9380728743575197,
+      "seconds": 19.950742321998405,
+      "warnings": []
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.948780487804878,
+      "macro_f1": 0.9355237887877237,
+      "seconds": 19.90493582400086,
+      "warnings": []
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.9426129426129426,
+      "macro_f1": 0.9280868928642207,
+      "seconds": 19.888137940994056,
+      "warnings": []
+    }
+  ],
+  "wall_seconds": 59.81503799100028,
+  "fit_seconds": 59.74381608699332,
+  "scores": "artifacts/extreme/scores_6d4e01956aed15392712.npz",
+  "predictions": "reports/results/extreme/1ba1ee389f73/outer4_inner_skip_6d4e01956aed15392712.csv",
+  "official_metric": "F1 score moyen confirmed in supplied evaluation; macro averaging interpretation, backend unspecified"
+}

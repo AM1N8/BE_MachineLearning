@@ -1,0 +1,7 @@
+{
+  "source_hash": "4e708b92b2085bb2e58d1441397ae92baafef26c47128825463cde8b54110eda",
+  "audit_manifest": "35e835aa26c67047b31a8475125beb5c56ad7c4f3165c347f2511cd9460624c6",
+  "seed": 42,
+  "source_permutations": 39,
+  "conditional_resampling_not_external_confirmation": true
+}

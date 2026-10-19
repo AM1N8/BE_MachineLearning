@@ -1,0 +1,44 @@
+{
+  "name": "rhythm",
+  "spec": {
+    "rhythm": 0.3
+  },
+  "stage": "outer2_inner",
+  "signature": "1ba1ee389f7393f00c1317c762f3712fbd36032ddbe46946dee313a7f97f7833",
+  "mean": {
+    "accuracy": 0.9487611304684475,
+    "macro_f1": 0.9294276691396428
+  },
+  "std": {
+    "accuracy": 0.0036295392951864757,
+    "macro_f1": 0.0031800997807346185
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.9451219512195121,
+      "macro_f1": 0.9264356746361601,
+      "seconds": 13.62288960400474,
+      "warnings": []
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.948780487804878,
+      "macro_f1": 0.9290800256227488,
+      "seconds": 13.697675226998399,
+      "warnings": []
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.9523809523809523,
+      "macro_f1": 0.9327673071600198,
+      "seconds": 13.808327896993433,
+      "warnings": []
+    }
+  ],
+  "wall_seconds": 41.2018750779971,
+  "fit_seconds": 41.12889272799657,
+  "scores": "artifacts/extreme/scores_34f6673d82df1a1bdbfe.npz",
+  "predictions": "reports/results/extreme/1ba1ee389f73/outer2_inner_rhythm_34f6673d82df1a1bdbfe.csv",
+  "official_metric": "F1 score moyen confirmed in supplied evaluation; macro averaging interpretation, backend unspecified"
+}

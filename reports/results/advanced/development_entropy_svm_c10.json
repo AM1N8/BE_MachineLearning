@@ -1,0 +1,40 @@
+{
+  "signature": "56f29a9ab050c8c166a69ed03fb51be2de484aee4ad530fd73b121b47c2cde19",
+  "spec": {
+    "method": "weighted_svm",
+    "weighting": "entropy",
+    "C": 10,
+    "complexity": 1
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.9451428571428572,
+      "macro_f1": 0.9114280652455024,
+      "seconds": 3.9680475829954958,
+      "warnings": []
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.9405034324942791,
+      "macro_f1": 0.9056996873562542,
+      "seconds": 4.045850652997615,
+      "warnings": []
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.9439359267734554,
+      "macro_f1": 0.9198520943668621,
+      "seconds": 3.900110754999332,
+      "warnings": []
+    }
+  ],
+  "mean": {
+    "accuracy": 0.943194072136864,
+    "macro_f1": 0.9123266156562062
+  },
+  "std": {
+    "accuracy": 0.002407036870060896,
+    "macro_f1": 0.0071188623163331525
+  }
+}

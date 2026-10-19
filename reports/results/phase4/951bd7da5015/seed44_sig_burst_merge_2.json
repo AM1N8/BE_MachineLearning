@@ -1,0 +1,8 @@
+{
+  "experiment": "sig_burst_merge",
+  "fold": 2,
+  "seconds": 12.148245628999575,
+  "accuracy": 0.9719512195121951,
+  "macro_f1": 0.9691884328470735,
+  "weighted_f1": 0.970111389822558
+}

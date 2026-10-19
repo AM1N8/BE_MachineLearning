@@ -1,5 +1,6 @@
 \documentclass[11pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
+\usepackage{cmap}
 \usepackage[T1]{fontenc}
 \IfFileExists{french.ldf}{\usepackage[french]{babel}}{%
   \usepackage[english]{babel}%
@@ -9,6 +10,10 @@
 \usepackage[margin=2cm]{geometry}
 \usepackage{graphicx}
 \usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{placeins}
+\usepackage[protrusion=true,expansion=false]{microtype}
 \usepackage{amsmath}
 \usepackage{xcolor}
 \usepackage{caption}
@@ -17,17 +22,21 @@
 \captionsetup{font=small}
 \setlength{\parskip}{0.35em}
 \setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\frenchspacing
 \newcommand{\code}[1]{\texttt{\detokenize{#1}}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 
 \title{Classification de sessions Copilote par utilisateur}
-\author{Équipe — identité non communiquée \\ TD non communiqué \\ \url{URL non communiquée}}
-\date{\today}
+\author{Projet Copilote \\ Rapport de science des données}
+\date{13 octobre 2026}
 \begin{document}
 \maketitle
 
 \section{Introduction}
 Copilote est l'application de gestion documentaire d'Infologic. Chaque session est une
-séquence d'actions \code{action(écran,config,chaîne)1} où le suffixe \code{1} marque une
+séquence d'actions de la forme \code{action(screen,config,chain)1} où le suffixe \code{1} marque une
 fin d'action, et où les jetons \code{tNN} encodent un repère temporel. La tâche est
 d'attribuer chaque session à l'un des 247 utilisateurs enregistrés. Les
 classes sont très déséquilibrées (de 4 à 75 sessions; objectif Kaggle
@@ -52,6 +61,7 @@ Le décalage train/test est décrit par des tests de Kolmogorov-Smirnov descript
 \includegraphics[width=\linewidth]{eda_overview.pdf}
 \caption{Vue d'ensemble : distribution des longueurs, entropie d'actions et repères temporels.}
 \end{figure}
+\FloatBarrier
 
 \section{Construction des caractéristiques}
 Toutes les transformations sont ajustées à l'intérieur des plis d'apprentissage. Le tableau
@@ -60,20 +70,21 @@ jetons afin de capturer les séquences d'écrans, la famille C isole le contexte
 famille E ajoute un profil quantitatif standardisé. Un test verrouille l'absence de fuite: un
 jeton ou un navigateur absent des plis d'apprentissage ne peut pas apparaître dans le
 vocabulaire, et les transformateurs non ajustés restent inchangés.
-\begin{table}[htbp]
-\caption{Familles de caractéristiques et hypothèses associées (matrice brute de 45140 colonnes).}
+\begin{table}[!htbp]
+\small
+\caption{Familles de caractéristiques et hypothèses associées (matrice brute de 45 140 colonnes).}
 \label{tab:families}
-\begin{tabular}{llll}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{2.2cm} Y Y >{\raggedright\arraybackslash}p{2.7cm}}
 \toprule
 Famille & Contenu & Hypothèse comportementale & Encodage \\
 \midrule
-A. Actions brutes & Séquence complète des actions/écrans/configs & généalogie du comportement & unigrammes→trigrammes \\
-B. Action seule & verbe d'action sans contexte & style d'usage & unigrammes→trigrammes \\
-C. Contexte & écran, config, chaîne, paires action-contexte & module métier utilisé & unigrammes→trigrammes \\
-D. Position/Temps & début/fin de session, intervalles tNN discrétisés & rythme et point d'entrée & unigrammes positionnels \\
-E. Statistiques & statistiques de session (longueur, entropie, resets) & profil quantitatif & 19 variables standardisées \\
+A. Séquence & Actions complètes et contextes associés & Signature des parcours & 1-3-grammes \\
+B. Action seule & Verbe d'action sans contexte & Style d'usage & 1-3-grammes \\
+C. Contexte & Écran, configuration, chaîne et paires & Module métier utilisé & 1-3-grammes \\
+D. Position & Début, fin et intervalles temporels & Rythme et point d'entrée & Unigrammes positionnels \\
+E. Stats & Longueur, entropie et remises à zéro & Profil quantitatif & 19 variables standardisées \\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{table}
 
 
@@ -96,32 +107,26 @@ répétée sur le train complet, la F1-macro vaut 0.958 ±
 0.009. La calibration sigmoïde interne n'améliore pas la F1-macro de
 façon décisive. Les baselines confirment que le signal provient bien des séquences, non du
 navigateur ni de la classe majoritaire.
-\begin{table}[htbp]
-\caption{Comparaison des modèles : moyenne ± écart-type sur 4 plis stratifiés × 3 répétitions (train complet).}
+\begin{table}[!htbp]
+\small
+\caption{Comparaison sur 4 plis stratifiés et 3 répétitions (moyenne (écart-type) pour exactitude et F1-macro).}
 \label{tab:models}
-\begin{tabular}{lrrrrrrrr}
+\begin{tabular}{llllll}
 \toprule
-Modèle & Acc & ± & F1-macro & ± & Acc. équil. & Top-5 & Log-loss & Temps (s) \\
+Modèle & Exactitude & F1-macro & Équil. & Top-5 & Temps (s) \\
 \midrule
-majority & 0.023 & 0.001 & 0.000 & 0.000 & 0.004 & 0.039 & 35.219 & 1.004 \\
-random & 0.006 & 0.003 & 0.004 & 0.002 & 0.004 & 0.022 & 35.813 & 1.148 \\
-browser & 0.051 & 0.001 & 0.005 & 0.000 & 0.016 & 0.176 & 4.313 & 0.006 \\
-linear & 0.961 & 0.005 & 0.948 & 0.007 & 0.949 & 0.993 & 4.083 & 4.070 \\
-logistic & 0.785 & 0.007 & 0.639 & 0.010 & 0.651 & 0.924 & 2.686 & 17.110 \\
-ridge & 0.933 & 0.006 & 0.902 & 0.010 & 0.904 & 0.990 & 4.592 & 8.902 \\
-complement\_nb & 0.803 & 0.012 & 0.713 & 0.016 & 0.728 & 0.964 & 4.466 & 1.327 \\
-rbf & 0.928 & 0.008 & 0.896 & 0.010 & 0.894 & 0.967 & 1.042 & 15.883 \\
-forest & 0.912 & 0.008 & 0.879 & 0.016 & 0.881 & 0.983 & 1.191 & 6.201 \\
-extra\_trees & 0.923 & 0.010 & 0.893 & 0.014 & 0.895 & 0.984 & 1.100 & 5.419 \\
-hist\_gradient & 0.724 & 0.012 & 0.659 & 0.015 & 0.659 & 0.848 & 1.757 & 4.330 \\
-mlp & 0.924 & 0.005 & 0.911 & 0.008 & 0.916 & 0.983 & 0.299 & 4.189 \\
-knn & 0.910 & 0.009 & 0.900 & 0.007 & 0.902 & 0.960 & 1.601 & 1.016 \\
-soft\_vote & 0.911 & 0.007 & 0.875 & 0.015 & 0.876 & 0.983 & 1.971 & 21.554 \\
-stacking & 0.447 & 0.013 & 0.281 & 0.008 & 0.272 & 0.523 & 4.218 & 18.901 \\
-sgd\_elasticnet & 0.912 & 0.009 & 0.865 & 0.013 & 0.868 & 0.977 & 1.543 & 7.038 \\
-poly & 0.930 & 0.007 & 0.903 & 0.011 & 0.900 & 0.971 & 0.953 & 15.462 \\
-linear\_unigrams & 0.927 & 0.003 & 0.899 & 0.009 & 0.904 & 0.989 & 3.982 & 0.705 \\
-linear\_balanced & 0.966 & 0.005 & 0.958 & 0.009 & 0.961 & 0.993 & 4.126 & 3.355 \\
+Classe majoritaire & 0.023 (0.001) & 0.000 (0.000) & 0.004 & 0.039 & 1.0 \\
+Aléatoire & 0.006 (0.003) & 0.004 (0.002) & 0.004 & 0.022 & 1.1 \\
+Navigateur seul & 0.051 (0.001) & 0.005 (0.000) & 0.016 & 0.176 & 0.0 \\
+SVM linéaire & 0.961 (0.005) & 0.948 (0.007) & 0.949 & 0.993 & 4.1 \\
+Ridge & 0.933 (0.006) & 0.902 (0.010) & 0.904 & 0.990 & 8.9 \\
+Naïf Bayes complémentaire & 0.803 (0.012) & 0.713 (0.016) & 0.728 & 0.964 & 1.3 \\
+SVM RBF & 0.928 (0.008) & 0.896 (0.010) & 0.894 & 0.967 & 15.9 \\
+Forêt aléatoire & 0.912 (0.008) & 0.879 (0.016) & 0.881 & 0.983 & 6.2 \\
+Perceptron multicouche & 0.924 (0.005) & 0.911 (0.008) & 0.916 & 0.983 & 4.2 \\
+Empilement & 0.447 (0.013) & 0.281 (0.008) & 0.272 & 0.523 & 18.9 \\
+SVM linéaire, unigrammes & 0.927 (0.003) & 0.899 (0.009) & 0.904 & 0.989 & 0.7 \\
+SVM linéaire, pondéré & 0.966 (0.005) & 0.958 (0.009) & 0.961 & 0.993 & 3.4 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -129,8 +134,9 @@ linear\_balanced & 0.966 & 0.005 & 0.958 & 0.009 & 0.961 & 0.993 & 4.126 & 3.355
 
 \begin{figure}[htbp]\centering
 \includegraphics[width=0.9\linewidth]{model_comparison.pdf}
-\caption{Comparaison des modèles (moyenne ± écart-type, 4 plis × 3 répétitions).}
+\caption{Comparaison des modèles (moyenne ± écart-type, 4 plis et 3 répétitions).}
 \end{figure}
+\FloatBarrier
 
 \subsection{Ablations et courbe d'apprentissage}
 Les ablations par famille (tableau \ref{tab:permutation}) et la courbe
@@ -143,8 +149,8 @@ post-verrouillage; elles n'ont pas servi à choisir le modèle.
 \toprule
 Famille & Colonnes & Perte F1-macro & Écart-type \\
 \midrule
-raw & 39326 & 0.933 & 0.003 \\
-browser & 4 & 0.113 & 0.009 \\
+Séquence brute & 39326 & 0.933 & 0.003 \\
+Navigateur & 4 & 0.113 & 0.009 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -152,21 +158,24 @@ browser & 4 & 0.113 & 0.009 \\
 \begin{table}[htbp]
 \caption{Courbe d'apprentissage du modèle retenu (diagnostic post-verrouillage).}
 \label{tab:learning}
-\begin{tabular}{rrrr}
+\begin{tabular}{lrll}
 \toprule
-fraction & train\_sessions & train\_macro\_f1 & holdout\_macro\_f1 \\
+Part du train & Sessions & F1 train & F1 validation \\
 \midrule
-0.350 & 853 & 1.000 & 0.890 \\
-0.650 & 1583 & 1.000 & 0.908 \\
-1.000 & 2623 & 1.000 & 0.941 \\
+35\% & 853 & 1.000 & 0.890 \\
+65\% & 1583 & 1.000 & 0.908 \\
+100\% & 2623 & 1.000 & 0.941 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \begin{figure}[htbp]\centering
 \includegraphics[width=0.6\linewidth]{learning_curve.pdf}
-\caption{Courbe d'apprentissage : macro-F1 train et holdout selon la taille d'apprentissage.}
+\caption{Courbe d'apprentissage : macro-F1 apprentissage et validation selon la taille d'apprentissage.}
 \end{figure}
+Le F1 d'entraînement reste à 1,000 aux trois tailles, tandis que le score de validation
+progresse de 0,890 à 0,941 : le modèle mémorise le train et bénéficie encore de davantage
+de sessions. Cette courbe post-sélection est un diagnostic, pas une estimation indépendante.
 
 \subsection{Analyse des erreurs}
 L'exactitude baisse sur les sessions très courtes, où le signal disponible est faible, alors que
@@ -184,10 +193,10 @@ confusions se concentrent entre utilisateurs partageant les mêmes modules (tabl
 \toprule
 Longueur (tokens) & Exactitude & Sessions \\
 \midrule
-0-100.0 & 0.902 & 41 \\
-100-500.0 & 0.923 & 323 \\
+0–100 & 0.902 & 41 \\
+100–500 & 0.923 & 323 \\
+500–2000 & 0.987 & 226 \\
 2000+ & 1.000 & 66 \\
-500-2000.0 & 0.987 & 226 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -211,27 +220,31 @@ flj & skm & 1 \\
 \end{tabular}
 \end{table}
 
+\FloatBarrier
 
 \section{Interprétabilité et discussion}
 \textbf{Confiance.} L'ECE mesuré sur le holdout est
-0.934. Le SVM natif n'expose pas de
-probabilités; la log-loss et la fiabilité reposent sur un softmax de marges explicitement non
-calibré, ou sur la calibration sigmoïde interne. L'analyse d'abstention montre qu'une couverture
-réduite augmente l'exactitude (figure précédente).
+0.934 pour le softmax non calibré des marges,
+contre 0.137 après calibration sigmoïde interne. Le SVM natif
+n'expose pas de probabilités; les valeurs calibrées servent à exprimer la confiance, sans modifier
+les prédictions de classe. L'analyse d'abstention montre qu'une couverture réduite augmente
+ l'exactitude (figure précédente).\par\smallskip
 \textbf{Explication locale.} Pour le modèle retenu, la contribution d'un jeton est exactement
 \code{coefficient $\times$ valeur TF-IDF} plus l'ordonnée à l'origine; pour la forêt aléatoire,
 nous fournissons une décomposition exacte des probabilités le long des chemins, sans prétendre à
 des valeurs de Shapley. Un arbre de profondeur 2 sur les statistiques denses illustre des règles
-lisibles.
+ lisibles.\par\smallskip
 \begin{figure}[htbp]\centering
 \includegraphics[width=\linewidth]{pruned_tree.pdf}
 \caption{Arbre de profondeur 2 sur statistiques denses (illustration pédagogique, pas le modèle retenu).}
 \end{figure}
+\par\smallskip
 \textbf{Variables influentes et redondance.} La permutation groupée (tableau
-\ref{tab:permutation}) montre l'apport des familles A/C; les motifs récurrents
+\ref{tab:permutation}) montre que la séquence brute domine et que le navigateur contribue
+secondairement; les motifs récurrents
 (écran\,$\to$\,action) ont un sens comportemental. La sélection de représentants de clusters
 permet de retirer des colonnes redondantes avec une perte mesurée, documentée dans
-\code{interpretability.json}.
+\code{interpretability.json}.\par\smallskip
 \textbf{Limites.} 247 classes avec peu de sessions chacune, dérive temporelle,
 test de 324 lignes bruité, et ré-identification potentielle des
 utilisateurs: autant de raisons de préférer un modèle simple et validé à un score fragile.

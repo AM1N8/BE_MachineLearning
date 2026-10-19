@@ -1,0 +1,2022 @@
+{
+  "signature": "d524c6ba37192c60f650c81ae2a8bca2f0d9df72a2cf7f2c484b46bc5a1153ef",
+  "directory": "reports/results/phase4/d524c6ba3719",
+  "timing_structure": {
+    "marker_diff_top": [
+      {
+        "diff_seconds": 5,
+        "count": 537085,
+        "fraction": 0.9511585650935778
+      },
+      {
+        "diff_seconds": 0,
+        "count": 27523,
+        "fraction": 0.04874226088434892
+      },
+      {
+        "diff_seconds": 10,
+        "count": 55,
+        "fraction": 9.740305739342335e-05
+      },
+      {
+        "diff_seconds": 15,
+        "count": 1,
+        "fraction": 1.7709646798804244e-06
+      }
+    ],
+    "trailing_events_sessions": 3600,
+    "resets_sessions_train": 0,
+    "resets_sessions_test": 0,
+    "duration_seconds": {
+      "train": {
+        "median": 390.0,
+        "p90": 1816.0000000000014,
+        "max": 11785.0
+      },
+      "test": {
+        "median": 402.5,
+        "p90": 1642.0,
+        "max": 7105.0
+      }
+    }
+  },
+  "train_test_shift_ks": [
+    {
+      "feature": "events",
+      "ks_statistic": 0.046053448996419416,
+      "p_value": 0.5423379887179322,
+      "train_median": 340.0,
+      "test_median": 365.0
+    },
+    {
+      "feature": "duration",
+      "ks_statistic": 0.0418318593066992,
+      "p_value": 0.6632869579958716,
+      "train_median": 390.0,
+      "test_median": 402.5
+    },
+    {
+      "feature": "events_per_second",
+      "ks_statistic": 0.05755763387663357,
+      "p_value": 0.27130502855504535,
+      "train_median": 0.8950877192982456,
+      "test_median": 0.8828577315339445
+    },
+    {
+      "feature": "idle_fraction",
+      "ks_statistic": 0.000609942055504727,
+      "p_value": 1.0,
+      "train_median": 0.0,
+      "test_median": 0.0
+    },
+    {
+      "feature": "active_pair_fraction",
+      "ks_statistic": 0.0009149130832570906,
+      "p_value": 1.0,
+      "train_median": 1.0,
+      "test_median": 1.0
+    },
+    {
+      "feature": "gap_median",
+      "ks_statistic": 0.005331345374041318,
+      "p_value": 1.0,
+      "train_median": 0.0,
+      "test_median": 0.0
+    },
+    {
+      "feature": "dwell_median",
+      "ks_statistic": 0.005331345374041318,
+      "p_value": 1.0,
+      "train_median": 0.0,
+      "test_median": 0.0
+    },
+    {
+      "feature": "suffix_fraction",
+      "ks_statistic": 0.07585024793015034,
+      "p_value": 0.0635444211438136,
+      "train_median": 0.09090909090909091,
+      "test_median": 0.08093658478273863
+    }
+  ],
+  "tempo_tests_kruskal_wallis": [
+    {
+      "feature": "dwell_entropy",
+      "kruskal_h": 1464.6336075696447,
+      "p_value": 3.440281824618794e-172,
+      "p_bonferroni": 5.84847910185195e-171
+    },
+    {
+      "feature": "dwell_top_fraction",
+      "kruskal_h": 1313.2332473950214,
+      "p_value": 4.381452024758888e-145,
+      "p_bonferroni": 7.44846844209011e-144
+    },
+    {
+      "feature": "gap_max",
+      "kruskal_h": 1239.8869631354767,
+      "p_value": 3.3833212202487325e-132,
+      "p_bonferroni": 5.751646074422845e-131
+    },
+    {
+      "feature": "suffix_fraction",
+      "kruskal_h": 1228.81343825336,
+      "p_value": 2.8810745546901725e-130,
+      "p_bonferroni": 4.897826742973293e-129
+    },
+    {
+      "feature": "events_per_second",
+      "kruskal_h": 1227.6220243804428,
+      "p_value": 4.644878881292385e-130,
+      "p_bonferroni": 7.896294098197054e-129
+    },
+    {
+      "feature": "nogroup_suffix_rate",
+      "kruskal_h": 1200.4671686474007,
+      "p_value": 2.403548022310656e-125,
+      "p_bonferroni": 4.086031637928115e-124
+    },
+    {
+      "feature": "suffix_after_explicit_rate",
+      "kruskal_h": 940.0912753326795,
+      "p_value": 9.962939841058267e-82,
+      "p_bonferroni": 1.6936997729799054e-80
+    },
+    {
+      "feature": "events",
+      "kruskal_h": 915.5855666567825,
+      "p_value": 8.40086371800724e-78,
+      "p_bonferroni": 1.4281468320612307e-76
+    },
+    {
+      "feature": "markers",
+      "kruskal_h": 895.5325921536071,
+      "p_value": 1.285140687477258e-74,
+      "p_bonferroni": 2.1847391687113384e-73
+    },
+    {
+      "feature": "events_per_active_tick",
+      "kruskal_h": 889.926734849921,
+      "p_value": 9.875359583131432e-74,
+      "p_bonferroni": 1.6788111291323434e-72
+    },
+    {
+      "feature": "duration",
+      "kruskal_h": 880.0366144552399,
+      "p_value": 3.563434058421109e-72,
+      "p_bonferroni": 6.057837899315886e-71
+    },
+    {
+      "feature": "dwell_p90",
+      "kruskal_h": 306.7218047854661,
+      "p_value": 0.005091783634174841,
+      "p_bonferroni": 0.0865603217809723
+    },
+    {
+      "feature": "gap_p90",
+      "kruskal_h": 306.7218047854661,
+      "p_value": 0.005091783634174841,
+      "p_bonferroni": 0.0865603217809723
+    },
+    {
+      "feature": "gap_median",
+      "kruskal_h": 293.56101454402716,
+      "p_value": 0.020211938195295546,
+      "p_bonferroni": 0.3436029493200243
+    },
+    {
+      "feature": "dwell_median",
+      "kruskal_h": 293.56101454402716,
+      "p_value": 0.020211938195295546,
+      "p_bonferroni": 0.3436029493200243
+    },
+    {
+      "feature": "idle_fraction",
+      "kruskal_h": 180.66254088452482,
+      "p_value": 0.999371062875973,
+      "p_bonferroni": 1.0
+    },
+    {
+      "feature": "active_pair_fraction",
+      "kruskal_h": 170.87062853899812,
+      "p_value": 0.999921424434124,
+      "p_bonferroni": 1.0
+    }
+  ],
+  "signal_probes": {
+    "tempo_scalars": {
+      "features": [
+        "events",
+        "markers",
+        "duration",
+        "resets",
+        "idle_fraction",
+        "active_pair_fraction",
+        "events_per_second",
+        "gap_median",
+        "gap_p90",
+        "gap_max",
+        "events_per_active_tick"
+      ],
+      "n_features": 11,
+      "accuracy": 0.027142421469960355,
+      "macro_f1": 0.014182935576653162,
+      "weighted_f1": 0.015224213230655894,
+      "role": "exploratory signal probe, not model selection"
+    },
+    "dwell_scalars": {
+      "features": [
+        "dwell_median",
+        "dwell_p90",
+        "dwell_entropy",
+        "dwell_top_fraction"
+      ],
+      "n_features": 4,
+      "accuracy": 0.016163464470875268,
+      "macro_f1": 0.0063643060101933,
+      "weighted_f1": 0.0072379321263587254,
+      "role": "exploratory signal probe, not model selection"
+    },
+    "suffix_scalars": {
+      "features": [
+        "suffix_fraction",
+        "nogroup_suffix_rate",
+        "suffix_after_explicit_rate"
+      ],
+      "n_features": 3,
+      "accuracy": 0.03751143641354071,
+      "macro_f1": 0.018681718204986156,
+      "weighted_f1": 0.023390170300180858,
+      "role": "exploratory signal probe, not model selection"
+    },
+    "timing_all_scalars": {
+      "features": [
+        "events",
+        "markers",
+        "duration",
+        "resets",
+        "idle_fraction",
+        "active_pair_fraction",
+        "events_per_second",
+        "gap_median",
+        "gap_p90",
+        "gap_max",
+        "events_per_active_tick",
+        "dwell_median",
+        "dwell_p90",
+        "dwell_entropy",
+        "dwell_top_fraction",
+        "suffix_fraction",
+        "nogroup_suffix_rate",
+        "suffix_after_explicit_rate"
+      ],
+      "n_features": 18,
+      "accuracy": 0.0927111924367185,
+      "macro_f1": 0.06940987670908928,
+      "weighted_f1": 0.07987035965338715,
+      "role": "exploratory signal probe, not model selection"
+    }
+  },
+  "suffix_semantics": {
+    "sessions_train": 3279,
+    "sessions_with_suffix": 2557,
+    "suffix_events_total": 355112,
+    "suffix_events_with_explicit_groups": 30866,
+    "mean_group_suffix_rate": 0.06242890260222585,
+    "mean_nogroup_suffix_rate": 0.17875094496332508,
+    "mean_suffix_after_explicit_rate": 0.10926015619869506
+  },
+  "token_association": {
+    "distinct_event_tokens": 7087,
+    "multi_user_tokens": 4126,
+    "exclusive_tokens": 2961,
+    "top_chi2_tokens": [
+      {
+        "token": "Raccourci(fr.infologic.superviseur.client.modules.postpreparation.PostPreparationVC)",
+        "chi2": 3275.0000000000005,
+        "p_value": 0.0,
+        "users": 1,
+        "dominant_user": "bez",
+        "dominant_user_count": 17
+      },
+      {
+        "token": "Saisie dans un champ(infologic.global.modules.GL_QUESTIONNAIRE.campagne.AdminReponseQuestionnaireForm)",
+        "chi2": 3274.9999999999995,
+        "p_value": 0.0,
+        "users": 1,
+        "dominant_user": "zll",
+        "dominant_user_count": 5
+      },
+      {
+        "token": "Sélection d'un écran(infologic.core.gui.controllers.BlankController)<002>",
+        "chi2": 3273.999999999999,
+        "p_value": 0.0,
+        "users": 1,
+        "dominant_user": "cyi",
+        "dominant_user_count": 110
+      },
+      {
+        "token": "Sélection d'un écran(infologic.core.gui.controllers.BlankController)<ACCUEIL_TEST>",
+        "chi2": 3265.000000000001,
+        "p_value": 0.0,
+        "users": 1,
+        "dominant_user": "zht",
+        "dominant_user_count": 132
+      },
+      {
+        "token": "Sélection d'un écran(infologic.crm.modules.CRM_CRM.accueil.AccueilCRMForm)",
+        "chi2": 3259.0000000000014,
+        "p_value": 0.0,
+        "users": 1,
+        "dominant_user": "nwt",
+        "dominant_user_count": 101
+      },
+      {
+        "token": "Ouverture d'un panel(infologic.core.gui.controllers.BlankController)<MT_AppelN1>",
+        "chi2": 3139.8974358974365,
+        "p_value": 0.0,
+        "users": 2,
+        "dominant_user": "iib",
+        "dominant_user_count": 114
+      },
+      {
+        "token": "Création d'un écran(infologic.core.gui.controllers.BlankController)<ACCUEIL_TEST>",
+        "chi2": 3031.7857142857138,
+        "p_value": 0.0,
+        "users": 1,
+        "dominant_user": "zht",
+        "dominant_user_count": 15
+      },
+      {
+        "token": "Sélection d’un onglet(infologic.core.gui.controllers.BlankController)<ACCUEIL_TEST>",
+        "chi2": 2970.4683908045986,
+        "p_value": 0.0,
+        "users": 3,
+        "dominant_user": "sfi",
+        "dominant_user_count": 51
+      },
+      {
+        "token": "Fermeture d'un panel(infologic.core.gui.controllers.BlankController)<dispatch>",
+        "chi2": 2951.6741176470587,
+        "p_value": 0.0,
+        "users": 3,
+        "dominant_user": "tft",
+        "dominant_user_count": 19
+      },
+      {
+        "token": "Sélection d'un écran(infologic.crm.modules.CRM_PLANNING.planning.PlanningController)<MSE>",
+        "chi2": 2804.571428571428,
+        "p_value": 0.0,
+        "users": 1,
+        "dominant_user": "vmy",
+        "dominant_user_count": 47
+      },
+      {
+        "token": "Saisie dans un champ(infologic.orga.modules.OR_FICHIERTRAVAIL.InstanceForm)",
+        "chi2": 2774.2092833297834,
+        "p_value": 0.0,
+        "users": 3,
+        "dominant_user": "tft",
+        "dominant_user_count": 18
+      },
+      {
+        "token": "Exécution d'un bouton(infologic.crm.modules.CRM_COMPTE.ValidationFicheRenseignementsForm)",
+        "chi2": 2745.263157894739,
+        "p_value": 0.0,
+        "users": 1,
+        "dominant_user": "sii",
+        "dominant_user_count": 34
+      },
+      {
+        "token": "Exécution d'un bouton(infologic.core.gui.controllers.BlankController)<KanbanProjet>",
+        "chi2": 2730.4619815668198,
+        "p_value": 0.0,
+        "users": 6,
+        "dominant_user": "tfi",
+        "dominant_user_count": 234
+      },
+      {
+        "token": "Double-clic(infologic.core.gui.controllers.BlankController)<ACCUEIL_DSI>",
+        "chi2": 2727.0043478260873,
+        "p_value": 0.0,
+        "users": 3,
+        "dominant_user": "iyf",
+        "dominant_user_count": 122
+      },
+      {
+        "token": "Exécution d'un bouton(infologic.core.gui.controllers.BlankController)<MT_AppelN1>",
+        "chi2": 2716.335255388628,
+        "p_value": 0.0,
+        "users": 17,
+        "dominant_user": "uey",
+        "dominant_user_count": 386
+      },
+      {
+        "token": "Lancement d'un tableau de bord",
+        "chi2": 2704.6581969025838,
+        "p_value": 0.0,
+        "users": 42,
+        "dominant_user": "qqe",
+        "dominant_user_count": 2575
+      },
+      {
+        "token": "Lancement d'une action générique1",
+        "chi2": 2694.8039473684207,
+        "p_value": 0.0,
+        "users": 2,
+        "dominant_user": "nrb",
+        "dominant_user_count": 183
+      },
+      {
+        "token": "Double-clic(infologic.core.gui.controllers.BlankController)<MT_AppelN1>",
+        "chi2": 2683.728079868312,
+        "p_value": 0.0,
+        "users": 10,
+        "dominant_user": "iib",
+        "dominant_user_count": 316
+      },
+      {
+        "token": "Exécution d'un bouton(infologic.global.modules.GL_QUESTIONNAIRE.campagne.AdminReponseQuestionnaireForm)",
+        "chi2": 2661.92,
+        "p_value": 0.0,
+        "users": 2,
+        "dominant_user": "zll",
+        "dominant_user_count": 12
+      },
+      {
+        "token": "Saisie dans un champ$TRACE$",
+        "chi2": 2645.527210580117,
+        "p_value": 0.0,
+        "users": 9,
+        "dominant_user": "tfi",
+        "dominant_user_count": 152
+      },
+      {
+        "token": "Double-clic(infologic.core.gui.controllers.BlankController)<dispatch>",
+        "chi2": 2628.762847613273,
+        "p_value": 0.0,
+        "users": 10,
+        "dominant_user": "avt",
+        "dominant_user_count": 453
+      },
+      {
+        "token": "Création d'un écran(infologic.core.gui.controllers.BlankController)<002>",
+        "chi2": 2619.2000000000007,
+        "p_value": 0.0,
+        "users": 1,
+        "dominant_user": "cyi",
+        "dominant_user_count": 4
+      },
+      {
+        "token": "Exécution d'un bouton(infologic.core.gui.controllers.BlankController)<ACCUEIL_MAJ>",
+        "chi2": 2619.2000000000007,
+        "p_value": 0.0,
+        "users": 1,
+        "dominant_user": "fxg",
+        "dominant_user_count": 51
+      },
+      {
+        "token": "Affichage d'une dialogue(infologic.core.gui.controllers.BlankController)<ACCUEIL_MAJ>",
+        "chi2": 2619.2000000000007,
+        "p_value": 0.0,
+        "users": 1,
+        "dominant_user": "fxg",
+        "dominant_user_count": 15
+      },
+      {
+        "token": "Filtrage / Tri(infologic.core.gui.controllers.BlankController)<ACCUEIL_MAJ>",
+        "chi2": 2619.2000000000007,
+        "p_value": 0.0,
+        "users": 1,
+        "dominant_user": "fxg",
+        "dominant_user_count": 15
+      },
+      {
+        "token": "Sélection d'un écran(BUG)$MEM$",
+        "chi2": 2619.2000000000003,
+        "p_value": 0.0,
+        "users": 1,
+        "dominant_user": "lfq",
+        "dominant_user_count": 11
+      },
+      {
+        "token": "Raccourci$EL$",
+        "chi2": 2619.2,
+        "p_value": 0.0,
+        "users": 1,
+        "dominant_user": "yxw",
+        "dominant_user_count": 13
+      },
+      {
+        "token": "Sélection d’un onglet$TRACE$",
+        "chi2": 2601.7044740973306,
+        "p_value": 0.0,
+        "users": 8,
+        "dominant_user": "tfi",
+        "dominant_user_count": 290
+      },
+      {
+        "token": "Sélection d'un flag",
+        "chi2": 2570.9374555548193,
+        "p_value": 0.0,
+        "users": 64,
+        "dominant_user": "wvy",
+        "dominant_user_count": 3586
+      },
+      {
+        "token": "Sélection d'un écran(infologic.core.gui.controllers.BlankController)<ACCUEIL_TECH>",
+        "chi2": 2541.4713595583166,
+        "p_value": 0.0,
+        "users": 3,
+        "dominant_user": "cyd",
+        "dominant_user_count": 126
+      }
+    ],
+    "per_user_exclusive": [
+      {
+        "label": "aho",
+        "sessions": 10,
+        "mean_exclusive_fraction": 0.009688900842746997,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "ajo",
+        "sessions": 13,
+        "mean_exclusive_fraction": 0.024866189257508473,
+        "sessions_with_exclusive": 11
+      },
+      {
+        "label": "akx",
+        "sessions": 14,
+        "mean_exclusive_fraction": 0.008987832329557053,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "ald",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.029069356532394876,
+        "sessions_with_exclusive": 9
+      },
+      {
+        "label": "ats",
+        "sessions": 12,
+        "mean_exclusive_fraction": 0.004884935240417466,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "avt",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.00821542623414721,
+        "sessions_with_exclusive": 10
+      },
+      {
+        "label": "azn",
+        "sessions": 4,
+        "mean_exclusive_fraction": 0.0225,
+        "sessions_with_exclusive": 2
+      },
+      {
+        "label": "azo",
+        "sessions": 10,
+        "mean_exclusive_fraction": 0.014350001347454658,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "azx",
+        "sessions": 10,
+        "mean_exclusive_fraction": 0.0017241379310344827,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "bez",
+        "sessions": 4,
+        "mean_exclusive_fraction": 0.09797932330827067,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "bfg",
+        "sessions": 16,
+        "mean_exclusive_fraction": 0.009165788136701079,
+        "sessions_with_exclusive": 6
+      },
+      {
+        "label": "bgn",
+        "sessions": 27,
+        "mean_exclusive_fraction": 0.016634973305537946,
+        "sessions_with_exclusive": 19
+      },
+      {
+        "label": "blf",
+        "sessions": 11,
+        "mean_exclusive_fraction": 0.009858132823249101,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "bos",
+        "sessions": 9,
+        "mean_exclusive_fraction": 0.008737032904098104,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "bou",
+        "sessions": 11,
+        "mean_exclusive_fraction": 0.014012439324157057,
+        "sessions_with_exclusive": 6
+      },
+      {
+        "label": "btl",
+        "sessions": 13,
+        "mean_exclusive_fraction": 0.011422482157561085,
+        "sessions_with_exclusive": 6
+      },
+      {
+        "label": "byo",
+        "sessions": 16,
+        "mean_exclusive_fraction": 0.0044040349425529,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "cbo",
+        "sessions": 13,
+        "mean_exclusive_fraction": 0.009213136076448579,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "cec",
+        "sessions": 10,
+        "mean_exclusive_fraction": 0.023052589452535216,
+        "sessions_with_exclusive": 8
+      },
+      {
+        "label": "cil",
+        "sessions": 8,
+        "mean_exclusive_fraction": 0.006253207205747313,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "cje",
+        "sessions": 8,
+        "mean_exclusive_fraction": 0.009077380952380951,
+        "sessions_with_exclusive": 2
+      },
+      {
+        "label": "cjr",
+        "sessions": 46,
+        "mean_exclusive_fraction": 0.061825371597076,
+        "sessions_with_exclusive": 35
+      },
+      {
+        "label": "cka",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.026049795615013006,
+        "sessions_with_exclusive": 2
+      },
+      {
+        "label": "ckl",
+        "sessions": 6,
+        "mean_exclusive_fraction": 0.04557174639389461,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "cnh",
+        "sessions": 10,
+        "mean_exclusive_fraction": 0.0060525846451334325,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "cpn",
+        "sessions": 10,
+        "mean_exclusive_fraction": 0.014375458487364799,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "cqp",
+        "sessions": 9,
+        "mean_exclusive_fraction": 0.06460260418593752,
+        "sessions_with_exclusive": 8
+      },
+      {
+        "label": "crn",
+        "sessions": 4,
+        "mean_exclusive_fraction": 0.0,
+        "sessions_with_exclusive": 0
+      },
+      {
+        "label": "cum",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.006957018187749775,
+        "sessions_with_exclusive": 2
+      },
+      {
+        "label": "cut",
+        "sessions": 18,
+        "mean_exclusive_fraction": 0.004746276470861939,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "cuw",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.009523809523809523,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "cvw",
+        "sessions": 12,
+        "mean_exclusive_fraction": 0.013193413849628674,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "cxt",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.010803842762176096,
+        "sessions_with_exclusive": 7
+      },
+      {
+        "label": "cxu",
+        "sessions": 10,
+        "mean_exclusive_fraction": 0.0027777777777777775,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "cyd",
+        "sessions": 18,
+        "mean_exclusive_fraction": 0.0030381117112028896,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "cyi",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.06057969847770345,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "czi",
+        "sessions": 18,
+        "mean_exclusive_fraction": 0.00858086816949491,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "dbi",
+        "sessions": 11,
+        "mean_exclusive_fraction": 0.00101010101010101,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "deb",
+        "sessions": 10,
+        "mean_exclusive_fraction": 0.005446105458408608,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "dfo",
+        "sessions": 11,
+        "mean_exclusive_fraction": 0.01507855868627676,
+        "sessions_with_exclusive": 8
+      },
+      {
+        "label": "dit",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.005936981757877281,
+        "sessions_with_exclusive": 2
+      },
+      {
+        "label": "ebm",
+        "sessions": 9,
+        "mean_exclusive_fraction": 0.022739919033605296,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "eoe",
+        "sessions": 14,
+        "mean_exclusive_fraction": 0.0018315018315018315,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "eqo",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.019737554944759664,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "eqw",
+        "sessions": 6,
+        "mean_exclusive_fraction": 0.008026138766096482,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "esu",
+        "sessions": 14,
+        "mean_exclusive_fraction": 0.005705782644196406,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "eus",
+        "sessions": 14,
+        "mean_exclusive_fraction": 0.01942512384742239,
+        "sessions_with_exclusive": 12
+      },
+      {
+        "label": "fal",
+        "sessions": 12,
+        "mean_exclusive_fraction": 0.005718954248366014,
+        "sessions_with_exclusive": 2
+      },
+      {
+        "label": "fcq",
+        "sessions": 13,
+        "mean_exclusive_fraction": 0.0075654078199327065,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "fek",
+        "sessions": 7,
+        "mean_exclusive_fraction": 0.02743526158160305,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "fgc",
+        "sessions": 14,
+        "mean_exclusive_fraction": 0.017951105899364325,
+        "sessions_with_exclusive": 7
+      },
+      {
+        "label": "fgn",
+        "sessions": 6,
+        "mean_exclusive_fraction": 0.019430979063273228,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "fjb",
+        "sessions": 11,
+        "mean_exclusive_fraction": 0.030619847043138818,
+        "sessions_with_exclusive": 10
+      },
+      {
+        "label": "fkf",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.00196078431372549,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "flj",
+        "sessions": 42,
+        "mean_exclusive_fraction": 0.1281553477674326,
+        "sessions_with_exclusive": 37
+      },
+      {
+        "label": "fmz",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.015459488989864552,
+        "sessions_with_exclusive": 10
+      },
+      {
+        "label": "fou",
+        "sessions": 21,
+        "mean_exclusive_fraction": 0.013042267504510067,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "ftq",
+        "sessions": 23,
+        "mean_exclusive_fraction": 0.03537007272801981,
+        "sessions_with_exclusive": 16
+      },
+      {
+        "label": "fuy",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.01730061092363492,
+        "sessions_with_exclusive": 8
+      },
+      {
+        "label": "fuz",
+        "sessions": 14,
+        "mean_exclusive_fraction": 0.04622943311044624,
+        "sessions_with_exclusive": 12
+      },
+      {
+        "label": "fvc",
+        "sessions": 29,
+        "mean_exclusive_fraction": 0.013520933668090387,
+        "sessions_with_exclusive": 18
+      },
+      {
+        "label": "fwf",
+        "sessions": 33,
+        "mean_exclusive_fraction": 0.07908272356562043,
+        "sessions_with_exclusive": 22
+      },
+      {
+        "label": "fwh",
+        "sessions": 13,
+        "mean_exclusive_fraction": 0.0020399340736537786,
+        "sessions_with_exclusive": 2
+      },
+      {
+        "label": "fxg",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.03603950939890921,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "fyf",
+        "sessions": 8,
+        "mean_exclusive_fraction": 0.011160669315479873,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "fyg",
+        "sessions": 4,
+        "mean_exclusive_fraction": 0.016684704184704184,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "gcr",
+        "sessions": 14,
+        "mean_exclusive_fraction": 0.0018319004988617596,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "gid",
+        "sessions": 17,
+        "mean_exclusive_fraction": 0.009511240393593336,
+        "sessions_with_exclusive": 6
+      },
+      {
+        "label": "gor",
+        "sessions": 16,
+        "mean_exclusive_fraction": 0.010209264137142045,
+        "sessions_with_exclusive": 11
+      },
+      {
+        "label": "gtj",
+        "sessions": 19,
+        "mean_exclusive_fraction": 0.018357610684395263,
+        "sessions_with_exclusive": 12
+      },
+      {
+        "label": "guh",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.004086064779621101,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "gvp",
+        "sessions": 14,
+        "mean_exclusive_fraction": 0.006379214006332651,
+        "sessions_with_exclusive": 2
+      },
+      {
+        "label": "gzi",
+        "sessions": 6,
+        "mean_exclusive_fraction": 0.013887961623579739,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "hdz",
+        "sessions": 8,
+        "mean_exclusive_fraction": 0.011464052736162314,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "hew",
+        "sessions": 9,
+        "mean_exclusive_fraction": 0.002047930283224401,
+        "sessions_with_exclusive": 2
+      },
+      {
+        "label": "hfy",
+        "sessions": 7,
+        "mean_exclusive_fraction": 0.013962256084805525,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "hjs",
+        "sessions": 37,
+        "mean_exclusive_fraction": 0.0025063525063525063,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "hll",
+        "sessions": 9,
+        "mean_exclusive_fraction": 0.004728132387706856,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "hrj",
+        "sessions": 14,
+        "mean_exclusive_fraction": 0.019789304415975643,
+        "sessions_with_exclusive": 7
+      },
+      {
+        "label": "hvh",
+        "sessions": 7,
+        "mean_exclusive_fraction": 0.00510204081632653,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "hxt",
+        "sessions": 8,
+        "mean_exclusive_fraction": 0.011805555555555555,
+        "sessions_with_exclusive": 2
+      },
+      {
+        "label": "hzx",
+        "sessions": 20,
+        "mean_exclusive_fraction": 0.024583333333333336,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "iba",
+        "sessions": 8,
+        "mean_exclusive_fraction": 0.028637316363495546,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "ien",
+        "sessions": 9,
+        "mean_exclusive_fraction": 0.009601508272134015,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "iib",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.009679294521281221,
+        "sessions_with_exclusive": 8
+      },
+      {
+        "label": "iju",
+        "sessions": 7,
+        "mean_exclusive_fraction": 0.021009969213665873,
+        "sessions_with_exclusive": 7
+      },
+      {
+        "label": "itt",
+        "sessions": 4,
+        "mean_exclusive_fraction": 0.012666868932038835,
+        "sessions_with_exclusive": 2
+      },
+      {
+        "label": "iyf",
+        "sessions": 8,
+        "mean_exclusive_fraction": 0.022301831571295106,
+        "sessions_with_exclusive": 6
+      },
+      {
+        "label": "jat",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.005499046408137318,
+        "sessions_with_exclusive": 2
+      },
+      {
+        "label": "jew",
+        "sessions": 4,
+        "mean_exclusive_fraction": 0.03571428571428571,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "jfm",
+        "sessions": 18,
+        "mean_exclusive_fraction": 0.003500480055861046,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "jkc",
+        "sessions": 11,
+        "mean_exclusive_fraction": 0.035470832623392706,
+        "sessions_with_exclusive": 7
+      },
+      {
+        "label": "jks",
+        "sessions": 8,
+        "mean_exclusive_fraction": 0.0536444706986903,
+        "sessions_with_exclusive": 7
+      },
+      {
+        "label": "jkt",
+        "sessions": 4,
+        "mean_exclusive_fraction": 0.013166556945358787,
+        "sessions_with_exclusive": 2
+      },
+      {
+        "label": "jmq",
+        "sessions": 18,
+        "mean_exclusive_fraction": 0.005572089947089947,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "jpm",
+        "sessions": 21,
+        "mean_exclusive_fraction": 0.010855326608546136,
+        "sessions_with_exclusive": 8
+      },
+      {
+        "label": "jqq",
+        "sessions": 7,
+        "mean_exclusive_fraction": 0.019737379227592455,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "jrc",
+        "sessions": 9,
+        "mean_exclusive_fraction": 0.03245602074926836,
+        "sessions_with_exclusive": 8
+      },
+      {
+        "label": "jxu",
+        "sessions": 10,
+        "mean_exclusive_fraction": 0.0030916117299386223,
+        "sessions_with_exclusive": 2
+      },
+      {
+        "label": "kbf",
+        "sessions": 6,
+        "mean_exclusive_fraction": 0.046291840476591434,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "khv",
+        "sessions": 13,
+        "mean_exclusive_fraction": 0.012447958224378065,
+        "sessions_with_exclusive": 6
+      },
+      {
+        "label": "kik",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.0069844823997034814,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "kks",
+        "sessions": 27,
+        "mean_exclusive_fraction": 0.040363622962015025,
+        "sessions_with_exclusive": 16
+      },
+      {
+        "label": "kwi",
+        "sessions": 31,
+        "mean_exclusive_fraction": 0.011550946927420628,
+        "sessions_with_exclusive": 12
+      },
+      {
+        "label": "kzt",
+        "sessions": 13,
+        "mean_exclusive_fraction": 0.027427200096372943,
+        "sessions_with_exclusive": 11
+      },
+      {
+        "label": "lfq",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.0934116876864182,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "lgd",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.013433000477494034,
+        "sessions_with_exclusive": 6
+      },
+      {
+        "label": "lgz",
+        "sessions": 25,
+        "mean_exclusive_fraction": 0.009837793329008604,
+        "sessions_with_exclusive": 8
+      },
+      {
+        "label": "lhd",
+        "sessions": 7,
+        "mean_exclusive_fraction": 0.017164606311761275,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "lhr",
+        "sessions": 12,
+        "mean_exclusive_fraction": 0.005017660504943459,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "lio",
+        "sessions": 17,
+        "mean_exclusive_fraction": 0.0060499518877958,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "lnq",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.04120696400625978,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "lra",
+        "sessions": 4,
+        "mean_exclusive_fraction": 0.018210955710955712,
+        "sessions_with_exclusive": 2
+      },
+      {
+        "label": "meh",
+        "sessions": 16,
+        "mean_exclusive_fraction": 0.00874450447507701,
+        "sessions_with_exclusive": 9
+      },
+      {
+        "label": "mgs",
+        "sessions": 12,
+        "mean_exclusive_fraction": 0.0024509803921568627,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "mmm",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.004955363883727308,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "mmo",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.028335721140261318,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "mqo",
+        "sessions": 9,
+        "mean_exclusive_fraction": 0.003003003003003003,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "muz",
+        "sessions": 28,
+        "mean_exclusive_fraction": 0.032558684551192596,
+        "sessions_with_exclusive": 17
+      },
+      {
+        "label": "mvu",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.0519011319011319,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "myl",
+        "sessions": 11,
+        "mean_exclusive_fraction": 0.004450757575757576,
+        "sessions_with_exclusive": 2
+      },
+      {
+        "label": "ncb",
+        "sessions": 20,
+        "mean_exclusive_fraction": 0.0805604417264194,
+        "sessions_with_exclusive": 17
+      },
+      {
+        "label": "nfh",
+        "sessions": 6,
+        "mean_exclusive_fraction": 0.020309584138451898,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "ngs",
+        "sessions": 16,
+        "mean_exclusive_fraction": 0.03249568036537409,
+        "sessions_with_exclusive": 7
+      },
+      {
+        "label": "nkb",
+        "sessions": 7,
+        "mean_exclusive_fraction": 0.006570980040367796,
+        "sessions_with_exclusive": 2
+      },
+      {
+        "label": "nlm",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.006553511861182413,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "npo",
+        "sessions": 6,
+        "mean_exclusive_fraction": 0.020931308152864463,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "nqg",
+        "sessions": 34,
+        "mean_exclusive_fraction": 0.003965625289154701,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "nrb",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.07800554078942339,
+        "sessions_with_exclusive": 15
+      },
+      {
+        "label": "nsf",
+        "sessions": 6,
+        "mean_exclusive_fraction": 0.026028322256495328,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "nuh",
+        "sessions": 11,
+        "mean_exclusive_fraction": 0.003952569169960474,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "nwt",
+        "sessions": 20,
+        "mean_exclusive_fraction": 0.060517788424748364,
+        "sessions_with_exclusive": 20
+      },
+      {
+        "label": "nyk",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.007681159420289855,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "nzq",
+        "sessions": 26,
+        "mean_exclusive_fraction": 0.04294240053333767,
+        "sessions_with_exclusive": 18
+      },
+      {
+        "label": "obm",
+        "sessions": 8,
+        "mean_exclusive_fraction": 0.009440789473684211,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "oec",
+        "sessions": 19,
+        "mean_exclusive_fraction": 0.02029188439989142,
+        "sessions_with_exclusive": 11
+      },
+      {
+        "label": "ofq",
+        "sessions": 11,
+        "mean_exclusive_fraction": 0.00741327156421496,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "oni",
+        "sessions": 7,
+        "mean_exclusive_fraction": 0.009307359307359308,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "ont",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.01380039656311963,
+        "sessions_with_exclusive": 2
+      },
+      {
+        "label": "oph",
+        "sessions": 7,
+        "mean_exclusive_fraction": 0.002421307506053269,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "opp",
+        "sessions": 24,
+        "mean_exclusive_fraction": 0.028204175073681226,
+        "sessions_with_exclusive": 19
+      },
+      {
+        "label": "oqa",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.011414839488541216,
+        "sessions_with_exclusive": 6
+      },
+      {
+        "label": "pcv",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.005602793601393131,
+        "sessions_with_exclusive": 6
+      },
+      {
+        "label": "pgi",
+        "sessions": 25,
+        "mean_exclusive_fraction": 0.025331852693841018,
+        "sessions_with_exclusive": 19
+      },
+      {
+        "label": "pgm",
+        "sessions": 20,
+        "mean_exclusive_fraction": 0.008342935045275744,
+        "sessions_with_exclusive": 8
+      },
+      {
+        "label": "pgu",
+        "sessions": 18,
+        "mean_exclusive_fraction": 0.005403549751375839,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "pou",
+        "sessions": 7,
+        "mean_exclusive_fraction": 0.0,
+        "sessions_with_exclusive": 0
+      },
+      {
+        "label": "pqd",
+        "sessions": 9,
+        "mean_exclusive_fraction": 0.009819591416813638,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "prb",
+        "sessions": 16,
+        "mean_exclusive_fraction": 0.011100845488186427,
+        "sessions_with_exclusive": 7
+      },
+      {
+        "label": "pre",
+        "sessions": 16,
+        "mean_exclusive_fraction": 0.03260549903063166,
+        "sessions_with_exclusive": 10
+      },
+      {
+        "label": "psg",
+        "sessions": 8,
+        "mean_exclusive_fraction": 0.0,
+        "sessions_with_exclusive": 0
+      },
+      {
+        "label": "ptb",
+        "sessions": 16,
+        "mean_exclusive_fraction": 0.0054549794359576975,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "pxi",
+        "sessions": 7,
+        "mean_exclusive_fraction": 0.05416151142807701,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "pyb",
+        "sessions": 10,
+        "mean_exclusive_fraction": 0.050962321696773595,
+        "sessions_with_exclusive": 8
+      },
+      {
+        "label": "qbf",
+        "sessions": 12,
+        "mean_exclusive_fraction": 0.05115496623600829,
+        "sessions_with_exclusive": 10
+      },
+      {
+        "label": "qdv",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.02626409443269908,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "qfy",
+        "sessions": 12,
+        "mean_exclusive_fraction": 0.005248091038676059,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "qkd",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.0216796914435846,
+        "sessions_with_exclusive": 10
+      },
+      {
+        "label": "qof",
+        "sessions": 16,
+        "mean_exclusive_fraction": 0.06350172609740867,
+        "sessions_with_exclusive": 14
+      },
+      {
+        "label": "qqe",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.02238951245009033,
+        "sessions_with_exclusive": 13
+      },
+      {
+        "label": "qsw",
+        "sessions": 20,
+        "mean_exclusive_fraction": 0.009438891754606226,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "rff",
+        "sessions": 4,
+        "mean_exclusive_fraction": 0.0,
+        "sessions_with_exclusive": 0
+      },
+      {
+        "label": "rgo",
+        "sessions": 17,
+        "mean_exclusive_fraction": 0.006011951452814365,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "rmf",
+        "sessions": 6,
+        "mean_exclusive_fraction": 0.02965025558245897,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "rvh",
+        "sessions": 14,
+        "mean_exclusive_fraction": 0.01882626108818235,
+        "sessions_with_exclusive": 9
+      },
+      {
+        "label": "sbz",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.015518609609651336,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "sdx",
+        "sessions": 11,
+        "mean_exclusive_fraction": 0.0037167671710850686,
+        "sessions_with_exclusive": 2
+      },
+      {
+        "label": "sfi",
+        "sessions": 16,
+        "mean_exclusive_fraction": 0.032173664729389234,
+        "sessions_with_exclusive": 12
+      },
+      {
+        "label": "sgd",
+        "sessions": 7,
+        "mean_exclusive_fraction": 0.01824322711540757,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "shh",
+        "sessions": 34,
+        "mean_exclusive_fraction": 0.035502228660796435,
+        "sessions_with_exclusive": 15
+      },
+      {
+        "label": "sii",
+        "sessions": 19,
+        "mean_exclusive_fraction": 0.07138198072361288,
+        "sessions_with_exclusive": 18
+      },
+      {
+        "label": "skm",
+        "sessions": 75,
+        "mean_exclusive_fraction": 0.07808119272756876,
+        "sessions_with_exclusive": 56
+      },
+      {
+        "label": "slq",
+        "sessions": 71,
+        "mean_exclusive_fraction": 0.010922978258601546,
+        "sessions_with_exclusive": 14
+      },
+      {
+        "label": "snn",
+        "sessions": 8,
+        "mean_exclusive_fraction": 0.08660726153600948,
+        "sessions_with_exclusive": 8
+      },
+      {
+        "label": "snv",
+        "sessions": 21,
+        "mean_exclusive_fraction": 0.00781287717916738,
+        "sessions_with_exclusive": 9
+      },
+      {
+        "label": "sov",
+        "sessions": 6,
+        "mean_exclusive_fraction": 0.025903036809675217,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "sps",
+        "sessions": 20,
+        "mean_exclusive_fraction": 0.007623336912371685,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "sqb",
+        "sessions": 9,
+        "mean_exclusive_fraction": 0.013224742911372085,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "swe",
+        "sessions": 23,
+        "mean_exclusive_fraction": 0.01071771503506052,
+        "sessions_with_exclusive": 13
+      },
+      {
+        "label": "syt",
+        "sessions": 16,
+        "mean_exclusive_fraction": 0.00942210351886009,
+        "sessions_with_exclusive": 8
+      },
+      {
+        "label": "szr",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.006992334914850713,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "tdk",
+        "sessions": 14,
+        "mean_exclusive_fraction": 0.02063688837654329,
+        "sessions_with_exclusive": 7
+      },
+      {
+        "label": "tfi",
+        "sessions": 13,
+        "mean_exclusive_fraction": 0.01964618694135069,
+        "sessions_with_exclusive": 10
+      },
+      {
+        "label": "tft",
+        "sessions": 18,
+        "mean_exclusive_fraction": 0.002813832530312173,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "tjc",
+        "sessions": 9,
+        "mean_exclusive_fraction": 0.028664256743074476,
+        "sessions_with_exclusive": 6
+      },
+      {
+        "label": "tkz",
+        "sessions": 8,
+        "mean_exclusive_fraction": 0.015421756054216067,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "tmn",
+        "sessions": 6,
+        "mean_exclusive_fraction": 0.021582160266047104,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "tsn",
+        "sessions": 21,
+        "mean_exclusive_fraction": 0.011782552385809499,
+        "sessions_with_exclusive": 8
+      },
+      {
+        "label": "tvt",
+        "sessions": 9,
+        "mean_exclusive_fraction": 0.02791498827620444,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "txk",
+        "sessions": 16,
+        "mean_exclusive_fraction": 0.005691012714096338,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "tyw",
+        "sessions": 13,
+        "mean_exclusive_fraction": 0.010797190747398256,
+        "sessions_with_exclusive": 7
+      },
+      {
+        "label": "tza",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.006410273751981007,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "tzn",
+        "sessions": 12,
+        "mean_exclusive_fraction": 0.012184460056443691,
+        "sessions_with_exclusive": 8
+      },
+      {
+        "label": "ubr",
+        "sessions": 6,
+        "mean_exclusive_fraction": 0.005776334194362023,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "udj",
+        "sessions": 10,
+        "mean_exclusive_fraction": 0.014182440897317513,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "uey",
+        "sessions": 18,
+        "mean_exclusive_fraction": 0.008197517054425748,
+        "sessions_with_exclusive": 9
+      },
+      {
+        "label": "ufc",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.037074752097635395,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "uhx",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.007692307692307693,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "ulu",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.014712601771560143,
+        "sessions_with_exclusive": 6
+      },
+      {
+        "label": "uof",
+        "sessions": 8,
+        "mean_exclusive_fraction": 0.012386669194704908,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "urs",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.006896551724137931,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "usg",
+        "sessions": 10,
+        "mean_exclusive_fraction": 0.01588032459339867,
+        "sessions_with_exclusive": 7
+      },
+      {
+        "label": "usy",
+        "sessions": 6,
+        "mean_exclusive_fraction": 0.012676340107822037,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "uwp",
+        "sessions": 12,
+        "mean_exclusive_fraction": 0.013538548420588077,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "uwr",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.006036512447435604,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "vek",
+        "sessions": 16,
+        "mean_exclusive_fraction": 0.006311778904572935,
+        "sessions_with_exclusive": 7
+      },
+      {
+        "label": "vfo",
+        "sessions": 35,
+        "mean_exclusive_fraction": 0.010589723749533764,
+        "sessions_with_exclusive": 16
+      },
+      {
+        "label": "vjw",
+        "sessions": 12,
+        "mean_exclusive_fraction": 0.01878500780787076,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "vlm",
+        "sessions": 26,
+        "mean_exclusive_fraction": 0.006399269715801495,
+        "sessions_with_exclusive": 7
+      },
+      {
+        "label": "vmy",
+        "sessions": 7,
+        "mean_exclusive_fraction": 0.038840581774039776,
+        "sessions_with_exclusive": 7
+      },
+      {
+        "label": "vog",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.01576381314614388,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "vos",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.00380952380952381,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "vsb",
+        "sessions": 11,
+        "mean_exclusive_fraction": 0.02049893885445685,
+        "sessions_with_exclusive": 8
+      },
+      {
+        "label": "vyu",
+        "sessions": 7,
+        "mean_exclusive_fraction": 0.003401360544217687,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "vzc",
+        "sessions": 12,
+        "mean_exclusive_fraction": 0.02292366314473854,
+        "sessions_with_exclusive": 8
+      },
+      {
+        "label": "wcf",
+        "sessions": 9,
+        "mean_exclusive_fraction": 0.0,
+        "sessions_with_exclusive": 0
+      },
+      {
+        "label": "wem",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.007091399676091044,
+        "sessions_with_exclusive": 6
+      },
+      {
+        "label": "wfs",
+        "sessions": 18,
+        "mean_exclusive_fraction": 0.018331539763656913,
+        "sessions_with_exclusive": 6
+      },
+      {
+        "label": "wht",
+        "sessions": 20,
+        "mean_exclusive_fraction": 0.01321179048717605,
+        "sessions_with_exclusive": 7
+      },
+      {
+        "label": "wjn",
+        "sessions": 21,
+        "mean_exclusive_fraction": 0.03667041511382033,
+        "sessions_with_exclusive": 16
+      },
+      {
+        "label": "wuy",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.001092896174863388,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "wvy",
+        "sessions": 12,
+        "mean_exclusive_fraction": 0.024533085476501893,
+        "sessions_with_exclusive": 10
+      },
+      {
+        "label": "wwk",
+        "sessions": 12,
+        "mean_exclusive_fraction": 0.005208333333333333,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "wxf",
+        "sessions": 8,
+        "mean_exclusive_fraction": 0.0,
+        "sessions_with_exclusive": 0
+      },
+      {
+        "label": "xby",
+        "sessions": 14,
+        "mean_exclusive_fraction": 0.012093057329581821,
+        "sessions_with_exclusive": 6
+      },
+      {
+        "label": "xgb",
+        "sessions": 7,
+        "mean_exclusive_fraction": 0.012447671376242805,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "xgv",
+        "sessions": 22,
+        "mean_exclusive_fraction": 0.0035541932959436543,
+        "sessions_with_exclusive": 2
+      },
+      {
+        "label": "xkr",
+        "sessions": 14,
+        "mean_exclusive_fraction": 0.003492428186011459,
+        "sessions_with_exclusive": 5
+      },
+      {
+        "label": "xvr",
+        "sessions": 14,
+        "mean_exclusive_fraction": 0.010638941803026445,
+        "sessions_with_exclusive": 6
+      },
+      {
+        "label": "xwz",
+        "sessions": 6,
+        "mean_exclusive_fraction": 0.0045662100456621,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "xxb",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.007388190175399018,
+        "sessions_with_exclusive": 2
+      },
+      {
+        "label": "ycb",
+        "sessions": 11,
+        "mean_exclusive_fraction": 0.025574659573459235,
+        "sessions_with_exclusive": 8
+      },
+      {
+        "label": "ykq",
+        "sessions": 7,
+        "mean_exclusive_fraction": 0.002551020408163265,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "yrb",
+        "sessions": 10,
+        "mean_exclusive_fraction": 0.015955792789906182,
+        "sessions_with_exclusive": 8
+      },
+      {
+        "label": "yuz",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.0,
+        "sessions_with_exclusive": 0
+      },
+      {
+        "label": "yvq",
+        "sessions": 13,
+        "mean_exclusive_fraction": 0.05318022067007089,
+        "sessions_with_exclusive": 12
+      },
+      {
+        "label": "yxw",
+        "sessions": 5,
+        "mean_exclusive_fraction": 0.0603723999263696,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "zbn",
+        "sessions": 15,
+        "mean_exclusive_fraction": 0.008889189811252135,
+        "sessions_with_exclusive": 8
+      },
+      {
+        "label": "zct",
+        "sessions": 14,
+        "mean_exclusive_fraction": 0.022463594608993977,
+        "sessions_with_exclusive": 8
+      },
+      {
+        "label": "zht",
+        "sessions": 14,
+        "mean_exclusive_fraction": 0.05986925466127586,
+        "sessions_with_exclusive": 14
+      },
+      {
+        "label": "zll",
+        "sessions": 4,
+        "mean_exclusive_fraction": 0.07869001565810077,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "zok",
+        "sessions": 11,
+        "mean_exclusive_fraction": 0.0010695187165775401,
+        "sessions_with_exclusive": 1
+      },
+      {
+        "label": "zqs",
+        "sessions": 16,
+        "mean_exclusive_fraction": 0.025536549849589474,
+        "sessions_with_exclusive": 10
+      },
+      {
+        "label": "zro",
+        "sessions": 13,
+        "mean_exclusive_fraction": 0.011045748287127597,
+        "sessions_with_exclusive": 4
+      },
+      {
+        "label": "zrx",
+        "sessions": 12,
+        "mean_exclusive_fraction": 0.0033469556977019665,
+        "sessions_with_exclusive": 3
+      },
+      {
+        "label": "zus",
+        "sessions": 13,
+        "mean_exclusive_fraction": 0.06391891921978202,
+        "sessions_with_exclusive": 12
+      },
+      {
+        "label": "zyk",
+        "sessions": 21,
+        "mean_exclusive_fraction": 0.004230831668777508,
+        "sessions_with_exclusive": 4
+      }
+    ],
+    "sessions_with_any_exclusive": 1552,
+    "caveat": "in-sample descriptive association; fold-local views are used for any modeling"
+  },
+  "seed": 42
+}

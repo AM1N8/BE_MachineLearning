@@ -1,0 +1,40 @@
+{
+  "signature": "56f29a9ab050c8c166a69ed03fb51be2de484aee4ad530fd73b121b47c2cde19",
+  "spec": {
+    "method": "kernel_svc",
+    "degree": 3,
+    "C": 10,
+    "complexity": 1
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.47085714285714286,
+      "macro_f1": 0.3799508671543139,
+      "seconds": 3.3534752739942633,
+      "warnings": []
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.5102974828375286,
+      "macro_f1": 0.42311153877775326,
+      "seconds": 3.3167680930055212,
+      "warnings": []
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.482837528604119,
+      "macro_f1": 0.4082013128319687,
+      "seconds": 3.3629863530004513,
+      "warnings": []
+    }
+  ],
+  "mean": {
+    "accuracy": 0.4879973847662635,
+    "macro_f1": 0.40375457292134537
+  },
+  "std": {
+    "accuracy": 0.020220118475236967,
+    "macro_f1": 0.021921245758878275
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "signature": "f8df748d73d03af3e41255be519d095404c7986bbb94ad6655a7eda1b01f4773",
+  "spec": {
+    "method": "previous",
+    "complexity": 1
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.9603658536585366,
+      "macro_f1": 0.9523352799139013,
+      "seconds": 4.41480459900049,
+      "warnings": []
+    }
+  ],
+  "mean": {
+    "accuracy": 0.9603658536585366,
+    "macro_f1": 0.9523352799139013
+  },
+  "std": {
+    "accuracy": 0.0,
+    "macro_f1": 0.0
+  }
+}

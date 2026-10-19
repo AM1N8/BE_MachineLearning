@@ -1,0 +1,8 @@
+{
+  "experiment": "position",
+  "fold": 7,
+  "seconds": 12.18767895700148,
+  "accuracy": 0.9706959706959707,
+  "macro_f1": 0.9634110158527,
+  "weighted_f1": 0.967529743290979
+}

@@ -1,0 +1,30 @@
+{
+  "before": {
+    "submissions/best_verified.csv": "ea7174fbb9a23453a84aa3716f43091b96e4e658187e2c1bca655070e251595d",
+    "submissions/context_signatures_experimental.csv": "c2d14a684f77e3cbe03c2873e3812f203a3226da5879d31ff845e2097f55760e",
+    "submissions/phase4_challenger.csv": "c29fd2fe2f04003914467cf29b6ad287f6afc535f70bfe80ce1a69c7fd514003",
+    "artifacts/advanced_final.joblib": "4a7c6da797576a7de7b2f3addaafc84dff433a2556389d3747798ed69c917536",
+    "artifacts/best_verified.joblib": "cbb0e32c6a73c2445cfc62443b28e1b1a3a1db7c6a140128d0121effb7740c7f",
+    "artifacts/competitive_final.joblib": "6387bc833f01c3ce91f5ed74c511526aac285b2c0acd42b8639d54e10680dd0e",
+    "artifacts/context_signatures_experimental.joblib": "9f4f24eb4c742494e0d895097ebf366752e56a4e304f23d7e4e1df37c9d32503",
+    "artifacts/final_model.joblib": "c6b4f3679a54e470eb2c96055d76c38136552de676006ab557e2942577ff57aa",
+    "artifacts/holdout_calibrated.joblib": "e42fdd8aa2fc770c61401f6976b29f325494acfb1988dd8655922a41083238ca",
+    "artifacts/holdout_forest.joblib": "70089091d0ae7e6b1365b2e7e69f2e25b1f1f8ea9d983ea8a50f68ec9d809be8",
+    "artifacts/holdout_model.joblib": "c341ce5e864387d8dcdaa6dfb66cdc4c50981f711adda6403f3d578edf6a1db4",
+    "artifacts/phase4_challenger.joblib": "64897926bcf2af0d650c0cd63fe7ed528e1ef7f86b7e85dc305086ece89b2119"
+  },
+  "after": {
+    "submissions/best_verified.csv": "ea7174fbb9a23453a84aa3716f43091b96e4e658187e2c1bca655070e251595d",
+    "submissions/context_signatures_experimental.csv": "c2d14a684f77e3cbe03c2873e3812f203a3226da5879d31ff845e2097f55760e",
+    "submissions/phase4_challenger.csv": "c29fd2fe2f04003914467cf29b6ad287f6afc535f70bfe80ce1a69c7fd514003",
+    "artifacts/advanced_final.joblib": "4a7c6da797576a7de7b2f3addaafc84dff433a2556389d3747798ed69c917536",
+    "artifacts/best_verified.joblib": "cbb0e32c6a73c2445cfc62443b28e1b1a3a1db7c6a140128d0121effb7740c7f",
+    "artifacts/competitive_final.joblib": "6387bc833f01c3ce91f5ed74c511526aac285b2c0acd42b8639d54e10680dd0e",
+    "artifacts/context_signatures_experimental.joblib": "9f4f24eb4c742494e0d895097ebf366752e56a4e304f23d7e4e1df37c9d32503",
+    "artifacts/final_model.joblib": "c6b4f3679a54e470eb2c96055d76c38136552de676006ab557e2942577ff57aa",
+    "artifacts/holdout_calibrated.joblib": "e42fdd8aa2fc770c61401f6976b29f325494acfb1988dd8655922a41083238ca",
+    "artifacts/holdout_forest.joblib": "70089091d0ae7e6b1365b2e7e69f2e25b1f1f8ea9d983ea8a50f68ec9d809be8",
+    "artifacts/holdout_model.joblib": "c341ce5e864387d8dcdaa6dfb66cdc4c50981f711adda6403f3d578edf6a1db4",
+    "artifacts/phase4_challenger.joblib": "64897926bcf2af0d650c0cd63fe7ed528e1ef7f86b7e85dc305086ece89b2119"
+  }
+}

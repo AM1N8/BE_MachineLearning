@@ -1,0 +1,46 @@
+{
+  "name": "markov_trigram",
+  "spec": {
+    "method": "markov",
+    "order": 3,
+    "mu": 20
+  },
+  "stage": "exploration",
+  "signature": "1ba1ee389f7393f00c1317c762f3712fbd36032ddbe46946dee313a7f97f7833",
+  "mean": {
+    "accuracy": 0.9344212705677236,
+    "macro_f1": 0.9301156085608878
+  },
+  "std": {
+    "accuracy": 0.01526206275549453,
+    "macro_f1": 0.01694503187790736
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.9474285714285714,
+      "macro_f1": 0.9403975029439738,
+      "seconds": 13.649401162998402,
+      "warnings": []
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.9176201372997712,
+      "macro_f1": 0.9105577930802679,
+      "seconds": 13.586690224998165,
+      "warnings": []
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.9382151029748284,
+      "macro_f1": 0.939391529658422,
+      "seconds": 13.683811574999709,
+      "warnings": []
+    }
+  ],
+  "wall_seconds": 41.00598275899392,
+  "fit_seconds": 40.919902962996275,
+  "scores": "artifacts/extreme/scores_a4513a6e28468434d996.npz",
+  "predictions": "reports/results/extreme/1ba1ee389f73/exploration_markov_trigram_a4513a6e28468434d996.csv",
+  "official_metric": "F1 score moyen confirmed in supplied evaluation; macro averaging interpretation, backend unspecified"
+}

@@ -1,0 +1,8 @@
+{
+  "experiment": "rare_binary",
+  "fold": 3,
+  "seconds": 9.092849179003679,
+  "accuracy": 0.9645909645909646,
+  "macro_f1": 0.9465025927039193,
+  "weighted_f1": 0.9598382479110636
+}

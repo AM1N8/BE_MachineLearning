@@ -1,0 +1,45 @@
+{
+  "name": "selected_chi2_25",
+  "spec": {
+    "percentile": 25,
+    "min_df": 1
+  },
+  "stage": "exploration",
+  "signature": "1ba1ee389f7393f00c1317c762f3712fbd36032ddbe46946dee313a7f97f7833",
+  "mean": {
+    "accuracy": 0.9550114416475971,
+    "macro_f1": 0.9397631666693704
+  },
+  "std": {
+    "accuracy": 0.005181335933929512,
+    "macro_f1": 0.007242014458128987
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.96,
+      "macro_f1": 0.9428084115842975,
+      "seconds": 8.298496069997782,
+      "warnings": []
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.9496567505720824,
+      "macro_f1": 0.9314957954420984,
+      "seconds": 8.397210110997548,
+      "warnings": []
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.9553775743707094,
+      "macro_f1": 0.9449852929817152,
+      "seconds": 8.23178006100352,
+      "warnings": []
+    }
+  ],
+  "wall_seconds": 25.00250851099554,
+  "fit_seconds": 24.92748624199885,
+  "scores": "artifacts/extreme/scores_441b7c1493a984eeb023.npz",
+  "predictions": "reports/results/extreme/1ba1ee389f73/exploration_selected_chi2_25_441b7c1493a984eeb023.csv",
+  "official_metric": "F1 score moyen confirmed in supplied evaluation; macro averaging interpretation, backend unspecified"
+}

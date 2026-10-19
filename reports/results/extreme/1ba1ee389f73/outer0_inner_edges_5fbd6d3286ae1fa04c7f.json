@@ -1,0 +1,44 @@
+{
+  "name": "edges",
+  "spec": {
+    "edge": 0.5
+  },
+  "stage": "outer0_inner",
+  "signature": "1ba1ee389f7393f00c1317c762f3712fbd36032ddbe46946dee313a7f97f7833",
+  "mean": {
+    "accuracy": 0.9491666418495687,
+    "macro_f1": 0.9338958801380524
+  },
+  "std": {
+    "accuracy": 0.002529067973562089,
+    "macro_f1": 0.001426293226433828
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.9512195121951219,
+      "macro_f1": 0.934640010010181,
+      "seconds": 8.758229738996306,
+      "warnings": []
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.9463414634146341,
+      "macro_f1": 0.9347962205689311,
+      "seconds": 8.72516736700345,
+      "warnings": []
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.9499389499389499,
+      "macro_f1": 0.9322514098350451,
+      "seconds": 8.828622228000313,
+      "warnings": []
+    }
+  ],
+  "wall_seconds": 26.383159153003362,
+  "fit_seconds": 26.31201933400007,
+  "scores": "artifacts/extreme/scores_5fbd6d3286ae1fa04c7f.npz",
+  "predictions": "reports/results/extreme/1ba1ee389f73/outer0_inner_edges_5fbd6d3286ae1fa04c7f.csv",
+  "official_metric": "F1 score moyen confirmed in supplied evaluation; macro averaging interpretation, backend unspecified"
+}

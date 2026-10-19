@@ -1,0 +1,12 @@
+{
+  "observed_auc": 0.38014356228750856,
+  "permutations": 39,
+  "null_mean": 0.506345574362585,
+  "null_quantiles": [
+    0.4665284413721437,
+    0.5543022564090978
+  ],
+  "two_sided_p": 0.025,
+  "not_a_hidden_user_label_test": true,
+  "interpretation": "source assignment may be non-iid; below-chance is not no-shift evidence"
+}

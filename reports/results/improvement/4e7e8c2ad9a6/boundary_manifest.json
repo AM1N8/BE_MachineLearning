@@ -1,0 +1,15 @@
+{
+  "source_sha256": "3359edd4cda9fdb87b3d84e59aaeea2b522f5c5d912127b52c7a35759621d16c",
+  "parent_signature": "4e7e8c2ad9a699df6ad0fad259f3ae5ee32af632d52e45a1e8b3cd00f6a00f61",
+  "hypotheses": [
+    "baseline",
+    "event_only_mask",
+    "intercept10",
+    "rare_binary"
+  ],
+  "seeds": [
+    191664964,
+    43
+  ],
+  "rationale": "Pair-local losses suggest preserving global boundaries; test browser offsets and intercept shrinkage. Rare-binary accuracy gain merits independent checking because official F1 averaging is unknown."
+}

@@ -1,0 +1,46 @@
+{
+  "name": "markov_unigram",
+  "spec": {
+    "method": "markov",
+    "order": 1,
+    "mu": 20
+  },
+  "stage": "exploration",
+  "signature": "1ba1ee389f7393f00c1317c762f3712fbd36032ddbe46946dee313a7f97f7833",
+  "mean": {
+    "accuracy": 0.8844755366677562,
+    "macro_f1": 0.8721835800700443
+  },
+  "std": {
+    "accuracy": 0.01847429050528736,
+    "macro_f1": 0.018045333070281843
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.9051428571428571,
+      "macro_f1": 0.892663912985418,
+      "seconds": 3.3195065909967525,
+      "warnings": []
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.8695652173913043,
+      "macro_f1": 0.8586191064102472,
+      "seconds": 3.3275426709951716,
+      "warnings": []
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.8787185354691075,
+      "macro_f1": 0.8652677208144677,
+      "seconds": 3.332924506001291,
+      "warnings": []
+    }
+  ],
+  "wall_seconds": 10.056966442003613,
+  "fit_seconds": 9.979973767993215,
+  "scores": "artifacts/extreme/scores_2003dea1dbcb903fac7b.npz",
+  "predictions": "reports/results/extreme/1ba1ee389f73/exploration_markov_unigram_2003dea1dbcb903fac7b.csv",
+  "official_metric": "F1 score moyen confirmed in supplied evaluation; macro averaging interpretation, backend unspecified"
+}

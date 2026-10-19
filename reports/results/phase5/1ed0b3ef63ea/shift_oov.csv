@@ -1,0 +1,4 @@
+view,train_types,test_oov_session_mean,test_oov_occurrence_fraction
+raw,7088,0.0019648721389709145,0.001248858319819568
+signatures,98718,0.08235336728282674,0.07695886841615485
+burst,175,0.0,0.0

@@ -1,0 +1,8 @@
+{
+  "experiment": "fusion_std",
+  "fold": 5,
+  "seconds": 9.75649521699961,
+  "accuracy": 0.974390243902439,
+  "macro_f1": 0.9692484287880762,
+  "weighted_f1": 0.9715297262194065
+}

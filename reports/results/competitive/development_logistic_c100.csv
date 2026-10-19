@@ -1,0 +1,2624 @@
+row_id,fold,truth,prediction,second,margin,tokens,browser
+868,0,xgv,xgv,usg,4.614819616284185,328,Firefox
+503,0,uof,uof,sqb,2.318015942360904,258,Google Chrome
+2663,0,flj,flj,skm,3.7199243382867277,52,Google Chrome
+1178,0,nqg,nqg,zok,3.9781865122159195,570,Microsoft Edge
+982,0,flj,pre,zyk,0.6209075218484976,112,Google Chrome
+894,0,nyk,nyk,pgu,3.7799060125886728,425,Firefox
+437,0,czi,czi,pgm,3.1449144021684834,144,Firefox
+623,0,xgb,xgb,uwr,6.828483638453725,1837,Firefox
+2662,0,flj,skm,flj,2.7725385096924784,65,Google Chrome
+2113,0,tsn,tsn,kwi,7.940598594770465,168,Firefox
+1501,0,ald,ald,fuy,8.008716244476723,2250,Google Chrome
+2275,0,fmz,cje,fmz,0.33151494611512966,113,Google Chrome
+1045,0,gtj,gtj,qbf,10.221870703059974,2679,Google Chrome
+1026,0,ckl,ckl,eqo,6.440194609967487,2702,Microsoft Edge
+2876,0,bos,bos,btl,1.6516392510278033,166,Firefox
+2262,0,fcq,fcq,akx,10.975162701911199,1116,Google Chrome
+1696,0,wxf,wxf,usg,4.869683970538992,235,Firefox
+1134,0,usy,usy,nqg,0.9835335166160784,216,Firefox
+647,0,ajo,ajo,szr,7.3280873407728535,918,Firefox
+1552,0,ulu,ulu,sps,7.0200300211857884,129,Microsoft Edge
+2409,0,esu,esu,lgd,4.429039004064151,439,Firefox
+1353,0,vsb,vsb,zro,6.52434649293654,320,Firefox
+447,0,ftq,ftq,snv,11.942686176131758,133,Firefox
+3077,0,jpm,jpm,opp,6.3375099123614875,939,Firefox
+2316,0,skm,skm,flj,9.875523883768874,268,Google Chrome
+2966,0,nqg,nqg,mqo,13.048463911262193,430,Microsoft Edge
+934,0,lgz,lgz,pyb,7.255398273246115,2841,Firefox
+1970,0,azx,azx,slq,5.166154016990859,197,Google Chrome
+2671,0,ulu,ulu,qkd,4.547077014484,328,Microsoft Edge
+3158,0,slq,slq,cjr,12.548100254527409,1147,Google Chrome
+15,0,eoe,eoe,txk,10.902515635469278,2145,Firefox
+3147,0,ald,ald,pre,5.877197574167212,411,Google Chrome
+13,0,fvc,fvc,qsw,11.580385207025868,2344,Google Chrome
+3215,0,xby,xby,xgv,3.184949181742109,1948,Firefox
+3111,0,wvy,wvy,nzq,4.886579823761249,148,Firefox
+2092,0,vfo,vfo,oqa,10.30172668359247,1002,Google Chrome
+957,0,khv,khv,npo,8.888873673967987,2877,Firefox
+498,0,iyf,iyf,vlm,8.217110876286219,353,Google Chrome
+2846,0,mqo,mqo,sps,10.096376754878586,1764,Microsoft Edge
+2236,0,flj,skm,slq,5.6851315176324055,329,Google Chrome
+643,0,xkr,oqa,xkr,0.379259706198968,152,Google Chrome
+256,0,ebm,ebm,wem,6.659635543303285,374,Google Chrome
+1373,0,sps,sps,zok,1.3060840678463235,135,Microsoft Edge
+1441,0,pqd,pqd,bfg,5.209185910588043,308,Firefox
+154,0,yrb,yrb,ien,8.178789499138379,1028,Microsoft Edge
+661,0,iib,iib,rgo,10.852011226737513,1105,Firefox
+2700,0,eus,eus,ont,9.875335159034524,589,Microsoft Edge
+63,0,tzn,tzn,myl,7.644881818181668,817,Google Chrome
+699,0,zrx,zrx,ien,2.7120086939003443,565,Microsoft Edge
+313,0,slq,slq,ncb,3.5698902908447714,51,Google Chrome
+1689,0,rgo,rgo,iib,11.980154655992532,893,Microsoft Edge
+3157,0,jat,jat,hzx,0.9770263096338034,100,Microsoft Edge
+886,0,nkb,nkb,wuy,7.707858257553972,3912,Google Chrome
+2339,0,nfh,nfh,cyi,6.3482390060536344,343,Google Chrome
+2624,0,cbo,cbo,oqa,5.013330531191874,316,Google Chrome
+2800,0,nzq,nzq,xgb,9.523111805292512,239,Firefox
+833,0,jqq,jqq,iju,7.630387536316157,873,Google Chrome
+598,0,oec,oec,lgd,6.447844685832149,565,Firefox
+3257,0,hll,cjr,ngs,0.5118056671839586,375,Google Chrome
+638,0,vsb,vsb,usy,4.800630171318838,1746,Firefox
+2325,0,txk,txk,ptb,5.734906265129499,993,Firefox
+2780,0,skm,skm,flj,12.784834243913174,158,Google Chrome
+1077,0,fwf,fwf,ngs,12.89786770803435,522,Firefox
+2599,0,xgv,xgv,gor,9.451331993892543,275,Firefox
+1785,0,fwf,fwf,kks,13.020285117216691,418,Firefox
+96,0,cut,cut,fyf,8.544417969271871,1118,Firefox
+1244,0,nqg,nqg,cxt,8.474634878611514,469,Microsoft Edge
+182,0,hdz,hdz,dit,6.184724946714134,169,Firefox
+897,0,dit,dit,opp,5.668000312069753,84,Firefox
+1701,0,zht,zht,lgz,12.037775805053748,653,Firefox
+380,0,wem,wem,aho,8.270156340950846,247,Google Chrome
+1786,0,cjr,cjr,slq,5.60232270506112,209,Google Chrome
+2707,0,cxu,cxu,fmz,3.654800235495535,158,Google Chrome
+2829,0,muz,fvc,muz,0.6443022207594943,155,Google Chrome
+1772,0,bos,bos,syt,5.02967025611072,981,Firefox
+1558,0,zus,zus,fkf,8.360411062498695,3210,Firefox
+1482,0,iyf,iyf,snn,9.51958507290334,1994,Google Chrome
+3019,0,qbf,qbf,gtj,2.6668391070973394,159,Google Chrome
+3170,0,vfo,vfo,xwz,10.782406542524548,1456,Google Chrome
+2341,0,muz,muz,mvu,0.7359721345130508,128,Google Chrome
+1295,0,skm,skm,slq,2.373319260978505,123,Google Chrome
+845,0,myl,myl,pgi,0.1842969778691872,130,Google Chrome
+549,0,wht,wht,vlm,8.88888991739947,260,Google Chrome
+370,0,zbn,zbn,khv,6.726443367643468,2920,Firefox
+2324,0,esu,esu,lgd,5.018444146288646,123,Firefox
+516,0,czi,czi,pgm,0.07176452311808657,200,Firefox
+1133,0,gtj,gtj,fvc,7.223058762809471,738,Google Chrome
+2379,0,slq,slq,vlm,6.518226644464868,165,Google Chrome
+3075,0,cuw,cuw,zyk,0.9764057225167724,122,Google Chrome
+1601,0,nqg,nqg,zok,8.596947508778385,178,Microsoft Edge
+1587,0,yuz,yuz,blf,9.6859966736565,89,Firefox
+1207,0,vek,vek,jpm,5.885202621310431,879,Firefox
+485,0,nrb,nrb,czi,9.674944873701941,702,Firefox
+457,0,fvc,fvc,ngs,4.696128621342022,972,Google Chrome
+1686,0,xxb,xxb,cec,4.950755498945904,1964,Firefox
+2228,0,opp,opp,fuz,7.014457466513742,306,Firefox
+2110,0,ien,ien,ykq,6.144082621311197,1120,Microsoft Edge
+1159,0,bgn,bgn,cqp,9.1274539260671,548,Firefox
+2508,0,jat,jat,fjb,1.3371387847623808,777,Microsoft Edge
+244,0,ald,ald,pre,4.402303340345283,1599,Google Chrome
+874,0,ckl,ckl,vog,8.596218048270524,4680,Microsoft Edge
+105,0,slq,slq,skm,4.358175767311936,106,Google Chrome
+3253,0,jxu,jxu,mgs,10.956953575851852,960,Firefox
+2209,0,vfo,vfo,vzc,10.586798237531202,1306,Google Chrome
+1293,0,qqe,qqe,muz,7.900725328250661,801,Google Chrome
+1643,0,hjs,hjs,vlm,12.020063465673246,1015,Microsoft Edge
+288,0,gvp,gvp,hrj,4.67010117240239,181,Google Chrome
+2576,0,jmq,jmq,guh,7.769535563913998,89,Google Chrome
+2239,0,azn,wht,azn,0.37371819384579386,164,Google Chrome
+2132,0,tdk,tdk,hjs,8.082039833841371,280,Firefox
+1112,0,shh,shh,tdk,12.262883272260897,579,Firefox
+1069,0,qsw,qsw,fvc,11.433202047497362,320,Google Chrome
+923,0,udj,udj,qkd,2.512696590692997,244,Microsoft Edge
+2884,0,rmf,rmf,crn,0.9508059458768203,87,Microsoft Edge
+962,0,wfs,wfs,qsw,4.12922573760608,119,Google Chrome
+707,0,btl,btl,hll,5.089776475504517,278,Google Chrome
+1808,0,jrc,snv,jrc,1.2700364150331982,223,Firefox
+2240,0,ykq,ykq,ont,7.401334460626596,5654,Microsoft Edge
+809,0,jmq,jmq,guh,9.75626856017158,188,Google Chrome
+2951,0,wwk,wwk,fou,12.172889278978944,289,Google Chrome
+2560,0,kwi,kwi,lgz,4.419727948369218,306,Firefox
+1038,0,hvh,hvh,jmq,6.420118655322234,560,Google Chrome
+476,0,fmz,fvc,fmz,1.8879797640873317,99,Google Chrome
+619,0,oph,oph,gcr,7.3656820636270135,479,Microsoft Edge
+687,0,snn,snn,zqs,5.800641274523231,606,Microsoft Edge
+2417,0,cnh,cnh,pqd,4.215757634363371,424,Firefox
+1289,0,nrb,nrb,mmm,8.511937531644595,491,Firefox
+344,0,sps,sps,dbi,6.4358819724344745,204,Microsoft Edge
+653,0,byo,byo,mmm,3.9702424271884773,994,Firefox
+62,0,cjr,cjr,flj,5.895201027773578,454,Google Chrome
+2934,0,hew,hew,lgd,6.785019323996976,617,Firefox
+1881,0,cvw,cvw,pyb,8.52140468659676,1633,Firefox
+302,0,akx,oqa,guh,0.20141689753831837,144,Google Chrome
+1727,0,zyk,zyk,pre,5.6764440443303705,151,Google Chrome
+1239,0,wvy,wvy,tft,11.105402254331121,385,Firefox
+86,0,wuy,wuy,fvc,8.901300217642648,172,Google Chrome
+3099,0,mvu,mvu,uwr,5.66533733706145,279,Google Chrome
+1477,0,mmm,mmm,eoe,0.40352426556439447,827,Firefox
+64,0,shh,shh,vek,13.350942007141867,347,Firefox
+2731,0,pgi,pgi,rvh,8.417921507228508,95,Google Chrome
+1252,0,fwf,fwf,kks,11.047241437703716,249,Firefox
+2902,0,oph,oph,ubr,8.32678600825468,2575,Microsoft Edge
+2305,0,usy,usy,zro,2.005575857868211,224,Firefox
+3105,0,pcv,pcv,jmq,6.959599973076983,2200,Google Chrome
+2981,0,hzx,hzx,ulu,10.116879692440378,533,Microsoft Edge
+1418,0,kwi,kwi,sii,9.401322988063868,755,Firefox
+539,0,vlm,vlm,ngs,6.35711031297997,525,Google Chrome
+2916,0,ats,ats,cut,6.384853484567017,317,Firefox
+1867,0,kik,kik,tzn,12.087067052769452,2114,Google Chrome
+1265,0,bgn,bgn,vsb,9.220980787509857,4937,Firefox
+2634,0,tsn,tsn,bgn,9.702013869936344,624,Firefox
+884,0,kwi,kwi,slq,7.937023401077939,787,Firefox
+839,0,pre,pre,zyk,8.970081578141638,934,Google Chrome
+1317,0,jxu,jxu,bgn,5.195494850675548,294,Firefox
+2757,0,ncb,ncb,slq,13.688638742707171,979,Google Chrome
+683,0,lfq,lfq,syt,2.194363773232163,1510,Firefox
+1804,0,fou,fou,wwk,7.421883630481935,96,Google Chrome
+1883,0,jrc,jrc,snv,3.76252401987505,2933,Firefox
+1966,0,gtj,gtj,fvc,2.7195392252923623,383,Google Chrome
+2167,0,yuz,yuz,blf,9.625889070911228,131,Firefox
+2587,0,ngs,ngs,cjr,0.9740392961242916,424,Google Chrome
+2760,0,hvh,guh,ngs,0.5849973094722869,180,Google Chrome
+533,0,mmm,mmm,fwf,11.7963665684202,1211,Firefox
+765,0,yuz,yuz,blf,11.042873491540252,662,Firefox
+1227,0,aho,aho,gtj,3.1234829650613767,2319,Google Chrome
+1859,0,oqa,oqa,xkr,8.06874640073421,640,Google Chrome
+1013,0,fgn,fgn,ykq,5.7509464292640065,948,Microsoft Edge
+2269,0,fgn,fgn,ykq,7.354055792541976,2049,Microsoft Edge
+3070,0,pgm,pgm,snv,7.572885803614048,74,Firefox
+768,0,sdx,sdx,zct,11.171071635885278,3278,Google Chrome
+425,0,pou,pou,nuh,9.001648422142605,704,Firefox
+19,0,swe,swe,hjs,14.870325394781277,770,Opera
+2980,0,pxi,pxi,blf,5.726797316914609,2464,Firefox
+2304,0,cut,cut,kwi,6.968705678832326,273,Firefox
+2782,0,uof,uof,fvc,9.328721256140517,762,Google Chrome
+1849,0,cxt,cxt,qfy,6.64761950519793,565,Microsoft Edge
+3155,0,tdk,tdk,kks,2.053220430587639,185,Firefox
+188,0,tjc,tjc,ebm,7.805602086620322,287,Google Chrome
+2360,0,pgi,pgi,fvc,10.999924012370418,972,Google Chrome
+2358,0,fou,fou,fvc,4.81413107227025,104,Google Chrome
+762,0,zht,zht,cqp,7.7707260736964585,1088,Firefox
+1868,0,fou,fou,cjr,12.737125059385423,537,Google Chrome
+1757,0,tfi,tfi,sov,7.871379079418071,333,Firefox
+284,0,khv,khv,tmn,3.607272557815965,418,Firefox
+747,0,lgd,lgd,gor,8.513289561422107,312,Firefox
+3154,0,slq,slq,ncb,7.958448379511244,297,Google Chrome
+2844,0,nqg,nqg,cyd,9.666729337594207,319,Microsoft Edge
+2395,0,prb,prb,wvy,8.297514370168496,1294,Firefox
+2510,0,qkd,qkd,udj,3.8009125604777356,64,Microsoft Edge
+2730,0,slq,slq,kwi,11.74369850176135,270,Google Chrome
+858,0,fcq,fcq,akx,5.314811816899964,324,Google Chrome
+1993,0,qbf,qbf,gtj,4.817342125834365,423,Google Chrome
+2025,0,xgv,xgv,tmn,9.24656324883049,584,Firefox
+2835,0,yvq,yvq,tkz,7.000970925229953,4150,Google Chrome
+2737,0,pgu,pgu,nyk,3.840931976252347,784,Firefox
+2552,0,uey,uey,vfo,12.096799348318637,2571,Google Chrome
+1704,0,gid,gid,vjw,9.416625291993338,1169,Google Chrome
+2070,0,fyg,fyg,udj,7.273910863126512,389,Microsoft Edge
+1380,0,pre,pre,zyk,8.720509582570408,495,Google Chrome
+1229,0,ofq,ofq,bfg,10.901044463847013,267,Firefox
+2616,0,qsw,qsw,wfs,8.24719706294702,665,Google Chrome
+1612,0,xkr,xkr,oqa,6.393559899513137,2483,Google Chrome
+1311,0,fkf,fkf,fuz,5.401881658629906,359,Firefox
+3104,0,gvp,gvp,hrj,3.0127828735366933,144,Google Chrome
+2723,0,yvq,yvq,tkz,4.4910937278458505,1242,Google Chrome
+2948,0,xgv,xgv,tmn,6.508218673514879,618,Firefox
+961,0,ajo,ajo,syt,8.877364218138972,1573,Firefox
+1910,0,hdz,hdz,khv,8.844647572673846,1228,Firefox
+2798,0,muz,muz,fvc,0.45732241210343494,144,Google Chrome
+2870,0,shh,shh,vek,13.14010166362738,318,Firefox
+3048,0,ncb,ncb,skm,10.1608338463335,579,Google Chrome
+2370,0,avt,avt,uwr,4.486476102366609,210,Firefox
+1276,0,uwr,uwr,czi,8.610190434142448,883,Firefox
+654,0,ofq,ofq,jfm,9.61521780917814,223,Firefox
+218,0,wcf,wcf,wwk,9.385015022295793,252,Firefox
+925,0,nwt,nwt,akx,12.987438125785658,1669,Google Chrome
+804,0,txk,txk,ptb,8.237387184672492,2573,Firefox
+1613,0,nwt,nwt,zct,9.097116524059967,234,Google Chrome
+2961,0,fuy,fuy,pre,2.615267157453194,469,Google Chrome
+3262,0,pgu,pgu,uwr,5.816657082164349,283,Firefox
+1245,0,shh,shh,vek,11.823482238955059,300,Firefox
+440,0,vlm,vlm,slq,7.051951948496544,464,Google Chrome
+2642,0,cjr,cjr,flj,6.136197892921489,720,Google Chrome
+1624,0,uey,uey,vfo,11.59884688162102,2349,Google Chrome
+2268,0,mgs,mgs,opp,4.1081389901083485,83,Firefox
+1484,0,zok,zok,sps,0.8063496487093733,576,Microsoft Edge
+2804,0,ubr,ubr,uey,4.887187622794905,3933,Google Chrome
+985,0,tft,tft,wxf,8.833932848194124,231,Firefox
+473,0,qbf,qbf,gtj,4.646378478433749,408,Google Chrome
+940,0,akx,akx,xkr,3.225260509988514,1296,Google Chrome
+2928,0,ajo,ajo,szr,7.896653660597325,2064,Firefox
+695,0,vyu,oec,vyu,1.30202604605482,154,Firefox
+403,0,nuh,nuh,xxb,13.628099336895602,1314,Firefox
+18,0,jpm,jpm,opp,6.898039406742128,172,Firefox
+1092,0,lgd,lgd,gor,6.920363224017123,554,Firefox
+2709,0,pcv,pcv,gid,11.269656342411627,813,Google Chrome
+1850,0,pou,pou,fal,9.539697325436622,1286,Firefox
+3066,0,eus,eus,jat,10.945694218571571,5455,Microsoft Edge
+3073,0,kks,kks,bgn,6.938439677976762,2695,Firefox
+2029,0,wjn,wjn,zqs,7.166433149673513,109,Microsoft Edge
+2446,0,tfi,tfi,iju,7.922702179900627,644,Firefox
+997,0,opp,opp,npo,6.40449979730523,1875,Firefox
+1345,0,ulu,ulu,hzx,4.989477518617798,246,Microsoft Edge
+2751,0,zus,zus,fkf,6.995431793521504,1871,Firefox
+599,0,lnq,lnq,jkc,2.3432029674510684,793,Firefox
+866,0,uey,uey,vfo,8.765423840157942,1389,Google Chrome
+2170,0,xwz,xwz,vfo,5.3859850826274815,184,Google Chrome
+996,0,zqs,zqs,wjn,2.3369093649418584,110,Microsoft Edge
+831,0,skm,skm,flj,14.200001679423925,369,Google Chrome
+1566,0,nyk,nyk,xgv,0.30588298169381556,247,Firefox
+855,0,ftq,ftq,snn,8.03203818712495,200,Firefox
+1143,0,psg,psg,fvc,9.105593802206187,92,Google Chrome
+2693,0,tjc,tjc,ebm,7.67075777635703,271,Google Chrome
+1770,0,tdk,tdk,hjs,3.2456685052524072,120,Firefox
+2762,0,lfq,lfq,czi,3.7242208744494056,1183,Firefox
+1383,0,uwp,uwp,cqp,5.729523515220419,285,Firefox
+1819,0,urs,cjr,slq,2.4696659949663715,697,Google Chrome
+517,0,ykq,ykq,ont,7.001410034364535,632,Microsoft Edge
+1008,0,pgm,pgm,lio,10.726709082173148,406,Firefox
+775,0,esu,esu,cka,9.156338003883278,362,Firefox
+2348,0,cxt,cxt,lra,9.26834979050318,225,Microsoft Edge
+528,0,npo,npo,dit,3.7649729554690237,153,Firefox
+1349,0,kks,kks,bgn,7.167043228913276,62,Firefox
+1278,0,sbz,sbz,qsw,6.405705193550564,1990,Google Chrome
+2028,0,czi,czi,uwr,8.750059911438063,1329,Firefox
+2716,0,bfg,bfg,vos,5.09292283568865,224,Firefox
+677,0,akx,akx,xkr,5.922936806663582,969,Google Chrome
+1232,0,hrj,hrj,gvp,5.57273634250135,575,Google Chrome
+2666,0,cec,cec,xxb,6.350539298554514,310,Firefox
+464,0,uwr,uwr,syt,7.354998599144209,1714,Firefox
+1794,0,deb,deb,bgn,5.359119906289804,2239,Firefox
+3136,0,zok,lra,zok,2.0401618597639306,113,Microsoft Edge
+3276,0,fuz,fuz,mgs,7.636662608001115,1823,Firefox
+2573,0,uwr,uwr,lfq,5.711544516408002,126,Firefox
+355,0,azo,azo,nsf,0.17778889247289253,343,Google Chrome
+2421,0,eoe,eoe,txk,9.143512862578616,3234,Firefox
+777,0,wjn,wjn,zqs,9.969722696339478,999,Microsoft Edge
+938,0,cyi,cyi,jfm,7.209169078234528,2019,Google Chrome
+2689,0,oec,oec,tza,6.668899556688732,158,Firefox
+1190,0,tsn,tsn,kwi,3.9188063108673017,111,Firefox
+899,0,rgo,rgo,mqo,5.118050935157296,224,Microsoft Edge
+2415,0,cjr,cjr,qbf,12.638129420047509,1331,Google Chrome
+1328,0,kzt,kzt,obm,8.303424347970287,514,Firefox
+99,0,jpm,jpm,opp,6.8569173373602395,371,Firefox
+2548,0,eoe,eoe,ptb,10.072236484320824,2359,Firefox
+523,0,cbo,cbo,cxu,7.870740765592888,140,Google Chrome
+1611,0,fwh,fwh,uey,12.36539400468889,1310,Google Chrome
+1330,0,sov,sov,qbf,6.41783151353858,771,Google Chrome
+1219,0,fvc,fvc,qsw,7.7905433686571826,145,Google Chrome
+2179,0,ebm,ebm,oqa,4.146138482002391,183,Google Chrome
+628,0,kbf,kbf,snv,11.156838564307291,4760,Firefox
+2553,0,zqs,zqs,snn,8.365081938588565,204,Microsoft Edge
+2246,0,qof,qof,zct,10.365447461825289,2102,Google Chrome
+1956,0,ncb,ncb,vlm,5.56989337720666,94,Google Chrome
+1564,0,xxb,xxb,cec,4.924079963103826,2620,Firefox
+1220,0,fgc,fgc,vek,2.617552371279836,1103,Firefox
+1343,0,jkc,jkc,kwi,6.5183811570898555,675,Firefox
+2244,0,muz,muz,iba,9.232170978417892,3128,Google Chrome
+2864,0,hjs,hjs,qkd,13.803376925207967,383,Microsoft Edge
+1610,0,lhd,lhd,gid,4.955703681567689,409,Firefox
+1100,0,nqg,nqg,ulu,12.74401931646211,574,Microsoft Edge
+1876,0,fuz,fuz,oni,9.30663916650865,480,Firefox
+1394,0,fuy,fuy,guh,1.9937127636747851,103,Google Chrome
+1467,0,zus,zus,hew,10.692260406565074,1884,Firefox
+857,0,obm,obm,kzt,0.3982601719615886,792,Firefox
+265,0,ptb,ptb,txk,9.337375375524548,2332,Firefox
+195,0,kik,kik,akx,0.9989185471544957,385,Google Chrome
+1499,0,guh,guh,jmq,2.198315715704183,973,Google Chrome
+3101,0,mmm,lgz,txk,0.564964600526046,135,Firefox
+1428,0,lgz,lgz,ftq,6.706688292626655,191,Firefox
+2607,0,qsw,qsw,wfs,4.339848361255358,660,Google Chrome
+515,0,fjb,fjb,cyd,11.194209717521236,3222,Microsoft Edge
+2960,0,zrx,zrx,sps,6.217445292023004,319,Microsoft Edge
+210,0,fuy,fuy,ald,6.682580701961352,403,Google Chrome
+2285,0,sgd,sgd,pxi,8.773037080015516,2829,Firefox
+78,0,pgu,pgu,nyk,4.961829730215529,575,Firefox
+1633,0,pxi,pxi,sgd,6.95905884948441,458,Firefox
+2570,0,gor,gor,pgu,7.615552680217284,2589,Firefox
+2329,0,wfs,wfs,ald,8.502616832386394,1289,Google Chrome
+1681,0,pqd,pqd,nzq,5.352180185220666,79,Firefox
+1551,0,zyk,zyk,pre,9.856599194109846,939,Google Chrome
+1004,0,vek,vek,szr,6.083280231969987,470,Firefox
+161,0,rff,pgu,rff,0.6195894304889169,473,Firefox
+2323,0,ptb,ptb,eoe,8.275197024170817,750,Firefox
+1872,0,ycb,ycb,fvc,3.678087722444523,147,Google Chrome
+1769,0,gvp,gvp,hrj,3.856896481005694,732,Google Chrome
+816,0,cyd,cyd,uwp,11.735717634551632,1178,Microsoft Edge
+629,0,rvh,rvh,fvc,9.655268684254953,313,Google Chrome
+2003,0,tjc,tjc,ebm,5.155776724779925,233,Google Chrome
+2724,0,fyf,fyf,ats,9.192661277797036,1540,Firefox
+2428,0,tza,tza,cpn,7.67553161766682,383,Firefox
+2919,0,skm,skm,ncb,7.893664033734041,113,Google Chrome
+1577,0,pgi,pgi,myl,8.43793879443839,625,Google Chrome
+2251,0,skm,skm,flj,7.807969702924355,94,Google Chrome
+2330,0,deb,deb,zro,6.5718959126422085,462,Firefox
+2257,0,cyd,cyd,nqg,10.089518774476776,369,Microsoft Edge
+877,0,yxw,yxw,vog,3.582128261935595,548,Firefox
+2011,0,vlm,vlm,slq,4.874992008709463,117,Google Chrome
+98,0,nzq,nzq,xgb,10.093549834891363,1349,Firefox
+552,0,opp,opp,jpm,7.394133020181531,993,Firefox
+494,0,qqe,qqe,cjr,10.166121569936703,2668,Google Chrome
+140,0,nlm,nlm,wvy,8.923040872948286,1468,Firefox
+2506,0,shh,shh,vek,10.98916564412433,309,Firefox
+2791,0,ulu,ulu,qkd,5.8214813032743375,122,Microsoft Edge
+1175,0,cjr,cjr,ngs,9.38511220600686,443,Google Chrome
+213,0,cka,cka,esu,7.313702822012285,419,Firefox
+976,0,qsw,qsw,fvc,8.67396486069887,158,Google Chrome
+1058,0,qof,qof,skm,7.2142277569250775,676,Google Chrome
+1705,0,swe,swe,lio,13.474650666375705,627,Opera
+287,0,nwt,nwt,sdx,13.967086890238793,2370,Google Chrome
+2176,0,lio,lio,uwp,9.126649867156704,646,Firefox
+2410,0,syt,syt,byo,9.755187629744636,1684,Firefox
+2381,0,lgz,lgz,jew,3.3688511592707533,201,Firefox
+2516,0,zct,zct,cjr,2.6256786687672147,123,Google Chrome
+2565,0,kwi,kwi,jkc,7.71611795861069,492,Firefox
+1483,0,jmq,jmq,guh,2.295736357658561,661,Google Chrome
+881,0,bgn,bgn,kks,3.1283767590757816,130,Firefox
+1018,0,flj,flj,slq,8.767547508038328,102,Google Chrome
+844,0,vfo,vfo,vzc,12.443100195021767,2960,Google Chrome
+2290,0,muz,muz,mvu,4.9857617537771795,125,Google Chrome
+212,0,hfy,hfy,jfm,2.888456679716036,100,Google Chrome
+266,0,lhr,lhr,nyk,6.8836269561545205,78,Firefox
+53,0,kwi,kwi,fgc,10.487850412044759,199,Firefox
+2091,0,xvr,xvr,fal,8.775091721659706,471,Firefox
+417,0,zro,zro,nuh,0.8465446150583649,101,Firefox
+1550,0,snv,snv,pgm,5.409105450151253,74,Firefox
+1998,0,gcr,gcr,cum,9.217907630328494,657,Microsoft Edge
+327,0,fxg,fxg,xgb,8.272806460091129,5494,Firefox
+2457,0,skm,skm,flj,7.501065483798578,223,Google Chrome
+1674,0,zht,zht,deb,8.512527430565175,173,Firefox
+2259,0,azx,guh,jmq,0.7460666561862279,143,Google Chrome
+1543,0,skm,skm,urs,7.51132128700103,82,Google Chrome
+373,0,kwi,kwi,bgn,15.47201814283009,259,Firefox
+2935,0,hzx,hzx,mqo,3.381884628673065,150,Microsoft Edge
+2629,0,hrj,hrj,gvp,3.984062930757908,178,Google Chrome
+2875,0,snv,snv,jrc,9.103300344991299,1146,Firefox
+1709,0,nwt,nwt,zct,12.486301543064055,1749,Google Chrome
+2603,0,tft,tft,wvy,6.948500653570433,678,Firefox
+2315,0,muz,muz,mvu,2.389194589240967,222,Google Chrome
+3142,0,ncb,ncb,skm,6.208634542896082,497,Google Chrome
+472,0,fwh,fwh,guh,12.691022407773382,1556,Google Chrome
+1237,0,xvr,xvr,nyk,3.8494694449281264,185,Firefox
+2442,0,syt,syt,kks,9.580008318410236,209,Firefox
+1284,0,hxt,hxt,slq,4.126363107611232,185,Google Chrome
+2152,0,vzc,vzc,nsf,5.122962330378829,153,Google Chrome
+1768,0,bfg,bfg,lhd,3.93851135300661,519,Firefox
+2817,0,slq,slq,fvc,10.852295558162798,170,Google Chrome
+1724,0,bos,bos,xgb,0.00424633241232808,213,Firefox
+859,0,cpn,cpn,snv,7.565845598640573,201,Firefox
+1971,0,wjn,wjn,zqs,6.295840799776003,80,Microsoft Edge
+400,0,flj,flj,slq,3.3523889501603783,78,Google Chrome
+1745,0,avt,avt,tft,9.577873089700422,1799,Firefox
+1862,0,blf,blf,sgd,7.660302833935841,1018,Firefox
+2853,0,iib,iib,rgo,11.365897767463377,1485,Firefox
+2181,0,ftq,ftq,lgd,9.535035490531321,84,Firefox
+2612,0,slq,skm,flj,1.727408030735348,61,Google Chrome
+3068,0,guh,guh,jmq,5.103499401952752,913,Google Chrome
+2767,0,nyk,nyk,pgu,2.1315499949903973,362,Firefox
+245,0,qbf,qbf,gtj,8.560978154485186,6745,Google Chrome
+821,0,fuz,fuz,mgs,10.492242224395644,1824,Firefox
+1272,0,ngs,ngs,fvc,0.11240331149639682,205,Google Chrome
+1890,0,xgv,xgv,jpm,6.773507665059959,147,Firefox
+97,0,zbn,zbn,jpm,4.80876104668061,545,Firefox
+1247,0,avt,avt,tft,8.119004068437809,344,Firefox
+286,0,cjr,cjr,azx,9.359583752909632,621,Google Chrome
+542,0,cvw,cvw,tfi,2.858780875148835,114,Firefox
+3108,0,nqg,nqg,qfy,12.580878481800893,156,Microsoft Edge
+1684,0,uey,uey,cil,8.283755035652755,1595,Google Chrome
+2371,0,btl,btl,nsf,8.371855853535022,726,Google Chrome
+3036,0,hew,hew,lgd,8.341767372031224,1031,Firefox
+248,0,sfi,sfi,cxu,6.584363614448574,118,Google Chrome
+367,0,dfo,dfo,nyk,8.23474633955747,1033,Firefox
+296,0,dfo,dfo,nyk,2.956769112415964,328,Firefox
+2080,0,sii,sii,oec,6.153639838596207,520,Firefox
+3087,0,iba,iba,muz,7.858000228265783,1053,Google Chrome
+2067,0,slq,slq,flj,10.083315149274323,49,Google Chrome
+448,0,ats,ats,fyf,8.07304254204698,3393,Firefox
+3240,0,lhr,lhr,nyk,1.3876313306263794,437,Firefox
+1987,0,pgu,pgu,nyk,6.001059575241927,530,Firefox
+2081,0,vfo,vfo,xwz,10.971235414320168,528,Google Chrome
+3273,0,cut,cut,prb,6.0443458533043835,260,Firefox
+1607,0,tyw,tyw,qkd,11.419656344666969,1304,Microsoft Edge
+1926,0,slq,slq,urs,2.746906926836333,389,Google Chrome
+114,0,pre,pre,ald,9.049595128791637,570,Google Chrome
+1663,0,shh,shh,tdk,12.67847720674843,554,Firefox
+686,0,nyk,nyk,gor,4.525141698486806,1228,Firefox
+1660,0,wuy,wuy,nkb,11.429597920202681,1123,Google Chrome
+933,0,tvt,tvt,kbf,2.5915958691703067,185,Firefox
+1481,0,wwk,wwk,fou,8.37885110082369,219,Google Chrome
+2761,0,tyw,tyw,rvh,10.327774056860607,1205,Microsoft Edge
+2309,0,skm,skm,flj,9.095202090113958,108,Google Chrome
+203,0,cjr,cjr,zct,4.5638285981029885,719,Google Chrome
+1243,0,skm,skm,slq,10.013874988202076,208,Google Chrome
+1524,0,tzn,tzn,myl,3.597401578115,90,Google Chrome
+2912,0,bfg,bfg,pcv,4.786142673108904,142,Firefox
+201,0,hjs,hjs,qkd,13.171085160518162,536,Microsoft Edge
+849,0,eus,eus,ald,9.157372024964474,442,Microsoft Edge
+130,0,skm,skm,wht,3.882430273371563,2107,Google Chrome
+1060,0,sbz,sbz,qsw,2.8980148851199776,955,Google Chrome
+780,0,rgo,rgo,gcr,11.067130131988286,942,Microsoft Edge
+1677,0,kzt,kzt,obm,8.877383322860014,357,Firefox
+1637,0,blf,blf,jpm,4.822122686196762,443,Firefox
+1320,0,tza,tza,eqw,5.406862358871927,1284,Firefox
+1520,0,yuz,yuz,lio,6.925514169466925,227,Firefox
+2142,0,cje,cje,fmz,6.562628537527219,213,Google Chrome
+187,0,oqa,oqa,fvc,9.150538751169087,904,Google Chrome
+1629,0,bou,bou,azo,9.410635503573836,5070,Google Chrome
+641,0,wwk,wwk,fou,9.62057329058975,192,Google Chrome
+544,0,shh,shh,ngs,9.069232204200837,694,Firefox
+3217,0,fgc,fgc,cvw,4.862435565978388,175,Firefox
+2591,0,flj,skm,flj,1.4823732467407504,151,Google Chrome
+269,0,zqs,zqs,wjn,10.478701722086324,580,Microsoft Edge
+1958,0,myl,myl,tzn,3.7859021719084236,553,Google Chrome
+428,0,vlm,vlm,flj,8.927987534157431,863,Google Chrome
+107,0,skm,skm,flj,11.12790765267533,454,Google Chrome
+65,0,ont,ont,fgn,6.436916611442781,219,Microsoft Edge
+738,0,pcv,pcv,gid,10.539023104597343,2144,Google Chrome
+2742,0,muz,muz,iba,5.632034260371774,156,Google Chrome
+179,0,fcq,fcq,fvc,7.1606371948177845,361,Google Chrome
+2059,0,jfm,jfm,pcv,8.814758528245584,619,Google Chrome
+2515,0,wuy,wuy,nkb,4.261083269286615,133,Google Chrome
+2967,0,kik,kik,vfo,9.520637319468474,130,Google Chrome
+967,0,jmq,jmq,azx,0.6175961810501249,109,Google Chrome
+1896,0,hfy,hfy,pcv,4.3665528622570475,310,Google Chrome
+56,0,wht,wht,ngs,10.036003826627557,461,Google Chrome
+2729,0,hzx,hzx,zok,5.277005594615413,243,Microsoft Edge
+3071,0,slq,slq,skm,3.8913178906109263,155,Google Chrome
+2161,0,ats,ats,cut,5.440917762935369,273,Firefox
+151,0,deb,deb,zro,6.011278047854753,1294,Firefox
+1056,0,jxu,jxu,deb,7.989580472276717,291,Firefox
+2778,0,cil,cil,tkz,5.102535778299151,1157,Google Chrome
+1662,0,tkz,tkz,yvq,3.8195377523039378,452,Google Chrome
+176,0,bgn,bgn,ftq,2.320906543706539,1015,Firefox
+3150,0,lhr,lhr,gor,2.9134306568444073,1284,Firefox
+2336,0,wjn,wjn,slq,1.9440621822394388,68,Microsoft Edge
+1959,0,uey,uey,vfo,10.700559688748339,1105,Google Chrome
+2183,0,fjb,fjb,jat,12.035665596782323,4950,Microsoft Edge
+1020,0,pgm,pgm,lio,6.612959926740153,1024,Firefox
+1763,0,byo,byo,mmm,3.4845824115199244,2129,Firefox
+1742,0,sfi,sfi,cje,9.458867453040925,378,Google Chrome
+2777,0,jfm,jfm,fvc,4.8174778461133005,79,Google Chrome
+146,0,vlm,vlm,flj,9.226753753449692,648,Google Chrome
+2615,0,pgi,pgi,fvc,5.472589729599923,97,Google Chrome
+3146,0,jkt,jkt,rgo,6.649526012308897,981,Microsoft Edge
+2545,0,btl,btl,sbz,7.607839775618226,3416,Google Chrome
+1201,0,vzc,vzc,vfo,10.987172636034213,1901,Google Chrome
+1488,0,hjs,hjs,tdk,11.203541930480904,99,Microsoft Edge
+596,0,slq,slq,cjr,7.617916035120678,276,Google Chrome
+3181,0,hjs,hjs,nqg,7.176441080196157,88,Microsoft Edge
+2633,0,slq,slq,ncb,8.1128544438383,309,Google Chrome
+1129,0,vfo,vfo,hll,10.396290937658186,715,Google Chrome
+1498,0,nfh,nfh,jfm,9.922148903698034,1708,Google Chrome
+1658,0,jpm,jpm,opp,4.439843520876272,718,Firefox
+92,0,qsw,qsw,psg,10.07474033777886,1290,Google Chrome
+2790,0,qfy,qfy,eus,5.932249112224409,1053,Microsoft Edge
+563,0,cxt,cxt,hzx,4.800768162880084,247,Microsoft Edge
+2863,0,flj,flj,zct,13.095010859175193,349,Google Chrome
+1737,0,yrb,yrb,wjn,2.9962927456637365,264,Microsoft Edge
+2099,0,flj,flj,cjr,2.989117423839102,1796,Google Chrome
+907,0,ncb,ncb,slq,5.589060680451106,235,Google Chrome
+1332,0,cjr,cjr,slq,3.079835192391787,263,Google Chrome
+2505,0,oqa,oqa,bou,7.751719437373659,1357,Google Chrome
+772,0,meh,meh,byo,7.235148579765922,900,Firefox
+3141,0,fou,fvc,fou,5.964823692513159,2,Google Chrome
+2879,0,iju,iju,sov,4.458290427820209,628,Google Chrome
+1615,0,lgd,lgd,hew,8.15981417559108,216,Firefox
+2364,0,gid,gid,fvc,2.1629241889579878,109,Google Chrome
+2182,0,vlm,vlm,ngs,6.8616394458769285,1076,Google Chrome
+1202,0,nzq,nzq,oni,11.155508191471418,438,Firefox
+1650,0,zht,zht,ftq,8.519621803615685,111,Firefox
+892,0,gid,gid,fvc,10.044040148619388,793,Google Chrome
+702,0,cpn,cpn,nzq,4.77410324250217,109,Firefox
+832,0,nqg,nqg,cxt,7.268720570398692,314,Microsoft Edge
+1625,0,kik,kik,vfo,11.69341395831939,1248,Google Chrome
+1549,0,cil,cil,uey,4.023713112248958,248,Google Chrome
+261,0,gtj,gtj,aho,8.798689240176657,3195,Google Chrome
+1576,0,qfy,qfy,zqs,4.923751899024027,418,Microsoft Edge
+341,0,fwf,fwf,kks,7.403933978975033,175,Firefox
+1063,0,cjr,cjr,ngs,4.9034478180811325,293,Google Chrome
+2894,0,fwf,fwf,meh,11.082585309349529,213,Firefox
+2396,0,bez,bez,wjn,6.662613397312591,705,Microsoft Edge
+1010,0,ftq,ftq,byo,5.366932916924057,125,Firefox
+1557,0,pyb,pyb,cvw,3.7872862924982567,404,Firefox
+1593,0,snv,snv,jrc,8.561372625801177,182,Firefox
+2425,0,gor,gor,pgu,4.915609892461316,1340,Firefox
+1141,0,bgn,bgn,kwi,2.278359575671667,615,Firefox
+460,0,uwp,uwp,lio,1.0386103703688425,69,Firefox
+2619,0,tsn,tsn,bgn,9.440624786731272,1145,Firefox
+1816,0,opp,opp,jpm,4.32418547412548,385,Firefox
+1783,0,vos,vos,vsb,3.5519464139882353,307,Firefox
+1302,0,vjw,vjw,gid,8.639791670839369,205,Google Chrome
+2557,0,xvr,xvr,pgu,5.155735027563461,1190,Firefox
+561,0,jrc,jrc,snv,0.7964261685641363,455,Firefox
+1174,0,cyd,cyd,wjn,8.344586127588514,605,Microsoft Edge
+1154,0,lio,lio,snv,7.8542433663327,360,Firefox
+22,0,kwi,kwi,jkc,3.0977202064730136,141,Firefox
+2904,0,wfs,wfs,qsw,7.036960972116519,370,Google Chrome
+1357,0,shh,shh,tdk,11.057308148963862,91,Firefox
+469,0,fou,fou,fvc,9.866260390946586,138,Google Chrome
+2432,0,gcr,gcr,cum,9.660836021827041,2557,Microsoft Edge
+3079,0,sdx,sdx,nwt,11.873072873518224,3339,Google Chrome
+987,0,zyk,zyk,pre,7.354618186318456,205,Google Chrome
+1559,0,ajo,ajo,szr,9.49300998467903,2725,Firefox
+2531,0,udj,udj,qkd,4.606377822086321,153,Microsoft Edge
+2483,0,syt,syt,kks,5.646460483187817,832,Firefox
+2174,0,vek,vek,sgd,3.38147592634816,2155,Firefox
+562,0,jpm,jpm,opp,5.483175081481177,1464,Firefox
+1452,0,wht,wht,ngs,6.424560639027378,142,Google Chrome
+840,0,pyb,lgz,pyb,0.5113177981527679,301,Firefox
+2467,0,bfg,bfg,wvy,6.8191238958676195,2050,Firefox
+1255,0,hew,hew,lgd,5.650486543082344,554,Firefox
+646,0,fvc,fvc,fuy,8.463759286848967,543,Google Chrome
+2320,0,lgd,lgd,gor,6.339993647155039,103,Firefox
+2764,0,vfo,vfo,nkb,9.74264711284341,1067,Google Chrome
+145,0,zro,zro,bgn,2.6616699026906874,413,Firefox
+1238,0,slq,slq,flj,9.635537129965648,75,Google Chrome
+3084,0,mmo,pgi,cnh,0.93303297484987,103,Google Chrome
+2300,0,nqg,nqg,zok,4.212883048600661,292,Microsoft Edge
+2186,0,txk,txk,ptb,9.494870459907013,2589,Firefox
+1122,0,fwf,fwf,mmm,6.679234663959504,70,Firefox
+2230,0,uwp,uwp,pgm,4.219767991265403,119,Firefox
+1733,0,uwr,uwr,syt,6.529605652012857,625,Firefox
+2908,0,iju,iju,sov,6.827267180349406,1163,Google Chrome
+386,0,cxt,cxt,lra,7.676348423858245,154,Microsoft Edge
+1365,0,qof,qof,vmy,5.831032315404547,874,Google Chrome
+1852,0,mmo,mmo,vfo,6.700047306967011,1292,Google Chrome
+2820,0,kks,kks,bgn,9.205964982162472,727,Firefox
+749,0,syt,syt,kks,10.799650682716889,931,Firefox
+1875,0,shh,shh,kks,11.144505774079326,52,Firefox
+396,0,cum,gcr,cum,1.380070919171656,254,Microsoft Edge
+964,0,fwf,fwf,kks,6.636663758478797,235,Firefox
+52,0,flj,flj,ngs,8.810789332572536,189,Google Chrome
+1787,0,pre,pre,fvc,7.959593298617765,198,Google Chrome
+535,0,nkb,nkb,wuy,7.857661157648605,113,Google Chrome
+2455,0,qkd,qkd,udj,4.583028759917882,598,Microsoft Edge
+411,0,fvc,fvc,ngs,11.714333888656654,5438,Google Chrome
+89,0,nuh,nuh,cec,12.726841189777147,648,Firefox
+625,0,opp,opp,npo,5.654536411587987,807,Firefox
+2555,0,ycb,ycb,fvc,10.265776854277856,630,Google Chrome
+2628,0,qfy,qfy,zrx,2.9873218530706867,924,Microsoft Edge
+3110,0,aho,aho,akx,6.890291224279686,1171,Google Chrome
+362,0,hll,azx,iyf,0.08422556128455927,189,Google Chrome
+1842,0,byo,byo,nrb,0.30372872938501505,328,Firefox
+169,0,wht,wht,vlm,4.123160228226541,170,Google Chrome
+2191,0,lgz,lgz,pyb,4.971508944437095,370,Firefox
+2647,0,flj,flj,slq,0.715037502438137,146,Google Chrome
+24,0,iib,iib,rgo,5.946976603795297,185,Firefox
+234,0,oec,oec,tza,5.714524159180925,3273,Firefox
+2909,0,fgc,fgc,kwi,3.2383645401994547,1223,Firefox
+1298,0,nzq,nzq,kbf,8.968711828339815,820,Firefox
+893,0,nwt,nwt,skm,11.61284717174306,1604,Google Chrome
+2151,0,opp,jpm,opp,1.91799703548761,793,Firefox
+613,0,zct,zct,qof,10.615012353756855,3553,Google Chrome
+3211,0,ptb,ptb,eoe,8.398897891673961,2106,Firefox
+1137,0,cut,cut,fyf,9.122654873221789,2265,Firefox
+3138,0,mqo,mqo,nqg,5.494710649467925,269,Microsoft Edge
+1297,0,fvc,fvc,ngs,10.252357748161119,3607,Google Chrome
+2991,0,yvq,yvq,tkz,3.9248104155626224,763,Google Chrome
+1064,0,tft,tft,avt,8.751137801920947,3149,Firefox
+1282,0,tfi,tfi,sov,11.449490549316979,609,Firefox
+1377,0,urs,urs,flj,5.674649918913072,64,Google Chrome
+2496,0,prb,prb,nuh,4.659726214291931,920,Firefox
+521,0,cjr,cjr,wht,9.58669348534158,506,Google Chrome
+1933,0,fek,fek,tjc,5.819927252081514,192,Firefox
+1072,0,fjb,fjb,wjn,11.584691768339024,3589,Microsoft Edge
+1305,0,guh,cjr,slq,0.26006112026847594,179,Google Chrome
+2216,0,rgo,rgo,mqo,4.379561170452586,75,Microsoft Edge
+1068,0,gcr,gcr,oph,9.871952224655953,688,Microsoft Edge
+477,0,swe,swe,kik,11.717244264743567,294,Opera
+1347,0,sgd,sgd,vek,3.085741080190549,103,Firefox
+2752,0,gor,gor,nyk,4.88734005980405,3363,Firefox
+2910,0,usg,usg,xby,6.391151275343435,4045,Firefox
+1267,0,bgn,bgn,zro,0.2706209267089168,235,Firefox
+1596,0,gzi,gzi,xvr,6.806783261092123,306,Firefox
+1884,0,eqw,eqw,tza,5.297493572442252,2698,Firefox
+314,0,cbo,cbo,jks,4.628817488239056,385,Google Chrome
+1296,0,sps,sps,zrx,7.472356862281479,357,Microsoft Edge
+2382,0,zyk,zyk,cuw,8.413661027382993,137,Google Chrome
+281,0,fvc,fvc,qsw,11.500970470748197,1299,Google Chrome
+1717,0,xwz,xwz,vfo,6.667454216672001,1419,Google Chrome
+470,0,zrx,zrx,sps,6.692714406855255,1087,Microsoft Edge
+1021,0,vsb,vsb,bgn,3.5826929993487084,1264,Firefox
+2830,0,vlm,vlm,ngs,8.133221792765069,116,Google Chrome
+1000,0,zus,zus,tza,4.598134774282358,399,Firefox
+345,0,rmf,ulu,rmf,0.018701920219732493,138,Microsoft Edge
+1462,0,avt,avt,lgd,5.172191146604369,194,Firefox
+51,0,vjw,vjw,gid,12.347442537002687,2419,Google Chrome
+1280,0,szr,szr,xgv,8.184858634365241,255,Firefox
+283,0,tmn,tmn,usy,0.038011149966012514,10620,Firefox
+2874,0,dbi,dbi,dfo,8.90212207669762,245,Microsoft Edge
+531,0,hxt,hxt,wht,3.306360978263989,237,Google Chrome
+690,0,cum,cum,gcr,6.629788376586581,2506,Microsoft Edge
+2795,0,sii,sii,opp,13.56436437385278,1845,Firefox
+2222,0,skm,skm,slq,7.361863332844755,77,Google Chrome
+1031,0,sov,sov,qbf,6.669475631391121,783,Google Chrome
+830,0,jqq,jqq,pre,3.210653330495832,375,Google Chrome
+1945,0,pgm,pgm,lio,9.926892089590517,1169,Firefox
+1641,0,txk,txk,eoe,9.932559230032703,3373,Firefox
+1590,0,tkz,tkz,yvq,4.462366477068743,774,Google Chrome
+1094,0,lnq,lnq,jkc,2.0379363357885314,434,Firefox
+612,0,gzi,gzi,zus,8.43236159684884,3234,Firefox
+2855,0,vmy,vmy,cxu,3.1957494023089303,158,Google Chrome
+1832,0,tdk,tdk,lnq,4.5454013274979195,618,Firefox
+262,0,kwi,kwi,jkc,10.438668408403625,420,Firefox
+2630,0,itt,oqa,itt,1.2708434518879628,138,Google Chrome
+150,0,zqs,zqs,wjn,7.916637879435799,662,Microsoft Edge
+2769,0,eus,eus,hzx,6.900092468841713,215,Microsoft Edge
+2120,0,zbn,zbn,vek,9.5629606210045,3525,Firefox
+1223,0,sqb,sqb,uof,4.4793732101839225,254,Google Chrome
+2946,0,tvt,tvt,eqw,11.78710203290449,1815,Firefox
+1617,0,cjr,cjr,slq,3.310368846028261,79,Google Chrome
+2096,0,sii,sii,vek,7.223617066790185,446,Firefox
+1805,0,sii,sii,vek,10.798706201926255,2777,Firefox
+2533,0,gor,gor,nyk,8.505561318259776,1536,Firefox
+815,0,cje,cje,fmz,8.247029540746885,254,Google Chrome
+1928,0,cbo,cbo,azx,6.919310809469092,292,Google Chrome
+2801,0,wuy,wuy,nkb,10.806386157157988,951,Google Chrome
+915,0,slq,slq,kwi,10.54837207741965,509,Google Chrome
+1228,0,sdx,sdx,nwt,13.213313680712059,2529,Google Chrome
+550,0,bou,bou,fvc,8.43382432868918,229,Google Chrome
+512,0,xvr,xvr,nyk,4.16941462831019,1363,Firefox
+2318,0,xby,xgv,xby,0.16390456283068833,98,Firefox
+3115,0,lio,lio,uwp,8.85535517939876,259,Firefox
+1362,0,cjr,cjr,zct,6.748891120443691,1158,Google Chrome
+482,0,cvw,cvw,lgz,7.289693499840172,358,Firefox
+1240,0,lio,lio,pgm,8.574533902055162,990,Firefox
+1436,0,snn,snn,lra,3.4911354898627422,117,Microsoft Edge
+2703,0,uhx,uhx,xby,1.0797662119213163,1886,Firefox
+1505,0,czi,czi,syt,8.237958619469017,1268,Firefox
+903,0,hjs,hjs,qkd,12.715430592853316,166,Microsoft Edge
+138,0,kzt,kzt,obm,8.459793894126562,825,Firefox
+3123,0,ien,ien,rgo,6.958114854004656,300,Microsoft Edge
+1759,0,eqw,eqw,oec,0.12012888851116843,523,Firefox
+622,0,zyk,zyk,fvc,4.571872935893456,100,Google Chrome
+1644,0,esu,esu,usy,5.278706425506224,9650,Firefox
+1057,0,lhr,lhr,dfo,3.9433714573363643,1431,Firefox
+2834,0,wem,wem,fmz,6.412552251235194,164,Google Chrome
+247,0,ald,ald,pre,5.77160010257845,388,Google Chrome
+3116,0,nsf,nsf,fvc,10.353951287492217,4033,Google Chrome
+2227,0,lgz,lgz,cvw,4.60821426418449,164,Firefox
+773,0,hjs,hjs,qkd,11.696486145726485,395,Microsoft Edge
+268,0,fal,fal,dfo,8.36013194245113,158,Firefox
+1869,0,wxf,wxf,bfg,5.101413740865167,107,Firefox
+2606,0,jks,jks,qfy,9.154130609445634,568,Microsoft Edge
+2963,0,cxu,cxu,fvc,5.86016591030756,123,Google Chrome
+427,0,qdv,wht,qdv,3.2751398490894443,409,Google Chrome
+2190,0,nlm,nlm,bfg,5.605824285939272,494,Firefox
+709,0,kzt,kzt,obm,7.325736489660921,296,Firefox
+2001,0,ubr,ubr,uey,8.344793462316101,5864,Google Chrome
+1894,0,rvh,rvh,fvc,5.826389803809176,267,Google Chrome
+390,0,hrj,hrj,gvp,5.396213610070352,165,Google Chrome
+2448,0,fou,fou,qdv,11.645476164744876,247,Google Chrome
+1665,0,fwh,fwh,guh,9.193984520762342,340,Google Chrome
+115,0,skm,skm,flj,6.149386035466518,229,Google Chrome
+2938,0,lgz,lgz,pyb,5.053519239668556,74,Firefox
+2677,0,wcf,wcf,fou,7.966571130257771,124,Firefox
+1065,0,vfo,vfo,ycb,12.172095189242382,3137,Google Chrome
+1400,0,zyk,fvc,zyk,0.14202219719111797,76,Google Chrome
+718,0,meh,meh,byo,2.2662557742591636,102,Firefox
+524,0,zbn,zbn,nrb,8.475983557007448,1920,Firefox
+822,0,jkc,jkc,kwi,5.222699553673105,1509,Firefox
+2238,0,szr,szr,ajo,4.730941868148091,587,Firefox
+2168,0,fvc,fvc,tzn,9.980708590198356,313,Google Chrome
+275,0,szr,szr,xgv,7.221439007242578,210,Firefox
+2342,0,gtj,gtj,jmq,7.966725285918867,1153,Google Chrome
+883,0,ngs,ngs,flj,6.653056930380364,222,Google Chrome
+2739,0,qkd,qkd,udj,2.9159256774791515,83,Microsoft Edge
+2697,0,fuz,fuz,fal,9.295774707922819,249,Firefox
+2250,0,kks,kks,bgn,7.129883218504556,2365,Firefox
+1300,0,sfi,sfi,cje,12.16740125497633,587,Google Chrome
+1995,0,cqp,cqp,tsn,6.9976804451550505,194,Firefox
+635,0,vjw,vjw,gid,8.76375555844345,362,Google Chrome
+1929,0,sps,sps,ats,5.53944926567574,322,Microsoft Edge
+2136,0,byo,byo,mmm,3.3068695256722176,1634,Firefox
+3118,0,qqe,qqe,fvc,8.068087525633075,170,Google Chrome
+446,0,prb,prb,cec,9.580865434016893,2646,Firefox
+172,0,hzx,hzx,bez,10.143182373088715,208,Microsoft Edge
+571,0,kks,kks,bgn,6.160573711648086,2206,Firefox
+3198,0,wfs,wfs,ald,5.511021600811024,858,Google Chrome
+2027,0,oqa,oqa,sqb,3.4282945568302745,613,Google Chrome
+841,0,oni,oni,nzq,3.2722551329145375,219,Firefox
+2278,0,xgb,xgb,uwr,7.4450438998241495,2623,Firefox
+2771,0,nrb,nrb,byo,0.5272617633135761,76,Firefox
+3259,0,usg,usg,xgv,9.411313452949988,930,Firefox
+290,0,wjn,wjn,hjs,5.470488992270405,227,Microsoft Edge
+3010,0,tvt,tvt,zbn,12.06850297411218,1079,Firefox
+1363,0,xby,xby,xgv,4.103488870890803,1509,Firefox
+1826,0,jks,qfy,jks,0.6894547573481757,119,Microsoft Edge
+2695,0,slq,slq,skm,8.241749091614118,216,Google Chrome
+1934,0,nlm,nlm,kks,6.0813991757262595,318,Firefox
+3216,0,dbi,nqg,sps,0.46943524855839414,146,Microsoft Edge
+992,0,tsn,tsn,lgz,6.055975650717688,95,Firefox
+813,0,qsw,qsw,wfs,7.1986045489257995,328,Google Chrome
+1148,0,xgv,xgv,fyf,7.7895217759208455,224,Firefox
+2558,0,pgi,pgi,fvc,9.3262898645211,96,Google Chrome
+1022,0,zct,zct,qof,14.236330467049696,10683,Google Chrome
+754,0,ycb,ycb,fvc,7.731299058751807,63,Google Chrome
+2867,0,wem,wem,ebm,7.594521286857338,226,Google Chrome
+48,0,blf,blf,yuz,6.000567601192236,344,Firefox
+1041,0,zrx,zrx,wjn,6.224493032201724,262,Microsoft Edge
+3065,0,zll,zll,cnh,4.02049154691113,223,Microsoft Edge
+696,0,hzx,hzx,fjb,9.425218538925193,237,Microsoft Edge
+2433,0,qdv,qdv,wht,2.041240309260319,144,Google Chrome
+3219,0,aho,aho,gtj,6.326458613260153,1361,Google Chrome
+3206,0,gid,gid,fvc,5.987066054461797,80,Google Chrome
+85,0,swe,swe,cut,14.336747660356973,783,Opera
+680,0,qqe,qqe,yrb,11.677058252046395,2373,Google Chrome
+2226,0,mgs,mgs,fuz,6.482982480727116,84,Firefox
+1381,0,tyw,tyw,qkd,10.638949649863148,1838,Microsoft Edge
+1761,0,slq,slq,cjr,10.074808637312064,179,Google Chrome
+1017,0,dfo,dfo,lhr,9.871473179874673,1283,Firefox
+827,0,vyu,vyu,oec,0.5944225022801275,199,Firefox
+2494,0,meh,meh,hjs,1.068025144739499,70,Firefox
+953,0,pgi,pgi,myl,10.883709408713319,473,Google Chrome
+1880,0,prb,prb,avt,3.9111727093437065,168,Firefox
+1911,0,slq,slq,urs,8.951751461407857,1110,Google Chrome
+1356,0,swe,swe,crn,10.672036937711631,279,Opera
+1493,0,ebm,ebm,tjc,4.358541343101198,649,Google Chrome
+69,0,hjs,hjs,qkd,13.296365032436892,373,Microsoft Edge
+1162,0,ftq,ftq,kwi,3.828258288866972,140,Firefox
+3166,0,tft,tft,avt,11.442948252257066,2681,Firefox
+2085,0,slq,slq,skm,4.665950023971417,59,Google Chrome
+2802,0,bgn,bgn,vsb,5.52676740519288,577,Firefox
+384,0,skm,vlm,skm,0.2672386009094252,263,Google Chrome
+1120,0,tzn,tzn,myl,9.5156020200556,1085,Google Chrome
+1465,0,cyd,cyd,jkt,12.530844922422652,395,Microsoft Edge
+495,0,skm,skm,slq,9.016034814504188,363,Google Chrome
+2021,0,wht,wht,qdv,1.7651764298530326,963,Google Chrome
+1139,0,iib,iib,gzi,5.3551145283776425,312,Firefox
+959,0,xby,xby,bgn,6.002178370463739,2280,Firefox
+1923,0,meh,meh,ajo,10.799132688914106,3565,Firefox
+1992,0,tsn,tsn,bgn,8.142893094147146,1650,Firefox
+1106,0,fek,fek,ftq,0.20634741531177925,146,Firefox
+2114,0,nzq,nzq,oni,9.208847694971816,2600,Firefox
+3015,0,jkc,jkc,shh,3.9605139615643465,229,Firefox
+1231,0,eoe,eoe,ptb,7.768545223169801,2722,Firefox
+1812,0,cec,cec,xxb,5.5463476029229914,369,Firefox
+167,0,obm,obm,kzt,4.185409130266809,299,Firefox
+1678,0,oec,oec,eqw,7.695660791521719,404,Firefox
+3226,0,cxu,cxu,guh,7.748210297534572,318,Google Chrome
+2773,0,czi,czi,pgm,4.135922390349062,219,Firefox
+1530,0,jfm,jfm,pcv,8.032488721473033,328,Google Chrome
+1292,0,eqo,eqo,ckl,7.056603249633439,2413,Google Chrome
+1335,0,ncb,ncb,vlm,12.987820484869651,1067,Google Chrome
+1076,0,nwt,nwt,zct,8.588448297904378,3145,Google Chrome
+1492,0,gor,gor,pgu,6.137604786260199,679,Firefox
+175,0,sfi,sfi,wxf,7.89485139902372,266,Google Chrome
+568,0,nuh,nuh,xxb,11.63427186488084,275,Firefox
+927,0,fal,fal,xvr,5.2181076560744275,192,Firefox
+634,0,dbi,dbi,sps,4.1170806743968855,560,Microsoft Edge
+1062,0,gvp,gvp,hrj,1.3090831039171915,237,Google Chrome
+1438,0,swe,swe,hjs,14.91640665558656,800,Opera
+1912,0,muz,muz,tkz,7.76989781104182,359,Google Chrome
+347,0,ufc,ufc,fvc,9.824794006207561,4153,Google Chrome
+1419,0,pgm,pgm,snv,7.2305692992644115,1298,Firefox
+2465,0,tza,tza,oec,3.4233287818488742,362,Firefox
+1453,0,fyf,fyf,ats,3.2667900427459844,569,Firefox
+2486,0,fmz,fmz,nsf,9.427708987425948,513,Google Chrome
+1847,0,pcv,pcv,hfy,7.76155552761594,363,Google Chrome
+1962,0,guh,guh,jmq,5.689133105858742,936,Google Chrome
+871,0,nzq,nzq,xgb,7.726907274103856,365,Firefox
+1323,0,sqb,sqb,cjr,7.238782042457263,1098,Google Chrome
+2585,0,nzq,nzq,xgb,9.274512831156844,2173,Firefox
+1968,0,skm,skm,slq,11.852734246003504,115,Google Chrome
+31,0,zro,zro,nrb,5.17459269117418,447,Firefox
+1181,0,qof,qof,zct,12.475068942597222,1852,Google Chrome
+1669,0,azo,azo,bou,5.494737632235982,302,Google Chrome
+802,0,wvy,wvy,cec,8.853241733925016,3221,Firefox
+2996,0,skm,skm,jkc,9.817956325459722,209,Google Chrome
+2194,0,zct,zct,cjr,10.115082591214463,4289,Google Chrome
+3032,0,mgs,mgs,uhx,6.642737594157011,168,Firefox
+541,0,fwf,fwf,fek,10.578813240617002,128,Firefox
+2927,0,oni,oni,nzq,6.978122939237982,493,Firefox
+2920,0,khv,khv,nzq,3.2481735811283703,361,Firefox
+536,0,nrb,nrb,xgv,3.377980180049643,329,Firefox
+215,0,rvh,rvh,zyk,7.138883593496609,694,Google Chrome
+614,0,iba,iba,muz,8.45627939547359,1228,Google Chrome
+1104,0,bou,bou,gid,8.787859472899124,2700,Google Chrome
+2925,0,pgi,pgi,fvc,9.486929334689776,1300,Google Chrome
+3055,0,skm,skm,slq,2.0626265147542098,57,Google Chrome
+1932,0,fgc,fgc,cvw,4.783977737146107,965,Firefox
+165,0,vek,vek,opp,4.363830908134788,255,Firefox
+3233,0,fal,fal,xvr,5.976093670599981,448,Firefox
+1892,0,qkd,qkd,udj,3.7306850269786374,94,Microsoft Edge
+6,0,fwf,fwf,tdk,5.671335042186495,105,Firefox
+2031,0,vzc,vzc,vfo,12.635551395095067,1844,Google Chrome
+728,0,lgz,lgz,pyb,8.733965263816632,469,Firefox
+1336,0,jmq,jmq,wht,3.266363681277741,122,Google Chrome
+2594,0,jfm,jfm,zyk,7.911954388099597,350,Google Chrome
+1344,0,jpm,jpm,opp,7.448929246258006,89,Firefox
+1856,0,wjn,wjn,zqs,8.360812317765149,653,Microsoft Edge
+2688,0,vfo,vfo,fwh,7.383797944305396,264,Google Chrome
+1386,0,mmm,mmm,byo,0.7256237412048296,164,Firefox
+3227,0,nlm,nlm,oni,8.378529166544045,1143,Firefox
+2756,0,yvq,tkz,yvq,0.04006214736972158,188,Google Chrome
+2478,0,snv,snv,fgc,6.753331313807,261,Firefox
+1218,0,oec,oec,vyu,2.765641219296473,184,Firefox
+584,0,ofq,ofq,bfg,9.501425198614497,171,Firefox
+2519,0,cqp,cqp,pyb,0.19601531119155702,849,Firefox
+729,0,ptb,ptb,eoe,10.518001585064594,1045,Firefox
+2500,0,cnh,cnh,bfg,7.779107828483742,140,Firefox
+2187,0,qfy,qfy,ont,4.316915272318688,374,Microsoft Edge
+3013,0,sii,sii,vek,5.887714751891853,265,Firefox
+692,0,lra,sps,lra,0.34331908243522147,688,Microsoft Edge
+2196,0,crn,crn,rmf,2.3446826113993438,339,Microsoft Edge
+291,0,sps,sps,zok,3.401218453065235,100,Microsoft Edge
+2010,0,fuy,fuy,pre,7.268715016851709,373,Google Chrome
+1750,0,psg,psg,fvc,11.865955069362428,669,Google Chrome
+1917,0,gid,gid,vjw,9.874205202509373,1990,Google Chrome
+1451,0,kks,kks,bgn,7.778715087908124,3302,Firefox
+3004,0,vog,vog,jpm,3.6672078574065186,782,Firefox
+2595,0,ngs,ngs,cjr,5.930250387694776,1246,Google Chrome
+720,0,meh,meh,fwf,9.21640782350092,1234,Firefox
+2964,0,szr,szr,xgv,6.433230728780753,153,Firefox
+1715,0,ftq,ftq,zqs,9.861607060614627,400,Firefox
+2248,0,fkf,fkf,yuz,5.078149559022988,509,Firefox
+100,0,zok,zok,cxt,2.830561600206575,657,Microsoft Edge
+1486,0,wem,wem,akx,6.273294799714324,247,Google Chrome
+1119,0,myl,myl,pgi,5.645990502189186,118,Google Chrome
+11,0,skm,skm,flj,13.414768321711732,328,Google Chrome
+2645,0,hjs,hjs,zct,9.875533840418155,402,Microsoft Edge
+171,0,kks,kks,syt,5.295151573755896,4147,Firefox
+950,0,pyb,lgz,pyb,2.4288810102845764,94,Firefox
+2038,0,tfi,tfi,sov,12.003331476557179,734,Firefox
+2456,0,hjs,hjs,tdk,13.843291192238205,124,Microsoft Edge
+2258,0,uhx,uhx,xby,2.876753259555745,1914,Firefox
+2680,0,rvh,rvh,cjr,11.358179443449245,3499,Google Chrome
+2159,0,vmy,vmy,jmq,5.2160521192211915,847,Google Chrome
+767,0,jew,kks,vek,0.45284908561890935,222,Firefox
+2093,0,snv,snv,lio,8.698326511468702,529,Firefox
+1030,0,lhd,lhd,bfg,6.990449173721671,1015,Firefox
+2523,0,fmz,fmz,cje,6.356489273123395,700,Google Chrome
+589,0,wfs,wfs,qsw,7.858857973048699,940,Google Chrome
+371,0,xkr,xkr,oqa,4.720354447227927,664,Google Chrome
+2675,0,tza,tza,lgd,8.986039426000936,671,Firefox
+1288,1,gvp,gvp,hrj,2.499882520843066,254,Google Chrome
+192,1,lgd,esu,xgv,0.36113393167603647,362,Firefox
+67,1,skm,skm,flj,0.8338200891608896,193,Google Chrome
+2451,1,tyw,tyw,rvh,10.367051686952262,1285,Microsoft Edge
+1015,1,xgb,xgb,nzq,4.211655220587332,604,Firefox
+2992,1,jkc,jkc,sii,7.276117874409865,1265,Firefox
+2354,1,guh,wht,hll,0.6348411225725927,96,Google Chrome
+1084,1,fwh,fwh,guh,7.465943628115063,119,Google Chrome
+2640,1,ngs,ngs,slq,5.869864150100269,252,Google Chrome
+180,1,uwp,uwp,pgm,8.129486053717415,1207,Firefox
+1536,1,bez,bez,fjb,9.282179113454731,499,Microsoft Edge
+1390,1,slq,slq,cjr,1.627264673106649,206,Google Chrome
+1496,1,cut,cut,ats,8.651183271423564,1204,Firefox
+1370,1,lgz,lgz,cqp,9.722543117309497,131,Firefox
+3001,1,txk,txk,ptb,8.48742597279347,1140,Firefox
+376,1,sfi,sfi,wxf,10.415284175073204,345,Google Chrome
+592,1,dfo,dfo,pou,8.377182276495056,1412,Firefox
+2281,1,nwt,nwt,sdx,12.339887198036301,1422,Google Chrome
+3051,1,ats,ats,fyf,4.451712016917403,1270,Firefox
+2162,1,sfi,sfi,vmy,13.121236484169899,590,Google Chrome
+3049,1,uof,uof,sqb,8.612299409288335,498,Google Chrome
+365,1,usg,usg,xby,7.023506960734791,1444,Firefox
+3080,1,czi,czi,szr,3.7331491275326023,453,Firefox
+1248,1,gtj,gtj,qbf,4.140301181538728,98,Google Chrome
+170,1,sfi,sfi,eqo,10.655524388048027,610,Google Chrome
+1743,1,hdz,hdz,bfg,3.0655691147765767,164,Firefox
+2128,1,lgd,lgd,esu,6.340603032535304,567,Firefox
+2839,1,hrj,hrj,gvp,7.199820540105795,469,Google Chrome
+2651,1,eqw,xgv,fgc,0.24871085622782774,623,Firefox
+1433,1,gzi,gzi,zus,4.080767749348116,1453,Firefox
+1372,1,ngs,ngs,vlm,7.813921209288059,3324,Google Chrome
+803,1,vos,vos,lgz,6.356994746755398,340,Firefox
+2024,1,obm,obm,kzt,7.3082443038509854,339,Firefox
+2109,1,tza,tza,oec,5.837581572362587,963,Firefox
+2797,1,uhx,uhx,xby,6.246893513446521,359,Firefox
+3003,1,bos,bos,fwh,7.041511623312161,1013,Firefox
+2277,1,pxi,pxi,sgd,7.645809656346701,7858,Firefox
+869,1,kks,syt,bos,2.4781264095913995,220,Firefox
+2185,1,hrj,hrj,gvp,3.191480894347384,238,Google Chrome
+848,1,gor,gor,pgu,4.780926914383912,794,Firefox
+453,1,bgn,bgn,tsn,8.952048188926305,1449,Firefox
+2604,1,npo,npo,opp,6.743428908199961,3980,Firefox
+545,1,usy,usy,vsb,3.2187467083835974,4343,Firefox
+1258,1,jmq,jmq,guh,2.554406363793518,361,Google Chrome
+796,1,fgc,fgc,vek,6.722299291055537,829,Firefox
+3160,1,psg,psg,fcq,11.923591855447786,316,Google Chrome
+2077,1,wfs,wfs,ald,10.024880532989458,1141,Google Chrome
+602,1,czi,czi,uwr,8.501759206780566,536,Firefox
+461,1,shh,shh,tdk,12.678512028564642,648,Firefox
+1791,1,zqs,zqs,wjn,4.893276199133521,2059,Microsoft Edge
+1790,1,pgu,pgu,oni,3.467547985648695,135,Firefox
+2000,1,urs,cjr,guh,0.4149644361483462,2512,Google Chrome
+771,1,nuh,nuh,zro,6.50400034631221,825,Firefox
+250,1,skm,skm,flj,11.53192086048395,599,Google Chrome
+1169,1,hjs,hjs,qkd,11.54780794565881,428,Microsoft Edge
+1827,1,fyf,fyf,xgv,7.535606093369626,679,Firefox
+1994,1,eus,eus,iba,5.429071752054289,841,Microsoft Edge
+381,1,zqs,zqs,ftq,9.049395042084413,1756,Microsoft Edge
+3097,1,syt,syt,uwr,6.268678076393962,761,Firefox
+1898,1,ien,ien,udj,1.1753514097459123,390,Microsoft Edge
+1622,1,vlm,vlm,cjr,8.977791630009808,349,Google Chrome
+1167,1,sps,sps,mqo,3.320622398434547,108,Microsoft Edge
+3235,1,nlm,nlm,bfg,9.215336869170262,505,Firefox
+2355,1,pre,pre,zyk,7.44320298965819,210,Google Chrome
+1425,1,cqp,cqp,tsn,4.7083437231484755,1414,Firefox
+924,1,yvq,pre,muz,0.20000999781366602,171,Google Chrome
+1975,1,snv,snv,jrc,3.926134933273339,354,Firefox
+1739,1,cbo,cbo,gvp,7.77233912491327,265,Google Chrome
+2933,1,oec,oec,tza,6.474742385531428,422,Firefox
+1500,1,hzx,hzx,ulu,8.872342895814574,304,Microsoft Edge
+698,1,qsw,qsw,wfs,4.7386730886888975,93,Google Chrome
+1274,1,nyk,nyk,pgu,2.0775679077254345,83,Firefox
+2566,1,meh,meh,ajo,12.296797799214584,3309,Firefox
+569,1,slq,slq,skm,0.8044429283839465,62,Google Chrome
+2461,1,pre,pre,fuy,1.3942007701784913,125,Google Chrome
+672,1,szr,szr,iib,6.333618613859194,218,Firefox
+838,1,fwf,fwf,tdk,6.991783425452217,64,Firefox
+2813,1,oqa,oqa,xkr,6.445511720793429,825,Google Chrome
+2674,1,swe,swe,crn,12.492541558096768,94,Opera
+725,1,jmq,jmq,cxu,7.19745762793123,85,Google Chrome
+3117,1,jks,jks,cbo,7.826163889715628,156,Microsoft Edge
+80,1,nwt,nwt,akx,10.493855646141407,1245,Google Chrome
+1627,1,rmf,sps,hzx,0.25974818456166826,85,Microsoft Edge
+2252,1,fmz,fmz,oqa,5.459507310124367,659,Google Chrome
+2574,1,nrb,nrb,lgz,10.330519117635044,1058,Firefox
+2827,1,wvy,wvy,nlm,9.24156045351713,2094,Firefox
+1331,1,kks,kks,fwf,8.890019183242693,137,Firefox
+1930,1,kwi,kwi,fgc,5.0312258734135495,817,Firefox
+944,1,tzn,tzn,myl,6.381355384288538,298,Google Chrome
+2601,1,vek,vek,sgd,4.088536027588693,664,Firefox
+2215,1,snv,snv,jrc,7.727397269146362,1010,Firefox
+551,1,qbf,qbf,gtj,8.956681417135476,558,Google Chrome
+1517,1,uey,uey,czi,5.803931231646435,378,Google Chrome
+2497,1,pre,pre,jqq,2.089354339682724,174,Google Chrome
+2201,1,hew,hew,lgd,4.014017266146396,109,Firefox
+1829,1,nqg,nqg,zok,7.52495182946317,115,Microsoft Edge
+2105,1,flj,flj,skm,0.053930252887463226,112,Google Chrome
+319,1,wuy,wuy,nkb,10.459719679901326,1738,Google Chrome
+21,1,nkb,nkb,wuy,8.37500989822685,1851,Google Chrome
+1082,1,lgz,lgz,cka,7.358540901947706,629,Firefox
+3175,1,qfy,qfy,nqg,7.333868316423342,776,Microsoft Edge
+2422,1,byo,byo,mmm,1.1366707243362635,947,Firefox
+1195,1,syt,syt,uwr,6.523348951052173,702,Firefox
+274,1,oqa,akx,xkr,0.6135982930523074,85,Google Chrome
+3237,1,oqa,oqa,xkr,4.112442198171747,410,Google Chrome
+850,1,jxu,jxu,mgs,9.654983334145964,149,Firefox
+3047,1,psg,psg,fcq,11.672197886238349,1158,Google Chrome
+366,1,tsn,tsn,tdk,8.018283435241331,175,Firefox
+1888,1,khv,khv,tmn,4.200978983691925,487,Firefox
+1117,1,pre,pre,zyk,0.801999657995224,423,Google Chrome
+2542,1,azo,azo,bou,6.368820656114352,3843,Google Chrome
+1747,1,wht,wht,flj,9.94974742156082,539,Google Chrome
+1691,1,wht,flj,fou,0.040335643176508285,123,Google Chrome
+117,1,hjs,qkd,hjs,0.14068395607650297,90,Microsoft Edge
+948,1,nkb,nkb,skm,3.9304068952587463,125,Google Chrome
+588,1,wjn,wjn,zqs,3.9898744697570434,275,Microsoft Edge
+1533,1,cec,cec,xxb,4.474916707658765,3923,Firefox
+724,1,snn,snn,sps,6.2979181025058075,130,Microsoft Edge
+2193,1,ncb,ncb,cjr,12.353923034361875,894,Google Chrome
+1075,1,nqg,nqg,mqo,12.73261474703263,495,Microsoft Edge
+3153,1,pgm,pgm,czi,8.617537294702466,560,Firefox
+2063,1,ckl,ckl,ulu,8.449796243589837,3047,Microsoft Edge
+529,1,vjw,vjw,gid,11.064292502479237,2514,Google Chrome
+1170,1,skm,skm,flj,10.25254014284616,401,Google Chrome
+2294,1,mgs,mgs,fuz,8.877300982898614,226,Firefox
+330,1,kik,kik,vfo,10.462499996222899,152,Google Chrome
+798,1,lgz,lgz,pyb,8.893413750447298,1041,Firefox
+2941,1,vfo,vfo,vzc,11.75698884299506,509,Google Chrome
+746,1,oph,oph,avt,7.249046109915587,1533,Microsoft Edge
+2945,1,pgm,pgm,czi,2.061273010490077,320,Firefox
+1443,1,wht,wht,cjr,9.310832930461508,920,Google Chrome
+2452,1,fgc,fgc,cvw,9.808667921630745,178,Firefox
+668,1,flj,flj,skm,5.814274143485032,185,Google Chrome
+2301,1,wjn,wjn,zqs,3.017101923335729,460,Microsoft Edge
+1340,1,lra,zok,sps,7.818959555483858,323,Microsoft Edge
+1584,1,guh,guh,jmq,3.9845585826188077,906,Google Chrome
+972,1,sov,sov,iju,6.50467735831049,328,Google Chrome
+3254,1,gtj,gtj,aho,11.428915528579477,4335,Google Chrome
+843,1,lgz,lgz,lnq,10.391506294785552,147,Firefox
+1401,1,tfi,tfi,sov,10.911416806720263,678,Firefox
+1538,1,nrb,nrb,byo,7.125388446721226,1996,Firefox
+458,1,kbf,kbf,esu,0.9017887346970923,284,Firefox
+761,1,iib,iib,rgo,11.465056844331276,1448,Firefox
+797,1,zok,zok,sps,4.962409227531092,853,Microsoft Edge
+806,1,zro,zro,usy,1.0556388820580338,127,Firefox
+1304,1,pgm,pgm,pqd,8.541631090145815,106,Firefox
+1257,1,ptb,ptb,txk,7.484517037463535,2804,Firefox
+1749,1,xgv,xgv,xby,3.1734815888985395,501,Firefox
+1226,1,cnh,cnh,lgz,8.671492269011587,190,Firefox
+1682,1,wht,cjr,wht,1.0273113867215455,1676,Google Chrome
+1722,1,zct,zct,nwt,3.4873908513747294,4819,Google Chrome
+1097,1,gvp,gvp,hrj,1.6944934789148096,92,Google Chrome
+2490,1,nqg,nqg,usy,9.901318108562117,352,Microsoft Edge
+609,1,avt,avt,tft,10.678258341376367,2701,Firefox
+259,1,jew,jew,fwf,8.483703856250342,269,Firefox
+211,1,tkz,tkz,yvq,1.7417642672198186,1683,Google Chrome
+1250,1,hjs,hjs,wjn,8.410937800459928,160,Microsoft Edge
+1931,1,jfm,jfm,guh,0.11861320312077783,91,Google Chrome
+1203,1,eus,eus,lgd,7.064839375768422,688,Microsoft Edge
+863,1,ufc,ufc,aho,8.554457760500451,1153,Google Chrome
+2351,1,skm,skm,cjr,9.528330085256085,152,Google Chrome
+1735,1,vog,vog,khv,0.11142565320614484,83,Firefox
+1415,1,muz,muz,qqe,12.539190190694367,99,Google Chrome
+113,1,uwr,uwr,xgb,4.845722005164282,84,Firefox
+673,1,muz,muz,iba,10.15785309872144,1015,Google Chrome
+867,1,aho,aho,guh,3.268037847782204,468,Google Chrome
+253,1,vsb,vsb,zro,4.05238685221064,1413,Firefox
+408,1,hvh,hvh,jmq,9.606011300623795,139,Google Chrome
+1368,1,tsn,tsn,cqp,6.625957126490292,469,Firefox
+693,1,nqg,nqg,zok,8.216749770283968,227,Microsoft Edge
+1941,1,xkr,xkr,oqa,6.171143801161328,1539,Google Chrome
+1489,1,txk,txk,ptb,7.831561947455659,2184,Firefox
+1688,1,czi,czi,uwr,11.787505836263836,735,Firefox
+2400,1,oni,oni,fuz,4.910061203645374,146,Firefox
+73,1,vek,vek,fgc,4.571662759526658,765,Firefox
+657,1,ald,ald,gtj,8.071505105026409,2244,Google Chrome
+2690,1,nzq,nzq,xgb,11.540695653743313,690,Firefox
+1952,1,zus,zus,fkf,9.55816781572766,3678,Firefox
+514,1,jmq,jmq,nrb,4.138695983031996,156,Google Chrome
+1871,1,ykq,ykq,fgn,8.536538937035596,555,Microsoft Edge
+3043,1,snn,snn,iyf,8.857150707387827,402,Microsoft Edge
+2521,1,shh,shh,lgz,14.28809027005455,277,Firefox
+1246,1,flj,flj,skm,5.143466806861589,265,Google Chrome
+316,1,iib,iib,rgo,12.180132431941747,2397,Firefox
+3277,1,cjr,cjr,ngs,8.139703074406867,860,Google Chrome
+2175,1,obm,obm,kzt,4.162128387728771,634,Firefox
+975,1,bou,bou,qof,6.436543816312948,355,Google Chrome
+1235,1,oni,oni,nzq,5.710184625736991,542,Firefox
+2715,1,rvh,rvh,cjr,7.148569418262021,365,Google Chrome
+1423,1,skm,skm,slq,9.674646877240086,143,Google Chrome
+973,1,pgi,pgi,myl,3.4609989579321745,1235,Google Chrome
+1600,1,slq,slq,flj,5.353945443168973,48,Google Chrome
+2464,1,dfo,dfo,blf,6.330094122993971,1083,Firefox
+4,1,ald,fuy,ald,1.3925828588170797,233,Google Chrome
+2095,1,qof,qof,sfi,12.766991868960526,1417,Google Chrome
+3264,1,mmm,mmm,byo,4.596505811773759,748,Firefox
+2072,1,mmo,mmo,pgi,7.487286873377679,343,Google Chrome
+1755,1,bgn,bgn,kks,2.0018282651876094,468,Firefox
+1666,1,vjw,vjw,gid,11.572028905858753,1460,Google Chrome
+1472,1,pqd,pqd,rvh,4.160175857523013,341,Firefox
+1131,1,fwh,fwh,iib,12.064037335650932,2466,Google Chrome
+2720,1,vfo,vfo,uey,9.068886038626317,1263,Google Chrome
+1061,1,lgd,lgd,esu,1.125956876218261,129,Firefox
+2313,1,sps,sps,zok,5.914960733108112,817,Microsoft Edge
+2856,1,czi,czi,pgm,6.978830738559676,440,Firefox
+224,1,cxt,cxt,nqg,10.560331558322641,478,Microsoft Edge
+1251,1,fvc,flj,slq,0.01722785899616941,3,Google Chrome
+1256,1,gor,gor,lhr,7.420505262294309,2525,Firefox
+1703,1,hll,fcq,akx,1.0941550917001321,348,Google Chrome
+3202,1,tdk,tdk,ptb,8.115609137146027,1678,Firefox
+1388,1,nwt,nwt,akx,13.951561374832789,2154,Google Chrome
+3176,1,pgm,pgm,snv,10.457686499658218,1215,Firefox
+134,1,txk,txk,ptb,7.693386168835085,440,Firefox
+788,1,ats,ats,czi,11.349942186046086,1068,Firefox
+3045,1,kwi,shh,lgz,0.557053848997866,136,Firefox
+242,1,fal,fal,uwr,5.7509908085669545,193,Firefox
+1048,1,pgm,pgm,pqd,6.027433852798979,90,Firefox
+1424,1,tft,tft,uwr,9.46355501352212,359,Firefox
+1893,1,fuz,fuz,opp,12.601493083647096,799,Firefox
+2513,1,fou,fou,cjr,5.764382857782486,75,Google Chrome
+2944,1,bfg,bfg,nzq,8.594403381428213,589,Firefox
+742,1,bfg,bfg,lhd,10.408258064805024,1199,Firefox
+2107,1,wcf,wcf,lgz,8.274153930489458,183,Firefox
+2013,1,nyk,nyk,pgu,4.847102793037741,302,Firefox
+870,1,nsf,nsf,azo,3.862242907278355,314,Google Chrome
+1915,1,shh,shh,fwf,12.34906249502138,256,Firefox
+3234,1,fxg,fxg,syt,9.508112082630717,13443,Firefox
+2955,1,azn,wht,skm,1.7636063479856827,115,Google Chrome
+1640,1,kks,kks,bgn,9.725639558288423,99,Firefox
+2584,1,wvy,wvy,tft,7.269163085578362,410,Firefox
+3091,1,meh,kwi,byo,0.037457676449558885,116,Firefox
+1571,1,azx,cjr,azx,0.6850232201890032,383,Google Chrome
+936,1,txk,txk,eoe,10.386069313662311,2717,Firefox
+1003,1,ajo,ajo,mmm,8.848762425496158,2145,Firefox
+1588,1,pcv,pcv,hvh,6.058130842290321,620,Google Chrome
+163,1,opp,opp,jpm,6.0931122122850345,1501,Firefox
+12,1,cil,cil,uey,6.711537107904584,204,Google Chrome
+2220,1,snv,snv,jrc,5.260331393130282,665,Firefox
+2983,1,hjs,hjs,nqg,8.277476975150897,293,Microsoft Edge
+123,1,hzx,hzx,shh,6.77590514527695,125,Microsoft Edge
+882,1,khv,khv,tmn,5.036847891188187,700,Firefox
+2568,1,qfy,qfy,sps,2.477576604917754,83,Microsoft Edge
+1172,1,usy,usy,vsb,4.4238610564298195,756,Firefox
+2526,1,uwr,uwr,mvu,6.148263356512532,185,Firefox
+204,1,kks,kks,bgn,8.723444585886934,149,Firefox
+1329,1,bou,bou,azo,8.982446444215762,10006,Google Chrome
+896,1,jfm,jfm,slq,5.400649306494385,110,Google Chrome
+587,1,ptb,ptb,txk,7.163032003925582,2618,Firefox
+1583,1,qqe,qqe,kzt,11.23929922596378,1415,Google Chrome
+1275,1,tzn,tzn,myl,10.275452097125886,2225,Google Chrome
+2911,1,xvr,xvr,nyk,5.2352634024855815,243,Firefox
+1413,1,vfo,vfo,vzc,8.733598995106227,338,Google Chrome
+1988,1,cpn,cpn,esu,7.584116661648375,186,Firefox
+2447,1,fyf,fyf,ats,5.103612031396737,2534,Firefox
+2978,1,hvh,hvh,ngs,9.534660965077808,225,Google Chrome
+963,1,udj,cxt,qkd,0.2905629695146046,234,Microsoft Edge
+3148,1,fek,fek,tjc,8.586942644216544,555,Firefox
+2985,1,myl,myl,tzn,1.7361836518082372,464,Google Chrome
+2023,1,wem,wem,cbo,6.243903102099903,328,Google Chrome
+743,1,oqa,oqa,xkr,0.11196088401158333,112,Google Chrome
+1630,1,gzi,gzi,esu,7.550696328246282,560,Firefox
+3044,1,avt,avt,tft,11.105245480190353,1794,Firefox
+2514,1,cjr,cjr,skm,7.772582507689443,1255,Google Chrome
+23,1,shh,shh,kks,10.848321173844521,197,Firefox
+25,1,yxw,yxw,hdz,6.387843191178183,259,Firefox
+2138,1,yvq,yvq,tkz,5.113662972866917,1416,Google Chrome
+1273,1,gid,gid,oqa,10.684857258829684,650,Google Chrome
+1308,1,hjs,hjs,tdk,9.719146144498362,175,Microsoft Edge
+2660,1,ebm,tjc,ebm,0.5708172968784755,368,Google Chrome
+1726,1,nqg,nqg,mqo,7.684851099186629,134,Microsoft Edge
+659,1,tsn,tsn,zro,10.29188776843673,405,Firefox
+606,1,yrb,yrb,udj,6.264143592141285,3754,Microsoft Edge
+2169,1,jxu,jxu,mgs,10.249468967443732,245,Firefox
+2436,1,wuy,wuy,nkb,10.013689069402828,389,Google Chrome
+321,1,lnq,lnq,tdk,3.969704019091371,1699,Firefox
+352,1,gid,gid,bou,7.540963027464975,280,Google Chrome
+2840,1,zht,zht,cqp,7.360763497437625,1734,Firefox
+1448,1,yxw,yxw,prb,3.3011469310041677,110,Firefox
+3140,1,pcv,pcv,nlm,10.272105054563319,1775,Google Chrome
+732,1,mgs,mgs,khv,2.620854848197215,65,Firefox
+231,1,wjn,wjn,cyd,8.206793712270255,462,Microsoft Edge
+1108,1,qkd,qkd,tyw,1.2114531559681625,1226,Microsoft Edge
+2054,1,cjr,cjr,ngs,11.201242451444227,797,Google Chrome
+280,1,usg,usg,xgv,5.333314325999977,253,Firefox
+1858,1,gvp,gvp,cbo,6.980929016476732,279,Google Chrome
+1025,1,cka,cka,zus,4.823724741898485,10244,Firefox
+1732,1,sps,sps,zok,4.147401573305906,356,Microsoft Edge
+2682,1,fmz,fmz,cxu,4.054761213021664,1145,Google Chrome
+220,1,gid,gid,zyk,8.132644203322759,661,Google Chrome
+1807,1,pgi,pgi,myl,8.813395186869837,364,Google Chrome
+3241,1,ulu,ulu,qkd,8.898382703545133,88,Microsoft Edge
+3027,1,hrj,hrj,gvp,5.813343370784677,623,Google Chrome
+1471,1,skm,skm,flj,9.879155340968355,524,Google Chrome
+1019,1,vfo,vfo,ycb,14.591183018149035,1784,Google Chrome
+558,1,vyu,vyu,oec,5.634797157808403,6129,Firefox
+2044,1,eoe,eoe,txk,7.271034473837323,1186,Firefox
+3030,1,zrx,zrx,sps,8.016406191390296,698,Microsoft Edge
+2158,1,cjr,cjr,rvh,8.122807680963081,510,Google Chrome
+1426,1,kwi,kwi,fwf,6.590486919782327,92,Firefox
+878,1,jmq,jmq,guh,3.2708778310501723,368,Google Chrome
+1620,1,fjb,fjb,hzx,7.9291659815276505,645,Microsoft Edge
+2696,1,lio,lio,pgm,7.594922125404049,174,Firefox
+2121,1,cnh,cnh,mmo,8.269608923376131,133,Firefox
+2391,1,bos,bos,syt,8.499045682027333,419,Firefox
+2204,1,tmn,xgv,tmn,2.558737042244529,135,Firefox
+1873,1,ats,ats,czi,6.222419955397649,640,Firefox
+2710,1,wvy,wvy,bfg,7.303864046931967,589,Firefox
+3041,1,uwr,uwr,mvu,6.09486232321482,1150,Firefox
+1163,1,zro,zro,bgn,3.239044986163513,159,Firefox
+1909,1,swe,swe,cut,14.56155624405919,931,Opera
+467,1,lhd,lhd,bfg,4.957735996061654,518,Firefox
+1586,1,bfg,bfg,lhd,10.13883887277065,241,Firefox
+2217,1,ncb,ncb,cjr,1.3579195682851948,404,Google Chrome
+861,1,vlm,vlm,wht,8.641768590850393,270,Google Chrome
+632,1,tft,tft,avt,10.512985425888658,619,Firefox
+3057,1,fwf,fwf,tdk,8.597108169875089,387,Firefox
+45,1,hzx,hzx,shh,6.573103774243259,281,Microsoft Edge
+836,1,lhd,lhd,bfg,4.240225173647872,393,Firefox
+3040,1,cuw,zyk,cuw,3.554368782785015,91,Google Chrome
+50,1,cec,cec,xxb,8.289673213905047,5675,Firefox
+189,1,sqb,sqb,xkr,5.3112929207208115,911,Google Chrome
+911,1,fou,fou,slq,5.586921488608046,96,Google Chrome
+2847,1,tyw,tyw,gcr,9.53483127002923,358,Microsoft Edge
+66,1,fal,fal,nyk,4.535220522054423,504,Firefox
+1316,1,cjr,cjr,skm,12.03036124718134,384,Google Chrome
+1001,1,tza,tza,oec,8.738417142523431,544,Firefox
+2649,1,jfm,jfm,cyi,4.219884646452883,526,Google Chrome
+2139,1,hjs,hjs,qkd,11.984550751966774,477,Microsoft Edge
+2134,1,nzq,nzq,oni,7.937462052569385,411,Firefox
+2959,1,vlm,vlm,skm,3.327225300469255,112,Google Chrome
+3033,1,lhr,lhr,opp,2.4886855221323243,53,Firefox
+1149,1,skm,skm,flj,10.318744256725502,130,Google Chrome
+3034,1,nlm,nlm,bfg,6.934179887248761,639,Firefox
+1609,1,pre,pre,iyf,5.461962294043634,310,Google Chrome
+2749,1,vzc,vzc,vfo,10.61666471595891,1741,Google Chrome
+225,1,dfo,dfo,pgu,6.492869630487135,1085,Firefox
+1270,1,sdx,sdx,nwt,11.87716026269013,3589,Google Chrome
+1887,1,lgz,lgz,pyb,10.975388993743264,1583,Firefox
+880,1,wem,wem,akx,5.6728573959678465,835,Google Chrome
+1052,1,qfy,qfy,lra,6.267114767525182,824,Microsoft Edge
+1032,1,fmz,fmz,qof,4.298044445556284,1040,Google Chrome
+2975,1,sii,sii,fgc,11.129904972436979,662,Firefox
+2822,1,mqo,mqo,nqg,4.9271197920052385,248,Microsoft Edge
+2823,1,ofq,ofq,bfg,8.608837498067519,180,Firefox
+1351,1,opp,opp,jpm,1.4508576541138432,280,Firefox
+1083,1,muz,skm,flj,1.1582931707519837,254,Google Chrome
+103,1,ofq,ofq,bfg,4.582623399429338,167,Firefox
+2089,1,cyd,cyd,uwp,10.922889403151814,1170,Microsoft Edge
+1374,1,sqb,sqb,xkr,5.1098126672736015,1188,Google Chrome
+2982,1,jrc,snv,jrc,0.8444000082462271,145,Firefox
+1567,1,sii,sii,jpm,7.236008782837102,148,Firefox
+847,1,nwt,nwt,akx,12.572999218604874,2571,Google Chrome
+2057,1,btl,btl,jqq,9.8827395621597,2359,Google Chrome
+2852,1,kwi,kwi,tdk,0.8304318102925823,78,Firefox
+1180,1,fwf,fwf,meh,12.804944881417947,398,Firefox
+660,1,swe,swe,cut,14.17088590220013,957,Opera
+1903,1,esu,esu,xgv,1.123876787015213,453,Firefox
+2071,1,xby,xby,xgv,0.8049117135717481,177,Firefox
+2609,1,tdk,tdk,tsn,9.351746687720745,916,Firefox
+685,1,fvc,fvc,ngs,12.055770343401267,3543,Google Chrome
+2886,1,qkd,qkd,zrx,5.082326378638939,138,Microsoft Edge
+669,1,xgb,xgb,kks,2.7541954751448525,274,Firefox
+1281,1,wht,wht,cjr,9.760137848367206,878,Google Chrome
+2888,1,zct,zct,cjr,2.029152211514489,120,Google Chrome
+3185,1,cqp,cqp,bgn,3.6736982521523514,639,Firefox
+851,1,fwf,fwf,ftq,10.538645688856544,113,Firefox
+1623,1,tyw,tyw,rvh,10.6888826840531,849,Microsoft Edge
+389,1,pou,pou,vjw,11.023289715059377,1049,Firefox
+2580,1,kks,kks,shh,1.024579724976448,21,Firefox
+1699,1,ycb,ycb,akx,8.231913454095016,883,Google Chrome
+2150,1,bfg,bfg,tvt,3.408752417112363,125,Firefox
+1012,1,skm,skm,flj,9.03676964727882,446,Google Chrome
+3052,1,avt,avt,tft,10.913886351797252,1254,Firefox
+1301,1,mvu,mvu,uwr,2.6742919731429673,140,Google Chrome
+684,1,nzq,nzq,kbf,5.351948427362823,275,Firefox
+1839,1,cxt,cxt,nqg,10.457923206621789,295,Microsoft Edge
+49,1,slq,slq,skm,5.861905071303833,56,Google Chrome
+3093,1,fek,lgz,fwf,0.6079687464794055,207,Firefox
+46,1,akx,akx,xkr,7.062024672890694,613,Google Chrome
+2841,1,blf,blf,xby,6.117663819775145,585,Firefox
+401,1,iyf,iyf,snn,4.864150185259724,243,Google Chrome
+1161,1,qbf,qbf,iju,9.308527876877681,1363,Google Chrome
+1874,1,vek,vek,kwi,0.1267777288029297,1396,Firefox
+842,1,hjs,hjs,qkd,11.808144849681138,290,Microsoft Edge
+1960,1,fou,fou,wht,6.22992004404671,155,Google Chrome
+148,1,iju,iju,qbf,5.703854442200905,229,Google Chrome
+3002,1,hll,slq,cjr,0.990214210996669,112,Google Chrome
+1679,1,oph,oph,ubr,9.33612319289584,696,Microsoft Edge
+1574,1,flj,flj,skm,6.653785189213266,733,Google Chrome
+2420,1,wxf,wxf,ats,4.868712873806578,84,Firefox
+3103,1,qkd,qkd,udj,5.044810753663927,285,Microsoft Edge
+908,1,xgv,xgv,gor,10.335635331104069,539,Firefox
+1889,1,cxu,cxu,oqa,3.184042226150083,290,Google Chrome
+1961,1,cut,cut,ats,7.929668223585831,685,Firefox
+207,1,nwt,nwt,akx,13.610770497924866,3105,Google Chrome
+1837,1,sbz,sbz,qsw,8.763372117005076,5255,Google Chrome
+1652,1,gvp,gvp,hrj,2.1898460220631737,158,Google Chrome
+2924,1,snv,snv,jrc,5.378311519435975,341,Firefox
+3246,1,pgi,pgi,wfs,10.319931046738184,351,Google Chrome
+3224,1,vmy,vmy,ngs,6.623441579713521,433,Google Chrome
+2293,1,tyw,tyw,rvh,10.6008870577447,1144,Microsoft Edge
+1333,1,jks,jks,qfy,5.7425213042346055,188,Microsoft Edge
+560,1,gor,gor,lgd,4.330907418711931,1326,Firefox
+2014,1,uof,uof,sqb,0.28281323971438965,134,Google Chrome
+1713,1,vfo,vfo,hll,10.832959980591014,535,Google Chrome
+1544,1,jmq,jmq,guh,6.639624778583378,535,Google Chrome
+1111,1,fwf,fwf,jew,13.20735658136331,283,Firefox
+3100,1,xkr,xkr,oqa,4.727130132429917,1982,Google Chrome
+1810,1,kwi,kwi,tdk,8.150988568042575,241,Firefox
+714,1,skm,skm,slq,6.991011104581186,66,Google Chrome
+2242,1,udj,udj,qkd,5.687137765311954,112,Microsoft Edge
+2045,1,tza,tza,oec,7.6705347232280285,550,Firefox
+2131,1,szr,szr,jpm,6.593419857874793,104,Firefox
+1694,1,tmn,xgv,tmn,3.5898804175542818,1820,Firefox
+3189,1,szr,szr,fgc,3.6574738569769583,335,Firefox
+2373,1,xkr,xkr,oqa,4.1599552512019216,1229,Google Chrome
+1676,1,yuz,yuz,fkf,12.840108059912957,699,Firefox
+674,1,bgn,bgn,tvt,8.490108626184558,1048,Firefox
+1055,1,vfo,vfo,xwz,10.820129068987534,548,Google Chrome
+2413,1,rgo,rgo,iib,10.257953164911946,998,Microsoft Edge
+1920,1,xwz,xwz,vfo,6.397001919499544,1406,Google Chrome
+194,1,jkt,jkt,ulu,0.376532259272242,104,Microsoft Edge
+1626,1,deb,deb,bgn,5.341779630543124,602,Firefox
+1855,1,xkr,xkr,oqa,3.265012096735087,145,Google Chrome
+2854,1,xgv,xgv,gor,11.11841552835751,880,Firefox
+648,1,meh,meh,ptb,10.427200820270567,446,Firefox
+1534,1,btl,btl,tkz,10.77459153881099,1350,Google Chrome
+2736,1,jqq,jqq,btl,7.748262034492077,1515,Google Chrome
+2007,1,pqd,pqd,uwp,1.007970785438956,1098,Firefox
+1572,1,akx,akx,wem,4.766559902639347,650,Google Chrome
+2940,1,gcr,gcr,cum,9.749915443922266,1963,Microsoft Edge
+431,1,byo,byo,syt,5.638961773909264,1280,Firefox
+1470,1,fuz,fuz,mgs,10.460783974101236,754,Firefox
+2871,1,skm,skm,slq,8.81616210722748,119,Google Chrome
+2962,1,ptb,jkc,ptb,0.17658813617172608,133,Firefox
+2685,1,ont,ont,ykq,0.22240525164497527,1372,Microsoft Edge
+2178,1,slq,slq,wht,0.5079891695912098,151,Google Chrome
+2656,1,vos,vos,vsb,9.283081394136815,593,Firefox
+484,1,hzx,hzx,zok,5.496893326360804,371,Microsoft Edge
+1799,1,hfy,hfy,ngs,4.826826178427067,153,Google Chrome
+2006,1,cjr,cjr,qbf,11.294148581985201,639,Google Chrome
+1792,1,zbn,zbn,jew,6.390865381247437,176,Firefox
+166,1,tza,tza,pxi,7.192081447802501,683,Firefox
+126,1,rff,rff,pgu,2.7877155451602533,988,Firefox
+3255,1,lfq,czi,lfq,2.1972462462331466,101,Firefox
+1085,1,sii,sii,jpm,3.434862584220784,144,Firefox
+2746,1,jfm,jfm,gid,9.823412100040178,738,Google Chrome
+1432,1,slq,slq,skm,0.3857564262999542,230,Google Chrome
+2546,1,ien,ien,zrx,3.871781609854316,401,Microsoft Edge
+2034,1,fuy,fuy,pre,8.526765953391555,359,Google Chrome
+1027,1,pgu,pgu,gor,1.1061524403822336,236,Firefox
+14,1,rgo,rgo,mqo,2.2570463795998643,88,Microsoft Edge
+1503,1,fvc,fvc,tzn,7.470247407882951,109,Google Chrome
+3050,1,zok,zok,qfy,2.9336660439436324,1131,Microsoft Edge
+1595,1,fcq,fcq,akx,11.97960134248832,2354,Google Chrome
+792,1,ngs,wht,ngs,0.35797562281143325,115,Google Chrome
+607,1,ubr,ubr,muz,6.154382446250544,409,Google Chrome
+2479,1,qqe,qqe,vzc,9.679119437443578,470,Google Chrome
+537,1,ycb,ycb,oqa,7.7779433762191506,278,Google Chrome
+2206,1,lio,lio,snv,3.5618020050918453,258,Firefox
+3200,1,nzq,nzq,cpn,12.102404941282327,2537,Firefox
+1179,1,wjn,wjn,lio,8.76290562968432,1032,Microsoft Edge
+8,1,cje,cje,fmz,4.815741203898735,160,Google Chrome
+663,1,gcr,gcr,cum,7.094725541974089,80,Microsoft Edge
+1946,1,mmm,mmm,ptb,6.177647341907664,427,Firefox
+1573,1,vek,jew,lgz,0.0732370198714345,189,Firefox
+359,1,slq,slq,skm,1.285410081684554,182,Google Chrome
+1646,1,qof,qof,sfi,12.23718098710351,1708,Google Chrome
+2471,1,azo,azo,ngs,4.6423700630028675,182,Google Chrome
+1197,1,cxt,cxt,sps,4.133328583402401,133,Microsoft Edge
+1651,1,flj,slq,skm,1.0345019114552065,163,Google Chrome
+701,1,eqw,tza,eqw,0.10904547318018043,1380,Firefox
+2087,1,ncb,ncb,slq,7.552649690043355,892,Google Chrome
+1982,1,szr,szr,nrb,6.329783410702083,1303,Firefox
+719,1,skm,skm,slq,7.907137755439738,179,Google Chrome
+644,1,fal,fal,fuz,1.4424619830545877,260,Firefox
+2383,1,wuy,wuy,nkb,6.026455984064155,209,Google Chrome
+2412,1,xxb,xxb,prb,1.7848320205486816,204,Firefox
+1568,1,txk,txk,eoe,3.1298049962449,59,Firefox
+2477,1,ulu,ulu,cxt,2.944086417310961,138,Microsoft Edge
+2488,1,flj,skm,flj,2.34193446065361,70,Google Chrome
+943,1,ald,ald,fuy,3.793085355420113,590,Google Chrome
+1664,1,hew,hew,jkc,6.600583279404774,115,Firefox
+610,1,cjr,cjr,ngs,9.500724913438459,642,Google Chrome
+1833,1,gtj,gtj,aho,8.90924034547309,1299,Google Chrome
+1895,1,cxt,cxt,nzq,6.003757454547103,154,Microsoft Edge
+2913,1,vsb,vsb,bgn,1.7613029841512793,1082,Firefox
+3130,1,iba,iba,muz,11.16484308869226,2440,Google Chrome
+1728,1,nyk,nyk,gor,3.8428263754579874,447,Firefox
+2039,1,lio,lio,uwp,12.472767603054624,752,Firefox
+1205,1,ftq,ftq,fek,15.358277047737174,713,Firefox
+2828,1,hzx,zok,hzx,2.3848921876801956,113,Microsoft Edge
+2641,1,cec,cec,xxb,5.421271108768148,3339,Firefox
+1541,1,fuz,fuz,mgs,10.526828197052167,1140,Firefox
+2376,1,iyf,iyf,snn,6.419158321834878,139,Google Chrome
+2048,1,vzc,vzc,vfo,10.06161484746543,708,Google Chrome
+805,1,shh,shh,hzx,12.793344274856535,145,Firefox
+595,1,eus,eus,sps,6.381207444444327,608,Microsoft Edge
+1043,1,muz,muz,yvq,10.763746407501294,124,Google Chrome
+2046,1,zqs,zqs,wjn,9.185801678159347,389,Microsoft Edge
+1081,1,nsf,cil,btl,0.2989877692906342,113,Google Chrome
+1901,1,usg,usg,xgv,6.208124437955238,494,Firefox
+3245,1,cum,cum,gcr,6.8720639509432235,4003,Microsoft Edge
+2298,1,zht,zht,bgn,10.55671623319494,813,Firefox
+3089,1,mqo,mqo,rgo,7.157610404009973,598,Microsoft Edge
+2768,1,ofq,ofq,xby,8.827967259502039,1407,Firefox
+2053,1,opp,opp,vek,6.869391540040463,266,Firefox
+186,1,hjs,hjs,qkd,12.5504082253104,696,Microsoft Edge
+185,1,wuy,wuy,nkb,10.022729070853288,1174,Google Chrome
+631,1,fgc,fgc,akx,3.7331900617708706,368,Firefox
+2390,1,eqo,eqo,fvc,0.17554954927656397,90,Google Chrome
+2824,1,wem,wem,ebm,6.123309565032857,1479,Google Chrome
+1011,1,cjr,cjr,ngs,9.612424886608494,1748,Google Chrome
+235,1,cut,cut,ats,10.206943948258116,1173,Firefox
+1236,1,zbn,zbn,vek,9.555747577910983,1008,Firefox
+710,1,wwk,wwk,wcf,11.60459577370272,383,Google Chrome
+888,1,hzx,hzx,mqo,8.67112120350966,455,Microsoft Edge
+1846,1,gtj,gtj,qbf,5.501991273670873,888,Google Chrome
+1199,1,tdk,tdk,jkc,4.992318482204944,107,Firefox
+2734,1,wcf,wcf,lgz,8.182303144947817,134,Firefox
+2274,1,ncb,ncb,slq,7.576120754563861,220,Google Chrome
+3250,1,cxu,cxu,bou,5.592846019477643,119,Google Chrome
+1990,1,opp,opp,jpm,6.4661906879010225,630,Firefox
+945,1,qqe,qqe,qbf,6.399619550347214,325,Google Chrome
+1009,1,gor,gor,lhr,3.5520145240130834,2380,Firefox
+2541,1,zyk,zyk,pre,7.671247368421925,193,Google Chrome
+1692,1,cyd,nqg,cyd,0.02899683231474226,132,Microsoft Edge
+2135,1,fvc,fvc,ald,10.42792579522279,1900,Google Chrome
+2402,1,zbn,zbn,vek,9.211767854552594,846,Firefox
+3029,1,wwk,wwk,fou,8.928083519553162,189,Google Chrome
+2270,1,cxu,cxu,wem,8.07435580891009,246,Google Chrome
+582,1,cbo,cbo,akx,9.402145596027575,250,Google Chrome
+2405,1,xby,xby,xgv,6.201301597130225,895,Firefox
+2480,1,skm,skm,slq,2.264525198167642,51,Google Chrome
+2116,1,azo,azo,bou,6.7321388409488225,275,Google Chrome
+317,1,uey,uey,czi,11.889166810896917,1705,Google Chrome
+137,1,vfo,vfo,akx,10.667826441932686,370,Google Chrome
+527,1,nrb,nrb,zro,9.343923167861552,1856,Firefox
+2404,1,blf,blf,jpm,3.4841464130797455,513,Firefox
+3064,1,shh,shh,tdk,11.660699554210682,615,Firefox
+81,1,ufc,ufc,xwz,4.466501092578026,75,Google Chrome
+1290,1,rgo,rgo,iib,8.060751514804975,744,Microsoft Edge
+1525,1,zht,zht,jpm,12.358892096688692,572,Firefox
+2287,1,zyk,zyk,cuw,2.7530701212330766,63,Google Chrome
+2082,1,dbi,dbi,zok,4.512466933333483,1074,Microsoft Edge
+2610,1,nzq,nzq,oni,5.466992904581631,139,Firefox
+2918,1,ftq,ftq,fwf,8.875421280534624,84,Firefox
+2484,1,slq,slq,kks,7.398273113056123,531,Google Chrome
+1387,1,cyd,cyd,uwp,11.33676409553743,1373,Microsoft Edge
+3127,1,muz,muz,iba,10.76498300385509,448,Google Chrome
+2368,1,nlm,nlm,nrb,8.280322624188678,1338,Firefox
+3231,1,pcv,pcv,hfy,9.182974084217904,1306,Google Chrome
+682,1,vyu,vyu,oec,4.161339749819112,316,Firefox
+2525,1,aho,aho,pgu,4.740056338511851,305,Google Chrome
+463,1,cvw,cvw,fgc,6.503488284145722,410,Firefox
+2398,1,gtj,gtj,aho,7.4348520023043845,3293,Google Chrome
+1366,1,slq,slq,skm,9.892882121427363,49,Google Chrome
+2303,1,fcq,fcq,akx,11.833791956610677,960,Google Chrome
+1442,1,mgs,mgs,uhx,1.559855143416312,124,Firefox
+875,1,ajo,ajo,syt,9.152320355087998,2886,Firefox
+774,1,esu,esu,lgd,7.175422620441814,919,Firefox
+645,1,jpm,jpm,opp,5.698041729462863,195,Firefox
+1919,1,zro,zro,xgv,2.674804048851229,127,Firefox
+1259,1,cjr,cjr,slq,5.700259387139429,181,Google Chrome
+1189,1,ftq,ftq,iyf,1.407886811337805,99,Firefox
+289,1,kks,tdk,kks,0.6899410488356885,52,Firefox
+2971,1,vzc,vzc,vfo,8.533170312336942,4455,Google Chrome
+1649,1,flj,flj,skm,1.389641305364484,96,Google Chrome
+157,1,kzt,kzt,khv,3.803835727483786,93,Firefox
+2636,1,akx,akx,hvh,1.1030459842327902,279,Google Chrome
+451,1,tdk,tdk,ptb,5.651681455962589,960,Firefox
+1977,1,ncb,ncb,cjr,5.162981812442273,583,Google Chrome
+553,1,wjn,wjn,zqs,1.8062891664014886,153,Microsoft Edge
+221,1,cjr,cjr,wwk,8.29999095652559,633,Google Chrome
+1639,1,vek,vek,sgd,4.7261853718054345,223,Firefox
+1225,1,fal,fal,nyk,2.4295585848823995,187,Firefox
+358,1,xwz,xwz,vfo,7.592489832313663,1503,Google Chrome
+605,1,qof,qof,zct,10.584046045151762,627,Google Chrome
+808,1,wwk,wwk,fou,12.060027299364755,198,Google Chrome
+969,1,mgs,mgs,uhx,8.625962549258944,2573,Firefox
+1325,1,lhr,lhr,lio,4.98678237724522,594,Firefox
+1187,1,zus,zus,fkf,11.27088488495917,7381,Firefox
+118,1,zbn,zbn,kwi,4.38477106062233,375,Firefox
+2009,1,fvc,fvc,ngs,5.453678589724463,3909,Google Chrome
+2661,1,byo,byo,mmm,8.705446899496149,748,Firefox
+694,1,flj,flj,tdk,3.0074632780642983,3565,Google Chrome
+575,1,cje,cje,fmz,2.619331876435968,160,Google Chrome
+637,1,fwh,fwh,guh,11.53552940564587,748,Google Chrome
+801,1,tjc,tjc,aho,8.378954360252838,255,Google Chrome
+132,1,slq,skm,slq,1.2044626650737067,304,Google Chrome
+2613,1,tft,tft,avt,11.24996539301931,1378,Firefox
+1562,1,fwf,fwf,syt,12.863282388581577,299,Firefox
+557,1,uey,uey,ubr,10.986834117702895,2763,Google Chrome
+101,1,rgo,rgo,gcr,7.126910302554851,365,Microsoft Edge
+1283,1,kbf,kbf,khv,9.741230899532535,2733,Firefox
+2779,1,ajo,ajo,byo,6.324350360512607,1196,Firefox
+2145,1,flj,flj,skm,4.613910345333883,65,Google Chrome
+526,1,avt,avt,oph,6.712920019918638,134,Firefox
+618,1,ald,fuy,pre,2.7139585905000168,74,Google Chrome
+61,1,prb,prb,iib,9.79403982586338,139,Firefox
+2271,1,sii,sii,xxb,13.26617515133996,1203,Firefox
+935,1,swe,swe,skm,12.589302607254695,244,Opera
+202,1,hdz,hdz,kzt,8.026987398779092,2328,Firefox
+2061,1,sii,sii,jkc,9.895014412497257,1082,Firefox
+1385,1,shh,shh,kks,13.887379343267433,357,Firefox
+421,1,sfi,sfi,vmy,11.864011018451265,671,Google Chrome
+2858,1,snv,snv,lio,7.952415160349885,594,Firefox
+2708,1,vjw,vjw,gid,11.430081916598905,684,Google Chrome
+299,1,bgn,bgn,zro,0.4018622189565626,179,Firefox
+993,1,myl,myl,tzn,3.2935630297598317,394,Google Chrome
+191,1,skm,skm,vlm,4.0684516087304035,169,Google Chrome
+921,1,bgn,bgn,tdk,4.56103839968429,847,Firefox
+1582,1,gid,gid,pcv,4.3033314287441105,186,Google Chrome
+799,1,skm,skm,slq,5.8908428135883115,86,Google Chrome
+2103,1,sdx,sdx,nwt,11.08027638733104,2414,Google Chrome
+919,1,slq,slq,kks,6.851731832697408,306,Google Chrome
+2254,1,qkd,qkd,tyw,3.270632264197313,693,Microsoft Edge
+3243,1,ftq,ftq,jkc,15.712114064437198,832,Firefox
+2308,1,bgn,bgn,zro,7.787904713814667,1406,Firefox
+2540,1,yrb,zqs,wjn,0.381487727841642,314,Microsoft Edge
+2950,1,vlm,vlm,flj,11.562667782572133,589,Google Chrome
+1831,1,fkf,fkf,zus,7.110165486659527,1704,Firefox
+700,1,cyd,cyd,ulu,7.430492281840257,84,Microsoft Edge
+1811,1,kwi,kwi,bgn,11.251838398495217,1050,Firefox
+2932,1,slq,slq,flj,10.13111210109242,556,Google Chrome
+1918,1,nqg,nqg,zok,5.822486398699155,362,Microsoft Edge
+3112,1,tfi,tfi,iju,11.617290166094861,630,Firefox
+3168,1,fwf,fwf,shh,8.615329964000722,185,Firefox
+3193,1,cyd,cyd,fjb,8.257347010279101,139,Microsoft Edge
+228,1,jfm,jfm,gid,7.139152393458355,230,Google Chrome
+922,1,zyk,zyk,rvh,7.91962650358855,430,Google Chrome
+1840,1,zct,zct,cjr,2.6733365086741836,7720,Google Chrome
+846,1,vlm,vlm,hjs,8.136384604521254,300,Google Chrome
+1326,1,prb,prb,cec,8.549426403172163,100,Firefox
+947,1,oec,oec,tza,5.223926964774041,613,Firefox
+285,1,pyb,pyb,cqp,5.091315480004675,972,Firefox
+2706,1,fou,fou,cjr,12.602536391790007,112,Google Chrome
+1510,1,zok,sps,zok,0.12099532590490725,317,Microsoft Edge
+2147,1,hrj,hrj,vzc,2.273865537387705,167,Google Chrome
+1581,1,shh,shh,tdk,12.779142182915628,925,Firefox
+1103,1,fmz,fmz,cje,6.934477745011879,204,Google Chrome
+2418,1,cbo,cbo,flj,5.18869162639025,108,Google Chrome
+3213,1,jkc,jkc,shh,5.381245300734543,182,Firefox
+681,1,jqq,jqq,btl,9.036079505250711,1900,Google Chrome
+508,1,tsn,tsn,kwi,7.075664101202466,153,Firefox
+3192,1,fgn,fgn,qfy,9.812290470529806,1957,Microsoft Edge
+1775,1,eoe,eoe,jew,2.009881614165989,171,Firefox
+1158,1,fwf,fwf,bez,7.5139664966742234,209,Firefox
+1067,1,lio,lio,pgm,4.554119071381968,488,Firefox
+2241,1,hxt,hxt,flj,7.962821942405212,76,Google Chrome
+2302,1,ycb,ycb,xkr,13.419738156870903,298,Google Chrome
+715,1,fvc,fvc,tzn,9.021745526266404,189,Google Chrome
+3177,1,pgi,pgi,fvc,10.771767098704112,1334,Google Chrome
+1906,1,qsw,qsw,wfs,2.9573888526051038,168,Google Chrome
+276,1,yuz,yuz,blf,12.341673008045824,476,Firefox
+2914,1,slq,slq,skm,5.865674489273681,191,Google Chrome
+2234,1,jpm,jpm,opp,2.1807626889551046,119,Firefox
+2106,1,ebm,ebm,xkr,4.275753703454179,2043,Google Chrome
+1384,1,hxt,hxt,hll,2.9779024916814594,71,Google Chrome
+2625,1,tzn,tzn,myl,10.068556628894841,678,Google Chrome
+95,1,skm,skm,flj,13.271689669196554,323,Google Chrome
+410,1,npo,npo,opp,6.0148038822104715,2962,Firefox
+16,1,qof,qof,cje,4.01225879501183,874,Google Chrome
+237,1,qbf,qbf,gtj,4.606913653638819,382,Google Chrome
+1834,1,itt,akx,xkr,0.15685392641826823,1156,Google Chrome
+124,1,rgo,rgo,gcr,8.881018009508333,1825,Microsoft Edge
+2684,1,zus,ftq,lgz,0.5321406067822743,7,Firefox
+2712,1,ien,ien,yrb,8.687384971055975,2304,Microsoft Edge
+1166,1,udj,qkd,udj,2.514857738969944,129,Microsoft Edge
+1942,1,qsw,qsw,wfs,6.843729894694251,725,Google Chrome
+1969,1,pgu,pgu,nyk,4.135277856202415,607,Firefox
+3236,1,lgz,lgz,cvw,10.379140759101162,777,Firefox
+1523,1,nfh,nfh,cyi,9.189760088544169,4157,Google Chrome
+226,1,cpn,cpn,tza,8.519661000418225,283,Firefox
+2288,1,zrx,zrx,sps,8.216296063077012,959,Microsoft Edge
+500,1,kwi,kwi,ftq,3.232998847988892,122,Firefox
+2429,1,qdv,wht,qdv,0.23657758098255455,183,Google Chrome
+3261,1,pgm,pgm,uwp,7.551212529116343,268,Firefox
+2581,1,pou,pou,vjw,11.21106846899622,1155,Firefox
+2065,1,kwi,kwi,nzq,11.043347339241684,112,Firefox
+3094,1,pgi,pgi,myl,9.854448487225103,326,Google Chrome
+260,1,fou,fou,azn,10.225767541049706,119,Google Chrome
+1023,1,kzt,kzt,obm,7.679536459307723,95,Firefox
+2289,1,cyi,cyi,jfm,6.2259794061242335,2595,Google Chrome
+3222,1,guh,guh,azx,6.4346423742382175,568,Google Chrome
+2493,1,sps,sps,zok,4.503695244566615,85,Microsoft Edge
+2718,1,ngs,ngs,fvc,9.688375500514644,1044,Google Chrome
+214,1,vjw,vjw,pcv,1.815077382218905,253,Google Chrome
+717,1,cvw,cvw,fgc,4.217677494846429,283,Firefox
+2002,1,syt,syt,tsn,7.013746370068137,370,Firefox
+2173,1,pgu,pgu,bgn,0.09082909745987866,290,Firefox
+2283,1,byo,byo,mmm,8.000519271472832,151,Firefox
+1509,1,dbi,dbi,zok,1.451113705654512,137,Microsoft Edge
+930,1,nuh,nuh,zro,7.562588470599096,106,Firefox
+2078,1,tkz,tkz,yvq,2.011307205042474,114,Google Chrome
+2499,1,yuz,yuz,dfo,5.185065840160612,119,Firefox
+914,1,oec,oec,vyu,8.012037699195423,108,Firefox
+468,1,tjc,tjc,ebm,10.753060666919932,384,Google Chrome
+2055,1,esu,esu,cka,8.291781877325676,2296,Firefox
+1128,1,jpm,jpm,opp,5.1595988153597645,112,Firefox
+3275,1,cjr,cjr,ngs,6.2755346819921,585,Google Chrome
+481,1,bou,bou,azo,8.808949480862417,5873,Google Chrome
+1972,1,ykq,ykq,zrx,8.6484358232546,619,Microsoft Edge
+1921,1,wjn,wjn,zqs,9.417108242415733,1603,Microsoft Edge
+2803,1,nuh,nuh,pou,11.554540730142133,2030,Firefox
+2528,1,cut,cut,ats,5.8143626538587645,724,Firefox
+144,1,gid,gid,zyk,6.286943512044563,688,Google Chrome
+3162,1,nzq,nzq,cpn,9.325241807745735,95,Firefox
+2326,1,bgn,bgn,zro,2.3665707548627903,1984,Firefox
+664,1,azx,cjr,hll,1.8043575841242836,78,Google Chrome
+398,1,sgd,sgd,vek,0.09077940492880732,112,Firefox
+3228,1,yuz,yuz,blf,5.880123549813712,147,Firefox
+1405,1,nlm,nlm,szr,8.114407485526428,170,Firefox
+2378,1,xby,xby,usg,7.958871515549218,1914,Firefox
+760,1,iib,iib,rgo,9.584341445334267,345,Firefox
+2233,1,gcr,gcr,cum,8.20896806118851,2248,Microsoft Edge
+88,1,ftq,ftq,bgn,12.666574284817683,225,Firefox
+409,1,myl,myl,pgi,3.491421433916492,118,Google Chrome
+2047,1,uey,uey,cil,6.167642220472084,475,Google Chrome
+2561,1,xvr,xvr,fal,3.8035431687716357,133,Firefox
+1967,1,kks,kks,czi,7.263970580596065,74,Firefox
+2310,1,ngs,ngs,vlm,5.703841366063354,569,Google Chrome
+419,1,kik,kik,vfo,4.469397744460289,80,Google Chrome
+1268,1,cvw,cvw,lgz,6.902966103517393,520,Firefox
+856,1,ptb,ptb,txk,8.419256557371012,494,Firefox
+1796,1,dit,dit,hdz,2.66983203866853,2075,Firefox
+112,1,hfy,hfy,pcv,5.975528185184915,564,Google Chrome
+1279,1,jpm,jpm,opp,5.993212038443854,744,Firefox
+1782,1,deb,deb,zro,7.045838897029094,497,Firefox
+91,1,xby,xgv,xby,1.7031183816560045,95,Firefox
+2995,1,prb,prb,cec,10.824301999194773,217,Firefox
+509,1,azx,azx,guh,1.4851841817627873,279,Google Chrome
+656,1,fou,fou,azn,9.896696453567305,372,Google Chrome
+1450,1,cnh,cnh,lhd,8.346283106175552,1184,Firefox
+1407,1,uwp,uwp,pgm,9.156189679689712,1585,Firefox
+716,1,slq,slq,skm,0.30169813977582294,165,Google Chrome
+2972,1,opp,opp,vek,6.032999109360591,1599,Firefox
+1445,1,fuy,fuy,ald,3.651622827703008,1153,Google Chrome
+27,1,pgu,pgu,nyk,7.629789803851554,363,Firefox
+82,1,ont,ont,zok,0.5149013497135804,105,Microsoft Edge
+1110,1,tsn,tsn,syt,10.331311124185595,1074,Firefox
+1080,1,dbi,dbi,zok,5.105468645450947,319,Microsoft Edge
+363,1,muz,muz,iba,9.367992410894782,449,Google Chrome
+475,1,kzt,kzt,obm,5.636648407527674,160,Firefox
+3190,1,opp,opp,npo,5.916454478648345,9108,Firefox
+3156,1,cjr,cjr,flj,4.982965428045106,186,Google Chrome
+1955,1,fuy,fuy,pre,8.12820677073109,501,Google Chrome
+2219,1,tft,tft,avt,9.650840928962587,1124,Firefox
+1765,1,lhr,lhr,xgv,3.092700192004171,83,Firefox
+17,1,qqe,qqe,xkr,12.77239424281489,2508,Google Chrome
+1740,1,ptb,ptb,txk,5.8686538683286305,2723,Firefox
+1554,1,nqg,nqg,cxt,5.934799924418959,147,Microsoft Edge
+853,1,jrc,jrc,snv,2.738699571084994,516,Firefox
+2635,1,meh,meh,ajo,11.447091362142821,2902,Firefox
+1670,1,yrb,yrb,udj,8.317509273174874,1477,Microsoft Edge
+3007,1,kik,kik,hll,5.3518092438237925,138,Google Chrome
+1473,1,wwk,wwk,fou,12.772769280193511,152,Google Chrome
+2130,1,rvh,rvh,pgi,12.379519327330975,2591,Google Chrome
+2781,1,guh,guh,azx,5.149084438393997,958,Google Chrome
+662,1,nzq,nzq,xgb,12.309248940782131,240,Firefox
+2744,1,flj,flj,skm,0.6982658290840691,90,Google Chrome
+2788,1,syt,syt,pgm,5.851631696444409,396,Firefox
+1216,1,akx,xkr,akx,0.19584571819695906,170,Google Chrome
+3119,1,uwp,uwp,kik,6.350524282374318,867,Firefox
+1948,1,pqd,pqd,uwp,5.152166803227762,303,Firefox
+3061,1,skm,skm,flj,9.971747958771193,291,Google Chrome
+1456,1,ftq,ftq,jrc,12.29784028726424,164,Firefox
+633,1,skm,skm,vlm,10.208377804627787,1746,Google Chrome
+1949,1,vsb,vsb,bgn,4.500055317755644,1814,Firefox
+2356,1,fvc,fvc,ngs,12.975148102008752,1954,Google Chrome
+1508,1,mmm,mmm,byo,5.2506491247457765,896,Firefox
+241,1,ubr,ubr,oph,10.287212881462107,3614,Google Chrome
+193,1,kks,kks,xby,7.903957756358127,613,Firefox
+2041,1,slq,slq,cjr,8.66262654126059,387,Google Chrome
+1140,1,xvr,xvr,pgu,3.369486043486783,718,Firefox
+1698,1,iju,iju,tfi,8.967726449903125,3221,Google Chrome
+2702,1,qsw,qsw,fcq,10.446803800255232,1239,Google Chrome
+1469,1,ulu,ulu,hzx,6.547633558232519,229,Microsoft Edge
+829,1,zqs,wjn,zqs,0.008164434924220032,80,Microsoft Edge
+1040,1,hjs,hjs,rmf,9.228102180663365,763,Microsoft Edge
+2543,1,zyk,zyk,cuw,11.504395645206177,364,Google Chrome
+1560,1,lio,lio,snv,9.735217546838086,295,Firefox
+3058,1,oec,yuz,oec,1.5887135928440328,413,Firefox
+1693,1,tft,tft,avt,8.740289345739223,516,Firefox
+1435,1,fuy,fuy,fvc,6.5693002267039855,453,Google Chrome
+506,1,opp,opp,vek,4.787537195841171,387,Firefox
+1851,1,hjs,hjs,wjn,11.671064584880988,1023,Microsoft Edge
+1440,1,slq,slq,cjr,7.007372007303971,111,Google Chrome
+784,1,flj,flj,skm,1.6807779074297446,103,Google Chrome
+1409,1,skm,skm,flj,5.629996181906904,140,Google Chrome
+1196,1,pyb,pyb,lgz,2.8805712065764055,500,Firefox
+2931,1,vfo,vfo,muz,6.795587329692694,325,Google Chrome
+1773,1,fjb,fjb,hzx,6.4089189122294306,581,Microsoft Edge
+2832,1,khv,khv,ofq,4.834401359716166,280,Firefox
+1099,1,tvt,tvt,pxi,5.767047932000603,116,Firefox
+671,1,tfi,tfi,sov,10.299939404177074,858,Firefox
+2043,1,nrb,nrb,lgz,7.620320201132971,1279,Firefox
+1645,1,fyg,fyg,udj,7.349661063557336,1230,Microsoft Edge
+2622,1,nqg,nqg,zok,0.5482119051274976,106,Microsoft Edge
+2473,1,shh,shh,pqd,10.39999130611001,703,Firefox
+2335,1,yvq,yvq,tkz,7.5695455312529205,4637,Google Chrome
+2431,1,nfh,nfh,jfm,8.13862394619686,780,Google Chrome
+2198,1,ulu,ulu,qkd,5.145048156233269,98,Microsoft Edge
+1723,1,slq,slq,skm,0.8396783227642288,35,Google Chrome
+3128,1,pgi,pgi,myl,9.995172996586744,550,Google Chrome
+2199,1,jpm,jpm,opp,7.552732955784915,581,Firefox
+1408,1,eoe,eoe,txk,7.680334150580887,642,Firefox
+2362,1,prb,prb,cec,9.756773353359488,523,Firefox
+197,1,vfo,vfo,vzc,12.116422155239828,1521,Google Chrome
+1277,1,zro,zro,usy,0.3480645233368236,224,Firefox
+2887,1,btl,btl,jqq,7.56476358419315,428,Google Chrome
+1434,1,crn,crn,gcr,2.825996364264165,68,Microsoft Edge
+2726,1,eus,eus,ald,10.38884544891295,3922,Microsoft Edge
+2589,1,sov,sov,iju,8.13492484666097,1075,Google Chrome
+766,1,prb,prb,hfy,8.232570551689246,159,Firefox
+1430,1,tvt,tvt,zbn,11.748891502731922,730,Firefox
+1146,1,pxi,pxi,sgd,7.352687659959212,1668,Firefox
+430,1,oec,oec,lgd,8.873707609693485,486,Firefox
+1431,1,xvr,xvr,pgu,7.645887643640237,1902,Firefox
+573,1,vlm,vlm,ngs,9.092278900369141,678,Google Chrome
+1518,1,iba,iba,muz,9.850872490474554,2510,Google Chrome
+2098,1,eoe,eoe,txk,7.934589954308357,2779,Firefox
+3125,1,jpm,jpm,opp,7.020027428105488,460,Firefox
+2878,1,nyk,nyk,pgu,0.9407478576178221,588,Firefox
+254,1,zrx,zrx,ien,4.9455385833047005,557,Microsoft Edge
+636,1,slq,slq,cjr,6.271906612606564,404,Google Chrome
+3238,1,slq,slq,flj,10.290444953006464,435,Google Chrome
+35,1,swe,swe,hll,13.584328203161203,86,Opera
+2210,1,iib,iib,rgo,9.296311477483485,750,Firefox
+1841,1,blf,blf,pxi,8.192451234597158,5081,Firefox
+1642,1,rvh,rvh,zyk,12.364855420234626,1468,Google Chrome
+1105,1,syt,syt,uwr,7.6384901920658255,1648,Firefox
+2295,1,lgz,lgz,pyb,8.98726747532925,503,Firefox
+2108,1,fjb,fjb,wjn,7.322093968829996,509,Microsoft Edge
+1224,1,wfs,wfs,hrj,6.5091420888524505,113,Google Chrome
+1820,1,cuw,cuw,zyk,1.5022287819396718,85,Google Chrome
+3248,1,wfs,wfs,qsw,5.791717599705442,513,Google Chrome
+2164,1,wfs,wfs,qsw,8.022860448775775,663,Google Chrome
+704,1,sgd,sgd,vek,6.297148653087396,2766,Firefox
+252,1,sdx,sdx,nwt,11.24431939622767,4440,Google Chrome
+2074,1,cil,cil,tkz,3.754565742326522,445,Google Chrome
+2657,1,kik,kik,tzn,10.057279832851343,4308,Google Chrome
+1459,1,khv,khv,opp,9.624547568762802,829,Firefox
+2579,1,vlm,vlm,slq,7.499366128483697,151,Google Chrome
+1944,1,fwh,fwh,uey,13.024525967556386,1745,Google Chrome
+2877,1,swe,swe,cut,14.215680199820694,2434,Opera
+2593,1,wxf,wxf,xgv,4.685614826966765,170,Firefox
+2256,1,uwr,uwr,xgb,4.276840479499077,198,Firefox
+1976,1,nqg,nqg,mqo,11.612326454765164,498,Microsoft Edge
+991,1,gcr,gcr,cum,8.452071735483647,443,Microsoft Edge
+3102,1,mmm,mmm,meh,4.755785583178961,754,Firefox
+2786,1,skm,skm,slq,5.091253063881799,72,Google Chrome
+3083,1,wem,wem,akx,6.6071363589880985,765,Google Chrome
+1861,1,sps,zok,sps,0.19662045260226702,363,Microsoft Edge
+75,1,zct,zct,cjr,2.531685023791537,3355,Google Chrome
+525,1,snv,snv,pgm,5.717697021850399,724,Firefox
+2273,1,qsw,qsw,wfs,5.669957954213168,75,Google Chrome
+2825,1,cut,cut,ats,7.711251544777909,494,Firefox
+621,1,cpn,cpn,hew,3.143031443948355,253,Firefox
+1752,1,xgv,xgv,xby,3.0148911967120426,88,Firefox
+2969,1,fgc,fgc,vek,4.147104971290698,1541,Firefox
+3137,1,jkc,jkc,tdk,5.950844727583111,1363,Firefox
+331,1,zll,zll,cnh,3.78649935932933,223,Microsoft Edge
+2249,1,pcv,pcv,slq,6.28732354627282,257,Google Chrome
+2079,1,xgv,xgv,nyk,8.13451271891526,993,Firefox
+1731,1,lgd,esu,xgv,0.15632113569534312,760,Firefox
+183,1,skm,skm,flj,3.875336957563548,119,Google Chrome
+1200,1,uey,uey,vlm,2.355843150609064,105,Google Chrome
+1391,1,fcq,fcq,qqe,12.504272207338305,2465,Google Chrome
+2794,1,jat,jat,sps,4.0013930947534675,2565,Microsoft Edge
+916,1,vmy,vmy,cxu,7.549853693335673,499,Google Chrome
+2253,1,xgv,xgv,xby,3.7162437800185497,133,Firefox
+2350,1,muz,muz,iba,11.863222472663594,472,Google Chrome
+730,1,zyk,zyk,gid,8.389366542092802,1109,Google Chrome
+2586,2,gid,gid,lhd,6.838967929464434,1349,Google Chrome
+383,2,wht,wht,cjr,4.371544746999161,584,Google Chrome
+817,2,ckl,ckl,eqo,11.166668258358634,10913,Microsoft Edge
+2263,2,dit,dit,npo,1.1924101931247257,1185,Firefox
+814,2,wjn,wjn,zqs,1.774356104505502,144,Microsoft Edge
+152,2,fwh,fwh,fvc,12.510476449525713,2054,Google Chrome
+2509,2,ftq,ftq,fek,7.861218994799824,118,Firefox
+414,2,oph,oph,sps,5.673201501329185,154,Microsoft Edge
+2439,2,cbo,cbo,akx,7.027688435770439,203,Google Chrome
+2880,2,ngs,ngs,fvc,6.4723656473319355,1134,Google Chrome
+879,2,cnh,cnh,fwf,7.464125524841357,159,Firefox
+1420,2,vmy,vmy,guh,6.849920644729064,1775,Google Chrome
+311,2,muz,muz,fvc,1.652942248075158,130,Google Chrome
+689,2,hzx,hzx,lra,5.386016358778031,187,Microsoft Edge
+3172,2,byo,byo,meh,2.4807088543092215,727,Firefox
+2279,2,wht,wht,azn,4.815785603070614,455,Google Chrome
+1054,2,opp,opp,jpm,5.707939235351327,928,Firefox
+1417,2,slq,slq,vlm,5.6580743059495635,77,Google Chrome
+786,2,skm,flj,slq,0.07517046970150787,52,Google Chrome
+566,2,bos,bos,uwr,6.410345916379986,1703,Firefox
+1514,2,uey,uey,cil,12.05901549234142,1903,Google Chrome
+2643,2,vfo,vfo,kik,2.949349881645966,277,Google Chrome
+116,2,tdk,tdk,kwi,3.5183143694848864,373,Firefox
+1090,2,cvw,cvw,fgc,5.258483124189313,173,Firefox
+1621,2,swe,swe,pgm,13.503595951135711,283,Opera
+332,2,skm,skm,slq,0.938845571703343,85,Google Chrome
+2956,2,pyb,pyb,cqp,4.835300574549589,322,Firefox
+740,2,meh,meh,byo,11.14289515690421,1878,Firefox
+1028,2,vfo,vfo,vlm,3.212231960066701,109,Google Chrome
+1638,2,skm,skm,flj,4.124792258687511,107,Google Chrome
+3164,2,flj,flj,slq,3.3638732551806623,223,Google Chrome
+364,2,ajo,ajo,meh,7.91874968602049,1830,Firefox
+486,2,bfg,bfg,oec,5.457931264688153,508,Firefox
+3174,2,kwi,kwi,jkc,9.131819908590096,1100,Firefox
+1176,2,fmz,fmz,cje,4.042283930850566,270,Google Chrome
+2144,2,qof,qof,slq,5.8511789024167875,407,Google Chrome
+1844,2,tyw,tyw,qkd,8.8968822712664,766,Microsoft Edge
+995,2,iju,iju,fvc,9.834652426357147,879,Google Chrome
+1848,2,sbz,sbz,btl,8.36185866603919,8227,Google Chrome
+778,2,sps,sps,zok,7.293469137349712,374,Microsoft Edge
+559,2,eqw,eqw,tza,5.6205746427657015,3051,Firefox
+2939,2,xxb,xxb,cec,4.92855124066877,4598,Firefox
+1506,2,xkr,xkr,oqa,6.0172829538732024,2298,Google Chrome
+2365,2,cvw,cvw,lgz,8.610954489027575,1215,Firefox
+1307,2,dfo,dfo,pgu,9.23655151194203,1530,Firefox
+2551,2,aho,aho,gtj,6.713013028961744,1821,Google Chrome
+1899,2,pgm,pgm,czi,6.415555375614507,249,Firefox
+3256,2,rvh,rvh,jfm,2.4544437127825813,185,Google Chrome
+2907,2,akx,akx,itt,10.086310357541741,788,Google Chrome
+988,2,hll,guh,wuy,1.4442634739248748,271,Google Chrome
+2111,2,ptb,ptb,txk,10.057377042011424,1226,Firefox
+2408,2,wwk,wwk,wcf,11.323366357826187,215,Google Chrome
+2937,2,tfi,tfi,iju,11.605978761197962,410,Firefox
+2076,2,skm,skm,slq,8.300406264032329,238,Google Chrome
+2892,2,cyd,cyd,wjn,9.591853693015365,173,Microsoft Edge
+3,2,pou,pou,vjw,11.012576324836452,1199,Firefox
+141,2,zqs,zqs,wjn,4.343161118269757,341,Microsoft Edge
+835,2,hzx,hzx,shh,7.991783193487953,82,Microsoft Edge
+1171,2,npo,npo,opp,2.114912867841219,413,Firefox
+904,2,lhr,lhr,dfo,5.799422167719898,1348,Firefox
+216,2,fuy,fuy,ald,6.160150127799641,190,Google Chrome
+1838,2,fvc,fvc,fuy,6.629652294835937,288,Google Chrome
+471,2,btl,btl,sbz,10.04325228194843,2955,Google Chrome
+1526,2,hjs,hjs,wjn,11.999104864667355,574,Microsoft Edge
+251,2,kik,kik,vfo,9.322423688912831,262,Google Chrome
+2838,2,ats,ats,tza,6.2669106794339235,99,Firefox
+3069,2,shh,shh,hzx,9.258155989140967,300,Firefox
+885,2,vfo,vfo,kik,12.224583130182749,781,Google Chrome
+3196,2,lgz,lgz,pyb,10.237581133521914,1510,Firefox
+532,2,jpm,jpm,opp,6.385087688745789,226,Firefox
+2292,2,sps,sps,lra,2.529911943623609,205,Microsoft Edge
+2638,2,jfm,jfm,zyk,10.418307992612394,564,Google Chrome
+942,2,hjs,hjs,wjn,11.072859916037052,98,Microsoft Edge
+3173,2,guh,guh,azx,1.8365890582573527,274,Google Chrome
+93,2,azx,azx,guh,2.5681328432347756,87,Google Chrome
+667,2,sgd,sgd,vek,5.38419864305418,785,Firefox
+2717,2,zus,zus,tza,9.596385517491134,2328,Firefox
+1537,2,mqo,mqo,rgo,4.74468764833674,535,Microsoft Edge
+1683,2,swe,swe,ats,14.07305267394112,192,Opera
+459,2,azx,azx,guh,1.428401581081233,178,Google Chrome
+1095,2,oec,oec,vyu,6.469704388783731,394,Firefox
+3251,2,fal,fal,dfo,8.866432463976448,143,Firefox
+540,2,fuz,fuz,opp,6.114450887879568,655,Firefox
+1882,2,cxu,cxu,fvc,5.72793098385069,144,Google Chrome
+823,2,slq,slq,skm,9.229859844188088,56,Google Chrome
+812,2,hdz,hdz,kzt,4.976865304375971,1133,Firefox
+2943,2,sps,sps,zok,0.971924868699567,342,Microsoft Edge
+1193,2,slq,slq,skm,7.429507746393419,73,Google Chrome
+1935,2,ald,ald,gvp,6.55981647196737,548,Google Chrome
+2035,2,kbf,kbf,nzq,3.2949366362579955,764,Firefox
+824,2,myl,myl,pgi,5.102573522636485,147,Google Chrome
+375,2,skm,slq,skm,3.7991905047069423,46,Google Chrome
+2344,2,myl,myl,fmz,4.195464199368352,69,Google Chrome
+2051,2,yuz,yuz,nkb,10.863719378270538,748,Firefox
+293,2,tft,tft,avt,6.278620042846506,184,Firefox
+1421,2,zqs,zqs,wjn,3.866537906049209,2244,Microsoft Edge
+2850,2,rgo,rgo,jkt,10.698427818932807,1131,Microsoft Edge
+1160,2,fvc,fvc,ngs,8.39407616019849,1020,Google Chrome
+1729,2,nqg,nqg,usy,4.606834679342336,676,Microsoft Edge
+2517,2,szr,szr,ajo,2.5817666925714287,408,Firefox
+1836,2,fek,fek,tjc,7.571584977534487,246,Firefox
+2592,2,eoe,eoe,txk,9.866482460368186,1760,Firefox
+1192,2,pgu,pgu,blf,5.059141164457468,900,Firefox
+2631,2,tft,tft,avt,10.725316600504971,3019,Firefox
+1565,2,ofq,ofq,xby,9.61006245634408,228,Firefox
+2367,2,jkt,jkt,qfy,7.441305884921251,286,Microsoft Edge
+2929,2,tkz,tkz,yvq,5.246626162250299,540,Google Chrome
+2582,2,fgc,fgc,szr,3.7470552991162185,199,Firefox
+2399,2,zbn,zbn,jpm,10.795122821080817,905,Firefox
+1809,2,sii,sii,jpm,9.405700860455646,1273,Firefox
+3182,2,oqa,vfo,oqa,2.3383439690046397,435,Google Chrome
+394,2,hvh,hvh,fvc,5.110666195765025,100,Google Chrome
+1685,2,zct,zct,qof,6.027342180481699,466,Google Chrome
+120,2,qsw,qsw,wfs,6.652384708289541,300,Google Chrome
+2143,2,qsw,qsw,fcq,11.880926633770583,515,Google Chrome
+2772,2,fwf,fwf,meh,10.377840548242169,368,Firefox
+40,2,fgn,fgn,nlm,0.10996719267401467,118,Microsoft Edge
+751,2,fuz,fuz,opp,4.048187388686672,194,Firefox
+1102,2,ngs,ngs,flj,7.437724437873319,739,Google Chrome
+1485,2,cjr,cjr,azx,2.7952424726834693,739,Google Chrome
+374,2,zll,zll,cnh,8.322213490187659,84,Microsoft Edge
+1375,2,hfy,hfy,pcv,3.4707455467413926,1238,Google Chrome
+3012,2,hll,hll,guh,0.5115898145627167,186,Google Chrome
+324,2,txk,txk,mmm,8.913944546078255,1772,Firefox
+1606,2,jfm,jfm,zyk,8.716028545490426,78,Google Chrome
+2255,2,jpm,jpm,opp,6.946732636983569,853,Firefox
+335,2,fgc,fgc,cvw,4.72916157619394,89,Firefox
+954,2,pqd,pqd,pgm,4.958536197482843,114,Firefox
+1653,2,hjs,hjs,qkd,12.900313582434862,471,Microsoft Edge
+2171,2,czi,czi,pgm,3.163082469276715,199,Firefox
+1860,2,nuh,nuh,zro,6.787101181176949,106,Firefox
+1999,2,wjn,bez,wjn,0.03679496405008731,409,Microsoft Edge
+2990,2,cjr,cjr,rvh,4.738068117399782,1125,Google Chrome
+675,2,fou,fou,wht,8.693327775233719,339,Google Chrome
+1123,2,bgn,bgn,kks,6.37471771459853,1499,Firefox
+3113,2,fou,fou,wwk,10.350758633302817,312,Google Chrome
+2903,2,bgn,bgn,vsb,9.723248823579748,4545,Firefox
+733,2,pgu,pgu,nyk,5.015825930150798,255,Firefox
+759,2,sdx,sdx,nwt,11.478505499229664,2323,Google Chrome
+1974,2,gcr,gcr,cum,9.515283559726342,1405,Microsoft Edge
+3203,2,xkr,xkr,oqa,1.736501731884574,91,Google Chrome
+2885,2,kzt,kzt,tfi,6.982163687205684,885,Firefox
+1797,2,jfm,jfm,cyi,9.241354774971494,2128,Google Chrome
+227,2,kzt,kzt,obm,7.905483683028602,281,Firefox
+651,2,tmn,tmn,khv,0.21957074637409768,255,Firefox
+785,2,qkd,qkd,udj,6.5058933764574824,267,Microsoft Edge
+581,2,wcf,wcf,jkc,8.028157420779454,139,Firefox
+811,2,pgm,pgm,lio,8.966580734922882,398,Firefox
+2192,2,wwk,wwk,fvc,11.145604358921695,142,Google Chrome
+3207,2,esu,esu,lgd,10.107522384582653,939,Firefox
+978,2,fwf,fwf,meh,9.736119018795133,306,Firefox
+2754,2,cec,cec,prb,5.639506545686267,229,Firefox
+616,2,jpm,jpm,opp,0.76876577636415,169,Firefox
+2374,2,bou,bou,mgs,8.958503440342326,390,Google Chrome
+267,2,wjn,wjn,zqs,9.11923350865326,1388,Microsoft Edge
+2008,2,btl,btl,fvc,0.49917706625902847,130,Google Chrome
+2544,2,pgu,pgu,nyk,7.398823767189056,199,Firefox
+591,2,fvc,fvc,slq,7.061765384507121,304,Google Chrome
+1260,2,usg,usg,xgv,6.341402705258076,326,Firefox
+739,2,slq,slq,urs,11.027177764214802,609,Google Chrome
+2022,2,wfs,wfs,fwh,4.90169278614631,272,Google Chrome
+2949,2,guh,guh,cil,1.8955334317110868,57,Google Chrome
+1053,2,iba,iba,muz,8.913351070782156,4451,Google Chrome
+2260,2,mqo,hzx,mqo,0.07525530495811594,114,Microsoft Edge
+190,2,eus,eus,ald,11.594616707810609,3104,Microsoft Edge
+426,2,sgd,sgd,vek,2.436716962760955,720,Firefox
+2328,2,zro,zro,bgn,0.5419319729572294,188,Firefox
+3109,2,tdk,tdk,tsn,5.6660319432163515,143,Firefox
+1716,2,vzc,vzc,fvc,7.439322743610836,344,Google Chrome
+3239,2,swe,swe,kks,11.998188591565473,760,Opera
+639,2,cyd,cyd,uwp,10.49680212319672,592,Microsoft Edge
+1784,2,tft,tft,jkt,6.183235690745647,399,Firefox
+1843,2,cum,cum,gcr,6.605060230232164,1561,Microsoft Edge
+1866,2,sfi,sfi,qof,5.9870596075423945,4933,Google Chrome
+2627,2,ebm,ebm,cjr,3.248721410926696,94,Google Chrome
+1631,2,wfs,wfs,ald,5.945533970964907,654,Google Chrome
+160,2,ulu,ulu,rmf,7.128365091271553,225,Microsoft Edge
+3212,2,tfi,tfi,iju,11.45172269100067,879,Firefox
+2472,2,gor,gor,pgu,2.8528404600047885,712,Firefox
+229,2,fkf,fkf,zus,6.465875733637127,864,Firefox
+278,2,blf,blf,pxi,8.092285608120164,7245,Firefox
+1957,2,cpn,cpn,tza,6.863720010991422,575,Firefox
+1403,2,jqq,jqq,iju,3.9136534987636975,3733,Google Chrome
+1318,2,skm,skm,slq,8.07739177280337,208,Google Chrome
+2588,2,rvh,rvh,jfm,11.053684640713943,1950,Google Chrome
+449,2,azo,azo,bou,8.886410853740975,3442,Google Chrome
+1241,2,pcv,pcv,fvc,5.761822540077608,63,Google Chrome
+2213,2,sqb,sqb,oqa,3.0631780315344477,1090,Google Chrome
+2922,2,cjr,cjr,gtj,9.520233624642636,309,Google Chrome
+1399,2,uof,uof,fvc,7.560426394785685,245,Google Chrome
+1044,2,cjr,cjr,jmq,8.070135989379661,854,Google Chrome
+999,2,ajo,ajo,szr,8.563280045489396,1765,Firefox
+688,2,prb,prb,wvy,12.057701105100413,1415,Firefox
+620,2,zct,zct,qof,3.920524101266351,304,Google Chrome
+26,2,pgm,pgm,czi,7.769292946501869,427,Firefox
+2974,2,fmz,fmz,cje,4.894613476891181,290,Google Chrome
+2694,2,bfg,bfg,oni,6.944803407879901,143,Firefox
+2090,2,bgn,bgn,zro,4.516877286407552,258,Firefox
+2380,2,lgd,lgd,oec,3.9139898816380234,3253,Firefox
+1996,2,xwz,xwz,xkr,8.408116049077135,1260,Google Chrome
+1188,2,qsw,qsw,wfs,8.795261738762568,999,Google Chrome
+3025,2,cka,cka,vyu,4.21601703670587,126,Firefox
+3194,2,uof,uof,guh,5.927566542107851,112,Google Chrome
+902,2,tsn,tsn,kks,10.239827414897896,679,Firefox
+2753,2,kks,kks,kwi,5.307498535308065,884,Firefox
+2826,2,gid,gid,vjw,4.6979418652353715,618,Google Chrome
+1177,2,lhd,lhd,bfg,6.62128137865265,1450,Firefox
+2572,2,qkd,qkd,ulu,4.086174295438015,323,Microsoft Edge
+1079,2,bgn,bgn,tsn,8.339419630438929,895,Firefox
+342,2,jxu,jxu,deb,10.060364998334926,705,Firefox
+2646,2,zyk,zyk,pre,7.607630348425224,948,Google Chrome
+679,2,hrj,hrj,cje,5.902535600271937,137,Google Chrome
+1654,2,cka,cka,esu,6.187051589098204,1482,Firefox
+3022,2,gcr,gcr,cum,8.357976939811198,219,Microsoft Edge
+1690,2,sfi,sfi,fvc,6.500852258052184,316,Google Chrome
+1005,2,slq,slq,skm,7.126192843176943,103,Google Chrome
+731,2,nlm,nlm,szr,8.544008281323439,759,Firefox
+1619,2,gtj,gtj,qbf,7.199168629759765,326,Google Chrome
+2608,2,vlm,vlm,wht,9.98923701937073,175,Google Chrome
+1802,2,kwi,kwi,slq,9.485440533587694,822,Firefox
+1212,2,vlm,vlm,ngs,2.0805857649084754,117,Google Chrome
+1173,2,hrj,hrj,gvp,9.123759251872311,509,Google Chrome
+3223,2,ncb,ncb,slq,0.1115609481814781,375,Google Chrome
+2487,2,xgv,xgv,xby,7.630074951805877,330,Firefox
+1314,2,gtj,gtj,qbf,10.392090297736168,2384,Google Chrome
+2149,2,nsf,nsf,azo,10.046799156442615,6722,Google Chrome
+2836,2,hzx,hzx,jat,10.046291721671036,143,Microsoft Edge
+1118,2,qof,qof,fvc,10.76444544591575,2553,Google Chrome
+131,2,btl,btl,tkz,7.831140450377171,793,Google Chrome
+2897,2,fal,fal,pgu,8.947147808013227,884,Firefox
+968,2,cec,pgu,cec,0.735249282575491,154,Firefox
+68,2,fwh,fwh,uey,11.771000420338343,614,Google Chrome
+2502,2,meh,meh,byo,11.640711194679966,2173,Firefox
+1348,2,mvu,mvu,uwr,1.6802401722790758,712,Google Chrome
+2849,2,wjn,wjn,zqs,8.836082478815873,78,Microsoft Edge
+2719,2,skm,skm,slq,6.410823371232038,99,Google Chrome
+3144,2,wuy,wuy,nkb,11.04947064961857,1317,Google Chrome
+2655,2,iyf,iyf,vlm,4.061712866047128,569,Google Chrome
+489,2,pgi,pgi,rvh,7.379746397883105,1758,Google Chrome
+339,2,flj,flj,fvc,4.507639730175281,98,Google Chrome
+2857,2,nzq,nzq,oni,9.893247837505282,298,Firefox
+77,2,jqq,jqq,btl,4.923182464563348,739,Google Chrome
+1262,2,lio,lio,pgm,8.762381207006028,707,Firefox
+3229,2,btl,btl,fvc,0.2769611594743058,174,Google Chrome
+2575,2,cut,cut,ats,10.489549248899824,751,Firefox
+1322,2,jfm,jfm,cyi,8.327357824935419,311,Google Chrome
+334,2,pre,pre,zyk,5.079434266359165,210,Google Chrome
+2532,2,wcf,wcf,fou,6.108616342894377,171,Firefox
+2419,2,xby,xby,xgv,2.853670433643032,299,Firefox
+36,2,xby,xby,xgv,5.584830831258635,620,Firefox
+1047,2,tzn,tzn,fvc,5.177350899312616,362,Google Chrome
+2155,2,uwr,uwr,mvu,7.487810606861696,476,Firefox
+2414,2,pgi,pgi,mmo,9.248152707585522,206,Google Chrome
+2659,2,skm,skm,flj,5.324795645047247,104,Google Chrome
+128,2,pre,pre,fuy,0.06664093166990792,283,Google Chrome
+1371,2,nqg,nqg,rgo,0.9781109665368186,92,Microsoft Edge
+1891,2,flj,flj,slq,4.76170583142895,86,Google Chrome
+304,2,wht,wht,hxt,8.136002799579252,215,Google Chrome
+753,2,yuz,yuz,blf,12.977840739180474,173,Firefox
+378,2,slq,slq,fvc,8.777901584112401,175,Google Chrome
+2952,2,zok,zok,sps,5.550023016154682,195,Microsoft Edge
+32,2,kik,kik,fvc,5.907638781397064,1495,Google Chrome
+3197,2,nyk,nyk,pgu,2.3753374569767027,126,Firefox
+2100,2,fuy,fuy,vfo,3.2355984817617367,218,Google Chrome
+3020,2,nrb,nrb,byo,5.04139815226829,153,Firefox
+1312,2,fxg,fxg,uwr,3.9971597986572878,3889,Firefox
+3121,2,cut,cut,uwr,7.519933549275947,176,Firefox
+2166,2,fou,fou,wwk,7.87704086274355,112,Google Chrome
+351,2,hjs,hjs,wjn,8.63447617759942,1135,Microsoft Edge
+565,2,cqp,cqp,bgn,3.0823759719905137,124,Firefox
+2600,2,snn,snn,zqs,4.701936196249037,91,Microsoft Edge
+1835,2,yrb,yrb,hjs,9.150921051487156,2543,Microsoft Edge
+454,2,vfo,vfo,xwz,10.002367519563785,1165,Google Chrome
+779,2,slq,slq,cjr,8.306374312621292,611,Google Chrome
+2384,2,jmq,jmq,guh,2.633513509107872,686,Google Chrome
+1659,2,gor,gor,pgu,2.787545381867984,174,Firefox
+3098,2,bgn,bgn,vsb,6.93499685188128,1743,Firefox
+2728,2,snv,snv,kzt,3.973020986640884,368,Firefox
+2005,2,shh,shh,jkc,8.464236473073225,106,Firefox
+2498,2,zht,zht,xgv,9.715573354394001,122,Firefox
+3220,2,shh,shh,kwi,11.3701083900491,264,Firefox
+2073,2,byo,byo,tdk,1.901285416260956,387,Firefox
+418,2,cjr,cjr,skm,3.8890760423830066,268,Google Chrome
+1078,2,snn,snn,zqs,5.862984365429678,561,Microsoft Edge
+3092,2,snv,snv,pgm,6.138609576160945,110,Firefox
+1454,2,tsn,tsn,bgn,11.060472772969566,1012,Firefox
+76,2,dfo,dfo,pgu,8.065636432767665,966,Firefox
+828,2,vfo,vfo,kik,7.491050279432887,401,Google Chrome
+548,2,hrj,hrj,gvp,5.204210658868304,128,Google Chrome
+2567,2,sii,sii,vek,7.80907787514688,460,Firefox
+2722,2,wfs,wfs,qsw,2.1864772179574707,333,Google Chrome
+2184,2,prb,prb,hfy,3.8310725863961634,237,Firefox
+2669,2,deb,deb,bgn,4.648495551324666,94,Firefox
+2466,2,flj,flj,ngs,1.4248195373204036,98,Google Chrome
+3086,2,nuh,nuh,xxb,12.606202206135396,1684,Firefox
+2331,2,eoe,eoe,ptb,10.061786038239408,1497,Firefox
+807,2,sii,sii,ajo,12.31088486108861,2234,Firefox
+369,2,uey,uey,fwh,11.926591703440321,1660,Google Chrome
+230,2,zht,zht,pyb,8.346863318761557,318,Firefox
+199,2,mmo,mmo,vfo,7.799800108079532,1065,Google Chrome
+1398,2,ycb,ycb,oqa,11.094266004534276,934,Google Chrome
+443,2,xgv,xgv,szr,0.5960623156142653,212,Firefox
+1821,2,ats,ats,cut,8.16617738457703,627,Firefox
+436,2,cjr,cjr,sqb,8.712726665148725,495,Google Chrome
+2445,2,lgz,lgz,pyb,4.100076419340647,696,Firefox
+1815,2,dbi,dbi,sps,5.778566585516516,500,Microsoft Edge
+28,2,lgz,lgz,ftq,3.000474440675099,200,Firefox
+493,2,hzx,hzx,wjn,4.346804683753351,40,Microsoft Edge
+2474,2,deb,deb,bgn,4.328001023277997,1670,Firefox
+2036,2,opp,opp,jpm,3.557201637510403,105,Firefox
+1217,2,vjw,vjw,pcv,11.325667714742316,880,Google Chrome
+1184,2,vfo,vfo,vzc,8.655357470336721,2028,Google Chrome
+979,2,cxu,cxu,fmz,5.675422831768815,114,Google Chrome
+1088,2,gcr,gcr,sps,5.368442824750525,124,Microsoft Edge
+2018,2,czi,czi,uey,3.888949613905295,671,Firefox
+1151,2,ofq,ofq,khv,9.814362197737605,757,Firefox
+2264,2,avt,avt,tft,11.064587874828021,3134,Firefox
+1306,2,vzc,vzc,vfo,11.72636438100335,1877,Google Chrome
+2504,2,blf,blf,pxi,8.302262080420881,718,Firefox
+337,2,iba,iba,muz,5.847331603563366,623,Google Chrome
+439,2,zct,zct,qof,3.7999625123120104,538,Google Chrome
+133,2,ncb,ncb,skm,11.992423520253652,195,Google Chrome
+349,2,pxi,pxi,snv,0.3714585252236242,86,Firefox
+2393,2,cyd,cyd,tzn,9.740182025881827,105,Microsoft Edge
+1748,2,rgo,rgo,mqo,7.897797739624756,189,Microsoft Edge
+388,2,zyk,zyk,gid,5.285976529087385,327,Google Chrome
+2163,2,lgz,pyb,lgz,0.07206866432411196,118,Firefox
+1479,2,uey,uey,cil,12.09882501834866,3514,Google Chrome
+3114,2,ptb,ptb,eoe,9.780995912496042,2285,Firefox
+2921,2,qfy,qfy,zrx,8.2971728242875,935,Microsoft Edge
+1545,2,nzq,nzq,oni,8.686121722867815,362,Firefox
+2529,2,nrb,nrb,pyb,9.662991718757906,702,Firefox
+110,2,wjn,wjn,zqs,7.792023451133109,729,Microsoft Edge
+1779,2,qqe,qqe,kzt,11.28132819862689,2685,Google Chrome
+1877,2,tyw,tyw,qkd,7.2579075614416295,218,Microsoft Edge
+593,2,usg,usg,xgv,5.791988035847695,911,Firefox
+55,2,eus,eus,sps,10.15556671688039,902,Microsoft Edge
+2352,2,jpm,jpm,opp,6.050190088656317,231,Firefox
+1636,2,jrc,jrc,snv,0.6484020952694367,675,Firefox
+670,2,xvr,xvr,pgu,7.4174644999152495,1439,Firefox
+1494,2,zyk,zyk,cuw,5.754261721899837,518,Google Chrome
+511,2,nlm,nlm,wvy,5.723036941407097,1287,Firefox
+722,2,muz,muz,fvc,3.0802037887380505,153,Google Chrome
+382,2,sqb,sqb,cjr,2.179037562182966,304,Google Chrome
+465,2,nkb,nkb,wuy,7.857166837030228,187,Google Chrome
+2699,2,bou,bou,nfh,4.898933878827098,278,Google Chrome
+2337,2,cnh,cnh,zll,7.8825052488082745,116,Firefox
+1830,2,nzq,nzq,ftq,11.219853146946983,481,Firefox
+2725,2,tsn,tsn,kks,8.370563225131523,348,Firefox
+3161,2,cxt,cxt,udj,1.1858814973041243,132,Microsoft Edge
+2075,2,azo,azo,bou,7.166288480995574,308,Google Chrome
+1310,2,wem,wem,gvp,5.93309544712694,124,Google Chrome
+412,2,ykq,ykq,fgn,8.678855473619826,451,Microsoft Edge
+567,2,hzx,hzx,bez,4.299698687878709,82,Microsoft Edge
+1602,2,sps,sps,zok,6.331515492794514,387,Microsoft Edge
+2172,2,fcq,fcq,sbz,11.566666549672938,2433,Google Chrome
+2020,2,kks,kks,kwi,9.320330280640343,179,Firefox
+491,2,wht,wht,vlm,6.299118640033703,194,Google Chrome
+1007,2,oec,oec,vyu,7.9468956707674065,1271,Firefox
+3278,2,fwf,fwf,meh,10.171177228696461,517,Firefox
+2905,2,qqe,qqe,qbf,10.784465169937643,1904,Google Chrome
+2692,2,xby,xby,uhx,1.7499070534841517,2416,Firefox
+2705,2,zbn,zbn,tvt,9.086295576208181,1200,Firefox
+1661,2,nkb,nkb,wuy,2.7908748910985572,92,Google Chrome
+2094,2,bfg,bfg,wxf,5.46267484774067,64,Firefox
+158,2,nqg,nqg,mqo,11.890564210576493,451,Microsoft Edge
+2314,2,slq,slq,skm,9.86187839498702,102,Google Chrome
+3046,2,shh,shh,fwf,13.73623581482868,416,Firefox
+3131,2,qof,qof,ncb,9.09581846336022,1760,Google Chrome
+1142,2,cxt,cxt,zok,9.866162006489976,659,Microsoft Edge
+3053,2,fwf,fwf,meh,8.709867715874456,346,Firefox
+2481,2,ftq,ftq,snv,10.204737393105415,173,Firefox
+900,2,tyw,tyw,qkd,5.68878758504028,768,Microsoft Edge
+2727,2,hdz,hdz,dit,7.0012804691612756,2263,Firefox
+3028,2,cxt,cxt,ulu,1.8741405417287318,55,Microsoft Edge
+505,2,cje,cje,wht,4.792472777082566,203,Google Chrome
+232,2,jxu,jxu,deb,9.530219372116015,750,Firefox
+1487,2,hrj,hrj,gvp,7.789404927824448,227,Google Chrome
+2243,2,ckl,ckl,ien,1.639288443227024,108,Microsoft Edge
+917,2,pre,pre,ald,9.756402396842752,509,Google Chrome
+1824,2,obm,obm,kzt,5.90581038486462,142,Firefox
+1263,2,kks,kks,syt,8.361717124346985,187,Firefox
+2524,2,xgv,xgv,nyk,6.026357980508916,129,Firefox
+3263,2,vjw,vjw,cec,11.760077397552369,2068,Google Chrome
+1215,2,bfg,bfg,lhd,7.120993407854417,1147,Firefox
+3072,2,pgi,pgi,myl,7.3625004208516796,270,Google Chrome
+2784,2,gzi,gzi,cka,7.761252603690181,5363,Firefox
+2377,2,fcq,fcq,guh,9.156231421856088,2021,Google Chrome
+2868,2,tvt,tvt,eqw,10.566102853110696,953,Firefox
+2385,2,yvq,yvq,cjr,8.491854717210266,2332,Google Chrome
+1547,2,nyk,nyk,gor,0.929286297053511,474,Firefox
+2492,2,uwr,uwr,kks,4.0626238898438345,156,Firefox
+929,2,fvc,fvc,fuy,4.04158549524969,130,Google Chrome
+3056,2,qqe,qqe,kzt,7.235499165303866,429,Google Chrome
+1798,2,fwf,fwf,meh,11.638383292740986,120,Firefox
+2819,2,pgu,pgu,xvr,4.245924973798659,256,Firefox
+456,2,rvh,rvh,pgi,10.529779229130229,714,Google Chrome
+819,2,cvw,cvw,fgc,5.318468394637158,260,Firefox
+1242,2,azo,azo,flj,2.7650382279956784,274,Google Chrome
+282,2,opp,opp,jpm,1.4048022482667477,58,Firefox
+1578,2,ald,ald,wfs,7.6096989181493555,1574,Google Chrome
+2068,2,zro,zro,bgn,4.5257518328579645,2705,Firefox
+1429,2,iib,iib,gzi,11.976631816585606,2753,Firefox
+2843,2,nqg,nqg,zok,10.54096240353584,938,Microsoft Edge
+1781,2,uwp,uwp,lio,5.885769524117992,434,Firefox
+2491,2,vlm,vlm,skm,6.20406597891385,210,Google Chrome
+142,2,slq,slq,skm,8.913376608433246,118,Google Chrome
+2632,2,deb,deb,vsb,7.48969825251378,521,Firefox
+2276,2,cbo,cbo,muz,6.814682023509646,139,Google Chrome
+336,2,mmm,mmm,fwf,2.130257199082881,535,Firefox
+466,2,cvw,cvw,fgc,7.874567481395525,815,Firefox
+1213,2,wcf,wcf,ftq,10.64477967015923,165,Firefox
+727,2,uwp,uwp,jpm,3.795748787690062,59,Firefox
+2667,2,cqp,cqp,tsn,5.047520119506861,178,Firefox
+1528,2,esu,esu,lgd,5.062012317558285,185,Firefox
+356,2,cpn,cpn,hew,6.286478174490895,115,Firefox
+1531,2,nwt,nwt,sdx,9.076771218625542,1703,Google Chrome
+2520,2,fjb,fjb,eus,10.47552598412581,11275,Microsoft Edge
+956,2,cjr,cjr,azx,7.552016075517797,379,Google Chrome
+1897,2,kks,kks,bgn,11.285714046472481,853,Firefox
+30,2,tzn,tzn,fvc,5.599961993593229,279,Google Chrome
+1354,2,flj,skm,flj,0.9234623611688084,2740,Google Chrome
+2637,2,sqb,sqb,slq,1.4237060970059252,183,Google Chrome
+1491,2,skm,slq,fvc,7.892424711255551,63,Google Chrome
+2605,2,yvq,yvq,tkz,6.9612971562177615,2900,Google Chrome
+2084,2,pxi,pxi,blf,5.535962367716666,599,Firefox
+2665,2,vsb,vsb,usy,5.370911240051241,999,Firefox
+891,2,oph,oph,gcr,9.446931213226256,1718,Microsoft Edge
+2299,2,nzq,nzq,oni,10.222028389871626,179,Firefox
+2086,2,sdx,sdx,vlm,6.952416517389125,507,Google Chrome
+1449,2,lhd,lhd,usy,3.3644895272443542,385,Firefox
+1687,2,flj,flj,skm,0.7757564625936819,306,Google Chrome
+1338,2,lnq,lnq,kwi,4.6899479828717565,369,Firefox
+2957,2,obm,obm,kzt,5.506033760692123,975,Firefox
+2033,2,mgs,mgs,jxu,8.425480166650189,260,Firefox
+3120,2,tza,tza,oec,6.711897050783151,205,Firefox
+2460,2,lio,lio,pgm,8.881569735431194,393,Firefox
+3249,2,gtj,gtj,ngs,12.230935659144953,2688,Google Chrome
+395,2,npo,npo,opp,6.644842539254953,9433,Firefox
+2842,2,fmz,fmz,hvh,5.006980695202468,695,Google Chrome
+445,2,kks,kks,fwf,6.179135568455724,51,Firefox
+873,2,yrb,wjn,zqs,2.0028910161478954,97,Microsoft Edge
+504,2,cyi,cyi,jfm,5.356572104516913,3320,Google Chrome
+1376,2,muz,muz,fvc,10.48336357630098,139,Google Chrome
+1943,2,wxf,wxf,sfi,3.0115603854834143,150,Firefox
+2930,2,jkc,jkc,kwi,1.859742788893124,576,Firefox
+2527,2,nyk,nyk,pgu,4.477277078323083,325,Firefox
+2563,2,wvy,wvy,tft,12.218861077592539,499,Firefox
+2650,2,nrb,nrb,byo,9.377167307244452,1233,Firefox
+340,2,azx,azx,jmq,0.4530528212579119,880,Google Chrome
+1367,2,ien,ien,rgo,6.136438355824924,177,Microsoft Edge
+60,2,azn,vlm,wht,0.2076008828579745,192,Google Chrome
+1033,2,yvq,yvq,cjr,8.639695282141275,3490,Google Chrome
+2229,2,ftq,ftq,jkc,11.51198520333752,646,Firefox
+949,2,nzq,nzq,kbf,10.448652304857221,1816,Firefox
+1093,2,nwt,nwt,akx,12.510683334370349,1782,Google Chrome
+255,2,nzq,nzq,oni,5.003602193617238,159,Firefox
+1754,2,qof,qof,fvc,10.674786199990864,2211,Google Chrome
+2741,2,hfy,hfy,pcv,3.0989188503961893,1955,Google Chrome
+442,2,zht,zht,tsn,10.461735814879823,461,Firefox
+2115,2,kwi,kwi,tsn,9.436224094223377,335,Firefox
+135,2,ncb,ncb,slq,0.7358427664788532,243,Google Chrome
+173,2,szr,szr,vek,9.07916456403207,318,Firefox
+2811,2,syt,syt,bos,6.260132654160397,624,Firefox
+1563,2,vmy,vmy,tmn,3.5078628614970517,1840,Google Chrome
+2683,2,ncb,ncb,skm,10.593400174967629,1256,Google Chrome
+2537,2,skm,skm,flj,7.861504312994436,630,Google Chrome
+3271,2,sfi,sfi,cje,11.774035962286133,1015,Google Chrome
+1512,2,tft,tft,avt,7.655218490573423,293,Firefox
+198,2,vek,vek,jpm,4.608525139243687,1538,Firefox
+2598,2,ont,ont,qfy,5.725739799637736,147,Microsoft Edge
+2698,2,szr,szr,vek,8.576556367604335,726,Firefox
+1,2,muz,muz,iba,7.273381135527495,136,Google Chrome
+441,2,hew,hew,lgd,5.056153605792556,82,Firefox
+1144,2,czi,czi,syt,10.78083809282893,855,Firefox
+455,2,dit,dit,oec,4.764531039493041,129,Firefox
+769,2,cjr,cjr,slq,3.1796886331884657,302,Google Chrome
+1035,2,ebm,ebm,wem,0.9170936126395057,130,Google Chrome
+966,2,tfi,tfi,sov,11.471501799745889,2031,Firefox
+1101,2,cut,cut,ats,9.528431263288354,357,Firefox
+1539,2,myl,myl,tzn,5.620738831059175,181,Google Chrome
+2225,2,cuw,cuw,zyk,1.350894849869178,167,Google Chrome
+360,2,kwi,kwi,lnq,10.58617266717893,331,Firefox
+2926,2,fou,fou,wht,7.208753278852605,238,Google Chrome
+2266,2,ofq,ofq,xby,9.302698611623821,526,Firefox
+984,2,uwr,czi,uwr,2.7440638322478677,2209,Firefox
+2333,2,fgn,fgn,ont,7.572727385354609,215,Microsoft Edge
+3060,2,bgn,bgn,vsb,8.120100774824092,824,Firefox
+586,2,wem,akx,wem,3.6535776875656465,798,Google Chrome
+2562,2,xkr,akx,xkr,2.14906578096221,807,Google Chrome
+2783,2,qkd,qkd,ulu,6.603489861952379,265,Microsoft Edge
+2889,2,iyf,fvc,slq,2.1281979172224417,93,Google Chrome
+2621,2,yrb,yrb,ien,5.044799103720965,296,Microsoft Edge
+1777,2,eqo,eqo,fvc,4.122696240109491,3614,Google Chrome
+2814,2,fxg,fxg,syt,7.175933459480145,10058,Firefox
+1168,2,nqg,nqg,usy,9.523509867564501,437,Microsoft Edge
+2554,2,kks,kks,bgn,10.005815781314212,3278,Firefox
+499,2,lgz,lgz,pyb,6.504638315732102,238,Firefox
+2157,2,bgn,bgn,kks,7.927871725141635,1960,Firefox
+2890,2,lhr,lhr,pgu,3.5569761921665126,451,Firefox
+1954,2,iib,iib,vog,11.888302561579412,3243,Firefox
+1746,2,udj,udj,qkd,2.2214972911957203,833,Microsoft Edge
+1519,2,gid,gid,vjw,5.1650508242273485,368,Google Chrome
+1695,2,qsw,qsw,oec,8.867233491800562,75,Google Chrome
+3016,2,guh,guh,jmq,2.746671392684867,119,Google Chrome
+372,2,oec,oec,vyu,4.415129351809109,1479,Firefox
+3031,2,fvc,fvc,ald,8.795916558275458,543,Google Chrome
+2214,2,blf,blf,yuz,0.26023939606487634,183,Firefox
+3059,2,usg,usg,xgv,1.7169171923601256,891,Firefox
+1854,2,nqg,nqg,vsb,10.643096263003848,744,Microsoft Edge
+2799,2,czi,czi,ats,5.120920298475809,479,Firefox
+1708,2,zok,lra,hzx,0.5223051255695008,156,Microsoft Edge
+1211,2,hjs,hjs,vlm,10.133876419913676,170,Microsoft Edge
+1542,2,tsn,tsn,bgn,9.028946843467818,144,Firefox
+416,2,itt,oqa,itt,0.5661908783023448,540,Google Chrome
+404,2,wuy,wuy,nkb,10.636846821395862,864,Google Chrome
+649,2,pre,pre,ald,8.156870939480909,328,Google Chrome
+1157,2,esu,esu,cka,9.520854622363654,785,Firefox
+2713,2,tzn,tzn,myl,8.398870514102036,1012,Google Chrome
+1145,2,bfg,bfg,vsb,8.254693061792189,734,Firefox
+1589,2,cil,cil,btl,6.625819793602897,334,Google Chrome
+2776,2,vfo,vfo,fvc,2.34728053557228,72,Google Chrome
+939,2,flj,flj,vlm,1.6981626794955789,444,Google Chrome
+744,2,oec,oec,xvr,8.07058766525132,3172,Firefox
+617,2,fjb,fjb,hjs,11.988748612488667,2946,Microsoft Edge
+1002,2,rgo,rgo,iib,9.677167478027156,268,Microsoft Edge
+1291,2,zqs,zqs,wjn,2.4129622760726495,265,Microsoft Edge
+328,2,vek,vek,opp,3.0890955399816202,661,Firefox
+1393,2,xkr,xkr,akx,2.1052848205994747,679,Google Chrome
+2815,2,jew,jew,eoe,7.652523730601128,231,Firefox
+1614,2,kwi,kwi,ftq,9.17018723406403,257,Firefox
+3269,2,vlm,vlm,ngs,8.994835658201938,390,Google Chrome
+2056,2,tzn,tzn,myl,6.786415372998586,1554,Google Chrome
+2676,2,fuy,fuy,ald,3.625768407571651,197,Google Chrome
+34,2,zyk,zyk,pcv,9.381661716206832,2254,Google Chrome
+318,2,ubr,ubr,fvc,8.354631219510427,381,Google Chrome
+2197,2,ulu,ulu,hzx,5.5464270318107864,175,Microsoft Edge
+1760,2,psg,psg,jfm,9.466003908845241,159,Google Chrome
+960,2,ats,ats,cut,6.5047454157993645,1623,Firefox
+70,2,skm,skm,vlm,4.943615904500253,932,Google Chrome
+301,2,vzc,vzc,vfo,9.946987725088242,1143,Google Chrome
+3081,2,lio,lio,wjn,6.79580494824452,358,Firefox
+3078,2,fcq,fcq,sbz,9.909781208069408,2038,Google Chrome
+3152,2,qfy,qfy,cxt,6.670361681729443,2182,Microsoft Edge
+399,2,qbf,qbf,cjr,3.838624862334351,1393,Google Chrome
+1700,2,gvp,gvp,cbo,2.8834603106380623,203,Google Chrome
+2653,2,tjc,tjc,qbf,8.436498012483792,284,Google Chrome
+33,2,cnh,cnh,pgi,8.04615428004323,133,Firefox
+1795,2,fek,fek,ftq,0.6096594996557223,168,Firefox
+2334,2,dbi,dbi,sps,7.853005100828747,1026,Microsoft Edge
+2549,2,qof,qof,slq,3.643197355855941,204,Google Chrome
+2862,2,nqg,nqg,hzx,10.546822706555933,184,Microsoft Edge
+3232,2,gid,gid,pcv,4.295703674634609,1750,Google Chrome
+2064,2,slq,slq,vlm,2.833256067408664,598,Google Chrome
+2416,2,qfy,qfy,zok,7.914133939082085,1045,Microsoft Edge
+2866,2,slq,slq,flj,6.758753669164053,96,Google Chrome
+1741,2,oqa,oqa,cbo,8.542195743490609,278,Google Chrome
+2297,2,zyk,zyk,jfm,4.394016863204858,163,Google Chrome
+554,2,ulu,ulu,nqg,7.956960103968708,341,Microsoft Edge
+2133,2,wht,wht,fvc,6.667178931994709,457,Google Chrome
+174,2,lio,lio,pgm,9.103958349183676,515,Firefox
+2988,2,nzq,nzq,nlm,4.570981951834734,179,Firefox
+1985,2,zqs,zqs,wjn,11.100410744987228,404,Microsoft Edge
+1870,2,rgo,rgo,jkt,9.37721174554412,1129,Microsoft Edge
+1594,2,fwf,fwf,kwi,10.308698782831456,138,Firefox
+2482,2,zqs,zqs,wjn,7.254058807296753,208,Microsoft Edge
+1439,2,flj,skm,flj,0.48062079479515685,366,Google Chrome
+1037,2,fwf,fwf,shh,8.80576111422848,450,Firefox
+273,2,lgd,lgd,hew,7.306430395208569,234,Firefox
+1780,2,gvp,gvp,hrj,5.367413304554215,600,Google Chrome
+3149,2,khv,khv,kbf,10.3266424516292,5480,Firefox
+865,2,cyd,cyd,ulu,6.777038283349039,193,Microsoft Edge
+1071,2,zrx,zrx,qfy,6.3634201805528665,510,Microsoft Edge
+810,2,dfo,dfo,pgu,7.489657273097283,1150,Firefox
+333,2,yuz,yuz,fkf,11.582093003046186,296,Firefox
+413,2,slq,slq,flj,13.648447895969223,314,Google Chrome
+2893,2,hew,hew,zus,7.751098009246107,3469,Firefox
+357,2,opp,opp,jpm,8.36332934739616,887,Firefox
+712,2,mmm,mmm,byo,2.396506058770899,1790,Firefox
+1814,2,sps,sps,zok,3.1671577167852902,198,Microsoft Edge
+1182,2,fgc,fgc,vek,5.2685538767564175,629,Firefox
+1029,2,udj,udj,yrb,6.799481686819986,312,Microsoft Edge
+2821,2,hjs,hjs,oph,7.251883041549981,330,Microsoft Edge
+705,2,cjr,cjr,wht,9.475038184216805,426,Google Chrome
+1580,2,iib,iib,rgo,11.355643315320753,1978,Firefox
+483,2,ncb,ncb,slq,7.457455586794441,701,Google Chrome
+1458,2,oni,oni,fuz,7.326340434876473,519,Firefox
+783,2,fou,fou,wht,9.396615497997734,215,Google Chrome
+320,2,ajo,ajo,szr,5.152943057248131,1170,Firefox
+910,2,mmm,mmm,byo,4.924501769177601,505,Firefox
+1965,2,iju,iju,qbf,8.194104118149586,283,Google Chrome
+2312,2,zht,zht,lgz,9.621240306320939,596,Firefox
+2224,2,uhx,uhx,mgs,2.7681601495205133,188,Firefox
+159,2,psg,psg,vfo,11.298268703650276,1223,Google Chrome
+497,2,tsn,tsn,cqp,10.088132760227056,1250,Firefox
+39,2,nqg,nqg,vsb,10.857570741597872,414,Microsoft Edge
+1046,2,tza,tza,fgc,7.508509420204903,1148,Firefox
+1585,2,snv,snv,opp,6.922646617011264,2272,Firefox
+156,2,mqo,mqo,sps,4.567152269109322,613,Microsoft Edge
+2017,2,syt,syt,kks,2.855399448165166,103,Firefox
+600,2,kzt,obm,kzt,2.344937739218419,229,Firefox
+2999,2,txk,txk,eoe,8.381744837099191,2360,Firefox
+1051,2,mvu,mvu,uwr,1.9560833622937075,368,Google Chrome
+909,2,xgb,xgb,syt,1.1560458799948816,170,Firefox
+1234,2,muz,muz,fvc,10.460037570311986,219,Google Chrome
+1087,2,fwh,fwh,guh,12.357182116115544,1367,Google Chrome
+1204,2,wem,wem,cjr,7.038280530418142,910,Google Chrome
+898,2,sps,sps,zok,6.6565834486700926,285,Microsoft Edge
+901,2,wuy,wuy,nkb,9.683141023855745,848,Google Chrome
+2125,2,nlm,nlm,oni,5.074946066169963,321,Firefox
+2793,2,skm,skm,flj,9.712816680240133,356,Google Chrome
+277,2,nwt,nwt,zct,12.408367951869062,1956,Google Chrome
+1905,2,wwk,wwk,fou,2.0571364075426732,105,Google Chrome
+989,2,prb,prb,cec,8.681644254375849,256,Firefox
+239,2,tsn,tsn,vsb,10.575120403402606,1430,Firefox
+0,2,nuh,nuh,xxb,13.474372671287716,3128,Firefox
+462,2,rmf,sps,rmf,0.05385005230216766,109,Microsoft Edge
+125,2,shh,shh,jkc,9.636467876428416,94,Firefox
+2332,2,khv,khv,tmn,6.413802493080919,392,Firefox
+711,2,ycb,ycb,fvc,11.664992727435152,731,Google Chrome
+2994,2,qqe,qqe,yrb,11.317956405726076,3463,Google Chrome
+2353,2,hjs,hjs,vlm,11.535304936148318,821,Microsoft Edge
+1801,2,vfo,vfo,kik,6.413013245776324,892,Google Chrome
+2117,2,skm,skm,slq,6.362283652464798,340,Google Chrome
+2869,2,ptb,ptb,txk,6.373904054611544,1059,Firefox
+1156,2,lra,cxt,zok,1.426078714651787,1028,Microsoft Edge
+415,2,akx,fcq,hll,2.0791621833112863,399,Google Chrome
+603,2,slq,slq,skm,7.534924613682263,122,Google Chrome
+611,2,jmq,jmq,akx,3.2177070405297954,1088,Google Chrome
+2462,2,cjr,cjr,slq,0.12314390920088236,109,Google Chrome
+480,2,shh,shh,ftq,4.201104250354595,154,Firefox
+2231,2,pcv,pcv,hfy,9.20166808816233,809,Google Chrome
+10,2,wvy,wvy,ufc,11.299680792806544,343,Firefox
+1753,2,eus,eus,cyd,2.3320473103239934,254,Microsoft Edge
+3201,2,fuy,fuy,ald,7.632738174116483,840,Google Chrome
+178,2,xgv,xgv,xby,3.4395454919269284,220,Firefox
+1845,2,gcr,gcr,rgo,7.43066718404118,613,Microsoft Edge
+1378,2,muz,muz,iba,11.984224134383085,2454,Google Chrome
+423,2,jfm,jfm,gid,8.087276611683443,268,Google Chrome
+1361,2,cyd,cyd,ulu,6.254809582312325,184,Microsoft Edge
+1635,2,vzc,vzc,fvc,6.815708788212159,263,Google Chrome
+1014,2,zyk,zyk,pre,7.367468113566467,267,Google Chrome
+1822,2,kik,kik,tzn,9.554299535382107,3348,Google Chrome
+502,2,pgi,pgi,fvc,7.891871225106911,70,Google Chrome
+2322,2,shh,shh,kwi,9.810568759182708,80,Firefox
+507,2,txk,txk,mmm,9.575655234192478,499,Firefox
+3106,2,tza,tza,oec,4.9578537077861276,257,Firefox
+3000,2,kwi,kwi,jkc,11.821547214748588,479,Firefox
+2427,2,pgm,czi,pgm,2.6557926338431477,359,Firefox
+2809,2,gtj,gtj,qbf,5.084003328854303,625,Google Chrome
+1535,2,vjw,vjw,gid,12.189798588768571,1758,Google Chrome
+1073,2,avt,avt,tft,11.079742689768818,1510,Firefox
+3062,2,zrx,zrx,sps,7.229474172118154,539,Microsoft Edge
+2590,2,sov,sov,iju,6.669542189414385,228,Google Chrome
+1230,2,byo,ftq,byo,1.683813661030924,76,Firefox
+3039,2,fyf,fyf,szr,8.869988275768943,533,Firefox
+1516,2,qbf,qbf,sov,7.116906243815679,489,Google Chrome
+577,2,ycb,oqa,qqe,0.45338159703429026,260,Google Chrome
+2547,2,vfo,vfo,mmo,8.133410182333602,1133,Google Chrome
+3006,2,opp,opp,jpm,3.4986016100712245,458,Firefox
+3184,2,usy,usy,vsb,4.043819563264283,1967,Firefox
+3169,2,nlm,nlm,pqd,9.267639887095994,424,Firefox
+168,2,wfs,wfs,qsw,8.05046395319929,1089,Google Chrome
+748,2,gvp,hrj,gvp,0.14669647672488573,358,Google Chrome
+2597,2,qsw,qsw,wfs,2.989155865070593,90,Google Chrome
+981,2,qdv,qdv,tkz,1.5266593849304346,79,Google Chrome
+452,2,fwf,fwf,jew,10.028886709137517,122,Firefox
+1221,2,kbf,kbf,eqw,3.6829617962138577,235,Firefox
+2424,2,jkc,jkc,kwi,4.975432823107265,542,Firefox
+2160,2,txk,txk,eoe,6.961971670826597,2724,Firefox
+1672,2,flj,flj,skm,8.225984368481683,160,Google Chrome
+2126,2,fcq,fcq,psg,11.857367755766365,949,Google Chrome
+1671,2,yuz,yuz,avt,12.498136848767611,955,Firefox
+946,2,ptb,ptb,txk,9.160016427384672,1330,Firefox
+1771,2,mgs,mgs,uhx,10.284401451568861,1485,Firefox
+57,2,cil,cil,xkr,3.768549856695727,314,Google Chrome
+758,2,vog,vog,ulu,2.693949665542892,240,Firefox
+572,2,cpn,cpn,nzq,4.780659309084151,183,Firefox
+1973,2,tza,tza,eqw,3.731119148028747,771,Firefox
+1334,2,uwr,uwr,nsf,5.350704394402188,694,Firefox
+72,2,akx,akx,fcq,3.353762433047973,243,Google Chrome
+1271,2,vek,vek,sgd,3.068915189736728,95,Firefox
+3024,2,bgn,bgn,cqp,5.7560657467918706,1098,Firefox
+2066,2,avt,avt,tft,11.709852827669458,1846,Firefox
+1411,2,gor,gor,lhr,10.21535090822099,2850,Firefox
+1569,2,nfh,nfh,cyi,10.515808361823584,6516,Google Chrome
+3074,2,tft,tft,bgn,8.765030566686683,780,Firefox
+3159,2,slq,slq,vlm,4.743350858779222,120,Google Chrome
+1561,2,akx,wem,kik,0.6367545431778878,125,Google Chrome
+1042,2,shh,shh,jkc,10.54102395426056,99,Firefox
+2265,2,kwi,kwi,kks,9.638017090466423,111,Firefox
+2535,2,xvr,xvr,fal,6.426347122243634,163,Firefox
+518,2,wfs,wfs,qsw,4.684865035354935,448,Google Chrome
+2987,2,slq,slq,skm,8.810406352623005,48,Google Chrome
+9,2,byo,byo,mmm,7.763807360679069,2444,Firefox
+308,2,uwp,uwp,pgm,5.543462509646655,85,Firefox
+2738,2,ulu,ulu,rmf,6.6810421527025134,204,Microsoft Edge
+139,2,vyu,vyu,oec,4.986393950777341,1837,Firefox
+1355,2,swe,swe,ncb,12.654581896110061,373,Opera
+2180,2,eoe,eoe,ptb,7.731211191666517,1722,Firefox
+1346,2,skm,skm,slq,5.8485655704772,56,Google Chrome
+3187,2,jat,jat,vek,3.5237746315295295,1234,Microsoft Edge
+1461,2,qkd,qkd,udj,5.667862474030314,283,Microsoft Edge
+1319,2,syt,syt,byo,6.553653617652025,2905,Firefox
+1964,2,kwi,kwi,lgz,8.767675945036613,1170,Firefox
+1673,2,wvy,wvy,nlm,11.794115347936124,1380,Firefox
+791,2,yxw,yxw,prb,9.063766934866162,252,Firefox
+3129,2,pou,pou,vjw,11.213759478797236,1132,Firefox
+2349,2,slq,slq,flj,10.467931417822262,182,Google Chrome
+3143,2,mgs,mgs,uwr,7.729797988642514,592,Firefox
+206,2,fyf,fyf,ats,4.32637534022255,2103,Firefox
+2441,2,nsf,nsf,azo,5.286903702123648,3876,Google Chrome
+2148,2,skm,skm,slq,10.33111637965849,571,Google Chrome
+1124,2,meh,meh,ajo,10.061252638752562,2200,Firefox
+3186,2,jkc,mmm,ncb,0.32151636422399443,565,Firefox
+3163,2,nrb,nrb,zro,4.798026410687492,515,Firefox
+1608,2,tdk,tdk,shh,2.4841829439179346,207,Firefox
+2340,2,dbi,dbi,zok,2.8755711125359324,1074,Microsoft Edge
+2235,2,bou,bou,azo,8.4149214497337,311,Google Chrome
+2906,2,xvr,xvr,nyk,5.949830491461252,492,Firefox
+1592,2,zus,zus,cka,10.012890659376094,3310,Firefox
+1706,2,swe,swe,kks,10.890057223124021,285,Opera
+407,2,avt,avt,tft,11.328782319511705,2370,Firefox
+346,2,hll,kik,myl,3.765172511320989,117,Google Chrome
+2030,2,hjs,hjs,wjn,11.105076409671522,682,Microsoft Edge
+2923,2,ykq,ykq,fgn,6.545013191270259,221,Microsoft Edge
+2203,2,wem,wem,akx,0.38546115181756413,1851,Google Chrome
+2789,2,vek,vek,fgc,7.322591590849035,1190,Firefox
+2443,2,uwp,uwp,lio,9.645857537758463,3068,Firefox
+2845,2,muz,muz,yvq,7.25636328659788,246,Google Chrome
+3258,2,ftq,ftq,opp,11.82870321412391,109,Firefox
+3134,2,ufc,ufc,xkr,10.130201846892676,2203,Google Chrome
+818,2,fal,fal,pgu,6.705872314758565,326,Firefox
+2733,2,oni,oni,nlm,6.104893363130065,483,Firefox
+3167,2,zbn,zbn,kwi,9.120484962083033,2053,Firefox
+1455,2,snv,snv,jrc,5.665693979240994,274,Firefox
+576,2,lfq,czi,lfq,0.024409829119019122,310,Firefox
+1744,2,oqa,oqa,xkr,2.8894454550015194,854,Google Chrome
+479,2,tjc,tjc,fek,10.388155566751514,319,Google Chrome
+2882,2,jks,qfy,jks,0.11935019627713928,833,Microsoft Edge
+737,2,lgd,lgd,hew,7.576799833280603,203,Firefox
+1150,2,pgi,pgi,myl,9.916577813255017,299,Google Chrome
+2388,2,snv,snv,jrc,6.215127616818239,333,Firefox
+3191,2,tmn,jrc,khv,1.8661404341824506,176,Firefox
+578,2,uey,uey,vfo,10.86799432544095,3528,Google Chrome
+1978,2,skm,skm,slq,7.772233423362206,143,Google Chrome
+1707,2,mmm,mmm,byo,1.657258518205663,1216,Firefox
+1904,2,ats,ats,obm,4.293380338054658,110,Firefox
+1902,2,ngs,ngs,fvc,4.319748585976358,193,Google Chrome
+2623,2,oec,oec,eqw,4.0260838536993715,489,Firefox
+2042,2,crn,crn,rmf,0.7874384229685987,190,Microsoft Edge
+2154,2,sfi,sfi,wxf,9.69026346539886,239,Google Chrome
+2286,2,fwf,fwf,ftq,7.514131423960647,91,Firefox
+478,2,cjr,cjr,zct,5.701388615849884,190,Google Chrome
+338,2,jks,jks,qfy,1.967497332628394,210,Microsoft Edge
+29,2,slq,slq,urs,10.528809898750403,331,Google Chrome
+2453,2,cjr,cjr,ngs,5.20875232395647,495,Google Chrome
+3038,2,lio,lio,wjn,9.11789822885233,530,Firefox
+627,2,fvc,fvc,yvq,11.527407178802296,304,Google Chrome
+2296,2,esu,esu,lgd,0.9950682158102113,298,Firefox
+393,2,sfi,sfi,fvc,10.633849800085498,296,Google Chrome
+2311,2,cbo,cbo,jmq,9.527994951248326,127,Google Chrome
+1908,2,urs,urs,slq,1.0182963950875452,523,Google Chrome
+2004,2,fuz,fuz,mgs,9.002022993761454,2044,Firefox
+1986,2,aho,aho,pgu,4.394118214463699,164,Google Chrome
+20,2,shh,shh,kks,11.843666370254082,250,Firefox
+1762,2,pyb,pyb,tdk,5.221023177314283,201,Firefox
+706,2,iib,iib,rgo,12.19728046697246,3046,Firefox
+1466,2,hvh,hvh,guh,7.032661499229729,254,Google Chrome
+3244,2,pyb,pyb,cvw,8.832684924661923,712,Firefox
+2976,2,gtj,gtj,qbf,5.783306360090925,279,Google Chrome
+2837,2,szr,szr,fgc,4.651089705035146,1518,Firefox
+1983,2,slq,slq,flj,13.249161753187952,77,Google Chrome
+932,2,ftq,ftq,snv,8.66310668227276,57,Firefox
+2942,2,zus,zus,sbz,7.707170866306447,2478,Firefox
+71,2,slq,slq,flj,4.089156287151249,95,Google Chrome
+1702,2,pcv,pcv,zyk,6.917063922747892,290,Google Chrome
+222,2,wvy,wvy,avt,11.513478972402282,390,Firefox
+556,2,pgm,pgm,lio,8.280541283892985,159,Firefox
+590,2,cqp,cqp,tsn,3.300161061107535,293,Firefox
+90,2,skm,skm,slq,6.5033290001266,861,Google Chrome
+3067,2,cje,cje,fmz,4.09549782741385,318,Google Chrome
+854,2,pqd,pqd,bfg,6.497526914424281,229,Firefox
+951,2,bos,bos,syt,7.826218493702196,598,Firefox
+630,2,cec,cec,prb,8.214496887872821,1629,Firefox
+1269,2,vsb,vsb,tsn,4.6261456190517025,1856,Firefox
+1360,2,eqo,eqo,fvc,1.030846212128783,140,Google Chrome
+1098,2,hxt,hxt,wht,4.465477197268699,76,Google Chrome
+325,2,snv,snv,yuz,2.5822604598779964,128,Firefox
+3272,2,czi,czi,syt,10.922136967439917,963,Firefox
+1522,2,kwi,kwi,fgc,8.543744522637983,143,Firefox
+1853,2,wxf,wxf,bfg,0.7982421568986324,98,Firefox
+2403,2,nwt,nwt,sdx,12.665584252351135,2340,Google Chrome
+1115,2,pgu,pgu,nyk,6.38549760548938,314,Firefox
+530,2,qbf,qbf,cjr,4.879800495025137,187,Google Chrome
+1991,2,flj,flj,slq,0.3685475397625182,880,Google Chrome
+757,2,zrx,zrx,sps,1.0397840105914469,83,Microsoft Edge
+1096,2,lgd,lgd,snv,6.936772877051589,269,Firefox
+3132,2,sdx,sdx,vlm,6.296854238741012,637,Google Chrome
+47,2,lgz,lgz,wcf,5.519591781313176,217,Firefox
+2156,2,gor,gor,nyk,5.181326136300348,375,Firefox
+1767,2,rff,nyk,rff,0.3995792277368806,120,Firefox
+2900,2,skm,skm,flj,9.503653697652695,398,Google Chrome
+2965,2,kik,kik,uwp,11.813690465622068,1013,Google Chrome
+1657,2,vos,vos,vsb,8.271231481943687,525,Firefox
+1416,2,hxt,fvc,cuw,0.8158836128296794,95,Google Chrome
+2711,2,rvh,rvh,tyw,10.938114079293312,2574,Google Chrome
+655,2,wuy,wuy,nkb,11.126813625029268,539,Google Chrome
+143,2,cut,cut,ats,9.568923318868164,238,Firefox
+1264,2,hjs,hjs,meh,12.551695944193732,133,Microsoft Edge
+3183,2,rgo,rgo,ien,9.792653557151159,88,Microsoft Edge
+2896,2,wht,wht,azn,4.388807776255174,421,Google Chrome
+329,2,pcv,pcv,hfy,8.213501844661245,498,Google Chrome
+1369,2,bez,bez,jat,7.257267253640275,232,Microsoft Edge
+205,2,fyg,fyg,yrb,5.398093124131741,834,Microsoft Edge
+1233,2,sii,sii,tft,7.199727565970129,749,Firefox
+2881,2,cut,cut,ats,9.637168986055592,1525,Firefox
+608,2,fvc,fvc,ngs,9.774923255016995,482,Google Chrome
+2037,2,flj,flj,slq,0.5892244620130049,105,Google Chrome
+713,2,vog,vog,jpm,1.9377243173027479,3360,Firefox
+2444,2,zbn,zbn,kwi,9.85580213343693,405,Firefox
+1152,2,meh,meh,byo,11.963778879962028,2374,Firefox
+487,2,ftq,ftq,kwi,5.7854458948514225,214,Firefox
+2550,2,tkz,tkz,yvq,1.9952923415629975,334,Google Chrome
+2998,2,fmz,fmz,nsf,5.301412756531109,646,Google Chrome
+2687,2,vlm,vlm,slq,3.8563179536526255,123,Google Chrome
+2401,2,jxu,jxu,mgs,9.315138533005156,1637,Firefox
+971,2,tvt,tvt,khv,7.904820407442836,5254,Firefox
+1339,2,vlm,vlm,ngs,8.026989440300454,209,Google Chrome
+2792,2,byo,byo,mmm,6.142671134406736,660,Firefox
+305,2,jpm,jpm,opp,7.304687291235302,190,Firefox
+2386,2,syt,syt,bos,5.126511470918161,244,Firefox
+1730,2,guh,guh,jmq,3.622414180047068,74,Google Chrome
+272,2,rmf,rmf,ulu,3.506469633126782,469,Microsoft Edge
+983,2,lhr,lhr,nyk,5.385084030114979,870,Firefox
+2714,2,nyk,nyk,pgu,4.696394452037423,394,Firefox
+1358,2,cyi,cyi,fvc,5.525641907537734,408,Google Chrome
+2363,2,ald,ald,wfs,6.643173773221054,4293,Google Chrome
+94,2,khv,khv,kzt,3.304090416625706,261,Firefox
+776,2,oqa,oqa,xkr,4.713638040314722,258,Google Chrome
+1006,2,ngs,ngs,cjr,7.2224554980114375,816,Google Chrome
+585,2,skm,skm,ncb,8.141676491402482,147,Google Chrome
+434,2,zro,zro,bgn,3.937027314689561,191,Firefox
+1382,2,fuz,fuz,fal,6.463798617604771,408,Firefox
+2127,2,pgi,pgi,fvc,4.508303123805298,105,Google Chrome
+2617,2,opp,opp,jrc,9.096253622150458,387,Firefox
+1194,2,pgi,pgi,myl,9.846707216863003,980,Google Chrome
+1950,2,cjr,cjr,skm,6.924920027367464,316,Google Chrome
+2050,2,jmq,jmq,guh,9.985966676459283,88,Google Chrome
+1249,2,vlm,vlm,slq,8.005327147931968,561,Google Chrome
+1214,2,prb,prb,nuh,8.783476499405849,175,Firefox
+162,2,jmq,jmq,guh,4.281187282766163,658,Google Chrome
+184,2,kks,kks,xgb,8.56796284165408,286,Firefox
+864,2,swe,swe,ats,14.402120685448406,621,Opera
+1953,2,skm,skm,slq,7.427770514452567,812,Google Chrome
+2522,2,xgb,nzq,xgb,0.3227839479781016,330,Firefox
+1922,2,zok,lra,hzx,1.213458693190189,837,Microsoft Edge
+1446,2,fvc,fvc,slq,4.284190779090514,285,Google Chrome
+315,2,ald,ald,fvc,3.3776900993328973,289,Google Chrome
+789,2,xgv,xgv,xby,5.819317060487181,405,Firefox
+1507,2,ien,ien,blf,3.6060198110747117,160,Microsoft Edge
+642,2,vyu,vyu,oec,6.973966563289096,755,Firefox
+781,2,vfo,vfo,ufc,5.496653203967148,338,Google Chrome
+1406,2,nwt,nwt,akx,10.894130470257128,872,Google Chrome
+1402,2,fjb,bez,wjn,0.11861490513358408,245,Microsoft Edge
+164,2,aho,aho,wem,7.179370987467416,923,Google Chrome
+977,2,hjs,hjs,qkd,10.448172921888972,454,Microsoft Edge
+2437,2,cxt,cxt,nqg,10.25784335116452,208,Microsoft Edge
+2745,2,vsb,vsb,bgn,2.397248139483456,3071,Firefox
+181,2,nqg,nqg,hzx,8.601616384497476,102,Microsoft Edge
+309,2,udj,udj,qkd,6.699189168142694,476,Microsoft Edge
+1776,2,sii,jkc,sii,1.3388678539552532,224,Firefox
+546,2,xgv,xgv,xby,3.9358639568892597,238,Firefox
+2122,2,jrc,jrc,snv,5.029206875263337,1123,Firefox

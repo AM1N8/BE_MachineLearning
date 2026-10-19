@@ -1,0 +1,46 @@
+{
+  "name": "markov_bigram",
+  "spec": {
+    "method": "markov",
+    "order": 2,
+    "mu": 20
+  },
+  "stage": "outer5_inner",
+  "signature": "1ba1ee389f7393f00c1317c762f3712fbd36032ddbe46946dee313a7f97f7833",
+  "mean": {
+    "accuracy": 0.9202964154183667,
+    "macro_f1": 0.9178808359724332
+  },
+  "std": {
+    "accuracy": 0.009110961861223166,
+    "macro_f1": 0.014175353067936762
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.9109756097560976,
+      "macro_f1": 0.9037831156576787,
+      "seconds": 7.790395797004749,
+      "warnings": []
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.9207317073170732,
+      "macro_f1": 0.9177268254489022,
+      "seconds": 7.886951165004575,
+      "warnings": []
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.9291819291819292,
+      "macro_f1": 0.9321325668107183,
+      "seconds": 7.818623120998382,
+      "warnings": []
+    }
+  ],
+  "wall_seconds": 23.56457973900251,
+  "fit_seconds": 23.495970083007705,
+  "scores": "artifacts/extreme/scores_c4e6a8a242c8faa0d6b6.npz",
+  "predictions": "reports/results/extreme/1ba1ee389f73/outer5_inner_markov_bigram_c4e6a8a242c8faa0d6b6.csv",
+  "official_metric": "F1 score moyen confirmed in supplied evaluation; macro averaging interpretation, backend unspecified"
+}

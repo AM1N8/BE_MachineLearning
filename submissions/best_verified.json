@@ -1,0 +1,42 @@
+{
+  "submission": "submissions/best_verified.csv",
+  "submission_sha256": "ea7174fbb9a23453a84aa3716f43091b96e4e658187e2c1bca655070e251595d",
+  "model_path": "artifacts/best_verified.joblib",
+  "model_sha256": "cbb0e32c6a73c2445cfc62443b28e1b1a3a1db7c6a140128d0121effb7740c7f",
+  "selected_model": "browser_mask_c3",
+  "campaign_signature": "1ba1ee389f7393f00c1317c762f3712fbd36032ddbe46946dee313a7f97f7833",
+  "validation_source": "reports/results/extreme/1ba1ee389f73/nested_validation.json",
+  "nested_cv": {
+    "accuracy": {
+      "mean": 0.9693502635575806,
+      "std": 0.006234587541824657
+    },
+    "macro_f1": {
+      "mean": 0.9612512852331797,
+      "std": 0.010937641282132262
+    }
+  },
+  "paired": {
+    "macro_f1_gain": 6.909269940617857e-05,
+    "std": 0.001502491295030815,
+    "corrected_95_lower": -0.0023361827896969086,
+    "improved_folds": 3,
+    "repeat_gains": [
+      -0.0003365786260522974,
+      0.0004747640248646545
+    ],
+    "uncertainty": "Nadeau-Bengio-style correction; approximate, not a fresh-data guarantee"
+  },
+  "new_policy_promoted": false,
+  "train_sha256": "b1d32fed43795dd081add8ebac0c73211d719b58d66bb05d43e445e9a6491649",
+  "test_sha256": "a6d8728583924e65012ef70d1dc7f6e03f6a24d2453d12845e7aed30519cbece",
+  "sample_sha256": "6607b0e41d201359fb820172b6e726679fb53fda6502850309cb95aa42f95578",
+  "rows": 324,
+  "training_rows": 3279,
+  "classes": 247,
+  "seed": 42,
+  "transductive": false,
+  "model_reload_exact": true,
+  "locked_predictions_reproduced": true,
+  "official_score": null
+}

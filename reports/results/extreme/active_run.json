@@ -1,0 +1,119 @@
+{
+  "signature": "1ba1ee389f7393f00c1317c762f3712fbd36032ddbe46946dee313a7f97f7833",
+  "directory": "reports/results/extreme/1ba1ee389f73",
+  "config": {
+    "seed": 42,
+    "objective": "macro_f1",
+    "objective_source": "evaluation.md",
+    "objective_status": "F1 score moyen confirmed in supplied evaluation; macro averaging interpretation, backend unspecified",
+    "trials": 24,
+    "nested_trials": 8,
+    "nested_candidates": [
+      "champion",
+      "separated",
+      "skip",
+      "edges",
+      "rhythm",
+      "repeat",
+      "markov_bigram"
+    ],
+    "candidates": {
+      "champion": {
+        "method": "champion"
+      },
+      "separated": {
+        "raw": 0,
+        "unigram": 1,
+        "bigram": 1,
+        "trigram": 0.3
+      },
+      "separate_bigrams": {
+        "raw": 0,
+        "unigram": 1,
+        "bigram": 0.5
+      },
+      "sequence_heavy": {
+        "raw": 0,
+        "unigram": 0.5,
+        "bigram": 1,
+        "trigram": 0.5
+      },
+      "skip": {
+        "skip": 0.5
+      },
+      "edges": {
+        "edge": 0.5
+      },
+      "short_edges": {
+        "edge": 0.3,
+        "k": 5
+      },
+      "positions": {
+        "position": 0.3
+      },
+      "repeat": {
+        "repeat": 0.5
+      },
+      "rhythm": {
+        "rhythm": 0.3
+      },
+      "hierarchy": {
+        "hierarchy": 0.3
+      },
+      "event_chars": {
+        "char": 0.1
+      },
+      "behavior": {
+        "behavior": 0.03
+      },
+      "selected_chi2": {
+        "percentile": 50
+      },
+      "selected_chi2_25": {
+        "percentile": 25,
+        "min_df": 1
+      },
+      "sparse_plus_svd64": {
+        "svd": 64,
+        "svd_weight": 0.3
+      },
+      "sparse_plus_svd128": {
+        "svd": 128,
+        "svd_weight": 0.3
+      },
+      "binary_separated": {
+        "raw": 0,
+        "unigram": 1,
+        "bigram": 0.7,
+        "binary": true,
+        "sublinear": false
+      },
+      "no_common_separated": {
+        "raw": 0,
+        "unigram": 1,
+        "bigram": 0.7,
+        "max_df": 0.98
+      },
+      "markov_unigram": {
+        "method": "markov",
+        "order": 1,
+        "mu": 20
+      },
+      "markov_bigram": {
+        "method": "markov",
+        "order": 2,
+        "mu": 20
+      },
+      "markov_trigram": {
+        "method": "markov",
+        "order": 3,
+        "mu": 20
+      },
+      "markov_strong_backoff": {
+        "method": "markov",
+        "order": 2,
+        "mu": 100
+      }
+    }
+  }
+}

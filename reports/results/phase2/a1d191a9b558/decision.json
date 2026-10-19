@@ -1,0 +1,12 @@
+{
+  "decision": "KEEP BASELINE",
+  "signature": "a1d191a9b558c8d5e9381ffcdb06535295189411b618fbccf534e8896c860462",
+  "baseline_sha256": "ea7174fbb9a23453a84aa3716f43091b96e4e658187e2c1bca655070e251595d",
+  "challenger_generated": false,
+  "model_reload_exact": true,
+  "rows": 324,
+  "outer_evaluations": 136,
+  "inner_split_audits": 24,
+  "grouped_validation": "not run: all inferred groups are singletons",
+  "metric_verified": false
+}

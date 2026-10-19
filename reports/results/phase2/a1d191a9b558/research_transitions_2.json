@@ -1,0 +1,8 @@
+{
+  "experiment": "transitions",
+  "fold": 2,
+  "seconds": 14.639260524003475,
+  "accuracy": 0.9658536585365853,
+  "macro_f1": 0.9647187409164899,
+  "weighted_f1": 0.9640635397843308
+}

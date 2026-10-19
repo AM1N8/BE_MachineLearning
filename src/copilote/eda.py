@@ -131,9 +131,10 @@ def run_eda(config: dict[str, Any]) -> dict[str, Any]:
         xlabel="Sessions par utilisateur", ylabel="Utilisateurs", title="Support des classes"
     )
     for name, frame in frames.items():
-        axes[1].hist(np.log1p(frame.actions), bins=30, density=True, alpha=0.5, label=name)
+        label = "apprentissage" if name == "train" else "test"
+        axes[1].hist(np.log1p(frame.actions), bins=30, density=True, alpha=0.5, label=label)
         axes[2].hist(
-            np.log1p(frame.clock_max_seconds), bins=30, density=True, alpha=0.5, label=name
+            np.log1p(frame.clock_max_seconds), bins=30, density=True, alpha=0.5, label=label
         )
     axes[1].set(xlabel="log(1 + actions)", title="Longueur des sessions")
     axes[2].set(xlabel="log(1 + secondes)", title="Repère temporel maximal")
@@ -142,7 +143,7 @@ def run_eda(config: dict[str, Any]) -> dict[str, Any]:
     fig, axes = plt.subplots(1, 2, figsize=(10, 4))
     top = event_counts.most_common(12)
     axes[0].barh([x[0] for x in top][::-1], [x[1] for x in top][::-1])
-    axes[0].set(title="Actions les plus fréquentes", xlabel="Occurrences (train)")
+    axes[0].set(title="Actions les plus fréquentes", xlabel="Occurrences (apprentissage)")
     browser_table = pd.crosstab([r.label for r in train], [r.browser for r in train])
     axes[1].imshow(browser_table.to_numpy(), aspect="auto", interpolation="nearest")
     axes[1].set(

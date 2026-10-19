@@ -1,0 +1,20 @@
+{
+  "signature": "bdc167ca9bb7f5cf97c78eafd0519b1a93e8574bab8a0f79aa5a930ae3aaa434",
+  "report": "reports/competitive.md",
+  "candidates": 52,
+  "selected": "browser_mask_c3",
+  "repeated_accuracy": 0.9684870008040739,
+  "repeated_macro_f1": 0.9600521310220343,
+  "holdout": {
+    "accuracy": 0.9603658536585366,
+    "macro_f1": 0.9523352799139013,
+    "weighted_f1": 0.9569399125912473,
+    "balanced_accuracy": 0.9562817299659405,
+    "top3": 0.989329268292683,
+    "top5": 0.9923780487804879,
+    "log_loss": 3.109159828967584,
+    "seconds": 4.3718813419982325,
+    "warning_count": 0.0
+  },
+  "kaggle_score": null
+}

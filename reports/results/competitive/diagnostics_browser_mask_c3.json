@@ -1,0 +1,310 @@
+{
+  "candidate": "browser_mask_c3",
+  "development_only": true,
+  "accuracy_by_length": [
+    {
+      "length_bucket": "[0.0, 100.0)",
+      "count": 194,
+      "mean": 0.8917525773195877
+    },
+    {
+      "length_bucket": "[100.0, 500.0)",
+      "count": 1230,
+      "mean": 0.9414634146341463
+    },
+    {
+      "length_bucket": "[2000.0, inf)",
+      "count": 284,
+      "mean": 0.9859154929577465
+    },
+    {
+      "length_bucket": "[500.0, 2000.0)",
+      "count": 915,
+      "mean": 0.9879781420765027
+    }
+  ],
+  "confusions": [
+    {
+      "truth": "flj",
+      "prediction": "skm",
+      "count": 6
+    },
+    {
+      "truth": "zok",
+      "prediction": "lra",
+      "count": 3
+    },
+    {
+      "truth": "slq",
+      "prediction": "skm",
+      "count": 3
+    },
+    {
+      "truth": "azx",
+      "prediction": "cjr",
+      "count": 2
+    },
+    {
+      "truth": "lgd",
+      "prediction": "esu",
+      "count": 2
+    },
+    {
+      "truth": "xby",
+      "prediction": "xgv",
+      "count": 2
+    },
+    {
+      "truth": "tmn",
+      "prediction": "xgv",
+      "count": 2
+    },
+    {
+      "truth": "skm",
+      "prediction": "slq",
+      "count": 2
+    },
+    {
+      "truth": "ald",
+      "prediction": "fuy",
+      "count": 2
+    },
+    {
+      "truth": "jrc",
+      "prediction": "snv",
+      "count": 2
+    },
+    {
+      "truth": "akx",
+      "prediction": "xkr",
+      "count": 1
+    },
+    {
+      "truth": "akx",
+      "prediction": "fcq",
+      "count": 1
+    },
+    {
+      "truth": "cum",
+      "prediction": "gcr",
+      "count": 1
+    },
+    {
+      "truth": "cuw",
+      "prediction": "zyk",
+      "count": 1
+    },
+    {
+      "truth": "ebm",
+      "prediction": "tjc",
+      "count": 1
+    },
+    {
+      "truth": "dbi",
+      "prediction": "nqg",
+      "count": 1
+    },
+    {
+      "truth": "eqw",
+      "prediction": "tza",
+      "count": 1
+    },
+    {
+      "truth": "fek",
+      "prediction": "xgb",
+      "count": 1
+    },
+    {
+      "truth": "fjb",
+      "prediction": "wjn",
+      "count": 1
+    },
+    {
+      "truth": "flj",
+      "prediction": "pre",
+      "count": 1
+    }
+  ],
+  "short_errors": [
+    {
+      "row_id": 1251,
+      "fold": 1,
+      "truth": "fvc",
+      "prediction": "muz",
+      "second": "flj",
+      "margin": 0.0305311474543515,
+      "tokens": 3,
+      "browser": "Google Chrome",
+      "correct": false,
+      "length_bucket": "[0.0, 100.0)"
+    },
+    {
+      "row_id": 2684,
+      "fold": 1,
+      "truth": "zus",
+      "prediction": "fek",
+      "second": "ftq",
+      "margin": 0.0081939120390938,
+      "tokens": 7,
+      "browser": "Firefox",
+      "correct": false,
+      "length_bucket": "[0.0, 100.0)"
+    },
+    {
+      "row_id": 1723,
+      "fold": 1,
+      "truth": "slq",
+      "prediction": "skm",
+      "second": "slq",
+      "margin": 0.0509595171514259,
+      "tokens": 35,
+      "browser": "Google Chrome",
+      "correct": false,
+      "length_bucket": "[0.0, 100.0)"
+    },
+    {
+      "row_id": 375,
+      "fold": 2,
+      "truth": "skm",
+      "prediction": "slq",
+      "second": "skm",
+      "margin": 0.3902077950736667,
+      "tokens": 46,
+      "browser": "Google Chrome",
+      "correct": false,
+      "length_bucket": "[0.0, 100.0)"
+    },
+    {
+      "row_id": 289,
+      "fold": 1,
+      "truth": "kks",
+      "prediction": "tdk",
+      "second": "kks",
+      "margin": 0.0729455478601761,
+      "tokens": 52,
+      "browser": "Firefox",
+      "correct": false,
+      "length_bucket": "[0.0, 100.0)"
+    },
+    {
+      "row_id": 2612,
+      "fold": 0,
+      "truth": "slq",
+      "prediction": "skm",
+      "second": "flj",
+      "margin": 0.1746428318838857,
+      "tokens": 61,
+      "browser": "Google Chrome",
+      "correct": false,
+      "length_bucket": "[0.0, 100.0)"
+    },
+    {
+      "row_id": 1491,
+      "fold": 2,
+      "truth": "skm",
+      "prediction": "slq",
+      "second": "wuy",
+      "margin": 1.0143629947580646,
+      "tokens": 63,
+      "browser": "Google Chrome",
+      "correct": false,
+      "length_bucket": "[0.0, 100.0)"
+    },
+    {
+      "row_id": 2662,
+      "fold": 0,
+      "truth": "flj",
+      "prediction": "skm",
+      "second": "flj",
+      "margin": 0.3107872136028401,
+      "tokens": 65,
+      "browser": "Google Chrome",
+      "correct": false,
+      "length_bucket": "[0.0, 100.0)"
+    },
+    {
+      "row_id": 2488,
+      "fold": 1,
+      "truth": "flj",
+      "prediction": "skm",
+      "second": "ncb",
+      "margin": 0.3099342122611199,
+      "tokens": 70,
+      "browser": "Google Chrome",
+      "correct": false,
+      "length_bucket": "[0.0, 100.0)"
+    },
+    {
+      "row_id": 618,
+      "fold": 1,
+      "truth": "ald",
+      "prediction": "fuy",
+      "second": "pre",
+      "margin": 0.404119395984975,
+      "tokens": 74,
+      "browser": "Google Chrome",
+      "correct": false,
+      "length_bucket": "[0.0, 100.0)"
+    },
+    {
+      "row_id": 664,
+      "fold": 1,
+      "truth": "azx",
+      "prediction": "cjr",
+      "second": "hll",
+      "margin": 0.1912118154047599,
+      "tokens": 78,
+      "browser": "Google Chrome",
+      "correct": false,
+      "length_bucket": "[0.0, 100.0)"
+    },
+    {
+      "row_id": 274,
+      "fold": 1,
+      "truth": "oqa",
+      "prediction": "itt",
+      "second": "akx",
+      "margin": 0.0052100180096475,
+      "tokens": 85,
+      "browser": "Google Chrome",
+      "correct": false,
+      "length_bucket": "[0.0, 100.0)"
+    },
+    {
+      "row_id": 1627,
+      "fold": 1,
+      "truth": "rmf",
+      "prediction": "udj",
+      "second": "ykq",
+      "margin": 0.0265446031685637,
+      "tokens": 85,
+      "browser": "Microsoft Edge",
+      "correct": false,
+      "length_bucket": "[0.0, 100.0)"
+    },
+    {
+      "row_id": 3040,
+      "fold": 1,
+      "truth": "cuw",
+      "prediction": "zyk",
+      "second": "cuw",
+      "margin": 0.4637428983214459,
+      "tokens": 91,
+      "browser": "Google Chrome",
+      "correct": false,
+      "length_bucket": "[0.0, 100.0)"
+    },
+    {
+      "row_id": 2889,
+      "fold": 2,
+      "truth": "iyf",
+      "prediction": "ycb",
+      "second": "iyf",
+      "margin": 0.0596885936276825,
+      "tokens": 93,
+      "browser": "Google Chrome",
+      "correct": false,
+      "length_bucket": "[0.0, 100.0)"
+    }
+  ]
+}

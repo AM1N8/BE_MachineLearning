@@ -1,0 +1,47 @@
+{
+  "name": "separated",
+  "spec": {
+    "raw": 0,
+    "unigram": 1,
+    "bigram": 1,
+    "trigram": 0.3
+  },
+  "stage": "outer2_inner",
+  "signature": "1ba1ee389f7393f00c1317c762f3712fbd36032ddbe46946dee313a7f97f7833",
+  "mean": {
+    "accuracy": 0.9446950971341215,
+    "macro_f1": 0.9215488617435824
+  },
+  "std": {
+    "accuracy": 0.005469785794878071,
+    "macro_f1": 0.004385878606064216
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.9451219512195121,
+      "macro_f1": 0.9220201525869544,
+      "seconds": 15.155649847001769,
+      "warnings": []
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.9390243902439024,
+      "macro_f1": 0.9169463702228396,
+      "seconds": 15.186773691006238,
+      "warnings": []
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.9499389499389499,
+      "macro_f1": 0.9256800624209531,
+      "seconds": 15.038168671999301,
+      "warnings": []
+    }
+  ],
+  "wall_seconds": 45.45150569499674,
+  "fit_seconds": 45.38059221000731,
+  "scores": "artifacts/extreme/scores_3da573bdc6d0f63c979a.npz",
+  "predictions": "reports/results/extreme/1ba1ee389f73/outer2_inner_separated_3da573bdc6d0f63c979a.csv",
+  "official_metric": "F1 score moyen confirmed in supplied evaluation; macro averaging interpretation, backend unspecified"
+}

@@ -1,0 +1,57 @@
+# Training-only adaptive search. All fitted transforms remain inside folds.
+defaults:
+  class_weight: balanced
+  complexity: 1
+candidates:
+  baseline: {C: 1}
+  linear_c10: {C: 10}
+  linear_c100: {C: 100}
+  linear_c10_unweighted: {C: 10, class_weight: null}
+  trigrams_c10: {C: 10, ngram_max: 3, min_df: 1}
+  fivegrams_c10: {C: 10, ngram_max: 5, min_df: 1}
+  binary_c10: {C: 10, tf: binary}
+  counts_c10: {C: 10, tf: counts}
+  noidf_c10: {C: 10, idf: false}
+  clean_c10: {C: 10, views: [clean, browser]}
+  dedup_c10: {C: 10, views: [dedup, browser]}
+  start_c10: {C: 10, views: [raw, start, browser], weights: {raw: 1, start: 0.5, browser: 1}, complexity: 2}
+  context_c10: {C: 10, views: [raw, context, browser], weights: {raw: 1, context: 0.5, browser: 1}, complexity: 2}
+  browser_mask_c10: {C: 10, restrict_browser: true}
+  ovo_linear_c10: {C: 10, kernel: linear}
+  ovo_linear_c100: {C: 100, kernel: linear}
+  rbf_c100: {C: 100, kernel: rbf, gamma: 0.5}
+  rbf_c100_g2: {C: 100, kernel: rbf, gamma: 2}
+  poly_c100: {C: 100, kernel: poly, gamma: 0.5, coef0: 1}
+  rare_bigrams: {C: 10, min_df: 1, max_features: 180000}
+  rare_trigrams: {C: 10, min_df: 1, max_features: 180000, ngram_max: 3}
+  hinge_c1: {C: 1, loss: hinge}
+  hinge_c10: {C: 10, loss: hinge}
+  logistic_c100: {C: 100, kernel: logistic}
+  logistic_c1000: {C: 1000, kernel: logistic}
+  multinomial_c100: {C: 100, kernel: multinomial}
+  ridge_a01: {alpha: 0.1, kernel: ridge}
+  ridge_a001: {alpha: 0.01, kernel: ridge}
+  augment_c1: {C: 1, augment: 0.3}
+  augment_c10: {C: 10, augment: 0.3}
+  augment_full_c1: {C: 1, augment: 1}
+  nbsvm_c1_a1: {C: 1, kernel: nbsvm, alpha: 1}
+  nbsvm_c1_a01: {C: 1, kernel: nbsvm, alpha: 0.1}
+  nbsvm_c10_a1: {C: 10, kernel: nbsvm, alpha: 1}
+  nbsvm_c01_a01: {C: 0.1, kernel: nbsvm, alpha: 0.1}
+  nbsvm_binary: {C: 1, kernel: nbsvm, alpha: 1, tf: binary}
+  nbsvm_trigrams: {C: 1, kernel: nbsvm, alpha: 1, ngram_max: 3}
+  numeric_w003: {C: 1, views: [raw, browser, numeric], weights: {raw: 1, browser: 1, numeric: 0.03}, complexity: 2}
+  numeric_w01: {C: 1, views: [raw, browser, numeric], weights: {raw: 1, browser: 1, numeric: 0.1}, complexity: 2}
+  numeric_w03: {C: 1, views: [raw, browser, numeric], weights: {raw: 1, browser: 1, numeric: 0.3}, complexity: 2}
+  style_w05: {C: 1, views: [raw, browser, style], weights: {raw: 1, browser: 1, style: 0.5}, complexity: 2}
+  style_w1: {C: 1, views: [raw, browser, style], complexity: 2}
+  experts_c01: {C: 0.1, experts: true, complexity: 2}
+  experts_c1: {C: 1, experts: true, complexity: 2}
+  experts_c10: {C: 10, experts: true, complexity: 2}
+  experts_unweighted: {C: 1, experts: true, class_weight: null, complexity: 2}
+  experts_rare: {C: 1, experts: true, min_df: 1, max_features: 180000, complexity: 2}
+  experts_trigrams: {C: 1, experts: true, ngram_max: 3, complexity: 2}
+  browser_mask_c03: {C: 0.3, restrict_browser: true}
+  browser_mask_c1: {C: 1, restrict_browser: true}
+  browser_mask_c3: {C: 3, restrict_browser: true}
+  browser_mask_c100: {C: 100, restrict_browser: true}

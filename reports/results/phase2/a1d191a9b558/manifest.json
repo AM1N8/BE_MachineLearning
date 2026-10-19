@@ -1,0 +1,27 @@
+{
+  "sources": {
+    "phase2": "9fbf5413964fa54579aa1ee85cb2b103e2765a69acf070379ef517153ddd7762",
+    "phase2_models": "124f3efc4aff01b197837e7c61cfb8e9b307a50ef62ec780d76a28d5e06aeb67",
+    "phase2_audit": "084bdcfeef874992f82084f69abe77863fb73ecb7abbc52ae972c21edad230de",
+    "competitive": "9c04d32d0e467d4a75da55f8330ab920b6920e78fdbef014248bd09bb3ee7eb4",
+    "improvement": "5336e9d6ce686e0c73e11b46e1980dab26aabe45d06ba042a8ed50ffd8247999",
+    "features": "321e7ed45f4a575398bf4d06d308b892fdf66379084452325440085229e4e556",
+    "tokens": "564db372e8308dc73471e5dfba509e9400f7a77633d3adb576c2596c2667b26e",
+    "io": "254d2a6330c53a1a8ec06e7e87145f13eb06cfafcb7c50807637f824beb6f38b"
+  },
+  "train": "b1d32fed43795dd081add8ebac0c73211d719b58d66bb05d43e445e9a6491649",
+  "lock": "6060b8552973941140076ce78286df1be571aa8c913b9009aafde74f7c6c2d96",
+  "historical_splits": "2c27712f709554bea070a833754d67c1250ccaa95ff4e4b581c2e9ed7c84eac7",
+  "baseline_submission": "ea7174fbb9a23453a84aa3716f43091b96e4e658187e2c1bca655070e251595d",
+  "families": [
+    "context",
+    "transitions",
+    "position",
+    "edges",
+    "signatures"
+  ],
+  "feature_weight": 0.3,
+  "seed": 42,
+  "confirmation_seed": 43,
+  "additional_seed": 44
+}

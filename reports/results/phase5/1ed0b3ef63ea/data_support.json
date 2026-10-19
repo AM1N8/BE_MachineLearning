@@ -1,0 +1,9 @@
+{
+  "classes": 247,
+  "min_sessions_per_class": 4,
+  "median_sessions_per_class": 12.0,
+  "max_sessions_per_class": 75,
+  "classes_with_at_most_7_sessions": 63,
+  "multi_browser_users": 0,
+  "historical_neighbor_crossing_rows": 14
+}

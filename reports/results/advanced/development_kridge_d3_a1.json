@@ -1,0 +1,40 @@
+{
+  "signature": "56f29a9ab050c8c166a69ed03fb51be2de484aee4ad530fd73b121b47c2cde19",
+  "spec": {
+    "method": "kernel_ridge",
+    "degree": 3,
+    "alpha": 1,
+    "complexity": 1
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.9382857142857143,
+      "macro_f1": 0.9109650915660272,
+      "seconds": 1.5380895560010686,
+      "warnings": []
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.9153318077803204,
+      "macro_f1": 0.8898023594493566,
+      "seconds": 1.5280783449998125,
+      "warnings": []
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.9382151029748284,
+      "macro_f1": 0.9182308209772276,
+      "seconds": 1.528802799002733,
+      "warnings": []
+    }
+  ],
+  "mean": {
+    "accuracy": 0.9306108750136209,
+    "macro_f1": 0.9063327573308705
+  },
+  "std": {
+    "accuracy": 0.01323210747118902,
+    "macro_f1": 0.014769503937508019
+  }
+}

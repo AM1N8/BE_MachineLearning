@@ -1,0 +1,8 @@
+{
+  "experiment": "sqrt_balance",
+  "fold": 5,
+  "seconds": 4.149285236999276,
+  "accuracy": 0.9695121951219512,
+  "macro_f1": 0.9559485855340458,
+  "weighted_f1": 0.9653944934233905
+}

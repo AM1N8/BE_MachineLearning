@@ -1,0 +1,37 @@
+action,events,suffix_events,suffix_rate
+Exécution d'un bouton,510645,94789,0.1856260219917947
+Saisie dans un champ,265633,84918,0.31968166605805753
+Affichage d'une dialogue,168928,36383,0.21537578139799204
+Fermeture d'une dialogue,171026,30076,0.1758563025504894
+Sélection d'un écran,206813,23658,0.11439319578556474
+Sélection d’un onglet,109209,14811,0.13562069060242288
+Double-clic,67992,9726,0.14304624073420402
+Chainage,68194,9544,0.13995366161245856
+Action de table,18217,7286,0.3999560849755723
+Sélection d'un élément,16960,7085,0.41774764150943394
+Désélection d'un élément,16686,6837,0.4097446961524631
+Affichage d'une arborescence,9526,5429,0.5699139197984464
+Raccourci,82176,5090,0.06194022585669782
+Retour sur un écran,61946,4753,0.07672811803829141
+Affichage d'un toast,52091,3369,0.06467527979881361
+Dissimulation d'une arborescence,5704,2864,0.5021037868162693
+Clic sur une checkbox,11036,2799,0.25362450163102573
+Filtrage / Tri,37628,1847,0.049085787179759754
+Affichage d'une erreur,9736,1779,0.1827239112571898
+Ouverture d'un panel,2913,647,0.22210779265362168
+Fermeture d'un panel,3800,382,0.10052631578947369
+Création d'un écran,76929,317,0.004120682707431528
+Raccourci dans l'édition de table,230,227,0.9869565217391304
+Lancement d'une action générique,115283,214,0.0018563014494765056
+Fermeture de session,1925,122,0.06337662337662338
+Clic long,307,61,0.1986970684039088
+Sélection d'un flag,32252,46,0.0014262681384100211
+Désélection d'un flag,1710,30,0.017543859649122806
+Lancement d'une stat,27857,12,0.0004307714398535377
+Clic sur une grille d'historique de recherche,50273,10,0.00019891392994251386
+Démarrage serveur d'application Tomcat,682,1,0.001466275659824047
+Entrée en saisie dans un formulaire,39276,0,0.0
+Lancement d'un tableau de bord,26349,0,0.0
+Lancement d'une action infocentre,298,0,0.0
+Erreur système grave,16,0,0.0
+Création d'un écrant5,1,0,0.0

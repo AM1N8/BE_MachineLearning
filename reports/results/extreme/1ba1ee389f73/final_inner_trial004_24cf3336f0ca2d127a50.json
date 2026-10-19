@@ -1,0 +1,62 @@
+{
+  "name": "trial004",
+  "spec": {
+    "C": 0.43503430275076255,
+    "min_df": 3,
+    "class_weight": "balanced",
+    "skip": 0.5986629236379359
+  },
+  "stage": "final_inner",
+  "signature": "1ba1ee389f7393f00c1317c762f3712fbd36032ddbe46946dee313a7f97f7833",
+  "mean": {
+    "accuracy": 0.9643183897529735,
+    "macro_f1": 0.962113362238135
+  },
+  "std": {
+    "accuracy": 0.0036596523330283404,
+    "macro_f1": 0.005613153765999909
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.9679780420860018,
+      "macro_f1": 0.9681680470098631,
+      "seconds": 26.056416256004013,
+      "warnings": [
+        "unclosed database in <sqlite3.Connection object at 0x7f6efaf93970>",
+        "unclosed database in <sqlite3.Connection object at 0x7f6efaf934c0>",
+        "unclosed database in <sqlite3.Connection object at 0x7f6efb1f1d50>",
+        "unclosed database in <sqlite3.Connection object at 0x7f6efb1f3c40>",
+        "unclosed database in <sqlite3.Connection object at 0x7f6efb8dc4f0>",
+        "unclosed database in <sqlite3.Connection object at 0x7f6efb3175b0>",
+        "unclosed database in <sqlite3.Connection object at 0x7f6efb06a110>",
+        "unclosed database in <sqlite3.Connection object at 0x7f6efb06bd30>",
+        "unclosed database in <sqlite3.Connection object at 0x7f6efb010130>",
+        "unclosed database in <sqlite3.Connection object at 0x7f6efb011d50>",
+        "unclosed database in <sqlite3.Connection object at 0x7f6efae296c0>",
+        "unclosed database in <sqlite3.Connection object at 0x7f6efae2b2e0>",
+        "unclosed database in <sqlite3.Connection object at 0x7f6efaf3f6a0>",
+        "unclosed database in <sqlite3.Connection object at 0x7f6efaf91300>"
+      ]
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.9606587374199451,
+      "macro_f1": 0.9570827501657305,
+      "seconds": 25.032652538000548,
+      "warnings": []
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.9643183897529735,
+      "macro_f1": 0.9610892895388116,
+      "seconds": 24.724336844999925,
+      "warnings": []
+    }
+  ],
+  "wall_seconds": 75.95303726199927,
+  "fit_seconds": 75.81340563900449,
+  "scores": "artifacts/extreme/scores_24cf3336f0ca2d127a50.npz",
+  "predictions": "reports/results/extreme/1ba1ee389f73/final_inner_trial004_24cf3336f0ca2d127a50.csv",
+  "official_metric": "F1 score moyen confirmed in supplied evaluation; macro averaging interpretation, backend unspecified"
+}

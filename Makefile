@@ -1,6 +1,7 @@
 PY = uv run python
 CONFIG ?= configs/default.yaml
-.PHONY: setup test lint eda features train predict interpret report notebook all fast archive
+SEARCH_CONFIG ?= configs/competitive.yaml
+.PHONY: setup test lint eda features train predict interpret report notebook competitive advanced submission phase2 all fast archive
 
 setup:
 	uv sync --python 3.13 --locked
@@ -33,9 +34,30 @@ report:
 notebook:
 	$(PY) -m copilote.deliverables notebook --config $(CONFIG)
 
+competitive:
+	$(PY) -m copilote.competitive all --config $(CONFIG) --search-config $(SEARCH_CONFIG)
+	$(PY) -m copilote.competitive_report --config $(CONFIG)
+
+advanced:
+	$(PY) -m copilote.advanced --config $(CONFIG)
+
+submission:
+	$(PY) -m copilote.best_submission
+
+phase2:
+	$(PY) -m copilote.phase2 audit
+	$(PY) -m copilote.phase2 research
+	$(PY) -m copilote.phase2 confirm
+	$(PY) -m copilote.phase2 seed44
+	$(PY) -m copilote.phase2_report
+
 all: lint test
 	$(PY) -m copilote.run_all all --config $(CONFIG)
 	$(MAKE) notebook
+	$(MAKE) competitive
+	$(MAKE) advanced
+	$(MAKE) submission
+	$(MAKE) phase2
 
 fast:
 	$(PY) -m copilote.run_all fast --config $(CONFIG)

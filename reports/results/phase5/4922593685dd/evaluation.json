@@ -1,0 +1,17 @@
+{
+  "source": "evaluation.md:14-15",
+  "quote": "La métrique d'évaluation pour ce concours est le F1 score moyen.",
+  "working_metric": "macro_f1_union_present_labels",
+  "official_averaging_explicit": false,
+  "public_subset_size_known": false,
+  "official_absent_class_policy_known": false,
+  "public_scores_user_reported": {
+    "baseline": 0.98,
+    "signatures": 0.983,
+    "sig_burst_w05": 0.97
+  },
+  "hidden_label_inference": false,
+  "total_test_rows": 324,
+  "changed_vs_baseline": 3,
+  "changed_vs_signatures": 2
+}

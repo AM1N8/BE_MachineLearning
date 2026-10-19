@@ -1,0 +1,7 @@
+{
+  "predictions": 6558,
+  "errors": 201,
+  "always_wrong": 78,
+  "high_margin_errors": 2,
+  "true_in_top2_errors": 109
+}

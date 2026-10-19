@@ -1,0 +1,44 @@
+{
+  "name": "repeat",
+  "spec": {
+    "repeat": 0.5
+  },
+  "stage": "final_inner",
+  "signature": "1ba1ee389f7393f00c1317c762f3712fbd36032ddbe46946dee313a7f97f7833",
+  "mean": {
+    "accuracy": 0.9655382738639829,
+    "macro_f1": 0.959075495441648
+  },
+  "std": {
+    "accuracy": 0.0029410340838648664,
+    "macro_f1": 0.0040906266253804115
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.9688929551692589,
+      "macro_f1": 0.9636288112055893,
+      "seconds": 18.163143986006617,
+      "warnings": []
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.9634034766697164,
+      "macro_f1": 0.9578868232460056,
+      "seconds": 18.475297994002176,
+      "warnings": []
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.9643183897529735,
+      "macro_f1": 0.9557108518733495,
+      "seconds": 18.063499650001177,
+      "warnings": []
+    }
+  ],
+  "wall_seconds": 54.79712550499971,
+  "fit_seconds": 54.70194163000997,
+  "scores": "artifacts/extreme/scores_74e469565585cbaa87a3.npz",
+  "predictions": "reports/results/extreme/1ba1ee389f73/final_inner_repeat_74e469565585cbaa87a3.csv",
+  "official_metric": "F1 score moyen confirmed in supplied evaluation; macro averaging interpretation, backend unspecified"
+}

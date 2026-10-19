@@ -1,0 +1,42 @@
+{
+  "submissions/competitive.csv": {
+    "sha256": "ea7174fbb9a23453a84aa3716f43091b96e4e658187e2c1bca655070e251595d",
+    "snapshot": "artifacts/extreme/frozen/submissions__competitive.csv"
+  },
+  "submissions/competitive.json": {
+    "sha256": "feeeb6c7d6e4c69b174aa8255506e8bb40308e87f77444e02245aa7968485e7a",
+    "snapshot": "artifacts/extreme/frozen/submissions__competitive.json"
+  },
+  "submissions/advanced.csv": {
+    "sha256": "2eacc13a54d5c1fefe8bdca513a3eb75be0f4acba89f0d940d1355ad22c8cfbc",
+    "snapshot": "artifacts/extreme/frozen/submissions__advanced.csv"
+  },
+  "submissions/advanced.json": {
+    "sha256": "f73de57e13bf3ba7deb7c890ede9ffe2cc58e5516aa467e4a007ae0c285f00ee",
+    "snapshot": "artifacts/extreme/frozen/submissions__advanced.json"
+  },
+  "artifacts/competitive_final.joblib": {
+    "sha256": "6387bc833f01c3ce91f5ed74c511526aac285b2c0acd42b8639d54e10680dd0e",
+    "snapshot": "artifacts/extreme/frozen/artifacts__competitive_final.joblib"
+  },
+  "artifacts/advanced_final.joblib": {
+    "sha256": "4a7c6da797576a7de7b2f3addaafc84dff433a2556389d3747798ed69c917536",
+    "snapshot": "artifacts/extreme/frozen/artifacts__advanced_final.joblib"
+  },
+  "reports/results/competitive/selection.json": {
+    "sha256": "45269e475a84dbb82498eebce3ca5987f25aaf8a423884be3e70a8336ddcd8d6",
+    "snapshot": "artifacts/extreme/frozen/reports__results__competitive__selection.json"
+  },
+  "reports/results/competitive/validation.json": {
+    "sha256": "fde1d0b8a9e26ca1ee1002de27b377ac9a291017603a26a735f0dec5e7c602e9",
+    "snapshot": "artifacts/extreme/frozen/reports__results__competitive__validation.json"
+  },
+  "reports/results/advanced/selection.json": {
+    "sha256": "1b29177021657950807f6cc4b525f88efd34a2eabcd9265f829d03c9491c7291",
+    "snapshot": "artifacts/extreme/frozen/reports__results__advanced__selection.json"
+  },
+  "reports/results/advanced/validation.json": {
+    "sha256": "a9273b3449bcc4bb4fb9aecd606e468e6727f535bbaa2fc6e4e4acf94733f87e",
+    "snapshot": "artifacts/extreme/frozen/reports__results__advanced__validation.json"
+  }
+}

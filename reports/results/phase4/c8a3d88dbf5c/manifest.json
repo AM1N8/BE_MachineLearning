@@ -1,0 +1,32 @@
+{
+  "kind": "challenger",
+  "spec": {
+    "model": "sig_burst_w05",
+    "signatures_weight": 0.5,
+    "tempo_weight": 0.3,
+    "tempo_parts": [
+      "burst"
+    ]
+  },
+  "validated_against": {
+    "research": {
+      "directory": "reports/results/phase4/85b76c4630ba",
+      "comparison_sha256": "3ce5e7511e605381e7b1b3c3a05f5b097dd1a9eaa324aea969ad36bb28d36f27"
+    },
+    "confirm": {
+      "directory": "reports/results/phase4/8492d196609f",
+      "comparison_sha256": "ab0254b433737b45a5ee8555e452367efc531cc9c8b86a004c0cfeb0300b19fb"
+    },
+    "seed44": {
+      "directory": "reports/results/phase4/951bd7da5015",
+      "comparison_sha256": "a8bc70cff20dc71dce260a2af476c06a3a5beee42f02b825ebdf45dee40835d9"
+    }
+  },
+  "pooled_evidence_sha256": "bd67c3006c29941f2d02d9aa906f5ba990efce96f1eb9add314a6da9140e988a",
+  "protected_before": {
+    "submissions/best_verified.csv": "ea7174fbb9a23453a84aa3716f43091b96e4e658187e2c1bca655070e251595d",
+    "submissions/context_signatures_experimental.csv": "c2d14a684f77e3cbe03c2873e3812f203a3226da5879d31ff845e2097f55760e"
+  },
+  "seed": 42,
+  "transductive": false
+}

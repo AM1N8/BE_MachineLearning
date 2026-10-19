@@ -1,0 +1,10 @@
+{
+  "random_holdouts": 12,
+  "total_validation_rows": 3888,
+  "unique_validated_sessions": 2260,
+  "min_repetitions_observed": 1,
+  "max_repetitions": 7,
+  "unvalidated_sessions": 1019,
+  "mean_validation_intersection": 35.43939393939394,
+  "new_independent_observations": 0
+}

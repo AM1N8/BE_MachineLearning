@@ -1,0 +1,35 @@
+# Fixed candidate list before validation. No test-set adaptation.
+candidates:
+  previous: {method: previous, complexity: 1}
+  experts: {method: experts, complexity: 2}
+  nearest: {method: nearest, complexity: 1}
+  nearest3: {method: nearest, neighbors: 3, complexity: 1}
+  centroid: {method: centroid, complexity: 1}
+  hellinger_nearest: {method: nearest, power: 0.5, tf: counts, complexity: 1}
+  hellinger_centroid: {method: centroid, power: 0.5, tf: counts, complexity: 1}
+  binary_nearest: {method: nearest, tf: binary, complexity: 1}
+  kridge_d1_a01: {method: kernel_ridge, degree: 1, alpha: 0.1, complexity: 1}
+  kridge_d2_a01: {method: kernel_ridge, degree: 2, alpha: 0.1, complexity: 1}
+  kridge_d3_a01: {method: kernel_ridge, degree: 3, alpha: 0.1, complexity: 1}
+  kridge_d4_a01: {method: kernel_ridge, degree: 4, alpha: 0.1, complexity: 1}
+  kridge_d2_a001: {method: kernel_ridge, degree: 2, alpha: 0.01, complexity: 1}
+  kridge_d3_a1: {method: kernel_ridge, degree: 3, alpha: 1, complexity: 1}
+  kridge_balanced: {method: kernel_ridge, degree: 2, alpha: 0.1, balance: true, complexity: 1}
+  hellinger_kridge: {method: kernel_ridge, degree: 2, alpha: 0.1, power: 0.5, tf: counts, complexity: 1}
+  cosine_svc_d2: {method: kernel_svc, degree: 2, C: 10, complexity: 1}
+  cosine_svc_d3: {method: kernel_svc, degree: 3, C: 10, complexity: 1}
+  hybrid_nearest_02: {method: nearest, blend: 0.2, complexity: 2}
+  hybrid_nearest_05: {method: nearest, blend: 0.5, complexity: 2}
+  hybrid_centroid_02: {method: centroid, blend: 0.2, complexity: 2}
+  hybrid_kridge_02: {method: kernel_ridge, degree: 2, alpha: 0.1, blend: 0.2, complexity: 2}
+  hybrid_kridge_05: {method: kernel_ridge, degree: 2, alpha: 0.1, blend: 0.5, complexity: 2}
+  useridf_svm: {method: weighted_svm, weighting: user_idf, C: 3, complexity: 1}
+  useridf_svm_c10: {method: weighted_svm, weighting: user_idf, C: 10, complexity: 1}
+  entropy_svm: {method: weighted_svm, weighting: entropy, C: 3, complexity: 1}
+  entropy_svm_c10: {method: weighted_svm, weighting: entropy, C: 10, complexity: 1}
+  entropy_svm_soft: {method: weighted_svm, weighting: entropy, weight_power: 0.5, C: 3, complexity: 1}
+  bm25_svm: {method: weighted_svm, weighting: bm25, C: 3, complexity: 1}
+  bm25_svm_c10: {method: weighted_svm, weighting: bm25, C: 10, complexity: 1}
+  bm25_svm_b0: {method: weighted_svm, weighting: bm25, b: 0, C: 3, complexity: 1}
+  hellinger_svm: {method: weighted_svm, power: 0.5, tf: counts, C: 3, complexity: 1}
+  hellinger_svm_c10: {method: weighted_svm, power: 0.5, tf: counts, C: 10, complexity: 1}

@@ -1,0 +1,8 @@
+{
+  "experiment": "event_only_mask",
+  "fold": 6,
+  "seconds": 3.819985394999094,
+  "accuracy": 0.9646341463414634,
+  "macro_f1": 0.9607358719600357,
+  "weighted_f1": 0.9631468547498715
+}

@@ -1,0 +1,44 @@
+{
+  "name": "rhythm",
+  "spec": {
+    "rhythm": 0.3
+  },
+  "stage": "outer0_inner",
+  "signature": "1ba1ee389f7393f00c1317c762f3712fbd36032ddbe46946dee313a7f97f7833",
+  "mean": {
+    "accuracy": 0.9503866503866503,
+    "macro_f1": 0.9374212392996424
+  },
+  "std": {
+    "accuracy": 0.0006696981144446185,
+    "macro_f1": 0.0014018794161302554
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.95,
+      "macro_f1": 0.937784290381182,
+      "seconds": 13.47757493199606,
+      "warnings": []
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.95,
+      "macro_f1": 0.938605880414707,
+      "seconds": 13.327231247996679,
+      "warnings": []
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.9511599511599511,
+      "macro_f1": 0.9358735471030378,
+      "seconds": 13.401112933002878,
+      "warnings": []
+    }
+  ],
+  "wall_seconds": 40.27675281299889,
+  "fit_seconds": 40.205919112995616,
+  "scores": "artifacts/extreme/scores_f7276b40c67da38dd873.npz",
+  "predictions": "reports/results/extreme/1ba1ee389f73/outer0_inner_rhythm_f7276b40c67da38dd873.csv",
+  "official_metric": "F1 score moyen confirmed in supplied evaluation; macro averaging interpretation, backend unspecified"
+}

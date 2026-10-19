@@ -1,0 +1,46 @@
+{
+  "name": "markov_bigram",
+  "spec": {
+    "method": "markov",
+    "order": 2,
+    "mu": 20
+  },
+  "stage": "final_inner",
+  "signature": "1ba1ee389f7393f00c1317c762f3712fbd36032ddbe46946dee313a7f97f7833",
+  "mean": {
+    "accuracy": 0.9338212869777371,
+    "macro_f1": 0.9314933429872809
+  },
+  "std": {
+    "accuracy": 0.003463805029460411,
+    "macro_f1": 0.002752886363408322
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "accuracy": 0.9377859103385179,
+      "macro_f1": 0.9290390217146901,
+      "seconds": 9.73613825999928,
+      "warnings": []
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.9313815187557182,
+      "macro_f1": 0.9344699645828494,
+      "seconds": 9.619933853005932,
+      "warnings": []
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.9322964318389753,
+      "macro_f1": 0.9309710426643031,
+      "seconds": 9.618907727002806,
+      "warnings": []
+    }
+  ],
+  "wall_seconds": 29.064555568998912,
+  "fit_seconds": 28.974979840008018,
+  "scores": "artifacts/extreme/scores_0a0a0adf1dbdbdfa9db3.npz",
+  "predictions": "reports/results/extreme/1ba1ee389f73/final_inner_markov_bigram_0a0a0adf1dbdbdfa9db3.csv",
+  "official_metric": "F1 score moyen confirmed in supplied evaluation; macro averaging interpretation, backend unspecified"
+}

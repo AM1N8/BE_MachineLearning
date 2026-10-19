@@ -1,0 +1,8 @@
+{
+  "experiment": "tempo_dwell",
+  "fold": 0,
+  "seconds": 8.370675393000056,
+  "accuracy": 0.975609756097561,
+  "macro_f1": 0.9789037480263869,
+  "weighted_f1": 0.9740231356348997
+}

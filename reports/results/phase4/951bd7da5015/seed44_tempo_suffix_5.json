@@ -1,0 +1,8 @@
+{
+  "experiment": "tempo_suffix",
+  "fold": 5,
+  "seconds": 5.58588106300158,
+  "accuracy": 0.9707317073170731,
+  "macro_f1": 0.9644560086939852,
+  "weighted_f1": 0.9682837797003772
+}

@@ -1,0 +1,9 @@
+{
+  "decision": "KEEP BASELINE",
+  "rows": 324,
+  "baseline_sha256": "ea7174fbb9a23453a84aa3716f43091b96e4e658187e2c1bca655070e251595d",
+  "reload_exact": true,
+  "challenger_generated": false,
+  "tests_passed": 47,
+  "lint_passed": true
+}

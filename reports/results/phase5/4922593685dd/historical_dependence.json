@@ -1,0 +1,11 @@
+{
+  "sessions": 3279,
+  "oof_rows": 19674,
+  "predictions_per_session": 6,
+  "folds": 24,
+  "validation_jaccard_mean": 0.12429040342790998,
+  "validation_jaccard_max": 0.16749821810406273,
+  "research_configurations": 19,
+  "confirmation_used_for_selection": true,
+  "seeds_create_new_observations": false
+}
