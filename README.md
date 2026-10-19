@@ -56,7 +56,7 @@ Les navigateurs observés sont Firefox, Google Chrome, Microsoft Edge et Opera. 
 
 La cible est `util`, l’identifiant de l’utilisateur. Le problème est une classification supervisée multiclasse, et non une classification d’intrusion : aucune étiquette d’intrusion n’est fournie. L’évaluation locale doit être faite sur une validation issue du train; le test fourni est sans étiquette.
 
-Les fichiers bruts `train.csv` et `test.csv` restent les sources originales. Les expériences de classification de ce dépôt utilisent actuellement les tableaux présents dans `data/processed/1clean/` :
+Les notebooks expérimentaux `700_CNN.ipynb` et `701_RandomForest.ipynb` utilisent les tableaux préparés présents dans `data/processed/1clean/`. Le pipeline final `FINAL_PROJECT.ipynb`, lui, repart directement des fichiers bruts `train.csv` et `test.csv` :
 
 - `cleaned_train.csv` : 3 279 sessions, la cible `util` et 765 caractéristiques numériques ;
 - `cleaned_test.csv` : 324 sessions et les mêmes 765 caractéristiques, sans `util`.
@@ -130,8 +130,10 @@ BE_MachineLearning/
 
 Le dépôt contient les données, les supports pédagogiques et une structure Python initiale. Les dépendances directes déclarées sont **Pandas** et **Matplotlib**, avec une version Python minimale de **3.11**.
 
-`Notebooks/FINAL_PROJECT.ipynb` est le pipeline de bout en bout recommandé. Il repart de `data/train.csv` et `data/test.csv`, vérifie et explore les traces brutes, construit une représentation séquentielle TF-IDF/SVM et une représentation de compteurs/Random Forest, choisit le poids du mélange sur une validation interne, puis rapporte ses métriques sur une validation externe stratifiée.
+`Notebooks/FINAL_PROJECT.ipynb` est le pipeline de bout en bout recommandé. Il repart de `data/train.csv` et `data/test.csv`, vérifie et explore les traces brutes, compare plusieurs classifieurs, puis construit trois vues TF-IDF séquentielles (événements complets, actions, contextes) et une représentation de compteurs pour le Random Forest. Les paramètres du mélange sont sélectionnés sur une validation interne et évalués sur un holdout stratifié séparé.
 
-Sur l’évaluation externe de 656 sessions, le mélange SVM + Random Forest a obtenu une **accuracy de 0,9665**, un **F1 macro de 0,9600**, une précision macro de **0,9651**, un rappel macro de **0,9616** et un F1 pondéré de **0,9618**. Ce score est une estimation issue d’un seul split interne, et non une garantie de généralisation ou un score Kaggle. L’objectif de 99,4 % n’a pas été atteint ni ne peut être promis avec les données actuellement disponibles. Le jeu `test.csv` ne contenant pas les labels utilisateurs, aucune précision/rappel/F1 réel ne peut y être mesuré.
+Sur l’évaluation externe de 656 sessions, le mélange SVM enrichi + Random Forest a obtenu une **accuracy de 0,9741**, un **F1 macro de 0,9726**, une précision macro de **0,9775**, un rappel macro de **0,9730** et un F1 pondéré de **0,9716**. Il a dépassé le SVM enrichi seul (accuracy **0,9680**, F1 macro **0,9654**) et le Random Forest seul (accuracy **0,8872**, F1 macro **0,8584**). Ridge, SGD, Complement Naive Bayes et k-NN ont aussi été comparés sur la validation interne; ils n’ont pas fait mieux que le SVM.
+
+Ce résultat est une estimation issue d’un seul split interne, et non une garantie de généralisation ou un score Kaggle. L’objectif de **98–99 % n’a pas été atteint**. Les performances d’entraînement proches de 100 % montrent un écart de généralisation, particulièrement pour le Random Forest. Le jeu `test.csv` ne contenant pas les labels utilisateurs, aucune précision/rappel/F1 réel ne peut y être mesuré.
 
 Après évaluation, le notebook réentraîne les deux modèles sur toutes les sessions étiquetées et produit la soumission `data/processed/final_submission.csv` au format `RowId,prediction`. Les essais précédents (`700_CNN.ipynb` et `701_RandomForest.ipynb`) sont conservés comme comparaisons historiques; ils ne remplacent pas le pipeline final basé sur les traces brutes.
