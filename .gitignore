@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Reproducible normalized copies generated from data/*.csv
+data/processed/

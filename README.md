@@ -49,8 +49,19 @@ Les navigateurs observés sont Firefox, Google Chrome, Microsoft Edge et Opera. 
 
 - `train.csv.GZ` est identique à `train.csv` et n’est pas réellement compressé malgré son extension.
 - `test.csv.GZ` est compressé au format gzip. Une fois décompressé, il contient les mêmes lignes que `test.csv`, avec des fins de ligne différentes.
-- Une session de `train.csv` contient uniquement des marqueurs temporels après l’identité et le navigateur.
-- Lorsqu’on transforme les traces en tableau, les sessions courtes peuvent être complétées par des valeurs manquantes. Ces valeurs ne correspondent pas nécessairement à des informations perdues : elles proviennent de la longueur variable des sessions.
+- Les marqueurs temporels sont insérés parmi les actions. Les valeurs `tNN` observées progressent par pas de 5 et sont exprimées en secondes selon l’énoncé. Il ne faut pas multiplier ces valeurs par 5.
+- Les lignes ont des nombres de champs différents parce que les sessions n’ont pas toutes la même longueur. Cette variation est normale : il ne faut ni supprimer les sessions courtes, ni interpréter un remplissage artificiel comme une action.
+
+### Cadrage et données préparées
+
+La cible est `util`, l’identifiant de l’utilisateur. Le problème est une classification supervisée multiclasse, et non une classification d’intrusion : aucune étiquette d’intrusion n’est fournie. L’évaluation locale doit être faite sur une validation issue du train; le test fourni est sans étiquette.
+
+Les fichiers bruts `train.csv` et `test.csv` restent les sources originales. Les expériences de classification de ce dépôt utilisent actuellement les tableaux présents dans `data/processed/1clean/` :
+
+- `cleaned_train.csv` : 3 279 sessions, la cible `util` et 765 caractéristiques numériques ;
+- `cleaned_test.csv` : 324 sessions et les mêmes 765 caractéristiques, sans `util`.
+
+Les caractéristiques comprennent des compteurs d’actions, d’écrans, de configurations et de chaînes, les indicateurs de navigateur et des résumés de session. Dans ces tableaux, `max_time` et `duration_seconds` sont identiques; le notebook Random Forest supprime ce doublon. Le test n’ayant pas d’étiquette, il sert à produire les prédictions, jamais à calculer localement précision, rappel ou F1.
 
 ## Démarche attendue
 
@@ -119,6 +130,8 @@ BE_MachineLearning/
 
 Le dépôt contient les données, les supports pédagogiques et une structure Python initiale. Les dépendances directes déclarées sont **Pandas** et **Matplotlib**, avec une version Python minimale de **3.11**.
 
-Les notebooks pédagogiques contiennent de nombreuses étapes à compléter. `SAIF_Notebooks/datamanip.ipynb` est vide et le point d’entrée Python affiche seulement un message initial. **Aucune chaîne de classification complète, aucun modèle entraîné et aucun résultat de validation ne sont présents à ce stade.**
+`Notebooks/FINAL_PROJECT.ipynb` est le pipeline de bout en bout recommandé. Il repart de `data/train.csv` et `data/test.csv`, vérifie et explore les traces brutes, construit une représentation séquentielle TF-IDF/SVM et une représentation de compteurs/Random Forest, choisit le poids du mélange sur une validation interne, puis rapporte ses métriques sur une validation externe stratifiée.
 
-La prochaine étape consiste à explorer les données et à définir les premières caractéristiques permettant de distinguer les utilisateurs.
+Sur l’évaluation externe de 656 sessions, le mélange SVM + Random Forest a obtenu une **accuracy de 0,9665**, un **F1 macro de 0,9600**, une précision macro de **0,9651**, un rappel macro de **0,9616** et un F1 pondéré de **0,9618**. Ce score est une estimation issue d’un seul split interne, et non une garantie de généralisation ou un score Kaggle. L’objectif de 99,4 % n’a pas été atteint ni ne peut être promis avec les données actuellement disponibles. Le jeu `test.csv` ne contenant pas les labels utilisateurs, aucune précision/rappel/F1 réel ne peut y être mesuré.
+
+Après évaluation, le notebook réentraîne les deux modèles sur toutes les sessions étiquetées et produit la soumission `data/processed/final_submission.csv` au format `RowId,prediction`. Les essais précédents (`700_CNN.ipynb` et `701_RandomForest.ipynb`) sont conservés comme comparaisons historiques; ils ne remplacent pas le pipeline final basé sur les traces brutes.
