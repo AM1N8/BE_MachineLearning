@@ -1,0 +1,18 @@
+{
+  "name": "round3_submission_B",
+  "seed": 137,
+  "cv_seeds": [137, 271],
+  "folds": 5,
+  "members": {
+    "crop128_noidf": {"length": 128, "use_idf": false},
+    "fusion_context": {"length": 96, "view": "full+context"},
+    "reference128": {"length": 128, "max_features": 180000}
+  },
+  "weights": {
+    "crop128_noidf": 0.422154785394683,
+    "fusion_context": 0.46445268572353543,
+    "reference128": 0.11339252888178171
+  },
+  "weight_provenance": "Optimized on repeated OOF predictions, not on test labels or leaderboard scores. Frozen weights reproduce the submitted B; their optimization score is apparent.",
+  "public_score": {"value": 0.999, "source": "user-reported Kaggle public leaderboard; not independently verified"}
+}
