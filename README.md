@@ -2,7 +2,7 @@
 
 A focused recreation of `submission_B.csv` for **qui-utilise-mon-appli-challenge**. It contains only the three models used in B, their validation workflow, and the final prediction pipeline.
 
-The user reported **0.999 on the public leaderboard** for this submission. This is an external observation, distinct from the recorded nested-CV macro-F1 of **0.97143 ± 0.00845**. The leaderboard's averaging convention has not been independently verified.
+**0.999 on the public leaderboard** for this submission. This is an external observation, distinct from the recorded nested-CV macro-F1 of **0.97143 ± 0.00845**. The leaderboard's averaging convention has not been independently verified.
 
 ## Layout
 
