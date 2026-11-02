@@ -1,0 +1,7 @@
+{
+  "nom": "SVM blocs log C20 + arbres (0.90)",
+  "recette": {
+    "SVM blocs log C20": 0.9,
+    "Arbres reference": 0.09999999999999998
+  }
+}

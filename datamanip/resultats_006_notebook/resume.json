@@ -1,0 +1,71 @@
+{
+  "modele_retenu": "SVM blocs log C20 + arbres (0.90)",
+  "recette": {
+    "SVM blocs log C20": 0.9,
+    "Arbres reference": 0.09999999999999998
+  },
+  "configurations": {
+    "Arbres reference": {
+      "type": "arbres"
+    },
+    "SVM historique": {
+      "type": "svm",
+      "mode": "historique",
+      "C": 20.0
+    },
+    "SVM blocs log C5": {
+      "type": "svm",
+      "mode": "log",
+      "C": 5.0
+    },
+    "SVM blocs log C20": {
+      "type": "svm",
+      "mode": "log",
+      "C": 20.0
+    },
+    "SVM binaire C5": {
+      "type": "svm",
+      "mode": "binaire",
+      "C": 5.0
+    },
+    "SVM binaire C20": {
+      "type": "svm",
+      "mode": "binaire",
+      "C": 20.0
+    },
+    "SVM binaire equilibre": {
+      "type": "svm",
+      "mode": "binaire",
+      "C": 20.0,
+      "class_weight": "balanced"
+    },
+    "SVM extraits courts": {
+      "type": "svm",
+      "mode": "binaire",
+      "C": 20.0,
+      "augmentation": true
+    },
+    "SVM RBF gamma1": {
+      "type": "svm",
+      "mode": "binaire",
+      "C": 20.0,
+      "noyau": "rbf",
+      "gamma": 1.0
+    },
+    "SVM RBF gamma5": {
+      "type": "svm",
+      "mode": "binaire",
+      "C": 20.0,
+      "noyau": "rbf",
+      "gamma": 5.0
+    }
+  },
+  "f1_macro_validation": 0.9529068961201925,
+  "gain_points": 3.4201562330910207,
+  "objectif_97_atteint": false,
+  "python": "3.14.4",
+  "sklearn": "1.8.0",
+  "sha256_train": "4f806a85d36910a5a4dd8178fd465b34e6049a84e11f4ecb82f1c1b75e51e892",
+  "duree_s": 306.7733268000002,
+  "limite": "Validation de développement déjà examinée; seconde graine non indépendante; moyenne Kaggle à confirmer."
+}

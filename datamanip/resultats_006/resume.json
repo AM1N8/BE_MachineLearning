@@ -1,0 +1,71 @@
+{
+  "selected": "Ensemble poids SVM=0.75",
+  "config": [
+    "blend",
+    "Extra Trees reference",
+    "SVM seq C=20",
+    0.75
+  ],
+  "sklearn": "1.8.0",
+  "validation": [
+    {
+      "modele": "Extra Trees reference",
+      "f1_macro": 0.8904555051732951,
+      "f1_pondere": 0.9041941743295758,
+      "accuracy": 0.9146341463414634
+    },
+    {
+      "modele": "Ensemble poids SVM=0.75",
+      "f1_macro": 0.9187053337892823,
+      "f1_pondere": 0.9340967807151004,
+      "accuracy": 0.9420731707317073
+    }
+  ],
+  "stabilite": [
+    {
+      "modele": "Extra Trees reference",
+      "pli": 1,
+      "f1_macro": 0.877467186403947,
+      "f1_pondere": 0.8989434904131863,
+      "accuracy": 0.9085714285714286
+    },
+    {
+      "modele": "Extra Trees reference",
+      "pli": 2,
+      "f1_macro": 0.8656252444677768,
+      "f1_pondere": 0.894761204473174,
+      "accuracy": 0.9050343249427918
+    },
+    {
+      "modele": "Extra Trees reference",
+      "pli": 3,
+      "f1_macro": 0.8595566133867861,
+      "f1_pondere": 0.8864210957385111,
+      "accuracy": 0.897025171624714
+    },
+    {
+      "modele": "Ensemble poids SVM=0.75",
+      "pli": 1,
+      "f1_macro": 0.9229324484057134,
+      "f1_pondere": 0.9394165494151999,
+      "accuracy": 0.9462857142857143
+    },
+    {
+      "modele": "Ensemble poids SVM=0.75",
+      "pli": 2,
+      "f1_macro": 0.9112476600598507,
+      "f1_pondere": 0.9326822007373851,
+      "accuracy": 0.9405034324942791
+    },
+    {
+      "modele": "Ensemble poids SVM=0.75",
+      "pli": 3,
+      "f1_macro": 0.9153882846837553,
+      "f1_pondere": 0.9306140385835884,
+      "accuracy": 0.937070938215103
+    }
+  ],
+  "objectif_f1_macro": 0.97,
+  "objectif_atteint": false,
+  "limites": "Selection sur CV; graine 137 = sensibilite, pas test independant. Validation 20% deja consultee dans 003-005. Moyenne Kaggle a confirmer."
+}

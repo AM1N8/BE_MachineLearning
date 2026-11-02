@@ -1,0 +1,3280 @@
+session_id,utilisateur_reel,prediction,navigateur,nb_actions,pli,correct,reference_correcte,ecart_scores_top2,longueur
+1,nuh,nuh,Firefox,2514,1,True,True,0.9138748,>500
+2,muz,muz,Google Chrome,90,3,True,True,0.53295803,21-100
+3,zrx,zrx,Microsoft Edge,608,3,True,True,0.47118142,>500
+4,pou,pou,Firefox,886,3,True,True,0.84692895,>500
+5,ald,fuy,Google Chrome,173,3,False,False,0.037951253,101-500
+6,shh,shh,Firefox,288,1,True,True,0.83759993,101-500
+7,fwf,fwf,Firefox,65,0,True,True,0.56447566,21-100
+8,slq,slq,Google Chrome,73,1,True,True,0.5975791,21-100
+9,cje,cje,Google Chrome,124,3,True,True,0.4601138,101-500
+10,byo,byo,Firefox,1925,2,True,True,0.4346262,>500
+11,wvy,wvy,Firefox,268,3,True,True,0.8024261,101-500
+12,skm,skm,Google Chrome,274,2,True,True,0.94245356,101-500
+13,cil,cil,Google Chrome,165,1,True,True,0.4283007,101-500
+14,fvc,fvc,Google Chrome,1965,2,True,True,0.95584303,>500
+15,rgo,rgo,Microsoft Edge,77,2,True,True,0.26204127,21-100
+16,eoe,eoe,Firefox,1787,2,True,True,0.9202024,>500
+17,qof,qof,Google Chrome,608,3,True,True,0.5230039,>500
+18,qqe,qqe,Google Chrome,2126,3,True,True,0.90883696,>500
+19,jpm,jpm,Firefox,146,0,True,True,0.88027483,101-500
+20,swe,swe,Opera,667,0,True,True,1.0,>500
+21,shh,shh,Firefox,202,0,True,True,0.90654755,101-500
+22,nkb,nkb,Google Chrome,1478,0,True,True,0.7224892,>500
+23,kwi,kwi,Firefox,115,1,True,True,0.15320462,101-500
+24,shh,shh,Firefox,176,2,True,True,0.7333068,101-500
+25,iib,iib,Firefox,138,3,True,True,0.2511839,101-500
+26,yxw,yxw,Firefox,197,2,True,True,0.53584534,101-500
+27,pgm,pgm,Firefox,319,1,True,True,0.6651131,101-500
+28,pgu,pgu,Firefox,298,1,True,True,0.72398883,101-500
+29,lgz,lgz,Firefox,158,3,True,True,0.19998862,101-500
+30,slq,slq,Google Chrome,267,1,True,True,0.89340055,101-500
+31,tzn,tzn,Google Chrome,223,3,True,True,0.73422515,101-500
+32,zro,zro,Firefox,361,3,True,True,0.5727018,101-500
+33,kik,kik,Google Chrome,1253,0,True,True,0.31006935,>500
+34,cnh,cnh,Firefox,114,3,True,True,0.5989732,101-500
+35,zyk,zyk,Google Chrome,1863,3,True,True,0.7686656,>500
+36,swe,swe,Opera,66,2,True,True,1.0,21-100
+37,xby,xby,Firefox,542,1,True,True,0.42034206,>500
+38,flj,flj,Google Chrome,151,1,True,True,0.84939504,101-500
+39,yuz,yuz,Firefox,803,2,True,True,0.85950947,>500
+40,nqg,nqg,Microsoft Edge,269,2,True,True,0.90626144,101-500
+41,fgn,fgn,Microsoft Edge,87,1,True,True,0.30880246,21-100
+42,eoe,eoe,Firefox,2706,2,True,True,0.7851649,>500
+43,fvc,fvc,Google Chrome,109,1,True,True,0.52382606,101-500
+44,ftq,ftq,Firefox,132,0,True,True,0.7208208,101-500
+45,vjw,vjw,Google Chrome,145,2,True,True,0.7309108,101-500
+46,hzx,hzx,Microsoft Edge,217,0,True,True,0.5511023,101-500
+47,akx,akx,Google Chrome,495,1,True,True,0.67610836,101-500
+48,lgz,lgz,Firefox,153,0,True,True,0.6266445,101-500
+49,blf,blf,Firefox,283,1,True,True,0.4799077,101-500
+50,slq,slq,Google Chrome,40,2,True,True,0.87871516,21-100
+51,cec,cec,Firefox,4527,0,True,True,0.5653596,>500
+52,vjw,vjw,Google Chrome,1792,0,True,True,0.93757653,>500
+53,flj,flj,Google Chrome,143,0,True,True,0.77398705,101-500
+54,kwi,kwi,Firefox,153,3,True,True,0.8382412,101-500
+55,pcv,pcv,Google Chrome,548,0,True,True,0.82445073,>500
+56,eus,eus,Microsoft Edge,763,3,True,True,0.9249348,>500
+57,wht,wht,Google Chrome,384,2,True,True,0.9460441,101-500
+58,cil,cil,Google Chrome,253,0,True,True,0.316988,101-500
+59,fwf,fwf,Firefox,80,1,True,True,0.7698641,21-100
+60,sps,sps,Microsoft Edge,427,0,True,True,0.5115753,101-500
+61,azn,azn,Google Chrome,149,1,True,False,0.0023548752,101-500
+62,prb,prb,Firefox,112,0,True,True,0.76293993,101-500
+63,cjr,cjr,Google Chrome,337,1,True,True,0.23750432,101-500
+64,tzn,tzn,Google Chrome,641,1,True,True,0.7758452,>500
+65,shh,shh,Firefox,295,2,True,True,0.9220132,101-500
+66,ont,ont,Microsoft Edge,180,1,True,True,0.45732698,101-500
+67,fal,fal,Firefox,402,0,True,True,0.41290268,101-500
+68,skm,skm,Google Chrome,156,0,True,True,0.21281101,101-500
+69,fwh,fwh,Google Chrome,492,0,True,True,0.8360867,101-500
+70,hjs,hjs,Microsoft Edge,328,1,True,True,0.93016726,101-500
+71,skm,skm,Google Chrome,703,1,True,True,0.44475257,>500
+72,slq,slq,Google Chrome,71,3,True,True,0.52754915,21-100
+73,akx,akx,Google Chrome,197,3,True,True,0.297178,101-500
+74,vek,vek,Firefox,615,2,True,True,0.2923144,>500
+75,yxw,yxw,Firefox,852,1,True,True,0.626848,>500
+76,zct,zct,Google Chrome,2771,3,True,True,0.56488174,>500
+77,dfo,dfo,Firefox,711,3,True,True,0.7555709,>500
+78,jqq,jqq,Google Chrome,629,1,True,True,0.52847856,>500
+79,pgu,pgu,Firefox,468,2,True,True,0.39883858,101-500
+80,cxt,cxt,Microsoft Edge,250,0,True,True,0.6627072,101-500
+81,nwt,nwt,Google Chrome,1026,2,True,True,0.9037223,>500
+82,ufc,ufc,Google Chrome,61,0,True,True,0.08132981,21-100
+83,ont,ont,Microsoft Edge,83,0,True,True,0.17522359,21-100
+84,hrj,hrj,Google Chrome,95,2,True,True,0.06956716,21-100
+85,urs,urs,Google Chrome,10625,3,True,True,0.16770096,>500
+86,swe,swe,Opera,678,0,True,True,1.0,>500
+87,wuy,wuy,Google Chrome,130,2,True,True,0.7708445,101-500
+88,kks,kks,Firefox,352,0,True,True,0.33792174,101-500
+89,ftq,ftq,Firefox,171,3,True,True,0.8895544,101-500
+90,nuh,nuh,Firefox,531,0,True,True,0.84580714,>500
+91,skm,skm,Google Chrome,673,2,True,True,0.85848504,>500
+92,xby,xby,Firefox,82,3,True,True,0.13348289,21-100
+93,qsw,qsw,Google Chrome,1050,0,True,True,0.85289955,>500
+94,azx,azx,Google Chrome,61,3,True,True,0.1673733,21-100
+95,khv,khv,Firefox,217,1,True,True,0.43185988,101-500
+96,skm,skm,Google Chrome,271,2,True,True,0.98177433,101-500
+97,cut,cut,Firefox,926,2,True,True,0.74485105,>500
+98,zbn,zbn,Firefox,445,3,True,True,0.28970551,101-500
+99,nzq,nzq,Firefox,1152,2,True,True,0.68407536,>500
+100,jpm,jpm,Firefox,313,3,True,True,0.7784157,101-500
+101,zok,zok,Microsoft Edge,505,3,True,True,0.35213125,>500
+102,rgo,rgo,Microsoft Edge,292,1,True,True,0.81419307,101-500
+103,bgn,bgn,Firefox,1705,1,True,True,0.9098316,>500
+104,ofq,ofq,Firefox,139,2,True,True,0.46071064,101-500
+105,cut,cut,Firefox,590,3,True,True,0.9064512,>500
+106,slq,slq,Google Chrome,74,3,True,True,0.5547381,21-100
+107,fuy,fuy,Google Chrome,487,0,True,True,0.6193079,101-500
+108,skm,skm,Google Chrome,394,0,True,True,0.9600837,101-500
+109,pgu,pgu,Firefox,155,1,True,True,0.16623512,101-500
+110,hjs,hjs,Microsoft Edge,185,1,True,True,0.71645266,101-500
+111,wjn,wjn,Microsoft Edge,623,3,True,True,0.7793323,>500
+112,qbf,qbf,Google Chrome,538,2,True,True,0.43753585,>500
+113,hfy,hfy,Google Chrome,471,3,True,True,0.43727937,101-500
+114,uwr,uwr,Firefox,66,3,True,True,0.1846978,21-100
+115,pre,pre,Google Chrome,459,1,True,True,0.66081846,101-500
+116,skm,skm,Google Chrome,184,2,True,True,0.5099146,101-500
+117,tdk,tdk,Firefox,281,3,True,True,0.4195604,101-500
+118,hjs,hjs,Microsoft Edge,72,0,True,True,0.036466286,21-100
+119,zbn,zbn,Firefox,295,1,True,True,0.382506,101-500
+120,jmq,jmq,Google Chrome,231,0,True,True,0.5785155,101-500
+121,qsw,qsw,Google Chrome,240,1,True,True,0.61404926,101-500
+122,yvq,yvq,Google Chrome,1700,2,True,True,0.918493,>500
+123,syt,kks,Firefox,170,0,False,False,0.02531372,101-500
+124,hzx,hzx,Microsoft Edge,85,3,True,True,0.7858881,21-100
+125,rgo,rgo,Microsoft Edge,1479,0,True,True,0.90420747,>500
+126,shh,shh,Firefox,74,3,True,True,0.717739,21-100
+127,rff,rff,Firefox,807,1,True,True,0.28464124,>500
+128,hvh,hvh,Google Chrome,76,2,True,True,0.34742847,21-100
+129,pre,pre,Google Chrome,222,0,True,True,0.19063848,101-500
+130,byo,byo,Firefox,362,3,True,True,0.19766203,101-500
+131,skm,skm,Google Chrome,1771,2,True,True,0.6192263,>500
+132,btl,btl,Google Chrome,654,2,True,True,0.6796467,>500
+133,slq,slq,Google Chrome,240,0,True,True,0.7328633,101-500
+134,ncb,ncb,Google Chrome,152,1,True,True,0.8482143,101-500
+135,txk,txk,Firefox,368,0,True,True,0.84626573,101-500
+136,ncb,ncb,Google Chrome,170,2,True,True,0.7670309,101-500
+137,rvh,rvh,Google Chrome,413,3,True,True,0.04260376,101-500
+138,vfo,vfo,Google Chrome,308,3,True,True,0.9055448,101-500
+139,kzt,kzt,Firefox,710,0,True,True,0.7557687,>500
+140,vyu,vyu,Firefox,1421,2,True,True,0.4444956,>500
+141,nlm,nlm,Firefox,1130,3,True,True,0.6716217,>500
+142,zqs,zqs,Microsoft Edge,283,2,True,True,0.6614647,101-500
+143,slq,slq,Google Chrome,90,0,True,True,0.8049224,21-100
+144,cut,cut,Firefox,196,2,True,True,0.7925268,101-500
+145,gid,gid,Google Chrome,593,2,True,True,0.6521567,>500
+146,zro,zro,Firefox,337,1,True,True,0.3732842,101-500
+147,vlm,vlm,Google Chrome,521,0,True,True,0.83828115,>500
+148,zyk,zyk,Google Chrome,331,1,True,True,0.8290366,101-500
+149,iju,iju,Google Chrome,173,0,True,True,0.27177224,101-500
+150,tfi,tfi,Firefox,911,1,True,True,0.8982507,>500
+151,zqs,zqs,Microsoft Edge,530,0,True,True,0.843953,>500
+152,deb,deb,Firefox,994,3,True,True,0.664253,>500
+153,fwh,fwh,Google Chrome,1584,0,True,True,0.9072589,>500
+154,wfs,wfs,Google Chrome,95,2,True,True,0.3096885,21-100
+155,yrb,yrb,Microsoft Edge,809,2,True,True,0.70742977,>500
+156,nqg,nqg,Microsoft Edge,600,2,True,True,0.9123551,>500
+157,mqo,mqo,Microsoft Edge,479,3,True,True,0.74641716,101-500
+158,kzt,kzt,Firefox,76,3,True,True,0.33704728,21-100
+159,nqg,nqg,Microsoft Edge,357,0,True,True,0.95992714,101-500
+160,psg,psg,Google Chrome,995,3,True,True,0.8255084,>500
+161,ulu,ulu,Microsoft Edge,185,2,True,True,0.5779759,101-500
+162,rff,rff,Firefox,382,3,True,True,0.091185495,101-500
+163,jmq,jmq,Google Chrome,469,3,True,True,0.39407113,101-500
+164,opp,opp,Firefox,1187,3,True,True,0.81174374,>500
+165,aho,aho,Google Chrome,711,0,True,True,0.5850362,>500
+166,vek,vek,Firefox,200,2,True,True,0.18752134,101-500
+167,tza,tza,Firefox,513,3,True,True,0.6041885,>500
+168,obm,obm,Firefox,239,2,True,True,0.34239388,101-500
+169,wfs,wfs,Google Chrome,801,3,True,True,0.886446,>500
+170,wht,wht,Google Chrome,154,2,True,True,0.44071656,101-500
+171,sfi,sfi,Google Chrome,483,1,True,True,0.8883307,101-500
+172,kks,kks,Firefox,3451,3,True,True,0.8032668,>500
+173,hzx,hzx,Microsoft Edge,142,0,True,True,0.9285313,101-500
+174,szr,szr,Firefox,252,0,True,True,0.39908206,101-500
+175,lio,lio,Firefox,424,2,True,True,0.8705695,101-500
+176,sfi,sfi,Google Chrome,212,0,True,True,0.71473783,101-500
+177,bgn,bgn,Firefox,788,1,True,True,0.08876442,>500
+178,zok,zok,Microsoft Edge,111,0,True,True,0.07713496,101-500
+179,xgv,xgv,Firefox,192,2,True,True,0.30411243,101-500
+180,fcq,fcq,Google Chrome,279,3,True,True,0.812069,101-500
+181,uwp,uwp,Firefox,979,0,True,True,0.70997256,>500
+182,nqg,nqg,Microsoft Edge,70,0,True,True,0.88590705,21-100
+183,hdz,hdz,Firefox,128,3,True,True,0.45145336,101-500
+184,skm,skm,Google Chrome,100,3,True,True,0.14680809,21-100
+185,kks,kks,Firefox,224,3,True,True,0.5061518,101-500
+186,wuy,wuy,Google Chrome,941,0,True,True,0.8598563,>500
+187,hjs,hjs,Microsoft Edge,592,3,True,True,0.9782643,>500
+188,oqa,oqa,Google Chrome,697,3,True,True,0.6940836,>500
+189,tjc,tjc,Google Chrome,257,2,True,True,0.7363802,101-500
+190,sqb,sqb,Google Chrome,715,3,True,True,0.4531128,>500
+191,eus,eus,Microsoft Edge,2449,3,True,True,0.9601726,>500
+192,skm,skm,Google Chrome,130,3,True,True,0.74269015,101-500
+193,lgd,esu,Firefox,293,1,False,False,0.06709997,101-500
+194,kks,kks,Firefox,494,2,True,True,0.70686036,101-500
+195,jkt,jkt,Microsoft Edge,81,0,True,True,0.35756847,21-100
+196,kik,kik,Google Chrome,303,1,True,True,0.29672718,101-500
+197,iyf,iyf,Google Chrome,2149,0,True,True,0.7015547,>500
+198,vfo,vfo,Google Chrome,1268,0,True,True,0.8579061,>500
+199,vek,vek,Firefox,1231,2,True,True,0.2759179,>500
+200,mmo,mmo,Google Chrome,901,1,True,True,0.74983335,>500
+201,lgz,lgz,Firefox,252,0,True,True,0.5294213,101-500
+202,hjs,hjs,Microsoft Edge,454,3,True,True,0.98395896,101-500
+203,hdz,hdz,Firefox,1887,2,True,True,0.5827315,>500
+204,cjr,cjr,Google Chrome,546,2,True,True,0.26846433,>500
+205,kks,kks,Firefox,111,1,True,True,0.6963772,101-500
+206,fyg,fyg,Microsoft Edge,658,3,True,True,0.56698513,>500
+207,fyf,fyf,Firefox,1762,2,True,True,0.604131,>500
+208,nwt,nwt,Google Chrome,2544,0,True,True,0.9330229,>500
+209,cbo,cbo,Google Chrome,232,3,True,True,0.8387203,101-500
+210,wxf,wxf,Firefox,197,1,True,True,0.5924534,101-500
+211,fuy,fuy,Google Chrome,338,0,True,True,0.5752765,101-500
+212,tkz,tkz,Google Chrome,1405,0,True,True,0.2872225,>500
+213,hfy,hfy,Google Chrome,80,0,True,True,0.14004824,21-100
+214,cka,cka,Firefox,320,0,True,True,0.5544035,101-500
+215,vjw,vjw,Google Chrome,201,1,True,True,0.38240713,101-500
+216,rvh,rvh,Google Chrome,579,0,True,True,0.6033389,>500
+217,fuy,fuy,Google Chrome,154,2,True,True,0.5890318,101-500
+218,txk,txk,Firefox,325,2,True,True,0.8110539,101-500
+219,wcf,wcf,Firefox,198,1,True,True,0.78489,101-500
+220,azo,azo,Google Chrome,142,3,True,True,0.120175794,101-500
+221,gid,gid,Google Chrome,518,3,True,True,0.914671,>500
+222,cjr,cjr,Google Chrome,460,0,True,True,0.83500123,101-500
+223,wvy,wvy,Firefox,315,0,True,True,0.8164592,101-500
+224,sqb,sqb,Google Chrome,783,3,True,True,0.5788998,>500
+225,cxt,cxt,Microsoft Edge,380,1,True,True,0.91073316,101-500
+226,dfo,dfo,Firefox,870,2,True,True,0.5021226,>500
+227,cpn,cpn,Firefox,233,3,True,True,0.6669356,101-500
+228,kzt,kzt,Firefox,225,1,True,True,0.8183538,101-500
+229,jfm,jfm,Google Chrome,195,0,True,True,0.83940893,101-500
+230,fkf,fkf,Firefox,732,1,True,True,0.6200432,>500
+231,zht,zht,Firefox,233,3,True,True,0.6423195,101-500
+232,wjn,wjn,Microsoft Edge,414,2,True,True,0.81537926,101-500
+233,jxu,jxu,Firefox,600,1,True,True,0.63416857,>500
+234,kwi,kwi,Firefox,160,0,True,True,0.9003151,101-500
+235,oec,oec,Firefox,2854,1,True,True,0.82190037,>500
+236,cut,cut,Firefox,972,1,True,True,0.7851561,>500
+237,nyk,nyk,Firefox,180,3,True,True,0.32896495,101-500
+238,qbf,qbf,Google Chrome,319,2,True,True,0.43128413,101-500
+239,vfo,vfo,Google Chrome,1289,2,True,True,0.9416566,>500
+240,tsn,tsn,Firefox,1181,2,True,True,0.7735627,>500
+241,fuz,fuz,Firefox,204,1,True,True,0.66825485,101-500
+242,ubr,ubr,Google Chrome,2897,3,True,True,0.73430705,>500
+243,fal,fal,Firefox,159,2,True,True,0.345497,101-500
+244,eoe,eoe,Firefox,1977,2,True,True,0.9378403,>500
+245,ald,ald,Google Chrome,1287,3,True,True,0.31804147,>500
+246,qbf,qbf,Google Chrome,5848,3,True,True,0.69006515,>500
+247,zus,zus,Firefox,1100,3,True,True,0.7783479,>500
+248,ald,ald,Google Chrome,316,3,True,True,0.28473982,101-500
+249,sfi,sfi,Google Chrome,94,2,True,True,0.6322175,21-100
+250,fou,fou,Google Chrome,36,0,True,True,0.81872314,21-100
+251,skm,skm,Google Chrome,455,0,True,True,0.9595365,101-500
+252,kik,kik,Google Chrome,213,2,True,True,0.4984812,101-500
+253,sdx,sdx,Google Chrome,3761,3,True,True,0.89193875,>500
+254,vsb,vsb,Firefox,1128,2,True,True,0.40997398,>500
+255,zrx,zrx,Microsoft Edge,437,0,True,True,0.2783321,101-500
+256,nzq,nzq,Firefox,145,0,True,True,0.5088703,101-500
+257,ebm,ebm,Google Chrome,298,0,True,True,0.23933887,101-500
+258,muz,muz,Google Chrome,136,1,True,True,0.06433911,101-500
+259,eqw,eqw,Firefox,96,3,True,True,0.020558983,21-100
+260,jew,jew,Firefox,229,1,True,True,0.55309135,101-500
+261,fou,fou,Google Chrome,96,1,True,True,0.8345412,21-100
+262,gtj,gtj,Google Chrome,2618,0,True,True,0.7440231,>500
+263,kwi,kwi,Firefox,309,0,True,True,0.68454266,101-500
+264,tzn,tzn,Google Chrome,71,0,True,True,0.28237897,21-100
+265,jfm,jfm,Google Chrome,491,0,True,True,0.37901106,101-500
+266,ptb,ptb,Firefox,2013,2,True,True,0.8643549,>500
+267,lhr,lhr,Firefox,58,1,True,True,0.35688218,21-100
+268,wjn,wjn,Microsoft Edge,1246,0,True,True,0.87032163,>500
+269,fal,fal,Firefox,121,1,True,True,0.6297329,101-500
+270,zqs,zqs,Microsoft Edge,492,3,True,True,0.8732109,101-500
+271,jrc,jrc,Firefox,167,1,True,True,0.43466997,101-500
+272,ubr,ubr,Google Chrome,250,2,True,True,0.36083892,101-500
+273,rmf,crn,Microsoft Edge,386,1,False,False,0.02587936,101-500
+274,lgd,lgd,Firefox,189,3,True,True,0.40256655,101-500
+275,oqa,uof,Google Chrome,73,2,False,False,0.017109796,21-100
+276,szr,szr,Firefox,174,3,True,True,0.5465408,101-500
+277,yuz,yuz,Firefox,385,2,True,True,0.8581443,101-500
+278,nwt,nwt,Google Chrome,1590,2,True,True,0.91153765,>500
+279,blf,blf,Firefox,5995,1,True,True,0.7703126,>500
+280,hjs,hjs,Microsoft Edge,1226,2,True,True,0.7780984,>500
+281,usg,usg,Firefox,219,0,True,True,0.23633292,101-500
+282,fvc,fvc,Google Chrome,1089,2,True,True,0.93329686,>500
+283,opp,opp,Firefox,48,1,True,True,0.093585536,21-100
+284,tmn,tmn,Firefox,8466,1,True,True,0.025888942,>500
+285,khv,khv,Firefox,323,3,True,True,0.3718325,101-500
+286,pyb,pyb,Firefox,811,0,True,True,0.64686,>500
+287,cjr,cjr,Google Chrome,469,3,True,True,0.93668425,101-500
+288,nwt,nwt,Google Chrome,1952,0,True,True,0.94952697,>500
+289,gvp,gvp,Google Chrome,148,3,True,True,0.29042983,101-500
+290,kks,kks,Firefox,35,2,True,True,0.25454658,21-100
+291,wjn,wjn,Microsoft Edge,192,3,True,True,0.6738927,101-500
+292,sps,sps,Microsoft Edge,81,1,True,True,0.318965,21-100
+293,lfq,lfq,Firefox,1964,3,True,True,0.65424603,>500
+294,tft,tft,Firefox,153,0,True,True,0.55962294,101-500
+295,qbf,qbf,Google Chrome,755,0,True,True,0.8607903,>500
+296,hdz,hdz,Firefox,136,3,True,True,0.2795221,101-500
+297,dfo,dfo,Firefox,238,2,True,True,0.30903238,101-500
+298,azn,azn,Google Chrome,87,3,True,True,0.027334154,21-100
+299,bos,bos,Firefox,128,1,True,True,0.03743907,101-500
+300,bgn,bgn,Firefox,142,3,True,True,0.21093205,101-500
+301,kks,kks,Firefox,1917,2,True,True,0.6216697,>500
+302,vzc,vzc,Google Chrome,935,0,True,True,0.7447556,>500
+303,akx,oqa,Google Chrome,120,0,False,False,0.024376083,101-500
+304,lgd,lgd,Firefox,207,3,True,True,0.21770203,101-500
+305,wht,wht,Google Chrome,174,0,True,True,0.74078655,101-500
+306,jpm,jpm,Firefox,154,1,True,True,0.2904125,101-500
+307,ulu,ulu,Microsoft Edge,146,1,True,True,0.5820083,101-500
+308,akx,akx,Google Chrome,144,1,True,True,0.33068016,101-500
+309,uwp,uwp,Firefox,66,2,True,True,0.54322726,21-100
+310,udj,udj,Microsoft Edge,371,2,True,True,0.8553585,101-500
+311,cyd,cyd,Microsoft Edge,102,0,True,True,0.6805971,101-500
+312,muz,muz,Google Chrome,106,1,True,True,0.44665033,101-500
+313,hrj,hrj,Google Chrome,445,3,True,True,0.58122516,101-500
+314,slq,slq,Google Chrome,41,0,True,True,0.5197218,21-100
+315,cbo,cbo,Google Chrome,299,0,True,True,0.6344204,101-500
+316,ald,ald,Google Chrome,233,2,True,True,0.118775934,101-500
+317,iib,iib,Firefox,1894,3,True,True,0.9129422,>500
+318,uey,uey,Google Chrome,1339,0,True,True,0.8864081,>500
+319,ubr,ubr,Google Chrome,288,1,True,True,0.7244516,101-500
+320,wuy,wuy,Google Chrome,1350,3,True,True,0.870313,>500
+321,ajo,ajo,Firefox,968,0,True,True,0.46926266,>500
+322,lnq,lnq,Firefox,1237,2,True,True,0.2325049,>500
+323,flj,flj,Google Chrome,78,2,True,True,0.68920094,21-100
+324,cnh,cnh,Firefox,2575,3,True,True,0.8236773,>500
+325,txk,txk,Firefox,1483,3,True,True,0.81623924,>500
+326,snv,snv,Firefox,107,2,True,True,0.064032525,101-500
+327,eus,eus,Microsoft Edge,156,2,True,True,0.7919119,101-500
+328,fxg,fxg,Firefox,4744,3,True,True,0.65007484,>500
+329,vek,vek,Firefox,502,3,True,True,0.124670215,>500
+330,pcv,pcv,Google Chrome,407,3,True,True,0.79215354,101-500
+331,kik,kik,Google Chrome,111,2,True,True,0.8012357,101-500
+332,zll,zll,Microsoft Edge,155,0,True,True,0.5756506,101-500
+333,skm,slq,Google Chrome,65,1,False,False,0.2906335,21-100
+334,yuz,yuz,Firefox,228,0,True,True,0.75230277,101-500
+335,pre,pre,Google Chrome,164,3,True,True,0.6485362,101-500
+336,fgc,fgc,Firefox,71,1,True,True,0.35368267,21-100
+337,mmm,mmm,Firefox,452,3,True,True,0.21102397,101-500
+338,iba,iba,Google Chrome,518,0,True,True,0.7540527,>500
+339,jks,jks,Microsoft Edge,161,3,True,True,0.83903825,101-500
+340,flj,flj,Google Chrome,67,0,True,True,0.5798615,21-100
+341,azx,azx,Google Chrome,701,2,True,True,0.037773386,>500
+342,fwf,fwf,Firefox,126,2,True,True,0.7954636,101-500
+343,jxu,jxu,Firefox,591,0,True,True,0.84186256,>500
+344,swe,swe,Opera,815,3,True,True,1.0,>500
+345,sps,sps,Microsoft Edge,164,1,True,True,0.7965037,101-500
+346,rmf,ulu,Microsoft Edge,119,1,False,False,0.01958792,101-500
+347,hll,kik,Google Chrome,91,2,False,False,0.018089645,21-100
+348,ufc,ufc,Google Chrome,3330,1,True,True,0.737196,>500
+349,nrb,nrb,Firefox,214,0,True,True,0.4059012,101-500
+350,pxi,pxi,Firefox,70,2,True,True,0.008118466,21-100
+351,oqa,oqa,Google Chrome,449,2,True,True,0.17737147,101-500
+352,hjs,hjs,Microsoft Edge,980,0,True,True,0.83472866,>500
+353,gid,gid,Google Chrome,223,1,True,True,0.61620253,101-500
+354,lio,lio,Firefox,230,2,True,True,0.8081532,101-500
+355,uof,uof,Google Chrome,262,3,True,True,0.4254476,101-500
+356,azo,azo,Google Chrome,278,0,True,True,0.1057939,101-500
+357,cpn,cpn,Firefox,98,0,True,True,0.38532135,21-100
+358,opp,opp,Firefox,709,0,True,True,0.6123728,>500
+359,xwz,xwz,Google Chrome,1178,0,True,True,0.8329869,>500
+360,slq,slq,Google Chrome,152,2,True,True,0.7788705,101-500
+361,kwi,kwi,Firefox,238,2,True,True,0.81265825,101-500
+362,wem,wem,Google Chrome,297,3,True,True,0.7257813,101-500
+363,hll,hll,Google Chrome,146,0,True,True,0.11371803,101-500
+364,muz,muz,Google Chrome,331,3,True,True,0.8085745,101-500
+365,ajo,ajo,Firefox,1517,0,True,True,0.65920615,>500
+366,usg,usg,Firefox,1234,3,True,True,0.6133305,>500
+367,tsn,tsn,Firefox,137,3,True,True,0.5515251,101-500
+368,dfo,dfo,Firefox,804,1,True,True,0.5655749,>500
+369,szr,szr,Firefox,530,3,True,True,0.698835,>500
+370,uey,uey,Google Chrome,1311,1,True,True,0.8715404,>500
+371,zbn,zbn,Firefox,2404,0,True,True,0.36107707,>500
+372,xkr,xkr,Google Chrome,527,1,True,True,0.5383031,>500
+373,oec,oec,Firefox,1183,2,True,True,0.5473754,>500
+374,kwi,kwi,Firefox,198,1,True,True,0.96626896,101-500
+375,zll,zll,Microsoft Edge,54,3,True,True,0.68367046,21-100
+376,skm,slq,Google Chrome,33,1,False,False,0.7471232,21-100
+377,sfi,sfi,Google Chrome,282,1,True,True,0.8120321,101-500
+378,kwi,kwi,Firefox,783,1,True,True,0.8138191,>500
+379,slq,slq,Google Chrome,122,0,True,True,0.7442871,101-500
+380,zbn,zbn,Firefox,773,3,True,True,0.7135966,>500
+381,wem,wem,Google Chrome,196,3,True,True,0.861292,101-500
+382,zqs,zqs,Microsoft Edge,1497,1,True,True,0.88714415,>500
+383,sqb,sqb,Google Chrome,244,1,True,True,0.4226949,101-500
+384,wht,wht,Google Chrome,455,2,True,True,0.79145235,101-500
+385,skm,azn,Google Chrome,197,0,False,False,0.045007907,101-500
+386,uof,sqb,Google Chrome,158,1,False,False,0.041004285,101-500
+387,cxt,cxt,Microsoft Edge,121,0,True,True,0.87657803,101-500
+388,ajo,ajo,Firefox,327,1,True,True,0.42200136,101-500
+389,zyk,zyk,Google Chrome,294,0,True,True,0.7341797,101-500
+390,pou,pou,Firefox,784,1,True,True,0.8521859,>500
+391,hrj,hrj,Google Chrome,140,0,True,True,0.29342228,101-500
+392,lgd,lgd,Firefox,605,1,True,True,0.4332681,>500
+393,gvp,gvp,Google Chrome,323,1,True,True,0.33534744,101-500
+394,sfi,sfi,Google Chrome,230,3,True,True,0.87405807,101-500
+395,hvh,hvh,Google Chrome,85,3,True,True,0.15290715,21-100
+396,npo,npo,Firefox,7839,2,True,True,0.5648488,>500
+397,cum,cum,Microsoft Edge,201,1,True,True,0.04055184,101-500
+398,vek,vek,Firefox,172,1,True,True,0.108335435,101-500
+399,sgd,sgd,Firefox,88,0,True,True,0.12010626,21-100
+400,qbf,qbf,Google Chrome,1189,1,True,True,0.48900443,>500
+401,flj,flj,Google Chrome,68,0,True,True,0.71401656,21-100
+402,iyf,iyf,Google Chrome,201,2,True,True,0.32088062,101-500
+403,kks,kks,Firefox,461,2,True,True,0.8544135,101-500
+404,nuh,nuh,Firefox,1057,3,True,True,0.9263355,>500
+405,wuy,wuy,Google Chrome,673,3,True,True,0.9009601,>500
+406,vfo,vfo,Google Chrome,2096,0,True,True,0.9551376,>500
+407,swe,swe,Opera,71,1,True,True,1.0,21-100
+408,avt,avt,Firefox,2018,3,True,True,0.8662671,>500
+409,hvh,hvh,Google Chrome,115,3,True,True,0.537185,101-500
+410,myl,myl,Google Chrome,96,2,True,True,0.065749615,21-100
+411,npo,npo,Firefox,2452,0,True,True,0.62591255,>500
+412,fvc,fvc,Google Chrome,4534,1,True,True,0.9204994,>500
+413,ykq,ykq,Microsoft Edge,366,1,True,True,0.8742388,101-500
+414,slq,slq,Google Chrome,234,2,True,True,0.9641897,101-500
+415,oph,oph,Microsoft Edge,116,0,True,True,0.5844884,101-500
+416,akx,akx,Google Chrome,321,2,True,True,0.06632823,101-500
+417,itt,itt,Google Chrome,421,3,True,True,0.11176522,101-500
+418,zro,zro,Firefox,77,0,True,True,0.013022564,21-100
+419,cjr,cjr,Google Chrome,206,3,True,True,0.70975506,101-500
+420,kik,kik,Google Chrome,56,3,True,True,0.1330075,21-100
+421,oph,oph,Microsoft Edge,92,1,True,True,0.09140619,21-100
+422,sfi,sfi,Google Chrome,556,2,True,True,0.8960903,>500
+423,udj,udj,Microsoft Edge,280,3,True,True,0.83919966,101-500
+424,jfm,jfm,Google Chrome,237,2,True,True,0.59619296,101-500
+425,vek,vek,Firefox,74,1,True,True,0.099282086,21-100
+426,pou,pou,Firefox,521,2,True,True,0.72443074,>500
+427,sgd,sgd,Firefox,600,1,True,True,0.14466992,>500
+428,qdv,qdv,Google Chrome,318,3,True,True,0.13944778,101-500
+429,vlm,vlm,Google Chrome,726,1,True,True,0.89650387,>500
+430,ofq,ofq,Firefox,318,1,True,True,0.7759536,101-500
+431,oec,oec,Firefox,428,1,True,True,0.77797127,101-500
+432,byo,byo,Firefox,1027,2,True,True,0.37951845,>500
+433,sii,sii,Firefox,775,0,True,True,0.79549897,>500
+434,wcf,wcf,Firefox,60,3,True,True,0.100002274,21-100
+435,zro,zro,Firefox,149,1,True,True,0.35133496,101-500
+436,lhd,lhd,Firefox,949,1,True,True,0.6972968,>500
+437,cjr,cjr,Google Chrome,355,0,True,True,0.8814848,101-500
+438,czi,czi,Firefox,116,2,True,True,0.18888204,101-500
+439,usg,usg,Firefox,810,1,True,True,0.71127236,>500
+440,zct,zct,Google Chrome,485,1,True,True,0.60657525,101-500
+441,vlm,vlm,Google Chrome,389,1,True,True,0.6944729,101-500
+442,hew,hew,Firefox,67,0,True,True,0.5007819,21-100
+443,zht,zht,Firefox,356,2,True,True,0.74066806,101-500
+444,xgv,xgv,Firefox,149,1,True,True,0.014859654,101-500
+445,psg,psg,Google Chrome,961,1,True,True,0.9033786,>500
+446,kks,kks,Firefox,36,3,True,True,0.19312146,21-100
+447,prb,prb,Firefox,2060,1,True,True,0.8231998,>500
+448,ftq,ftq,Firefox,103,3,True,True,0.62085676,101-500
+449,ats,ats,Firefox,2730,2,True,True,0.8116592,>500
+450,azo,azo,Google Chrome,2757,1,True,True,0.60135216,>500
+451,fwh,fwh,Google Chrome,1058,1,True,True,0.85188365,>500
+452,tdk,tdk,Firefox,729,0,True,True,0.4772674,>500
+453,fwf,fwf,Firefox,91,3,True,True,0.8184079,21-100
+454,bgn,bgn,Firefox,1214,0,True,True,0.7353026,>500
+455,vfo,vfo,Google Chrome,930,1,True,True,0.87633127,>500
+456,dit,dit,Firefox,108,2,True,True,0.3076329,101-500
+457,rvh,rvh,Google Chrome,610,2,True,True,0.76366645,>500
+458,fvc,fvc,Google Chrome,782,3,True,True,0.4405686,>500
+459,kbf,eqw,Firefox,238,2,False,False,0.03394968,101-500
+460,azx,azx,Google Chrome,142,3,True,True,0.111519,101-500
+461,uwp,uwp,Firefox,51,2,True,True,0.17281726,21-100
+462,shh,shh,Firefox,516,3,True,True,0.91102266,>500
+463,rmf,rmf,Microsoft Edge,76,0,True,True,0.028222382,21-100
+464,cvw,cvw,Firefox,321,2,True,True,0.71874815,101-500
+465,uwr,uwr,Firefox,1325,2,True,True,0.71211225,>500
+466,nkb,nkb,Google Chrome,146,3,True,True,0.532484,101-500
+467,cvw,cvw,Firefox,649,1,True,True,0.8629823,>500
+468,lhd,lhd,Firefox,425,3,True,True,0.31696424,101-500
+469,tjc,tjc,Google Chrome,322,3,True,True,0.74614924,101-500
+470,fou,fou,Google Chrome,87,2,True,True,0.9498484,21-100
+471,zrx,zrx,Microsoft Edge,897,1,True,True,0.8454445,>500
+472,btl,btl,Google Chrome,2365,1,True,True,0.8033381,>500
+473,fwh,fwh,Google Chrome,1241,3,True,True,0.899443,>500
+474,qbf,qbf,Google Chrome,343,0,True,True,0.51551265,101-500
+475,vyu,vyu,Firefox,1976,1,True,True,0.59511805,>500
+476,kzt,kzt,Firefox,140,2,True,True,0.5164242,101-500
+477,fmz,fmz,Google Chrome,80,0,True,True,0.081294276,21-100
+478,swe,swe,Opera,211,2,True,True,1.0,101-500
+479,cjr,cjr,Google Chrome,132,0,True,True,0.29417998,101-500
+480,tjc,tjc,Google Chrome,271,0,True,True,0.7852671,101-500
+481,shh,shh,Firefox,136,0,True,True,0.1851014,101-500
+482,bou,bou,Google Chrome,4915,0,True,True,0.74034643,>500
+483,cvw,cvw,Firefox,285,3,True,True,0.6182485,101-500
+484,ncb,ncb,Google Chrome,553,2,True,True,0.5806411,>500
+485,hzx,hzx,Microsoft Edge,297,2,True,True,0.51113206,101-500
+486,nrb,nrb,Firefox,580,2,True,True,0.7204909,>500
+487,bfg,bfg,Firefox,407,0,True,True,0.7873852,101-500
+488,ftq,ftq,Firefox,184,1,True,True,0.5052753,101-500
+489,uwp,uwp,Firefox,63,0,True,True,0.3477588,21-100
+490,pgi,pgi,Google Chrome,1494,1,True,True,0.8111601,>500
+491,qsw,qsw,Google Chrome,903,2,True,True,0.6459422,>500
+492,wht,wht,Google Chrome,149,0,True,True,0.71597326,101-500
+493,iib,iib,Firefox,1763,0,True,True,0.885192,>500
+494,hzx,hzx,Microsoft Edge,29,1,True,True,0.68644625,21-100
+495,qqe,qqe,Google Chrome,2285,3,True,True,0.80115896,>500
+496,skm,skm,Google Chrome,321,3,True,True,0.87826985,101-500
+497,tdk,tdk,Firefox,94,1,True,True,0.3344535,21-100
+498,tsn,tsn,Firefox,1063,2,True,True,0.8982345,>500
+499,iyf,iyf,Google Chrome,277,1,True,True,0.6502639,101-500
+500,lgz,lgz,Firefox,163,2,True,True,0.739548,101-500
+501,kwi,kwi,Firefox,94,3,True,True,0.102388665,21-100
+502,cec,cec,Firefox,80,2,True,True,0.35816103,21-100
+503,pgi,pgi,Google Chrome,56,2,True,True,0.7351745,21-100
+504,uof,uof,Google Chrome,224,0,True,True,0.43735075,101-500
+505,cyi,cyi,Google Chrome,2693,3,True,True,0.69014305,>500
+506,cje,cje,Google Chrome,180,2,True,True,0.4958639,101-500
+507,opp,opp,Firefox,305,2,True,True,0.23445623,101-500
+508,txk,txk,Firefox,420,1,True,True,0.84806055,101-500
+509,tsn,tsn,Firefox,114,1,True,True,0.43439397,101-500
+510,azx,azx,Google Chrome,229,1,True,True,0.33454943,101-500
+511,cxu,cxu,Google Chrome,249,0,True,True,0.35832348,101-500
+512,nlm,nlm,Firefox,1043,3,True,True,0.47623008,>500
+513,xvr,xvr,Firefox,1235,1,True,True,0.80881244,>500
+514,pgi,pgi,Google Chrome,85,1,True,True,0.7362708,21-100
+515,jmq,jmq,Google Chrome,114,1,True,True,0.49688044,101-500
+516,fjb,fjb,Microsoft Edge,2776,1,True,True,0.93123394,>500
+517,czi,czi,Firefox,173,2,True,True,0.37468863,101-500
+518,ykq,ykq,Microsoft Edge,537,0,True,True,0.661324,>500
+519,wfs,wfs,Google Chrome,360,3,True,True,0.6583489,101-500
+520,zus,zus,Firefox,2221,2,True,True,0.81618977,>500
+521,pgi,pgi,Google Chrome,71,0,True,True,0.740197,21-100
+522,cjr,cjr,Google Chrome,362,1,True,True,0.88007575,101-500
+523,nlm,nlm,Firefox,156,0,True,True,0.36248177,101-500
+524,cbo,cbo,Google Chrome,109,1,True,True,0.6569859,101-500
+525,zbn,zbn,Firefox,1531,2,True,True,0.53007066,>500
+526,snv,snv,Firefox,584,1,True,True,0.7190226,>500
+527,avt,avt,Firefox,118,3,True,True,0.42001635,101-500
+528,nrb,nrb,Firefox,1497,3,True,True,0.6600682,>500
+529,npo,npo,Firefox,130,0,True,True,0.23351415,101-500
+530,vjw,vjw,Google Chrome,1870,3,True,True,0.8514568,>500
+531,qbf,qbf,Google Chrome,149,2,True,True,0.6223529,101-500
+532,hxt,hxt,Google Chrome,183,0,True,True,0.20650356,101-500
+533,jpm,jpm,Firefox,179,3,True,True,0.40004435,101-500
+534,mmm,mmm,Firefox,910,0,True,True,0.83352673,>500
+535,nzq,nzq,Firefox,228,2,True,True,0.8659922,101-500
+536,nkb,nkb,Google Chrome,91,3,True,True,0.6397811,21-100
+537,nrb,nrb,Firefox,249,1,True,True,0.16895904,101-500
+538,ycb,ycb,Google Chrome,234,1,True,True,0.597749,101-500
+539,fou,fou,Google Chrome,61,3,True,True,0.7082419,21-100
+540,vlm,vlm,Google Chrome,431,2,True,True,0.7165178,101-500
+541,fuz,fuz,Firefox,543,3,True,True,0.4431036,>500
+542,fwf,fwf,Firefox,96,2,True,True,0.7894937,21-100
+543,cvw,cvw,Firefox,87,0,True,True,0.21956816,21-100
+544,eus,eus,Microsoft Edge,2753,3,True,True,0.9204066,>500
+545,shh,shh,Firefox,552,1,True,True,0.6497461,>500
+546,usy,usy,Firefox,3445,3,True,True,0.063090235,>500
+547,xgv,xgv,Firefox,202,2,True,True,0.31260812,101-500
+548,ftq,ftq,Firefox,263,2,True,True,0.93710476,101-500
+549,hrj,hrj,Google Chrome,105,2,True,True,0.4420362,101-500
+550,wht,wht,Google Chrome,210,3,True,True,0.83570874,101-500
+551,bou,bou,Google Chrome,170,3,True,True,0.72211444,101-500
+552,qbf,qbf,Google Chrome,489,3,True,True,0.63721573,101-500
+553,opp,opp,Firefox,802,2,True,True,0.7081918,>500
+554,wjn,wjn,Microsoft Edge,131,1,True,True,0.7471451,101-500
+555,ulu,ulu,Microsoft Edge,274,1,True,True,0.8986683,101-500
+556,eoe,eoe,Firefox,274,1,True,True,0.65242237,101-500
+557,pgm,pgm,Firefox,130,1,True,True,0.64887863,101-500
+558,uey,uey,Google Chrome,2185,2,True,True,0.79404896,>500
+559,vyu,vyu,Firefox,4816,3,True,True,0.44116047,>500
+560,eqw,eqw,Firefox,2400,3,True,True,0.40064862,>500
+561,gor,gor,Firefox,991,2,True,True,0.39630255,>500
+562,jrc,jrc,Firefox,375,0,True,True,0.37528273,101-500
+563,jpm,jpm,Firefox,1268,3,True,True,0.20422226,>500
+564,cxt,cxt,Microsoft Edge,174,1,True,True,0.4476812,101-500
+565,wuy,wuy,Google Chrome,383,0,True,True,0.91593075,101-500
+566,cqp,cqp,Firefox,98,2,True,True,0.71604526,21-100
+567,bos,bos,Firefox,1404,2,True,True,0.3456728,>500
+568,hzx,hzx,Microsoft Edge,52,1,True,True,0.5321731,21-100
+569,nuh,nuh,Firefox,218,3,True,True,0.76765245,101-500
+570,slq,slq,Google Chrome,49,3,True,True,0.6952396,21-100
+571,lnq,lnq,Firefox,456,1,True,True,0.624328,101-500
+572,kks,kks,Firefox,1745,0,True,True,0.68848246,>500
+573,cpn,cpn,Firefox,144,2,True,True,0.20529315,101-500
+574,vlm,vlm,Google Chrome,525,3,True,True,0.8296851,>500
+575,pou,pou,Firefox,121,0,True,True,0.036017865,101-500
+576,cje,cje,Google Chrome,147,1,True,True,0.45113555,101-500
+577,lfq,lfq,Firefox,245,0,True,True,0.12688068,101-500
+578,ycb,ycb,Google Chrome,211,0,True,True,0.13962258,101-500
+579,uey,uey,Google Chrome,2872,1,True,True,0.802526,>500
+580,slq,slq,Google Chrome,309,1,True,True,0.78271425,101-500
+581,eqo,eqo,Google Chrome,1626,1,True,True,0.52295685,>500
+582,wcf,wcf,Firefox,115,0,True,True,0.48017308,101-500
+583,cbo,cbo,Google Chrome,208,1,True,True,0.8302713,101-500
+584,avt,avt,Firefox,1523,2,True,True,0.83013093,>500
+585,ofq,ofq,Firefox,136,3,True,True,0.8213085,101-500
+586,skm,skm,Google Chrome,108,2,True,True,0.9479447,101-500
+587,wem,wem,Google Chrome,627,2,True,True,0.16996276,>500
+588,ptb,ptb,Firefox,2253,0,True,True,0.87059,>500
+589,wjn,wjn,Microsoft Edge,217,3,True,True,0.946861,101-500
+590,wfs,wfs,Google Chrome,740,0,True,True,0.79960656,>500
+591,cqp,cqp,Firefox,227,3,True,True,0.37434375,101-500
+592,fvc,fvc,Google Chrome,240,0,True,True,0.84073037,101-500
+593,dfo,dfo,Firefox,1097,3,True,True,0.7710598,>500
+594,usg,usg,Firefox,785,1,True,True,0.5566248,>500
+595,snv,snv,Firefox,118,1,True,True,0.4903779,101-500
+596,eus,eus,Microsoft Edge,492,1,True,True,0.7930547,101-500
+597,slq,slq,Google Chrome,234,3,True,True,0.90777284,101-500
+598,zqs,zqs,Microsoft Edge,1716,2,True,True,0.8785579,>500
+599,oec,oec,Firefox,468,2,True,True,0.49794197,101-500
+600,lnq,lnq,Firefox,587,3,True,True,0.5403087,>500
+601,kzt,kzt,Firefox,189,0,True,True,0.35827547,101-500
+602,slq,slq,Google Chrome,294,0,True,True,0.3106409,101-500
+603,czi,czi,Firefox,417,1,True,True,0.47539824,101-500
+604,slq,slq,Google Chrome,102,1,True,True,0.82921046,101-500
+605,fvc,fvc,Google Chrome,1883,3,True,True,0.5208287,>500
+606,qof,qof,Google Chrome,542,0,True,True,0.81364214,>500
+607,yrb,yrb,Microsoft Edge,2932,2,True,True,0.7221428,>500
+608,ubr,ubr,Google Chrome,307,0,True,True,0.36874944,101-500
+609,fvc,fvc,Google Chrome,400,2,True,True,0.84644496,101-500
+610,avt,avt,Firefox,2275,0,True,True,0.80366886,>500
+611,cjr,cjr,Google Chrome,453,1,True,True,0.6824587,101-500
+612,jmq,jmq,Google Chrome,782,2,True,True,0.44482136,>500
+613,gzi,gzi,Firefox,2531,2,True,True,0.503987,>500
+614,zct,zct,Google Chrome,3172,2,True,True,0.8525527,>500
+615,iba,iba,Google Chrome,993,1,True,True,0.7159533,>500
+616,oec,oec,Firefox,113,1,True,True,0.013312526,101-500
+617,jpm,jpm,Firefox,129,1,True,True,0.049804404,101-500
+618,fjb,fjb,Microsoft Edge,2575,3,True,True,0.93012965,>500
+619,ald,fuy,Google Chrome,65,0,False,False,0.038605623,21-100
+620,oph,oph,Microsoft Edge,377,0,True,True,0.71759146,101-500
+621,zct,zct,Google Chrome,265,3,True,True,0.8154067,101-500
+622,cpn,cpn,Firefox,214,2,True,True,0.26991272,101-500
+623,zyk,zyk,Google Chrome,79,0,True,True,0.4145167,21-100
+624,xgb,xgb,Firefox,1247,1,True,True,0.43028128,>500
+625,prb,prb,Firefox,839,3,True,True,0.87965566,>500
+626,opp,opp,Firefox,688,1,True,True,0.479714,>500
+627,xby,xby,Firefox,994,1,True,True,0.43359485,>500
+628,fvc,fvc,Google Chrome,237,0,True,True,0.75860155,101-500
+629,kbf,kbf,Firefox,4027,2,True,True,0.5985239,>500
+630,rvh,rvh,Google Chrome,252,3,True,True,0.7807707,101-500
+631,cec,cec,Firefox,1287,1,True,True,0.73098433,>500
+632,fgc,fgc,Firefox,293,3,True,True,0.35984108,101-500
+633,tft,tft,Firefox,513,2,True,True,0.8703952,>500
+634,skm,skm,Google Chrome,1479,0,True,True,0.8854044,>500
+635,dbi,dbi,Microsoft Edge,443,2,True,True,0.7074247,101-500
+636,vjw,vjw,Google Chrome,267,0,True,True,0.83433175,101-500
+637,slq,slq,Google Chrome,350,1,True,True,0.9366057,101-500
+638,fwh,fwh,Google Chrome,592,1,True,True,0.8562077,>500
+639,vsb,vsb,Firefox,1445,0,True,True,0.37338227,>500
+640,cyd,cyd,Microsoft Edge,489,3,True,True,0.96890515,101-500
+641,ald,ald,Google Chrome,101,1,True,True,0.016626768,101-500
+642,wwk,wwk,Google Chrome,153,1,True,True,0.67774713,101-500
+643,vyu,vyu,Firefox,604,2,True,True,0.7666439,>500
+644,xkr,xkr,Google Chrome,134,3,True,True,0.004960522,101-500
+645,fal,fal,Firefox,217,0,True,True,0.1548245,101-500
+646,jpm,jpm,Firefox,163,1,True,True,0.3851433,101-500
+647,fvc,fvc,Google Chrome,431,0,True,True,0.78424037,101-500
+648,ajo,ajo,Firefox,770,1,True,True,0.67218643,>500
+649,meh,meh,Firefox,386,3,True,True,0.7258292,101-500
+650,pre,pre,Google Chrome,267,2,True,True,0.84855855,101-500
+651,shh,shh,Firefox,340,1,True,True,0.9235626,101-500
+652,tmn,tmn,Firefox,219,1,True,True,0.020559236,101-500
+653,flj,flj,Google Chrome,501,3,True,True,0.8531401,>500
+654,byo,byo,Firefox,804,1,True,True,0.3592135,>500
+655,ofq,ofq,Firefox,177,2,True,True,0.80799854,101-500
+656,wuy,wuy,Google Chrome,435,1,True,True,0.7618361,101-500
+657,fou,fou,Google Chrome,319,0,True,True,0.7392278,101-500
+658,ald,ald,Google Chrome,1851,0,True,True,0.6552945,>500
+659,kbf,kbf,Firefox,370,3,True,True,0.711825,101-500
+660,tsn,tsn,Firefox,335,3,True,True,0.84322864,101-500
+661,swe,swe,Opera,848,0,True,True,1.0,>500
+662,iib,iib,Firefox,855,2,True,True,0.8136059,>500
+663,nzq,nzq,Firefox,203,1,True,True,0.9082469,101-500
+664,gcr,gcr,Microsoft Edge,62,2,True,True,0.73317,21-100
+665,azx,cjr,Google Chrome,76,1,False,False,0.029404152,21-100
+666,cje,cje,Google Chrome,99,3,True,True,0.5387028,21-100
+667,sps,sps,Microsoft Edge,270,3,True,True,0.03659287,101-500
+668,sgd,sgd,Firefox,652,3,True,True,0.28123254,>500
+669,flj,flj,Google Chrome,148,3,True,True,0.8907196,101-500
+670,xgb,xgb,Firefox,223,1,True,True,0.052424565,101-500
+671,xvr,xvr,Firefox,1250,0,True,True,0.8374416,>500
+672,tfi,tfi,Firefox,714,3,True,True,0.814996,>500
+673,szr,szr,Firefox,188,2,True,True,0.50880504,101-500
+674,muz,muz,Google Chrome,823,2,True,True,0.74168134,>500
+675,bgn,bgn,Firefox,890,3,True,True,0.6922409,>500
+676,fou,fou,Google Chrome,289,3,True,True,0.77834934,101-500
+677,zbn,zbn,Firefox,89,3,True,True,0.002898205,21-100
+678,akx,akx,Google Chrome,761,0,True,True,0.5931679,>500
+679,jpm,jpm,Firefox,97,3,True,True,0.7277488,21-100
+680,hrj,hrj,Google Chrome,124,0,True,True,0.12026916,101-500
+681,qqe,qqe,Google Chrome,1999,1,True,True,0.8628214,>500
+682,jqq,jqq,Google Chrome,1552,1,True,True,0.7755317,>500
+683,vyu,vyu,Firefox,258,1,True,True,0.2138353,101-500
+684,lfq,lfq,Firefox,1229,2,True,True,0.8057372,>500
+685,nzq,nzq,Firefox,233,1,True,True,0.4028758,101-500
+686,fvc,fvc,Google Chrome,2984,1,True,True,0.89882094,>500
+687,nyk,nyk,Firefox,1062,2,True,True,0.12751384,>500
+688,snn,snn,Microsoft Edge,443,0,True,True,0.55235934,101-500
+689,prb,prb,Firefox,1132,3,True,True,0.8378501,>500
+690,hzx,hzx,Microsoft Edge,134,3,True,True,0.47946265,101-500
+691,cum,cum,Microsoft Edge,2088,2,True,True,0.8333352,>500
+692,fcq,fcq,Google Chrome,2327,0,True,True,0.90494746,>500
+693,lra,lra,Microsoft Edge,501,3,True,True,0.029305473,>500
+694,nqg,nqg,Microsoft Edge,197,3,True,True,0.89953554,101-500
+695,flj,flj,Google Chrome,3025,2,True,True,0.24569044,>500
+696,vyu,vyu,Firefox,126,0,True,True,0.12964751,101-500
+697,hzx,hzx,Microsoft Edge,177,2,True,True,0.77005905,101-500
+698,guh,guh,Google Chrome,237,1,True,True,0.4209898,101-500
+699,qsw,qsw,Google Chrome,77,3,True,True,0.5708964,21-100
+700,zrx,zrx,Microsoft Edge,461,0,True,True,0.43879795,101-500
+701,cyd,cyd,Microsoft Edge,62,1,True,True,0.8939372,21-100
+702,eqw,eqw,Firefox,1072,0,True,True,0.1020091,>500
+703,cpn,cpn,Firefox,97,0,True,True,0.5885116,21-100
+704,pyb,pyb,Firefox,595,2,True,True,0.4246745,>500
+705,sgd,sgd,Firefox,2271,0,True,True,0.52645713,>500
+706,cjr,cjr,Google Chrome,318,2,True,True,0.6232854,101-500
+707,iib,iib,Firefox,2405,0,True,True,0.85913956,>500
+708,btl,btl,Google Chrome,252,3,True,True,0.30413175,101-500
+709,oec,oec,Firefox,1294,3,True,True,0.7580079,>500
+710,kzt,kzt,Firefox,242,0,True,True,0.47122872,101-500
+711,wwk,wwk,Google Chrome,309,2,True,True,0.9151056,101-500
+712,ycb,ycb,Google Chrome,606,2,True,True,0.8391954,>500
+713,mmm,mmm,Firefox,1367,1,True,True,0.74029833,>500
+714,vog,vog,Firefox,2795,2,True,True,0.0971989,>500
+715,skm,skm,Google Chrome,58,0,True,True,0.84665877,21-100
+716,fvc,fvc,Google Chrome,163,3,True,True,0.7223585,101-500
+717,slq,slq,Google Chrome,140,3,True,True,0.75224775,101-500
+718,cvw,cvw,Firefox,213,1,True,True,0.77774435,101-500
+719,meh,meh,Firefox,92,1,True,True,0.23137382,21-100
+720,skm,skm,Google Chrome,136,0,True,True,0.8663286,101-500
+721,meh,meh,Firefox,1044,3,True,True,0.65028554,>500
+722,ien,ien,Microsoft Edge,609,0,True,True,0.634347,>500
+723,muz,muz,Google Chrome,113,0,True,True,0.21813872,101-500
+724,slq,slq,Google Chrome,573,3,True,True,0.84074587,>500
+725,snn,snn,Microsoft Edge,105,2,True,True,0.903122,101-500
+726,jmq,jmq,Google Chrome,66,1,True,True,0.7572416,21-100
+727,uwr,uwr,Firefox,553,0,True,True,0.66660935,>500
+728,uwp,uwp,Firefox,52,3,True,True,0.15191567,21-100
+729,lgz,lgz,Firefox,354,1,True,True,0.8652841,101-500
+730,ptb,ptb,Firefox,905,0,True,True,0.78949237,>500
+731,zyk,zyk,Google Chrome,886,0,True,True,0.71331954,>500
+732,nlm,nlm,Firefox,583,1,True,True,0.69163054,>500
+733,mgs,mgs,Firefox,47,2,True,True,0.2948315,21-100
+734,pgu,pgu,Firefox,213,0,True,True,0.47533405,101-500
+735,shh,shh,Firefox,147,2,True,True,0.71319044,101-500
+736,iba,iba,Google Chrome,221,2,True,True,0.49993405,101-500
+737,qdv,qdv,Google Chrome,95,2,True,True,0.17810388,21-100
+738,lgd,lgd,Firefox,175,0,True,True,0.67295325,101-500
+739,pcv,pcv,Google Chrome,1739,0,True,True,0.794037,>500
+740,slq,slq,Google Chrome,504,2,True,True,0.92866635,>500
+741,meh,meh,Firefox,1604,1,True,True,0.8319639,>500
+742,tjc,tjc,Google Chrome,78,3,True,True,0.045562446,21-100
+743,bfg,bfg,Firefox,990,0,True,True,0.77817166,>500
+744,oqa,xkr,Google Chrome,93,1,False,False,0.039107665,21-100
+745,oec,oec,Firefox,2637,3,True,True,0.7112802,>500
+746,pqd,pqd,Firefox,108,3,True,True,0.31382632,101-500
+747,oph,oph,Microsoft Edge,1188,2,True,True,0.6122393,>500
+748,lgd,lgd,Firefox,246,2,True,True,0.6973047,101-500
+749,gvp,gvp,Google Chrome,269,2,True,True,0.10274661,101-500
+750,syt,syt,Firefox,737,2,True,True,0.7714475,>500
+751,slq,slq,Google Chrome,71,1,True,True,0.7332845,21-100
+752,fuz,fuz,Firefox,166,2,True,True,0.6164384,101-500
+753,czi,czi,Firefox,130,0,True,True,0.62535745,101-500
+754,yuz,yuz,Firefox,144,0,True,True,0.91032225,101-500
+755,ycb,ycb,Google Chrome,46,3,True,True,0.762774,21-100
+756,qfy,qfy,Microsoft Edge,145,1,True,True,0.621118,101-500
+757,jqq,jqq,Google Chrome,522,3,True,True,0.6347529,>500
+758,zrx,cxt,Microsoft Edge,74,3,False,False,0.033433087,21-100
+759,vog,vog,Firefox,203,1,True,True,0.20000266,101-500
+760,sdx,sdx,Google Chrome,1987,0,True,True,0.8458525,>500
+761,iib,iib,Firefox,259,1,True,True,0.6344723,101-500
+762,iib,iib,Firefox,1137,1,True,True,0.8101795,>500
+763,zht,zht,Firefox,862,0,True,True,0.78673464,>500
+764,rgo,rgo,Microsoft Edge,730,1,True,True,0.9099807,>500
+765,vog,vog,Firefox,1182,2,True,True,0.13545021,>500
+766,yuz,yuz,Firefox,514,2,True,True,0.7434926,>500
+767,prb,prb,Firefox,124,1,True,True,0.57393056,101-500
+768,jew,kks,Firefox,172,0,False,False,0.073083,101-500
+769,sdx,sdx,Google Chrome,2759,2,True,True,0.84830415,>500
+770,cjr,cjr,Google Chrome,234,2,True,True,0.028489798,101-500
+771,nyk,nyk,Firefox,166,0,True,True,0.11825757,101-500
+772,nuh,nuh,Firefox,605,0,True,True,0.42789608,>500
+773,meh,meh,Firefox,752,0,True,True,0.46654922,>500
+774,hjs,hjs,Microsoft Edge,345,2,True,True,0.9426567,101-500
+775,esu,esu,Firefox,752,3,True,True,0.6128297,>500
+776,esu,esu,Firefox,290,1,True,True,0.6533859,101-500
+777,oqa,oqa,Google Chrome,202,1,True,True,0.033136263,101-500
+778,wjn,wjn,Microsoft Edge,903,1,True,True,0.9486429,>500
+779,sps,sps,Microsoft Edge,315,2,True,True,0.80709285,101-500
+780,slq,slq,Google Chrome,516,1,True,True,0.8862607,>500
+781,rgo,rgo,Microsoft Edge,744,2,True,True,0.94441766,>500
+782,vfo,vfo,Google Chrome,279,3,True,True,0.72086614,101-500
+783,cyd,cyd,Microsoft Edge,734,1,True,True,0.9062673,>500
+784,fou,fou,Google Chrome,185,2,True,True,0.76242733,101-500
+785,flj,flj,Google Chrome,84,2,True,True,0.8363443,21-100
+786,qkd,qkd,Microsoft Edge,197,3,True,True,0.6343695,101-500
+787,skm,slq,Google Chrome,40,0,False,False,0.028171882,21-100
+788,fgc,fgc,Firefox,365,3,True,True,0.14712816,101-500
+789,ats,ats,Firefox,867,2,True,True,0.86150616,>500
+790,xgv,xgv,Firefox,357,3,True,True,0.62694883,101-500
+791,fwf,fwf,Firefox,207,0,True,True,0.89065784,101-500
+792,yxw,yxw,Firefox,188,0,True,True,0.69781554,101-500
+793,ngs,ngs,Google Chrome,87,2,True,True,0.10368156,21-100
+794,pgu,pgu,Firefox,157,1,True,True,0.18023926,101-500
+795,esu,lgd,Firefox,101,2,False,False,0.087747395,101-500
+796,jfm,jfm,Google Chrome,362,1,True,True,0.7742666,101-500
+797,fgc,fgc,Firefox,704,2,True,True,0.53008604,>500
+798,zok,zok,Microsoft Edge,690,1,True,True,0.17421561,>500
+799,lgz,lgz,Firefox,792,1,True,True,0.7839672,>500
+800,skm,skm,Google Chrome,72,2,True,True,0.6498684,21-100
+801,cpn,cpn,Firefox,87,3,True,True,0.26573315,21-100
+802,tjc,tjc,Google Chrome,214,2,True,True,0.81705636,101-500
+803,wvy,wvy,Firefox,2630,3,True,True,0.7602904,>500
+804,vos,vos,Firefox,267,1,True,True,0.614642,101-500
+805,txk,txk,Firefox,2075,0,True,True,0.7571906,>500
+806,shh,shh,Firefox,121,2,True,True,0.9105839,101-500
+807,zro,zro,Firefox,104,0,True,True,0.18722527,101-500
+808,sii,sii,Firefox,1918,2,True,True,0.90298873,>500
+809,wwk,wwk,Google Chrome,157,0,True,True,0.90372455,101-500
+810,jmq,jmq,Google Chrome,132,2,True,True,0.89593154,101-500
+811,dfo,dfo,Firefox,915,0,True,True,0.6269033,>500
+812,pgm,pgm,Firefox,332,2,True,True,0.69176066,101-500
+813,hdz,hdz,Firefox,979,2,True,True,0.47138894,>500
+814,qsw,qsw,Google Chrome,280,0,True,True,0.8609771,101-500
+815,wjn,wjn,Microsoft Edge,119,1,True,True,0.74336845,101-500
+816,cje,cje,Google Chrome,208,2,True,True,0.7672092,101-500
+817,cyd,cyd,Microsoft Edge,975,1,True,True,0.9574992,>500
+818,ckl,ckl,Microsoft Edge,9204,0,True,True,0.7983251,>500
+819,fal,fal,Firefox,265,3,True,True,0.45687774,101-500
+820,cvw,cvw,Firefox,199,0,True,True,0.6227424,101-500
+821,slq,slq,Google Chrome,606,3,True,True,0.8384343,>500
+822,fuz,fuz,Firefox,1457,3,True,True,0.79880166,>500
+823,jkc,jkc,Firefox,1255,1,True,True,0.40066397,>500
+824,slq,slq,Google Chrome,40,2,True,True,0.84751874,21-100
+825,myl,myl,Google Chrome,110,1,True,True,0.30236375,101-500
+826,slq,slq,Google Chrome,274,3,True,True,0.78583443,101-500
+827,lhr,lhr,Firefox,100,1,True,True,0.41869497,21-100
+828,vyu,vyu,Firefox,152,3,True,True,0.036805965,101-500
+829,vfo,vfo,Google Chrome,319,3,True,True,0.8262848,101-500
+830,zqs,zqs,Microsoft Edge,68,1,True,True,0.33604452,21-100
+831,jqq,jqq,Google Chrome,302,2,True,True,0.4394544,101-500
+832,skm,skm,Google Chrome,314,2,True,True,0.9788466,101-500
+833,nqg,nqg,Microsoft Edge,260,3,True,True,0.7767181,101-500
+834,jqq,jqq,Google Chrome,710,2,True,True,0.6755628,>500
+835,jkc,jkc,Firefox,1213,0,True,True,0.6022521,>500
+836,hzx,hzx,Microsoft Edge,54,3,True,True,0.89232576,21-100
+837,lhd,lhd,Firefox,306,2,True,True,0.15127185,101-500
+838,btl,btl,Google Chrome,612,2,True,True,0.8683663,>500
+839,fwf,fwf,Firefox,41,0,True,True,0.55021214,21-100
+840,pre,pre,Google Chrome,748,0,True,True,0.7666621,>500
+841,pyb,pyb,Firefox,236,0,True,True,0.23264888,101-500
+842,oni,oni,Firefox,188,0,True,True,0.3867997,101-500
+843,hjs,hjs,Microsoft Edge,248,3,True,True,0.93241143,101-500
+844,lgz,lgz,Firefox,105,3,True,True,0.62689537,101-500
+845,vfo,vfo,Google Chrome,2407,0,True,True,0.94474393,>500
+846,myl,flj,Google Chrome,102,2,False,True,0.0013415813,101-500
+847,vlm,vlm,Google Chrome,240,3,True,True,0.6234645,101-500
+848,nwt,nwt,Google Chrome,2148,0,True,True,0.9148091,>500
+849,gor,gor,Firefox,701,1,True,True,0.30835938,>500
+850,eus,eus,Microsoft Edge,356,2,True,True,0.90771013,101-500
+851,jxu,jxu,Firefox,125,2,True,True,0.74330914,101-500
+852,fwf,fwf,Firefox,84,1,True,True,0.7722081,21-100
+853,jfm,jfm,Google Chrome,293,3,True,True,0.7482467,101-500
+854,jrc,jrc,Firefox,436,2,True,True,0.61628574,101-500
+855,pqd,pqd,Firefox,180,2,True,True,0.63559663,101-500
+856,ftq,ftq,Firefox,159,3,True,True,0.49554402,101-500
+857,ptb,ptb,Firefox,431,2,True,True,0.6817635,101-500
+858,obm,kzt,Firefox,599,0,False,False,0.01824911,>500
+859,fcq,fcq,Google Chrome,247,2,True,True,0.68295217,101-500
+860,cpn,cpn,Firefox,156,3,True,True,0.56360173,101-500
+861,skm,skm,Google Chrome,279,1,True,True,0.61173016,101-500
+862,vlm,vlm,Google Chrome,219,3,True,True,0.6076174,101-500
+863,nzq,nzq,Firefox,1337,2,True,True,0.8741985,>500
+864,ufc,ufc,Google Chrome,916,3,True,True,0.5154447,>500
+865,swe,swe,Opera,515,1,True,True,1.0,>500
+866,cyd,cyd,Microsoft Edge,140,2,True,True,0.6746689,101-500
+867,uey,uey,Google Chrome,1149,2,True,True,0.6613043,>500
+868,aho,aho,Google Chrome,403,2,True,True,0.32044247,101-500
+869,xgv,xgv,Firefox,275,0,True,True,0.5136347,101-500
+870,kks,kks,Firefox,179,1,True,True,0.027918182,101-500
+871,nsf,nsf,Google Chrome,270,3,True,True,0.31566107,101-500
+872,nzq,nzq,Firefox,319,1,True,True,0.6417903,101-500
+873,yuz,yuz,Firefox,476,1,True,True,0.90210265,101-500
+874,yrb,wjn,Microsoft Edge,83,3,False,False,0.06381169,21-100
+875,ckl,ckl,Microsoft Edge,3904,3,True,True,0.90457666,>500
+876,ajo,ajo,Firefox,2438,3,True,True,0.7284177,>500
+877,bgn,bgn,Firefox,2016,1,True,True,0.9264287,>500
+878,yxw,yxw,Firefox,432,2,True,True,0.502636,101-500
+879,jmq,jmq,Google Chrome,284,3,True,True,0.5262188,101-500
+880,cnh,cnh,Firefox,136,0,True,True,0.71963644,101-500
+881,wem,wem,Google Chrome,649,3,True,True,0.66583925,>500
+882,bgn,bgn,Firefox,102,0,True,True,0.23785588,101-500
+883,khv,khv,Firefox,592,0,True,True,0.7027637,>500
+884,ngs,ngs,Google Chrome,165,0,True,True,0.61108863,101-500
+885,kwi,kwi,Firefox,629,0,True,True,0.6519497,>500
+886,vfo,vfo,Google Chrome,625,3,True,True,0.9329486,>500
+887,nkb,nkb,Google Chrome,3058,1,True,True,0.6815565,>500
+888,nrb,nrb,Firefox,72,1,True,True,0.22743055,21-100
+889,hzx,hzx,Microsoft Edge,319,2,True,True,0.8981762,101-500
+890,vlm,vlm,Google Chrome,756,1,True,True,0.9156228,>500
+891,jpm,jpm,Firefox,78,1,True,True,0.37502125,21-100
+892,oph,oph,Microsoft Edge,1308,3,True,True,0.773357,>500
+893,gid,gid,Google Chrome,647,3,True,True,0.7529662,>500
+894,nwt,nwt,Google Chrome,1310,3,True,True,0.8466728,>500
+895,nyk,nyk,Firefox,369,2,True,True,0.39978936,101-500
+896,jmq,jmq,Google Chrome,757,0,True,True,0.52376384,>500
+897,jfm,jfm,Google Chrome,98,3,True,True,0.48070183,21-100
+898,dit,dit,Firefox,64,1,True,True,0.3639286,21-100
+899,sps,sps,Microsoft Edge,217,3,True,True,0.56733596,101-500
+900,rgo,rgo,Microsoft Edge,185,2,True,True,0.6882776,101-500
+901,tyw,tyw,Microsoft Edge,651,3,True,True,0.6736378,>500
+902,wuy,wuy,Google Chrome,674,0,True,True,0.8454956,>500
+903,tsn,tsn,Firefox,582,3,True,True,0.77197343,>500
+904,hjs,hjs,Microsoft Edge,142,0,True,True,0.9465667,101-500
+905,lhr,lhr,Firefox,1047,0,True,True,0.54426324,>500
+906,mvu,mvu,Google Chrome,139,3,True,True,0.4988604,101-500
+907,fgc,fgc,Firefox,447,2,True,True,0.6715185,101-500
+908,ncb,ncb,Google Chrome,164,1,True,True,0.6944748,101-500
+909,xgv,xgv,Firefox,477,0,True,True,0.75145453,101-500
+910,xgb,kks,Firefox,147,0,False,False,0.0016062595,101-500
+911,mmm,mmm,Firefox,392,0,True,True,0.28024808,101-500
+912,fou,fou,Google Chrome,75,2,True,True,0.5525824,21-100
+913,fgc,fgc,Firefox,1424,2,True,True,0.73557746,>500
+914,rvh,rvh,Google Chrome,287,1,True,True,0.73064584,101-500
+915,oec,oec,Firefox,85,3,True,True,0.82634133,21-100
+916,slq,slq,Google Chrome,432,2,True,True,0.7759974,101-500
+917,vmy,vmy,Google Chrome,409,3,True,True,0.63198215,101-500
+918,pre,pre,Google Chrome,411,0,True,True,0.77378243,101-500
+919,mgs,mgs,Firefox,185,0,True,True,0.72170234,101-500
+920,slq,slq,Google Chrome,238,0,True,True,0.86566794,101-500
+921,aho,aho,Google Chrome,79,1,True,True,0.13625339,21-100
+922,bgn,bgn,Firefox,675,3,True,True,0.20666231,>500
+923,zyk,zyk,Google Chrome,388,1,True,True,0.72025394,101-500
+924,udj,udj,Microsoft Edge,190,0,True,True,0.41179448,101-500
+925,yvq,muz,Google Chrome,130,2,False,False,0.040790692,101-500
+926,nwt,nwt,Google Chrome,1316,2,True,True,0.90462255,>500
+927,sov,sov,Google Chrome,639,2,True,True,0.7485058,>500
+928,fal,fal,Firefox,134,2,True,True,0.40150574,101-500
+929,gvp,gvp,Google Chrome,261,1,True,True,0.24591796,101-500
+930,fvc,fvc,Google Chrome,110,3,True,True,0.24165629,101-500
+931,nuh,nuh,Firefox,90,0,True,True,0.5600226,21-100
+932,xgv,xgv,Firefox,418,1,True,True,0.7949562,101-500
+933,ftq,ftq,Firefox,40,0,True,True,0.372564,21-100
+934,tvt,tvt,Firefox,159,3,True,True,0.3076303,101-500
+935,lgz,lgz,Firefox,2213,2,True,True,0.7828758,>500
+936,swe,swe,Opera,198,3,True,True,1.0,101-500
+937,txk,txk,Firefox,2257,1,True,True,0.8850497,>500
+938,sii,sii,Firefox,458,3,True,True,0.85197365,101-500
+939,cyi,cyi,Google Chrome,1671,0,True,True,0.6636902,>500
+940,flj,flj,Google Chrome,382,1,True,True,0.32125807,101-500
+941,akx,akx,Google Chrome,1078,2,True,True,0.20889589,>500
+942,kik,kik,Google Chrome,1407,1,True,True,0.88675004,>500
+943,hjs,hjs,Microsoft Edge,82,3,True,True,0.89825237,21-100
+944,ald,ald,Google Chrome,497,3,True,True,0.3852769,101-500
+945,tzn,tzn,Google Chrome,243,3,True,True,0.5378402,101-500
+946,qqe,qqe,Google Chrome,273,0,True,True,0.3241407,101-500
+947,ptb,ptb,Firefox,1142,3,True,True,0.85617846,>500
+948,oec,oec,Firefox,527,1,True,True,0.7001435,>500
+949,nkb,nkb,Google Chrome,96,2,True,True,0.26399648,21-100
+950,nzq,nzq,Firefox,1392,0,True,True,0.77623034,>500
+951,pyb,pyb,Firefox,76,3,True,True,0.01946275,21-100
+952,bos,bos,Firefox,485,3,True,True,0.70745397,101-500
+953,ncb,ncb,Google Chrome,570,2,True,True,0.86221915,>500
+954,pgi,pgi,Google Chrome,385,0,True,True,0.82127553,101-500
+955,pqd,pqd,Firefox,80,2,True,True,0.310238,21-100
+956,ncb,ncb,Google Chrome,121,3,True,True,0.87414354,101-500
+957,cjr,cjr,Google Chrome,299,3,True,True,0.77632457,101-500
+958,khv,khv,Firefox,2339,3,True,True,0.48362672,>500
+959,oqa,oqa,Google Chrome,1262,3,True,True,0.67468995,>500
+960,xby,xby,Firefox,1871,2,True,True,0.46932864,>500
+961,ats,ats,Firefox,1329,1,True,True,0.7746108,>500
+962,ajo,ajo,Firefox,1295,3,True,True,0.7906916,>500
+963,wfs,wfs,Google Chrome,101,0,True,True,0.403593,101-500
+964,udj,udj,Microsoft Edge,178,3,True,True,0.13827524,101-500
+965,fwf,fwf,Firefox,184,3,True,True,0.6940825,101-500
+966,czi,czi,Firefox,1799,1,True,True,0.72597283,>500
+967,tfi,tfi,Firefox,1705,1,True,True,0.8426671,>500
+968,jmq,jmq,Google Chrome,97,0,True,True,0.6382764,21-100
+969,cec,cec,Firefox,122,0,True,True,0.033871397,101-500
+970,mgs,mgs,Firefox,2131,1,True,True,0.6368736,>500
+971,pgu,pgu,Firefox,305,0,True,True,0.24170384,101-500
+972,tvt,tvt,Firefox,4371,0,True,True,0.7192851,>500
+973,sov,sov,Google Chrome,262,3,True,True,0.61843735,101-500
+974,pgi,pgi,Google Chrome,988,1,True,True,0.2353422,>500
+975,xvr,xvr,Firefox,464,3,True,True,0.6972777,101-500
+976,bou,bou,Google Chrome,300,3,True,True,0.44538137,101-500
+977,qsw,qsw,Google Chrome,139,0,True,True,0.6878684,101-500
+978,hjs,hjs,Microsoft Edge,390,0,True,True,0.940348,101-500
+979,fwf,fwf,Firefox,235,3,True,True,0.87246984,101-500
+980,cxu,cxu,Google Chrome,89,3,True,True,0.494902,21-100
+981,jat,jat,Microsoft Edge,67,1,True,True,0.030226365,21-100
+982,qdv,qdv,Google Chrome,67,2,True,True,0.12799421,21-100
+983,flj,flj,Google Chrome,92,1,True,True,0.14548153,21-100
+984,lhr,lhr,Firefox,674,1,True,True,0.7169685,>500
+985,uwr,uwr,Firefox,1743,3,True,True,0.42594,>500
+986,tft,tft,Firefox,191,3,True,True,0.65992457,101-500
+987,kwi,kwi,Firefox,367,3,True,True,0.6660674,101-500
+988,zyk,zyk,Google Chrome,163,2,True,True,0.84531265,101-500
+989,hll,guh,Google Chrome,196,3,False,False,0.051918816,101-500
+990,prb,prb,Firefox,207,0,True,True,0.80430084,101-500
+991,wwk,wwk,Google Chrome,416,1,True,True,0.7433311,101-500
+992,gcr,gcr,Microsoft Edge,389,0,True,True,0.83229566,101-500
+993,tsn,tsn,Firefox,83,1,True,True,0.47036853,21-100
+994,myl,myl,Google Chrome,308,3,True,True,0.49719352,101-500
+995,prb,prb,Firefox,990,2,True,True,0.94538116,>500
+996,iju,iju,Google Chrome,690,3,True,True,0.8548917,>500
+997,zqs,zqs,Microsoft Edge,94,1,True,True,0.22121347,21-100
+998,opp,opp,Firefox,1509,3,True,True,0.87192523,>500
+999,shh,shh,Firefox,254,0,True,True,0.7137521,101-500
+1000,ajo,ajo,Firefox,1446,2,True,True,0.73680305,>500
+1001,zus,zus,Firefox,328,1,True,True,0.42694396,101-500
+1002,tza,tza,Firefox,424,2,True,True,0.6229994,101-500
+1003,rgo,rgo,Microsoft Edge,208,3,True,True,0.89992857,101-500
+1004,ajo,ajo,Firefox,1749,1,True,True,0.7935459,>500
+1005,vek,vek,Firefox,335,1,True,True,0.34322855,101-500
+1006,slq,slq,Google Chrome,80,1,True,True,0.87898386,21-100
+1007,ngs,ngs,Google Chrome,645,0,True,True,0.6677455,>500
+1008,oec,oec,Firefox,1025,0,True,True,0.7240302,>500
+1009,pgm,pgm,Firefox,332,2,True,True,0.8573562,101-500
+1010,gor,gor,Firefox,1921,0,True,True,0.27786326,>500
+1011,ftq,ftq,Firefox,106,2,True,True,0.4874866,101-500
+1012,cjr,cjr,Google Chrome,1242,2,True,True,0.85155725,>500
+1013,skm,skm,Google Chrome,370,1,True,True,0.9078426,101-500
+1014,fgn,fgn,Microsoft Edge,739,2,True,True,0.5850493,>500
+1015,zyk,zyk,Google Chrome,199,1,True,True,0.8836467,101-500
+1016,xgb,xgb,Firefox,504,2,True,True,0.37651542,>500
+1017,ptb,ptb,Firefox,110,2,True,True,0.12569933,101-500
+1018,dfo,dfo,Firefox,1019,0,True,True,0.7851297,>500
+1019,flj,flj,Google Chrome,78,3,True,True,0.79987115,21-100
+1020,vfo,vfo,Google Chrome,1465,3,True,True,0.94948196,>500
+1021,pgm,pgm,Firefox,747,3,True,True,0.79832226,>500
+1022,vsb,vsb,Firefox,942,1,True,True,0.3655541,>500
+1023,zct,zct,Google Chrome,9370,1,True,True,0.92260504,>500
+1024,kzt,kzt,Firefox,72,1,True,True,0.8627091,21-100
+1025,jkc,jkc,Firefox,1562,3,True,True,0.8948888,>500
+1026,cka,cka,Firefox,8306,2,True,True,0.14994963,>500
+1027,ckl,ckl,Microsoft Edge,2232,1,True,True,0.7923122,>500
+1028,pgu,pgu,Firefox,201,1,True,True,0.119311005,101-500
+1029,vfo,vfo,Google Chrome,92,3,True,True,0.35232362,21-100
+1030,udj,udj,Microsoft Edge,243,1,True,True,0.9074098,101-500
+1031,lhd,lhd,Firefox,819,0,True,True,0.4316409,>500
+1032,sov,sov,Google Chrome,650,2,True,True,0.5929251,>500
+1033,fmz,fmz,Google Chrome,827,2,True,True,0.5928109,>500
+1034,yvq,yvq,Google Chrome,2847,0,True,True,0.72562075,>500
+1035,hrj,hrj,Google Chrome,319,1,True,True,0.58071786,101-500
+1036,ebm,ebm,Google Chrome,109,3,True,True,0.035458058,101-500
+1037,cil,cil,Google Chrome,1576,3,True,True,0.43469015,>500
+1038,fwf,fwf,Firefox,320,3,True,True,0.6921923,101-500
+1039,hvh,hvh,Google Chrome,479,0,True,True,0.21932578,101-500
+1040,tdk,tdk,Firefox,97,3,True,True,0.19523454,21-100
+1041,hjs,hjs,Microsoft Edge,651,3,True,True,0.8440124,>500
+1042,zrx,zrx,Microsoft Edge,219,2,True,True,0.47418353,101-500
+1043,shh,shh,Firefox,79,2,True,True,0.9118774,21-100
+1044,muz,muz,Google Chrome,98,3,True,True,0.83479655,21-100
+1045,cjr,cjr,Google Chrome,630,0,True,True,0.72299427,>500
+1046,gtj,gtj,Google Chrome,2173,0,True,True,0.7998452,>500
+1047,tza,tza,Firefox,940,0,True,True,0.70256525,>500
+1048,tzn,tzn,Google Chrome,264,2,True,True,0.66968215,101-500
+1049,pgm,pgm,Firefox,69,2,True,True,0.6175216,21-100
+1050,xgv,xgv,Firefox,126,2,True,True,0.18852845,101-500
+1051,azx,azx,Google Chrome,435,0,True,False,0.00026781112,101-500
+1052,mvu,mvu,Google Chrome,267,1,True,True,0.54364276,101-500
+1053,qfy,qfy,Microsoft Edge,645,0,True,True,0.4399999,>500
+1054,iba,iba,Google Chrome,3646,3,True,True,0.8249078,>500
+1055,opp,opp,Firefox,767,1,True,True,0.67182654,>500
+1056,vfo,vfo,Google Chrome,437,1,True,True,0.8746819,101-500
+1057,jxu,jxu,Firefox,251,2,True,True,0.7320681,101-500
+1058,lhr,lhr,Firefox,1127,2,True,True,0.28916162,>500
+1059,qof,qof,Google Chrome,565,0,True,True,0.7331378,>500
+1060,meh,meh,Firefox,2853,3,True,True,0.8504689,>500
+1061,sbz,sbz,Google Chrome,812,3,True,True,0.42895058,>500
+1062,lgd,lgd,Firefox,103,0,True,True,0.1616182,101-500
+1063,gvp,gvp,Google Chrome,186,3,True,True,0.39471322,101-500
+1064,cjr,cjr,Google Chrome,237,2,True,True,0.3607712,101-500
+1065,tft,tft,Firefox,2551,0,True,True,0.75835663,>500
+1066,vfo,vfo,Google Chrome,2564,0,True,True,0.93198717,>500
+1067,bgn,bgn,Firefox,854,2,True,True,0.6403544,>500
+1068,lio,lio,Firefox,385,1,True,True,0.25622866,101-500
+1069,gcr,gcr,Microsoft Edge,575,1,True,True,0.9136237,>500
+1070,qsw,qsw,Google Chrome,268,2,True,True,0.8790506,101-500
+1071,slq,slq,Google Chrome,146,2,True,True,0.94140637,101-500
+1072,zrx,zrx,Microsoft Edge,428,1,True,True,0.70771116,101-500
+1073,fjb,fjb,Microsoft Edge,3090,3,True,True,0.9527738,>500
+1074,avt,avt,Firefox,1298,3,True,True,0.86931354,>500
+1075,uey,uey,Google Chrome,120,2,True,True,0.62087184,101-500
+1076,nqg,nqg,Microsoft Edge,360,3,True,True,0.9498055,101-500
+1077,nwt,nwt,Google Chrome,2499,1,True,True,0.799497,>500
+1078,fwf,fwf,Firefox,426,3,True,True,0.883276,101-500
+1079,snn,snn,Microsoft Edge,434,0,True,True,0.5247783,101-500
+1080,bgn,bgn,Firefox,733,0,True,True,0.5566079,>500
+1081,dbi,dbi,Microsoft Edge,240,2,True,True,0.6546496,101-500
+1082,nsf,nsf,Google Chrome,87,2,True,True,0.20835567,21-100
+1083,lgz,lgz,Firefox,458,0,True,True,0.5281551,101-500
+1084,muz,skm,Google Chrome,182,1,False,False,0.030440986,101-500
+1085,fwh,fwh,Google Chrome,101,3,True,True,0.49738392,101-500
+1086,sii,sii,Firefox,130,3,True,True,0.0410589,101-500
+1087,zht,zht,Firefox,613,2,True,True,0.74537843,>500
+1088,fwh,fwh,Google Chrome,1096,0,True,True,0.914473,>500
+1089,gcr,gcr,Microsoft Edge,101,3,True,True,0.71047205,101-500
+1090,lra,lra,Microsoft Edge,2016,1,True,True,0.3217736,>500
+1091,cvw,cvw,Firefox,145,1,True,True,0.581395,101-500
+1092,flj,flj,Google Chrome,163,1,True,True,0.9098686,101-500
+1093,lgd,lgd,Firefox,451,2,True,True,0.7403419,101-500
+1094,nwt,nwt,Google Chrome,1459,2,True,True,0.9164488,>500
+1095,lnq,lnq,Firefox,315,0,True,True,0.31030616,101-500
+1096,oec,oec,Firefox,319,0,True,True,0.4919107,101-500
+1097,lgd,lgd,Firefox,227,0,True,True,0.4840408,101-500
+1098,gvp,gvp,Google Chrome,73,2,True,True,0.10184118,21-100
+1099,hxt,hxt,Google Chrome,64,2,True,True,0.25662783,21-100
+1100,tvt,tvt,Firefox,87,0,True,True,0.55511445,21-100
+1101,nqg,nqg,Microsoft Edge,383,3,True,True,0.97850716,101-500
+1102,cut,cut,Firefox,309,2,True,True,0.7983678,101-500
+1103,ngs,ngs,Google Chrome,554,2,True,True,0.59574944,>500
+1104,fmz,fmz,Google Chrome,166,0,True,True,0.63832134,101-500
+1105,bou,bou,Google Chrome,2164,2,True,True,0.75453866,>500
+1106,syt,syt,Firefox,1347,3,True,True,0.74892306,>500
+1107,fek,fek,Firefox,128,1,True,True,0.032291614,101-500
+1108,cyi,cyi,Google Chrome,296,2,True,True,0.5638956,101-500
+1109,qkd,qkd,Microsoft Edge,932,0,True,True,0.6513793,>500
+1110,gtj,gtj,Google Chrome,97,2,True,True,0.40599403,21-100
+1111,tsn,tsn,Firefox,914,1,True,True,0.77996063,>500
+1112,fwf,fwf,Firefox,198,1,True,True,0.8754407,101-500
+1113,shh,shh,Firefox,468,1,True,True,0.89552563,101-500
+1114,sii,sii,Firefox,243,2,True,True,0.4855378,101-500
+1115,azx,azx,Google Chrome,341,0,True,True,0.35201097,101-500
+1116,pgu,pgu,Firefox,264,3,True,True,0.7073782,101-500
+1117,sps,sps,Microsoft Edge,608,3,True,True,0.7608563,>500
+1118,pre,pre,Google Chrome,303,3,True,True,0.23410511,101-500
+1119,qof,qof,Google Chrome,2216,1,True,True,0.892327,>500
+1120,myl,myl,Google Chrome,91,2,True,True,0.35027546,21-100
+1121,tzn,tzn,Google Chrome,856,2,True,True,0.7987505,>500
+1122,usg,usg,Firefox,1035,2,True,True,0.63133925,>500
+1123,fwf,fwf,Firefox,55,0,True,True,0.46467668,21-100
+1124,bgn,bgn,Firefox,1205,0,True,True,0.51529354,>500
+1125,meh,meh,Firefox,1834,0,True,True,0.8078088,>500
+1126,zct,zct,Google Chrome,224,0,True,True,0.023384769,101-500
+1127,cil,cil,Google Chrome,405,2,True,True,0.5206653,101-500
+1128,pgu,pgu,Firefox,640,3,True,True,0.3942902,>500
+1129,jpm,jpm,Firefox,102,0,True,True,0.5495004,101-500
+1130,vfo,vfo,Google Chrome,560,0,True,True,0.8546223,>500
+1131,muz,muz,Google Chrome,84,1,True,True,0.8150155,21-100
+1132,fwh,fwh,Google Chrome,1994,2,True,True,0.8515885,>500
+1133,deb,deb,Firefox,977,1,True,True,0.44918978,>500
+1134,gtj,gtj,Google Chrome,558,1,True,True,0.6725019,>500
+1135,usy,usy,Firefox,181,1,True,True,0.029084925,101-500
+1136,fyf,fyf,Firefox,247,1,True,True,0.23569459,101-500
+1137,fwf,fwf,Firefox,44,2,True,True,0.18414079,21-100
+1138,cut,cut,Firefox,1893,3,True,True,0.864892,>500
+1139,ngs,ngs,Google Chrome,1952,0,True,True,0.6472586,>500
+1140,iib,iib,Firefox,244,3,True,True,0.31684154,101-500
+1141,xvr,xvr,Firefox,576,1,True,True,0.23090266,>500
+1142,bgn,bgn,Firefox,477,3,True,True,0.25452957,101-500
+1143,cxt,cxt,Microsoft Edge,517,0,True,True,0.9343785,>500
+1144,psg,psg,Google Chrome,74,2,True,True,0.74310285,21-100
+1145,czi,czi,Firefox,656,1,True,True,0.5862386,>500
+1146,bfg,bfg,Firefox,597,2,True,True,0.65920305,>500
+1147,pxi,pxi,Firefox,1379,3,True,True,0.7443938,>500
+1148,cyd,cyd,Microsoft Edge,455,2,True,True,0.5426124,101-500
+1149,xgv,xgv,Firefox,174,0,True,True,0.66258025,101-500
+1150,skm,skm,Google Chrome,115,3,True,True,0.9342239,101-500
+1151,pgi,pgi,Google Chrome,246,3,True,True,0.8728592,101-500
+1152,ofq,ofq,Firefox,601,1,True,True,0.7993281,>500
+1153,meh,meh,Firefox,2004,3,True,True,0.90018487,>500
+1154,fal,fal,Firefox,401,3,True,True,0.5649656,101-500
+1155,lio,lio,Firefox,304,0,True,True,0.2973481,101-500
+1156,szr,szr,Firefox,348,3,True,True,0.22014458,101-500
+1157,lra,lra,Microsoft Edge,762,0,True,True,0.18349288,>500
+1158,esu,esu,Firefox,660,3,True,True,0.77203983,>500
+1159,fwf,fwf,Firefox,140,3,True,True,0.73395884,101-500
+1160,bgn,bgn,Firefox,487,3,True,True,0.7482382,101-500
+1161,fvc,fvc,Google Chrome,842,3,True,True,0.8040578,>500
+1162,qbf,qbf,Google Chrome,1156,1,True,True,0.85199296,>500
+1163,ftq,ftq,Firefox,106,1,True,True,0.14384787,101-500
+1164,zro,zro,Firefox,130,2,True,True,0.42625847,101-500
+1165,nwt,nwt,Google Chrome,1518,3,True,True,0.8918157,>500
+1166,nzq,nzq,Firefox,216,2,True,True,0.6091793,101-500
+1167,udj,qkd,Microsoft Edge,98,3,False,False,0.103131406,21-100
+1168,sps,sps,Microsoft Edge,83,2,True,True,0.307272,21-100
+1169,nqg,nqg,Microsoft Edge,314,0,True,True,0.9135237,101-500
+1170,hjs,hjs,Microsoft Edge,362,1,True,True,0.96595883,101-500
+1171,skm,skm,Google Chrome,329,3,True,True,0.8779086,101-500
+1172,npo,npo,Firefox,348,3,True,True,0.2759403,101-500
+1173,usy,usy,Firefox,575,2,True,True,0.26903245,>500
+1174,hrj,hrj,Google Chrome,440,2,True,True,0.76669997,101-500
+1175,cyd,cyd,Microsoft Edge,493,2,True,True,0.6663533,101-500
+1176,cjr,cjr,Google Chrome,298,3,True,True,0.82670474,101-500
+1177,fmz,fmz,Google Chrome,214,2,True,True,0.4700454,101-500
+1178,lhd,lhd,Firefox,1207,3,True,True,0.42953765,>500
+1179,nqg,nqg,Microsoft Edge,415,0,True,True,0.4466617,101-500
+1180,wjn,wjn,Microsoft Edge,928,1,True,True,0.896629,>500
+1181,fwf,fwf,Firefox,317,2,True,True,0.9076267,101-500
+1182,qof,qof,Google Chrome,1639,2,True,True,0.91027516,>500
+1183,fgc,fgc,Firefox,507,1,True,True,0.5793666,>500
+1184,ulu,ulu,Microsoft Edge,269,3,True,True,0.80035144,101-500
+1185,vfo,vfo,Google Chrome,1645,1,True,True,0.61071914,>500
+1186,nlm,nlm,Firefox,196,2,True,True,0.7327174,101-500
+1187,wxf,wxf,Firefox,147,1,True,True,0.49036223,101-500
+1188,zus,zus,Firefox,6078,1,True,True,0.85788894,>500
+1189,qsw,qsw,Google Chrome,872,0,True,True,0.8258899,>500
+1190,ftq,ftq,Firefox,79,3,True,True,0.15124221,21-100
+1191,tsn,tsn,Firefox,86,0,True,True,0.31658116,21-100
+1192,fkf,fkf,Firefox,2386,2,True,True,0.5372889,>500
+1193,pgu,pgu,Firefox,714,0,True,True,0.26958764,>500
+1194,slq,slq,Google Chrome,54,0,True,True,0.8193053,21-100
+1195,pgi,pgi,Google Chrome,797,1,True,True,0.80489504,>500
+1196,syt,syt,Firefox,565,1,True,True,0.4942243,>500
+1197,pyb,pyb,Firefox,386,3,True,True,0.27050945,101-500
+1198,cxt,cxt,Microsoft Edge,121,1,True,True,0.54318637,101-500
+1199,bfg,bfg,Firefox,197,2,True,True,0.6717165,101-500
+1200,tdk,tdk,Firefox,67,1,True,True,0.34940618,21-100
+1201,uey,uey,Google Chrome,79,0,True,True,0.24178097,21-100
+1202,vzc,vzc,Google Chrome,1583,3,True,True,0.83841974,>500
+1203,nzq,nzq,Firefox,363,3,True,True,0.76322657,101-500
+1204,eus,eus,Microsoft Edge,561,0,True,True,0.83347505,>500
+1205,wem,wem,Google Chrome,717,1,True,True,0.7968808,>500
+1206,ftq,ftq,Firefox,584,1,True,True,0.9659836,>500
+1207,tzn,tzn,Google Chrome,261,0,True,True,0.4770584,101-500
+1208,vek,vek,Firefox,669,0,True,True,0.42946583,>500
+1209,pgm,pgm,Firefox,818,1,True,True,0.9245884,>500
+1210,tft,tft,Firefox,2981,1,True,True,0.81640136,>500
+1211,qsw,qsw,Google Chrome,99,0,True,True,0.60492617,21-100
+1212,hjs,hjs,Microsoft Edge,147,1,True,True,0.9293158,101-500
+1213,vlm,vlm,Google Chrome,94,1,True,True,0.0050063804,21-100
+1214,wcf,wcf,Firefox,117,2,True,True,0.76765215,101-500
+1215,prb,prb,Firefox,146,3,True,True,0.7310052,101-500
+1216,bfg,bfg,Firefox,969,1,True,True,0.74434155,>500
+1217,akx,akx,Google Chrome,130,3,True,True,0.004535485,101-500
+1218,vjw,vjw,Google Chrome,679,2,True,True,0.8328345,>500
+1219,oec,oec,Firefox,152,0,True,True,0.035703763,101-500
+1220,fvc,fvc,Google Chrome,126,1,True,True,0.28221142,101-500
+1221,fgc,fgc,Firefox,1009,0,True,True,0.34832203,>500
+1222,kbf,kbf,Firefox,187,0,True,True,0.17642859,101-500
+1223,sii,sii,Firefox,204,1,True,True,0.6350711,101-500
+1224,sqb,sqb,Google Chrome,218,0,True,True,0.27433965,101-500
+1225,wfs,wfs,Google Chrome,86,3,True,True,0.5148515,21-100
+1226,fal,fal,Firefox,155,0,True,True,0.3718307,101-500
+1227,cnh,cnh,Firefox,165,3,True,True,0.36358985,101-500
+1228,aho,aho,Google Chrome,1890,1,True,True,0.29566115,>500
+1229,sdx,sdx,Google Chrome,2147,0,True,True,0.9363494,>500
+1230,ofq,ofq,Firefox,210,3,True,True,0.76609963,101-500
+1231,byo,byo,Firefox,71,3,True,True,0.058790587,21-100
+1232,eoe,eoe,Firefox,2266,1,True,True,0.6970749,>500
+1233,hrj,hrj,Google Chrome,525,3,True,True,0.6430622,>500
+1234,sii,sii,Firefox,603,0,True,True,0.7229439,>500
+1235,muz,muz,Google Chrome,169,2,True,True,0.919284,101-500
+1236,oni,oni,Firefox,448,2,True,True,0.5745577,101-500
+1237,zbn,zbn,Firefox,840,3,True,True,0.7396974,>500
+1238,xvr,xvr,Firefox,152,2,True,True,0.22617383,101-500
+1239,slq,slq,Google Chrome,56,2,True,True,0.7649969,21-100
+1240,wvy,wvy,Firefox,322,2,True,True,0.8325921,101-500
+1241,lio,lio,Firefox,831,0,True,True,0.7143881,>500
+1242,pcv,pcv,Google Chrome,49,1,True,True,0.49751055,21-100
+1243,azo,azo,Google Chrome,222,1,True,True,0.27109727,101-500
+1244,skm,skm,Google Chrome,184,2,True,True,0.87776995,101-500
+1245,nqg,nqg,Microsoft Edge,408,1,True,True,0.92348975,101-500
+1246,shh,shh,Firefox,249,2,True,True,0.8080205,101-500
+1247,flj,flj,Google Chrome,200,0,True,True,0.8378444,101-500
+1248,avt,avt,Firefox,289,2,True,True,0.5247151,101-500
+1249,gtj,gtj,Google Chrome,78,2,True,True,0.19165015,21-100
+1250,vlm,vlm,Google Chrome,435,3,True,True,0.73650193,101-500
+1251,hjs,hjs,Microsoft Edge,137,2,True,True,0.78448516,101-500
+1252,fvc,fou,Google Chrome,0,2,False,False,0.14123358,0
+1253,fwf,fwf,Firefox,171,0,True,True,0.8975189,101-500
+1254,hzx,hzx,Microsoft Edge,161,2,True,True,0.8636134,101-500
+1255,xvr,xvr,Firefox,195,2,True,True,0.18396477,101-500
+1256,hew,hew,Firefox,431,1,True,True,0.7653271,101-500
+1257,gor,gor,Firefox,2082,0,True,True,0.7157496,>500
+1258,ptb,ptb,Firefox,2416,1,True,True,0.7482175,>500
+1259,jmq,jmq,Google Chrome,272,1,True,True,0.32732967,101-500
+1260,cjr,cjr,Google Chrome,144,0,True,True,0.47007993,101-500
+1261,usg,usg,Firefox,275,0,True,True,0.56256896,101-500
+1262,dbi,dbi,Microsoft Edge,692,0,True,True,0.8153001,>500
+1263,lio,lio,Firefox,573,1,True,True,0.7917783,>500
+1264,kks,kks,Firefox,150,0,True,True,0.6196302,101-500
+1265,hjs,hjs,Microsoft Edge,119,0,True,True,0.9424003,101-500
+1266,bgn,bgn,Firefox,4078,3,True,True,0.9274427,>500
+1267,fou,fou,Google Chrome,51,1,True,True,0.8090868,21-100
+1268,bgn,bgn,Firefox,205,1,True,True,0.25177425,101-500
+1269,cvw,cvw,Firefox,459,3,True,True,0.4615301,101-500
+1270,vsb,vsb,Firefox,1424,0,True,True,0.4854428,>500
+1271,sdx,sdx,Google Chrome,3081,1,True,True,0.8399168,>500
+1272,vek,vek,Firefox,74,1,True,True,0.17025684,21-100
+1273,ngs,ngs,Google Chrome,140,3,True,True,0.04347928,101-500
+1274,gid,gid,Google Chrome,524,0,True,True,0.80432963,>500
+1275,nyk,nyk,Firefox,71,3,True,True,0.10507466,21-100
+1276,tzn,tzn,Google Chrome,1737,0,True,True,0.80861473,>500
+1277,uwr,uwr,Firefox,702,0,True,True,0.44803327,>500
+1278,zro,zro,Firefox,183,2,True,True,0.093162045,101-500
+1279,sbz,sbz,Google Chrome,1685,2,True,True,0.5734605,>500
+1280,jpm,jpm,Firefox,599,3,True,True,0.47942,>500
+1281,szr,szr,Firefox,210,1,True,True,0.66659975,101-500
+1282,wht,wht,Google Chrome,712,1,True,True,0.944167,>500
+1283,tfi,tfi,Firefox,500,0,True,True,0.8577948,101-500
+1284,kbf,kbf,Firefox,2171,1,True,True,0.509221,>500
+1285,hxt,hxt,Google Chrome,143,0,True,True,0.131351,101-500
+1286,blf,blf,Firefox,7393,0,True,True,0.8113247,>500
+1287,syt,syt,Firefox,437,3,True,True,0.36155,101-500
+1288,hzx,hzx,Microsoft Edge,135,0,True,True,0.9508708,101-500
+1289,gvp,gvp,Google Chrome,216,1,True,True,0.19307715,101-500
+1290,nrb,nrb,Firefox,380,2,True,True,0.7609809,101-500
+1291,rgo,rgo,Microsoft Edge,578,3,True,True,0.875905,>500
+1292,zqs,zqs,Microsoft Edge,211,2,True,True,0.6210766,101-500
+1293,eqo,eqo,Google Chrome,1933,2,True,True,0.56671876,>500
+1294,qqe,qqe,Google Chrome,668,3,True,True,0.5050731,>500
+1295,kks,kks,Firefox,322,1,True,True,0.50945354,101-500
+1296,skm,skm,Google Chrome,98,1,True,True,0.30166677,21-100
+1297,sps,sps,Microsoft Edge,274,0,True,True,0.6876937,101-500
+1298,fvc,fvc,Google Chrome,2891,0,True,True,0.9053159,>500
+1299,nzq,nzq,Firefox,692,3,True,True,0.7697685,>500
+1300,skm,skm,Google Chrome,292,2,True,True,0.90686196,101-500
+1301,sfi,sfi,Google Chrome,464,1,True,True,0.9420163,101-500
+1302,mvu,mvu,Google Chrome,117,2,True,True,0.54548675,101-500
+1303,vjw,vjw,Google Chrome,144,0,True,True,0.74096066,101-500
+1304,rgo,rgo,Microsoft Edge,1370,3,True,True,0.9197939,>500
+1305,pgm,pgm,Firefox,85,3,True,True,0.7922816,21-100
+1306,guh,guh,Google Chrome,122,2,True,True,0.009384867,101-500
+1307,vzc,vzc,Google Chrome,1523,3,True,True,0.8889398,>500
+1308,dfo,dfo,Firefox,1215,2,True,True,0.78590304,>500
+1309,hjs,hjs,Microsoft Edge,151,1,True,True,0.6004847,101-500
+1310,deb,deb,Firefox,130,0,True,True,0.46817642,101-500
+1311,wem,wem,Google Chrome,101,2,True,True,0.37327912,101-500
+1312,fkf,fkf,Firefox,302,0,True,True,0.44592825,101-500
+1313,fxg,fxg,Firefox,3226,0,True,True,0.48952183,>500
+1314,zct,zct,Google Chrome,7628,3,True,True,0.8930132,>500
+1315,gtj,gtj,Google Chrome,1957,1,True,True,0.8138547,>500
+1316,fwf,fwf,Firefox,48,2,True,True,0.5612789,21-100
+1317,cjr,cjr,Google Chrome,275,1,True,True,0.9174666,101-500
+1318,jxu,jxu,Firefox,251,0,True,True,0.58571696,101-500
+1319,skm,skm,Google Chrome,170,3,True,True,0.8217018,101-500
+1320,syt,syt,Firefox,2395,0,True,True,0.49096116,>500
+1321,tza,tza,Firefox,1042,0,True,True,0.6556272,>500
+1322,wuy,wuy,Google Chrome,346,1,True,True,0.73933256,101-500
+1323,jfm,jfm,Google Chrome,266,3,True,True,0.64203596,101-500
+1324,sqb,sqb,Google Chrome,888,2,True,True,0.5181333,>500
+1325,kzt,kzt,Firefox,146,2,True,True,0.5761797,101-500
+1326,lhr,lhr,Firefox,435,2,True,True,0.27881953,101-500
+1327,prb,prb,Firefox,73,2,True,True,0.79214495,21-100
+1328,ats,ats,Firefox,460,0,True,True,0.3739577,101-500
+1329,kzt,kzt,Firefox,438,3,True,True,0.7459063,101-500
+1330,bou,bou,Google Chrome,8280,0,True,True,0.6405279,>500
+1331,sov,sov,Google Chrome,623,1,True,True,0.44310737,>500
+1332,kks,kks,Firefox,99,3,True,True,0.49405345,21-100
+1333,cjr,cjr,Google Chrome,185,3,True,True,0.10936723,101-500
+1334,jks,jks,Microsoft Edge,138,0,True,True,0.78291315,101-500
+1335,uwr,uwr,Firefox,512,0,True,True,0.29547915,>500
+1336,ncb,ncb,Google Chrome,866,1,True,True,0.9447925,>500
+1337,jmq,jmq,Google Chrome,81,3,True,True,0.79422194,21-100
+1338,sdx,sdx,Google Chrome,3164,2,True,True,0.83198196,>500
+1339,lnq,lnq,Firefox,264,2,True,True,0.46079803,101-500
+1340,vlm,vlm,Google Chrome,180,2,True,True,0.66142946,101-500
+1341,lra,zok,Microsoft Edge,277,2,False,False,0.34385204,101-500
+1342,pgm,pgm,Firefox,556,1,True,True,0.8253691,>500
+1343,iju,iju,Google Chrome,1451,3,True,True,0.7235602,>500
+1344,jkc,jkc,Firefox,565,3,True,True,0.3979005,>500
+1345,jpm,jpm,Firefox,69,0,True,True,0.52450675,21-100
+1346,ulu,ulu,Microsoft Edge,199,1,True,True,0.45625302,101-500
+1347,skm,skm,Google Chrome,43,3,True,True,0.46805838,21-100
+1348,sgd,sgd,Firefox,88,1,True,True,0.12881474,21-100
+1349,mvu,mvu,Google Chrome,528,0,True,True,0.7034329,>500
+1350,kks,kks,Firefox,49,2,True,True,0.6870999,21-100
+1351,shh,shh,Firefox,596,0,True,True,0.8466256,>500
+1352,opp,opp,Firefox,222,1,True,True,0.13193876,101-500
+1353,ngs,ngs,Google Chrome,308,2,True,True,0.4223628,101-500
+1354,vsb,vsb,Firefox,232,3,True,True,0.36406165,101-500
+1355,flj,flj,Google Chrome,2509,1,True,True,0.2613109,>500
+1356,swe,swe,Opera,342,2,True,True,1.0,101-500
+1357,swe,swe,Opera,233,1,True,True,1.0,101-500
+1358,shh,shh,Firefox,73,2,True,True,0.8418594,21-100
+1359,cyi,cyi,Google Chrome,334,1,True,True,0.67935693,101-500
+1360,fuz,fuz,Firefox,85,0,True,True,0.30580842,21-100
+1361,eqo,eqo,Google Chrome,113,0,True,True,0.037559114,101-500
+1362,cyd,cyd,Microsoft Edge,167,3,True,True,0.7371508,101-500
+1363,cjr,cjr,Google Chrome,846,0,True,True,0.8491988,>500
+1364,xby,xby,Firefox,1305,0,True,True,0.3547987,>500
+1365,szr,szr,Firefox,83,3,True,True,0.6755363,21-100
+1366,qof,qof,Google Chrome,778,2,True,True,0.2917123,>500
+1367,slq,slq,Google Chrome,42,3,True,True,0.9365306,21-100
+1368,ien,ien,Microsoft Edge,140,1,True,True,0.4934196,101-500
+1369,tsn,tsn,Firefox,417,3,True,True,0.33062693,101-500
+1370,bez,bez,Microsoft Edge,206,1,True,True,0.8337933,101-500
+1371,lgz,lgz,Firefox,94,0,True,True,0.8489887,21-100
+1372,nqg,nqg,Microsoft Edge,71,1,True,True,0.24966966,21-100
+1373,ngs,ngs,Google Chrome,2548,0,True,True,0.7073568,>500
+1374,sps,sps,Microsoft Edge,104,1,True,True,0.33756495,101-500
+1375,sqb,sqb,Google Chrome,931,0,True,True,0.60767394,>500
+1376,hfy,hfy,Google Chrome,972,2,True,True,0.4160203,>500
+1377,muz,muz,Google Chrome,106,1,True,True,0.8499834,101-500
+1378,urs,urs,Google Chrome,39,1,True,True,0.5543493,21-100
+1379,muz,muz,Google Chrome,1917,2,True,True,0.8545358,>500
+1380,slq,slq,Google Chrome,32,0,True,True,0.02749461,21-100
+1381,pre,pre,Google Chrome,407,2,True,True,0.8473251,101-500
+1382,tyw,tyw,Microsoft Edge,1509,0,True,True,0.89401364,>500
+1383,fuz,fuz,Firefox,324,0,True,True,0.544737,101-500
+1384,uwp,uwp,Firefox,246,1,True,True,0.5750912,101-500
+1385,hxt,hxt,Google Chrome,65,1,True,True,0.061999224,21-100
+1386,shh,shh,Firefox,313,0,True,True,0.91980034,101-500
+1387,mmm,mmm,Firefox,130,0,True,True,0.03822249,101-500
+1388,cyd,cyd,Microsoft Edge,1117,3,True,True,0.92626965,>500
+1389,nwt,nwt,Google Chrome,1771,0,True,True,0.93620765,>500
+1390,tvt,tvt,Firefox,254,1,True,True,0.5235436,101-500
+1391,slq,slq,Google Chrome,163,0,True,True,0.114581674,101-500
+1392,fcq,fcq,Google Chrome,2012,1,True,True,0.8597724,>500
+1393,dit,dit,Firefox,152,3,True,True,0.24436015,101-500
+1394,xkr,xkr,Google Chrome,545,0,True,True,0.55959225,>500
+1395,fuy,fuy,Google Chrome,84,2,True,True,0.1176576,21-100
+1396,jrc,jrc,Firefox,316,0,True,True,0.3060653,101-500
+1397,vmy,vmy,Google Chrome,718,2,True,True,0.7420544,>500
+1398,bgn,bgn,Firefox,535,0,True,True,0.29498404,>500
+1399,ycb,ycb,Google Chrome,754,3,True,True,0.7476589,>500
+1400,uof,uof,Google Chrome,184,3,True,True,0.46735415,101-500
+1401,zyk,zyk,Google Chrome,57,3,True,True,0.07684585,21-100
+1402,tfi,tfi,Firefox,571,2,True,True,0.7274537,>500
+1403,fjb,fjb,Microsoft Edge,196,3,True,True,0.79985434,101-500
+1404,jqq,jqq,Google Chrome,2916,3,True,True,0.32569048,>500
+1405,meh,meh,Firefox,2952,1,True,True,0.8409149,>500
+1406,nlm,nlm,Firefox,122,0,True,True,0.55968267,101-500
+1407,nwt,nwt,Google Chrome,704,1,True,True,0.9134119,>500
+1408,uwp,uwp,Firefox,1275,1,True,True,0.7310096,>500
+1409,eoe,eoe,Firefox,520,0,True,True,0.5163991,>500
+1410,skm,skm,Google Chrome,118,2,True,True,0.6704445,101-500
+1411,nwt,nwt,Google Chrome,705,0,True,True,0.8727681,>500
+1412,gor,gor,Firefox,2341,1,True,True,0.8190264,>500
+1413,wht,wht,Google Chrome,530,1,True,True,0.8957643,>500
+1414,vfo,vfo,Google Chrome,266,2,True,True,0.8562524,101-500
+1415,fuy,fuy,Google Chrome,131,3,True,True,0.11340207,101-500
+1416,muz,muz,Google Chrome,85,0,True,True,0.75112116,21-100
+1417,hxt,cuw,Google Chrome,73,3,False,False,0.0050668158,21-100
+1418,slq,slq,Google Chrome,60,1,True,True,0.39553237,21-100
+1419,kwi,kwi,Firefox,573,3,True,True,0.7641542,>500
+1420,pgm,pgm,Firefox,1053,0,True,True,0.6447947,>500
+1421,vmy,vmy,Google Chrome,1442,0,True,True,0.76652694,>500
+1422,zqs,zqs,Microsoft Edge,1796,0,True,True,0.79042685,>500
+1423,zyk,zyk,Google Chrome,181,0,True,True,0.5732665,101-500
+1424,skm,skm,Google Chrome,117,0,True,True,0.76758224,101-500
+1425,tft,tft,Firefox,302,0,True,True,0.80393493,101-500
+1426,cqp,cqp,Firefox,1118,1,True,True,0.4725735,>500
+1427,kwi,kwi,Firefox,75,0,True,True,0.56484824,21-100
+1428,bfg,bfg,Firefox,572,2,True,True,0.64535165,>500
+1429,lgz,lgz,Firefox,119,1,True,True,0.5802176,101-500
+1430,iib,iib,Firefox,2137,0,True,True,0.84808195,>500
+1431,tvt,tvt,Firefox,603,0,True,True,0.8174158,>500
+1432,xvr,xvr,Firefox,1550,1,True,True,0.66845936,>500
+1433,slq,slq,Google Chrome,191,1,True,True,0.5793261,101-500
+1434,gzi,gzi,Firefox,1215,2,True,True,0.36035663,>500
+1435,crn,crn,Microsoft Edge,53,3,True,True,0.32455868,21-100
+1436,fuy,fuy,Google Chrome,377,1,True,True,0.6039246,101-500
+1437,snn,snn,Microsoft Edge,92,3,True,True,0.60379684,21-100
+1438,nqg,nqg,Microsoft Edge,915,3,True,True,0.94962394,>500
+1439,swe,swe,Opera,692,0,True,True,1.0,>500
+1440,flj,flj,Google Chrome,331,1,True,True,0.2308252,101-500
+1441,slq,slq,Google Chrome,89,0,True,True,0.64127386,21-100
+1442,pqd,pqd,Firefox,242,1,True,True,0.3629144,101-500
+1443,mgs,mgs,Firefox,115,3,True,True,0.075497426,101-500
+1444,wht,wht,Google Chrome,727,1,True,True,0.9030486,>500
+1445,xgv,xgv,Firefox,617,3,True,True,0.80007225,>500
+1446,fuy,fuy,Google Chrome,1018,2,True,True,0.35231268,>500
+1447,fvc,fvc,Google Chrome,238,1,True,True,0.34682593,101-500
+1448,cjr,cjr,Google Chrome,118,2,True,True,0.64283097,101-500
+1449,yxw,yxw,Firefox,90,3,True,True,0.18071929,21-100
+1450,lhd,lhd,Firefox,301,0,True,True,0.2625044,101-500
+1451,cnh,cnh,Firefox,950,2,True,True,0.70824677,>500
+1452,kks,kks,Firefox,2666,2,True,True,0.72142386,>500
+1453,wht,wht,Google Chrome,117,0,True,True,0.3551637,101-500
+1454,fyf,fyf,Firefox,429,0,True,True,0.42745215,101-500
+1455,tsn,tsn,Firefox,832,0,True,True,0.89030164,>500
+1456,snv,snv,Firefox,220,2,True,True,0.7151267,101-500
+1457,ftq,ftq,Firefox,130,2,True,True,0.8788838,101-500
+1458,usy,usy,Firefox,303,2,True,True,0.28747866,101-500
+1459,oni,oni,Firefox,417,0,True,True,0.70425564,101-500
+1460,khv,khv,Firefox,687,1,True,True,0.74472827,>500
+1461,aho,aho,Google Chrome,201,3,True,True,0.2988307,101-500
+1462,qkd,qkd,Microsoft Edge,234,3,True,True,0.6670663,101-500
+1463,avt,avt,Firefox,164,2,True,True,0.41065568,101-500
+1464,cje,cje,Google Chrome,285,1,True,True,0.5970136,101-500
+1465,ftq,ftq,Firefox,357,1,True,True,0.978619,101-500
+1466,cyd,cyd,Microsoft Edge,316,0,True,True,0.91553617,101-500
+1467,hvh,hvh,Google Chrome,211,0,True,True,0.5621312,101-500
+1468,zus,zus,Firefox,1535,0,True,True,0.8493543,>500
+1469,tyw,tyw,Microsoft Edge,345,1,True,True,0.92403096,101-500
+1470,ulu,ulu,Microsoft Edge,186,3,True,True,0.71726346,101-500
+1471,fuz,fuz,Firefox,581,1,True,True,0.77576023,>500
+1472,skm,skm,Google Chrome,416,3,True,True,0.7380244,101-500
+1473,pqd,pqd,Firefox,274,1,True,True,0.28333917,101-500
+1474,wwk,wwk,Google Chrome,125,1,True,True,0.8728224,101-500
+1475,vos,vos,Firefox,1187,3,True,True,0.3107741,>500
+1476,pre,pre,Google Chrome,550,1,True,True,0.43296546,>500
+1477,bfg,bfg,Firefox,84,0,True,True,0.37656644,21-100
+1478,mmm,mmm,Firefox,620,2,True,True,0.043248326,>500
+1479,xkr,xkr,Google Chrome,862,1,True,True,0.14359254,>500
+1480,uey,uey,Google Chrome,2885,1,True,True,0.90868497,>500
+1481,jxu,jxu,Firefox,123,2,True,True,0.7166469,101-500
+1482,wwk,wwk,Google Chrome,183,2,True,True,0.7818511,101-500
+1483,iyf,iyf,Google Chrome,1565,0,True,True,0.81313443,>500
+1484,jmq,jmq,Google Chrome,520,3,True,True,0.5548512,>500
+1485,zok,zok,Microsoft Edge,455,3,True,True,0.4233277,101-500
+1486,cjr,cjr,Google Chrome,511,1,True,True,0.5226175,>500
+1487,wem,wem,Google Chrome,210,3,True,True,0.781963,101-500
+1488,hrj,hrj,Google Chrome,187,0,True,True,0.56345516,101-500
+1489,hjs,hjs,Microsoft Edge,87,1,True,True,0.58217156,21-100
+1490,txk,txk,Firefox,1802,0,True,True,0.77522874,>500
+1491,kks,kks,Firefox,209,0,True,True,0.8688699,101-500
+1492,skm,slq,Google Chrome,50,0,False,False,0.3318238,21-100
+1493,gor,gor,Firefox,551,1,True,True,0.69834733,>500
+1494,ebm,ebm,Google Chrome,509,1,True,True,0.45970508,>500
+1495,zyk,zyk,Google Chrome,442,3,True,True,0.77439034,101-500
+1496,cec,cec,Firefox,110,1,True,True,0.16500579,101-500
+1497,cut,cut,Firefox,1036,0,True,True,0.8113156,>500
+1498,tsn,tsn,Firefox,1048,2,True,True,0.686943,>500
+1499,nfh,nfh,Google Chrome,1453,3,True,True,0.79307616,>500
+1500,guh,guh,Google Chrome,736,1,True,True,0.22354247,>500
+1501,hzx,hzx,Microsoft Edge,242,3,True,True,0.919399,101-500
+1502,ald,ald,Google Chrome,1837,2,True,True,0.605158,>500
+1503,vfo,vfo,Google Chrome,139,2,True,True,0.708916,101-500
+1504,fvc,fvc,Google Chrome,90,1,True,True,0.56304634,21-100
+1505,lgz,lgz,Firefox,197,1,True,True,0.45431525,101-500
+1506,czi,czi,Firefox,999,3,True,True,0.7731312,>500
+1507,xkr,xkr,Google Chrome,1850,0,True,True,0.47838998,>500
+1508,ien,ien,Microsoft Edge,127,3,True,True,0.37251732,101-500
+1509,mmm,mmm,Firefox,717,3,True,True,0.7280947,>500
+1510,dbi,dbi,Microsoft Edge,95,3,True,True,0.27182007,21-100
+1511,zok,zok,Microsoft Edge,233,0,True,True,0.32841766,101-500
+1512,gcr,gcr,Microsoft Edge,200,3,True,True,0.6734668,101-500
+1513,tft,tft,Firefox,244,1,True,True,0.7139886,101-500
+1514,hjs,hjs,Microsoft Edge,208,2,True,True,0.61604995,101-500
+1515,uey,uey,Google Chrome,1530,1,True,True,0.90686333,>500
+1516,nwt,nwt,Google Chrome,478,2,True,True,0.82821524,101-500
+1517,qbf,qbf,Google Chrome,418,3,True,True,0.523201,101-500
+1518,uey,uey,Google Chrome,298,3,True,True,0.7053775,101-500
+1519,iba,iba,Google Chrome,2012,0,True,True,0.81585175,>500
+1520,gid,gid,Google Chrome,290,2,True,True,0.81329983,101-500
+1521,yuz,yuz,Firefox,184,0,True,True,0.42640775,101-500
+1522,fyg,fyg,Microsoft Edge,133,0,True,True,0.64036334,101-500
+1523,kwi,kwi,Firefox,98,2,True,True,0.7977074,21-100
+1524,nfh,nfh,Google Chrome,3471,2,True,True,0.73151577,>500
+1525,tzn,tzn,Google Chrome,72,1,True,True,0.2948306,21-100
+1526,zht,zht,Firefox,453,0,True,True,0.87194383,101-500
+1527,hjs,hjs,Microsoft Edge,508,0,True,True,0.97187614,>500
+1528,lio,lio,Firefox,210,0,True,True,0.27710512,101-500
+1529,esu,esu,Firefox,153,0,True,True,0.24383177,101-500
+1530,oqa,oqa,Google Chrome,687,1,True,True,0.8136402,>500
+1531,jfm,jfm,Google Chrome,277,0,True,True,0.75522476,101-500
+1532,nwt,nwt,Google Chrome,1339,3,True,True,0.81533426,>500
+1533,fwf,fwf,Firefox,204,2,True,True,0.8319084,101-500
+1534,cec,cec,Firefox,3167,3,True,True,0.5877876,>500
+1535,btl,btl,Google Chrome,1055,0,True,True,0.87183464,>500
+1536,vjw,vjw,Google Chrome,1309,1,True,True,0.91056085,>500
+1537,bez,bez,Microsoft Edge,400,3,True,True,0.90047383,101-500
+1538,mqo,mqo,Microsoft Edge,413,1,True,True,0.6682869,101-500
+1539,nrb,nrb,Firefox,1655,3,True,True,0.4295854,>500
+1540,myl,myl,Google Chrome,153,0,True,True,0.4934258,101-500
+1541,rgo,rgo,Microsoft Edge,743,1,True,True,0.86121076,>500
+1542,fuz,fuz,Firefox,875,3,True,True,0.85282695,>500
+1543,tsn,tsn,Firefox,124,1,True,True,0.68109345,101-500
+1544,skm,skm,Google Chrome,59,0,True,True,0.76363814,21-100
+1545,jmq,jmq,Google Chrome,398,1,True,True,0.6535172,101-500
+1546,nzq,nzq,Firefox,319,0,True,True,0.87243646,101-500
+1547,vsb,vsb,Firefox,140,1,True,True,0.020335652,101-500
+1548,nyk,nyk,Firefox,404,1,True,True,0.45228672,101-500
+1549,qkd,qkd,Microsoft Edge,423,0,True,True,0.42252648,101-500
+1550,cil,cil,Google Chrome,208,3,True,True,0.48546505,101-500
+1551,snv,snv,Firefox,56,0,True,True,0.5672274,21-100
+1552,zyk,zyk,Google Chrome,789,2,True,True,0.8904542,>500
+1553,ulu,ulu,Microsoft Edge,106,1,True,True,0.5717606,101-500
+1554,ebm,ebm,Google Chrome,5280,0,True,True,0.6430061,>500
+1555,nqg,nqg,Microsoft Edge,95,0,True,True,0.60388136,21-100
+1556,dbi,dbi,Microsoft Edge,1093,3,True,True,0.8588286,>500
+1557,zus,zus,Firefox,287,0,True,True,0.5554078,101-500
+1558,pyb,pyb,Firefox,331,2,True,True,0.57277954,101-500
+1559,zus,zus,Firefox,2635,3,True,True,0.80403835,>500
+1560,ajo,ajo,Firefox,2307,3,True,True,0.8329777,>500
+1561,lio,lio,Firefox,239,0,True,True,0.6477578,101-500
+1562,akx,skm,Google Chrome,85,3,False,False,0.011790421,21-100
+1563,fwf,fwf,Firefox,240,2,True,True,0.8482128,101-500
+1564,vmy,vmy,Google Chrome,1424,1,True,True,0.608042,>500
+1565,xxb,xxb,Firefox,2066,0,True,True,0.6776996,>500
+1566,ofq,ofq,Firefox,181,1,True,True,0.7169186,101-500
+1567,nyk,pgu,Firefox,217,3,False,False,0.010350853,101-500
+1568,sii,sii,Firefox,123,3,True,True,0.60185003,101-500
+1569,txk,txk,Firefox,49,3,True,True,0.2121157,21-100
+1570,nfh,nfh,Google Chrome,5446,0,True,True,0.63113314,>500
+1571,jew,fgc,Firefox,115,2,False,False,0.06120329,101-500
+1572,azx,azx,Google Chrome,332,2,True,True,0.22711572,101-500
+1573,akx,akx,Google Chrome,548,3,True,True,0.45594287,>500
+1574,vek,vek,Firefox,161,0,True,True,0.017464079,101-500
+1575,flj,flj,Google Chrome,579,3,True,True,0.7885159,>500
+1576,mmm,byo,Firefox,262,3,False,False,0.042952396,101-500
+1577,qfy,qfy,Microsoft Edge,360,3,True,True,0.32922867,101-500
+1578,pgi,pgi,Google Chrome,508,2,True,True,0.6997294,>500
+1579,ald,ald,Google Chrome,1260,1,True,True,0.67202485,>500
+1580,tyw,tyw,Microsoft Edge,232,2,True,True,0.8196119,101-500
+1581,iib,iib,Firefox,1498,3,True,True,0.85292053,>500
+1582,shh,shh,Firefox,761,1,True,True,0.8873072,>500
+1583,gid,gid,Google Chrome,141,3,True,True,0.3121507,101-500
+1584,qqe,qqe,Google Chrome,1191,2,True,True,0.78383124,>500
+1585,guh,guh,Google Chrome,683,0,True,True,0.17512959,>500
+1586,snv,snv,Firefox,1791,0,True,True,0.53003335,>500
+1587,bfg,bfg,Firefox,206,2,True,True,0.797649,101-500
+1588,yuz,yuz,Firefox,75,1,True,True,0.56548256,21-100
+1589,pcv,pcv,Google Chrome,487,3,True,True,0.32015395,101-500
+1590,cil,cil,Google Chrome,252,1,True,True,0.5989121,101-500
+1591,tkz,tkz,Google Chrome,643,1,True,True,0.42655802,>500
+1592,zqs,zqs,Microsoft Edge,164,1,True,True,0.034774035,101-500
+1593,zus,zus,Firefox,2721,2,True,True,0.83971953,>500
+1594,snv,snv,Firefox,147,0,True,True,0.60300815,101-500
+1595,fwf,fwf,Firefox,98,1,True,True,0.68808854,21-100
+1596,fcq,fcq,Google Chrome,1881,0,True,True,0.8004405,>500
+1597,gzi,gzi,Firefox,237,3,True,True,0.6313249,101-500
+1598,vfo,vfo,Google Chrome,51,1,True,True,0.21123566,21-100
+1599,fuz,fuz,Firefox,643,0,True,True,0.82231164,>500
+1600,wem,wem,Google Chrome,469,2,True,True,0.63016796,101-500
+1601,slq,slq,Google Chrome,33,2,True,True,0.30737668,21-100
+1602,nqg,nqg,Microsoft Edge,152,1,True,True,0.94736993,101-500
+1603,sps,sps,Microsoft Edge,315,2,True,True,0.8428891,101-500
+1604,fek,fek,Firefox,231,1,True,True,0.40173137,101-500
+1605,cuw,cuw,Google Chrome,88,1,True,True,0.16280471,21-100
+1606,itt,itt,Google Chrome,5253,2,True,True,0.12871777,>500
+1607,jfm,jfm,Google Chrome,72,3,True,True,0.54535854,21-100
+1608,tyw,tyw,Microsoft Edge,1075,0,True,True,0.9488576,>500
+1609,tdk,tdk,Firefox,142,3,True,True,0.2136172,101-500
+1610,pre,pre,Google Chrome,241,3,True,True,0.43500704,101-500
+1611,lhd,lhd,Firefox,330,2,True,True,0.18997675,101-500
+1612,fwh,fwh,Google Chrome,1058,2,True,True,0.84563684,>500
+1613,xkr,xkr,Google Chrome,2080,3,True,True,0.6745557,>500
+1614,nwt,nwt,Google Chrome,200,1,True,True,0.80277985,101-500
+1615,kwi,kwi,Firefox,188,0,True,True,0.83918035,101-500
+1616,lgd,lgd,Firefox,168,2,True,True,0.6159267,101-500
+1617,cxt,cxt,Microsoft Edge,765,3,True,True,0.67466927,>500
+1618,cjr,cjr,Google Chrome,55,3,True,True,0.22060138,21-100
+1619,yvq,ebm,Google Chrome,100,1,False,False,0.026229843,21-100
+1620,gtj,gtj,Google Chrome,237,2,True,True,0.38948882,101-500
+1621,fjb,fjb,Microsoft Edge,544,0,True,True,0.84596896,>500
+1622,swe,swe,Opera,228,0,True,True,1.0,101-500
+1623,vlm,vlm,Google Chrome,267,3,True,True,0.63474107,101-500
+1624,tyw,tyw,Microsoft Edge,699,3,True,True,0.92351234,>500
+1625,uey,uey,Google Chrome,1910,3,True,True,0.8663294,>500
+1626,kik,kik,Google Chrome,1003,1,True,True,0.9289072,>500
+1627,deb,deb,Firefox,473,2,True,True,0.44702852,101-500
+1628,rmf,ykq,Microsoft Edge,64,2,False,False,0.02028995,21-100
+1629,syt,syt,Firefox,1666,1,True,True,0.7137681,>500
+1630,bou,bou,Google Chrome,4128,3,True,True,0.8485763,>500
+1631,gzi,gzi,Firefox,437,0,True,True,0.3079429,101-500
+1632,wfs,wfs,Google Chrome,533,2,True,True,0.6594477,>500
+1633,nzq,nzq,Firefox,158,0,True,True,0.67523676,101-500
+1634,pxi,pxi,Firefox,393,1,True,True,0.74488235,101-500
+1635,azo,azo,Google Chrome,2746,0,True,True,0.5236717,>500
+1636,vzc,vzc,Google Chrome,216,1,True,True,0.8050947,101-500
+1637,jrc,jrc,Firefox,551,3,True,True,0.26292378,>500
+1638,blf,blf,Firefox,371,3,True,True,0.47124192,101-500
+1639,skm,skm,Google Chrome,86,2,True,True,0.45105523,21-100
+1640,vek,vek,Firefox,183,0,True,True,0.6602069,101-500
+1641,kks,kks,Firefox,79,1,True,True,0.7435405,21-100
+1642,txk,txk,Firefox,2831,0,True,True,0.8726962,>500
+1643,rvh,rvh,Google Chrome,1189,3,True,True,0.85560536,>500
+1644,hjs,hjs,Microsoft Edge,858,3,True,True,0.95042294,>500
+1645,esu,esu,Firefox,7796,1,True,True,0.31058615,>500
+1646,fyg,fyg,Microsoft Edge,974,1,True,True,0.7103873,>500
+1647,qof,qof,Google Chrome,1478,3,True,True,0.85543454,>500
+1648,qsw,qsw,Google Chrome,155,2,True,True,0.7174043,101-500
+1649,czi,czi,Firefox,320,2,True,True,0.55460346,101-500
+1650,flj,flj,Google Chrome,82,3,True,True,0.6759041,21-100
+1651,zht,zht,Firefox,79,3,True,True,0.48079926,21-100
+1652,flj,flj,Google Chrome,112,3,True,True,0.12277496,101-500
+1653,gvp,gvp,Google Chrome,138,2,True,True,0.4319829,101-500
+1654,hjs,hjs,Microsoft Edge,397,3,True,True,0.983493,101-500
+1655,cka,cka,Firefox,1175,2,True,True,0.29319486,>500
+1656,iba,iba,Google Chrome,810,2,True,True,0.8543284,>500
+1657,hxt,hxt,Google Chrome,130,1,True,True,0.13536935,101-500
+1658,vos,vos,Firefox,448,2,True,True,0.46198452,101-500
+1659,jpm,jpm,Firefox,594,2,True,True,0.41026196,>500
+1660,gor,gor,Firefox,140,2,True,True,0.26466367,101-500
+1661,wuy,wuy,Google Chrome,917,3,True,True,0.87304467,>500
+1662,nkb,nkb,Google Chrome,76,2,True,True,0.28185922,21-100
+1663,tkz,tkz,Google Chrome,363,1,True,True,0.514149,101-500
+1664,shh,shh,Firefox,446,1,True,True,0.87822914,101-500
+1665,hew,hew,Firefox,91,3,True,True,0.64404446,21-100
+1666,fwh,fwh,Google Chrome,261,2,True,True,0.71443105,101-500
+1667,vjw,vjw,Google Chrome,1103,2,True,True,0.87925214,>500
+1668,ajo,ajo,Firefox,153,2,True,True,0.057546698,101-500
+1669,jfm,jfm,Google Chrome,60,1,True,True,0.483484,21-100
+1670,azo,azo,Google Chrome,236,0,True,True,0.4808859,101-500
+1671,yrb,yrb,Microsoft Edge,1199,1,True,True,0.6759832,>500
+1672,yuz,yuz,Firefox,777,2,True,True,0.82218397,>500
+1673,flj,flj,Google Chrome,129,0,True,True,0.8680958,101-500
+1674,wvy,wvy,Firefox,1104,3,True,True,0.86672765,>500
+1675,zht,zht,Firefox,130,2,True,True,0.70463645,101-500
+1676,xby,xby,Firefox,73,2,True,True,0.07716499,21-100
+1677,yuz,yuz,Firefox,549,3,True,True,0.8742539,>500
+1678,kzt,kzt,Firefox,301,1,True,True,0.8734131,101-500
+1679,oec,oec,Firefox,340,1,True,True,0.6227706,101-500
+1680,oph,oph,Microsoft Edge,533,1,True,True,0.7287037,>500
+1681,ien,ien,Microsoft Edge,898,0,True,True,0.6761349,>500
+1682,pqd,pqd,Firefox,63,3,True,True,0.2912778,21-100
+1683,wht,wht,Google Chrome,1374,2,True,True,0.17833105,>500
+1684,swe,swe,Opera,164,2,True,True,1.0,101-500
+1685,uey,uey,Google Chrome,1266,0,True,True,0.7423703,>500
+1686,zct,zct,Google Chrome,402,2,True,True,0.86051315,101-500
+1687,xxb,xxb,Firefox,1552,1,True,True,0.57805645,>500
+1688,flj,flj,Google Chrome,247,2,True,True,0.25300843,101-500
+1689,czi,czi,Firefox,576,1,True,True,0.8692855,>500
+1690,rgo,rgo,Microsoft Edge,690,1,True,True,0.9323007,>500
+1691,sfi,sfi,Google Chrome,250,2,True,True,0.6527866,101-500
+1692,wht,sbz,Google Chrome,97,2,False,False,0.02157531,21-100
+1693,cyd,cyd,Microsoft Edge,125,0,True,True,0.13603449,101-500
+1694,tft,tft,Firefox,424,2,True,True,0.71392107,101-500
+1695,tmn,tmn,Firefox,1405,2,True,True,0.051325902,>500
+1696,qsw,qsw,Google Chrome,59,2,True,True,0.8002375,21-100
+1697,wxf,wxf,Firefox,185,0,True,True,0.26753208,101-500
+1698,gcr,gcr,Microsoft Edge,968,1,True,True,0.9290566,>500
+1699,iju,iju,Google Chrome,2611,0,True,True,0.75354826,>500
+1700,ycb,ycb,Google Chrome,702,0,True,True,0.74313104,>500
+1701,gvp,gvp,Google Chrome,159,0,True,True,0.08654292,101-500
+1702,zht,zht,Firefox,518,3,True,True,0.8558,>500
+1703,pcv,pcv,Google Chrome,245,2,True,True,0.5068422,101-500
+1704,hll,akx,Google Chrome,307,3,False,False,0.0044656843,101-500
+1705,gid,gid,Google Chrome,936,3,True,True,0.84588623,>500
+1706,swe,swe,Opera,525,1,True,True,1.0,>500
+1707,swe,swe,Opera,237,3,True,True,1.0,101-500
+1708,mmm,mmm,Firefox,985,2,True,True,0.6865724,>500
+1709,zok,lra,Microsoft Edge,122,1,False,False,0.048648752,101-500
+1710,nwt,nwt,Google Chrome,1407,3,True,True,0.89495385,>500
+1711,uwr,uwr,Firefox,932,2,True,True,0.69970024,>500
+1712,sfi,sfi,Google Chrome,272,0,True,True,0.8152697,101-500
+1713,vlm,vlm,Google Chrome,203,1,True,True,0.5458683,101-500
+1714,vfo,vfo,Google Chrome,418,1,True,True,0.85934025,101-500
+1715,xby,xby,Firefox,870,3,True,True,0.2487413,>500
+1716,ftq,ftq,Firefox,307,1,True,True,0.64328855,101-500
+1717,vzc,vzc,Google Chrome,286,0,True,True,0.6034096,101-500
+1718,xwz,xwz,Google Chrome,1130,2,True,True,0.6272156,>500
+1719,yrb,yrb,Microsoft Edge,1024,0,True,True,0.693684,>500
+1720,btl,btl,Google Chrome,850,1,True,True,0.74391365,>500
+1721,cjr,cjr,Google Chrome,130,0,True,True,0.6573742,101-500
+1722,hzx,hzx,Microsoft Edge,298,2,True,True,0.9044462,101-500
+1723,zct,zct,Google Chrome,4003,2,True,True,0.7222582,>500
+1724,slq,slq,Google Chrome,28,2,True,True,0.43250257,21-100
+1725,bos,bos,Firefox,171,0,True,True,0.32230118,101-500
+1726,zht,zht,Firefox,619,3,True,True,0.7951235,>500
+1727,nqg,nqg,Microsoft Edge,104,3,True,True,0.68256366,101-500
+1728,zyk,zyk,Google Chrome,125,3,True,True,0.5676881,101-500
+1729,nyk,nyk,Firefox,336,3,True,True,0.09317831,101-500
+1730,nqg,nqg,Microsoft Edge,549,2,True,True,0.65522015,>500
+1731,guh,guh,Google Chrome,50,2,True,True,0.27634263,21-100
+1732,lgd,esu,Firefox,591,1,False,False,0.2797645,>500
+1733,sps,sps,Microsoft Edge,275,0,True,True,0.7728205,101-500
+1734,uwr,uwr,Firefox,460,1,True,True,0.3681577,101-500
+1735,wuy,wuy,Google Chrome,997,1,True,True,0.8565242,>500
+1736,vog,vog,Firefox,69,0,True,True,0.022955041,21-100
+1737,pgm,pgm,Firefox,150,2,True,True,0.82119495,101-500
+1738,yrb,yrb,Microsoft Edge,196,2,True,True,0.16302899,101-500
+1739,gid,gid,Google Chrome,632,1,True,True,0.57884914,>500
+1740,cbo,cbo,Google Chrome,221,2,True,True,0.6705686,101-500
+1741,ptb,ptb,Firefox,2327,3,True,True,0.6444537,>500
+1742,oqa,oqa,Google Chrome,232,0,True,True,0.6472325,101-500
+1743,sfi,sfi,Google Chrome,299,2,True,True,0.83853686,101-500
+1744,hdz,hdz,Firefox,146,1,True,True,0.24209987,101-500
+1745,oqa,oqa,Google Chrome,724,2,True,True,0.23636565,>500
+1746,avt,avt,Firefox,1525,3,True,True,0.83156186,>500
+1747,udj,udj,Microsoft Edge,608,0,True,True,0.44804397,>500
+1748,wht,wht,Google Chrome,401,3,True,True,0.7852357,101-500
+1749,rgo,rgo,Microsoft Edge,154,3,True,True,0.53312784,101-500
+1750,xgv,xgv,Firefox,386,3,True,True,0.38811073,101-500
+1751,psg,psg,Google Chrome,525,2,True,True,0.87429124,>500
+1752,nqg,nqg,Microsoft Edge,116,2,True,True,0.8038588,101-500
+1753,xgv,xgv,Firefox,63,1,True,True,0.26569146,21-100
+1754,eus,eus,Microsoft Edge,211,0,True,True,0.1849211,101-500
+1755,qof,qof,Google Chrome,1925,3,True,True,0.87031126,>500
+1756,bgn,bgn,Firefox,413,0,True,True,0.25220996,101-500
+1757,jks,jks,Microsoft Edge,87,1,True,True,0.24093743,21-100
+1758,tfi,tfi,Firefox,273,0,True,True,0.42133075,101-500
+1759,khv,khv,Firefox,896,0,True,True,0.61002547,>500
+1760,eqw,eqw,Firefox,386,0,True,True,0.039862465,101-500
+1761,psg,psg,Google Chrome,126,3,True,True,0.7141187,101-500
+1762,slq,slq,Google Chrome,140,1,True,True,0.8354867,101-500
+1763,pyb,pyb,Firefox,158,1,True,True,0.56769115,101-500
+1764,byo,byo,Firefox,1664,1,True,True,0.7672565,>500
+1765,obm,obm,Firefox,139,3,True,True,0.54358363,101-500
+1766,lhr,lhr,Firefox,70,0,True,True,0.22795439,21-100
+1767,hjs,hjs,Microsoft Edge,1378,3,True,True,0.96481144,>500
+1768,rff,rff,Firefox,102,2,True,True,0.024689749,101-500
+1769,bfg,bfg,Firefox,419,0,True,True,0.4367867,101-500
+1770,gvp,gvp,Google Chrome,515,0,True,True,0.35136372,>500
+1771,tdk,tdk,Firefox,81,0,True,True,0.17121895,21-100
+1772,mgs,mgs,Firefox,1198,0,True,True,0.8656149,>500
+1773,bos,bos,Firefox,797,1,True,True,0.35471752,>500
+1774,fjb,fjb,Microsoft Edge,479,1,True,True,0.77540964,101-500
+1775,opp,opp,Firefox,626,0,True,True,0.45752624,>500
+1776,eoe,eoe,Firefox,123,3,True,True,0.17249602,101-500
+1777,sii,ptb,Firefox,173,0,False,False,0.008875452,101-500
+1778,eqo,eqo,Google Chrome,2891,3,True,True,0.62127405,>500
+1779,skm,skm,Google Chrome,142,0,True,True,0.84036016,101-500
+1780,qqe,qqe,Google Chrome,2265,0,True,True,0.8978926,>500
+1781,gvp,gvp,Google Chrome,490,1,True,True,0.35039353,101-500
+1782,uwp,uwp,Firefox,342,0,True,True,0.56050396,101-500
+1783,deb,deb,Firefox,405,3,True,True,0.60592985,101-500
+1784,vos,vos,Firefox,268,0,True,True,0.43330917,101-500
+1785,tft,tft,Firefox,327,1,True,True,0.6327132,101-500
+1786,fwf,fwf,Firefox,320,0,True,True,0.8635425,101-500
+1787,cjr,cjr,Google Chrome,153,0,True,True,0.6342676,101-500
+1788,pre,pre,Google Chrome,152,3,True,True,0.55166626,101-500
+1789,nyk,nyk,Firefox,171,2,True,True,0.1580039,101-500
+1790,cut,cut,Firefox,121,3,True,True,0.8265029,101-500
+1791,pgu,pgu,Firefox,105,2,True,True,0.04816313,101-500
+1792,zqs,zqs,Microsoft Edge,1669,3,True,True,0.5398071,>500
+1793,zbn,zbn,Firefox,146,1,True,True,0.39949298,101-500
+1794,yuz,yuz,Firefox,157,1,True,True,0.8157305,101-500
+1795,deb,deb,Firefox,1730,0,True,True,0.7474423,>500
+1796,fek,fek,Firefox,140,3,True,True,0.07613564,101-500
+1797,dit,dit,Firefox,1695,0,True,True,0.041021563,>500
+1798,jfm,jfm,Google Chrome,1808,1,True,True,0.83209515,>500
+1799,fwf,fwf,Firefox,93,1,True,True,0.87700486,21-100
+1800,hfy,hfy,Google Chrome,122,2,True,True,0.31936225,101-500
+1801,cka,cka,Firefox,141,3,True,True,0.33078527,101-500
+1802,vfo,vfo,Google Chrome,714,1,True,True,0.8996526,>500
+1803,kwi,kwi,Firefox,666,1,True,True,0.790573,>500
+1804,akx,akx,Google Chrome,1004,2,True,True,0.46345767,>500
+1805,fou,fou,Google Chrome,68,3,True,True,0.848175,21-100
+1806,sii,sii,Firefox,2459,1,True,True,0.86821556,>500
+1807,opp,opp,Firefox,6761,3,True,True,0.61426604,>500
+1808,pgi,pgi,Google Chrome,293,2,True,True,0.77430207,101-500
+1809,jrc,jrc,Firefox,179,0,True,True,0.33394822,101-500
+1810,sii,sii,Firefox,1122,0,True,True,0.5504556,>500
+1811,kwi,kwi,Firefox,177,1,True,True,0.8048759,101-500
+1812,kwi,kwi,Firefox,821,0,True,True,0.92921406,>500
+1813,cec,cec,Firefox,302,2,True,True,0.3908736,101-500
+1814,xkr,xkr,Google Chrome,1425,1,True,True,0.27740377,>500
+1815,sps,sps,Microsoft Edge,166,2,True,True,0.20882824,101-500
+1816,dbi,dbi,Microsoft Edge,410,0,True,True,0.5042659,101-500
+1817,opp,opp,Firefox,296,0,True,True,0.27941856,101-500
+1818,wfs,wfs,Google Chrome,419,0,True,True,0.46739593,101-500
+1819,ptb,ptb,Firefox,1031,3,True,True,0.8834932,>500
+1820,urs,urs,Google Chrome,584,0,True,True,0.057091385,>500
+1821,cuw,cuw,Google Chrome,67,3,True,True,0.37355003,21-100
+1822,ats,ats,Firefox,500,3,True,True,0.6409022,101-500
+1823,kik,kik,Google Chrome,2613,3,True,True,0.83756924,>500
+1824,snn,snn,Microsoft Edge,95,1,True,True,0.7994053,21-100
+1825,obm,obm,Firefox,110,1,True,True,0.4168638,101-500
+1826,skm,skm,Google Chrome,203,3,True,True,0.13821702,101-500
+1827,jks,jks,Microsoft Edge,96,1,True,True,0.019623294,21-100
+1828,fyf,fyf,Firefox,575,2,True,True,0.7239742,>500
+1829,ngs,ngs,Google Chrome,117,3,True,True,0.17626,101-500
+1830,nqg,nqg,Microsoft Edge,92,0,True,True,0.7348406,21-100
+1831,nzq,nzq,Firefox,366,3,True,True,0.7687688,101-500
+1832,fkf,fkf,Firefox,1435,2,True,True,0.68483853,>500
+1833,tdk,tdk,Firefox,430,2,True,True,0.24094388,101-500
+1834,gtj,gtj,Google Chrome,995,3,True,True,0.8314061,>500
+1835,itt,itt,Google Chrome,901,1,True,True,0.0031603947,>500
+1836,yrb,yrb,Microsoft Edge,2017,3,True,True,0.8196864,>500
+1837,fek,fek,Firefox,193,0,True,True,0.19115779,101-500
+1838,sbz,sbz,Google Chrome,4359,0,True,True,0.73303443,>500
+1839,fvc,fvc,Google Chrome,227,3,True,True,0.6680457,101-500
+1840,cxt,cxt,Microsoft Edge,234,3,True,True,0.9488696,101-500
+1841,zct,zct,Google Chrome,6634,1,True,True,0.5513303,>500
+1842,blf,blf,Firefox,4297,3,True,True,0.7170029,>500
+1843,byo,byo,Firefox,270,0,True,True,0.24241185,101-500
+1844,cum,cum,Microsoft Edge,1295,0,True,True,0.8201954,>500
+1845,tyw,tyw,Microsoft Edge,626,3,True,True,0.866117,>500
+1846,gcr,gcr,Microsoft Edge,515,2,True,True,0.9092269,>500
+1847,gtj,gtj,Google Chrome,680,2,True,True,0.39523733,>500
+1848,pcv,pcv,Google Chrome,298,2,True,True,0.5462714,101-500
+1849,sbz,sbz,Google Chrome,6773,2,True,True,0.45143422,>500
+1850,cxt,cxt,Microsoft Edge,474,2,True,True,0.6738158,101-500
+1851,pou,pou,Firefox,961,3,True,True,0.7420015,>500
+1852,hjs,hjs,Microsoft Edge,872,2,True,True,0.93606204,>500
+1853,mmo,mmo,Google Chrome,1105,3,True,True,0.6060229,>500
+1854,wxf,wxf,Firefox,77,3,True,True,0.037441384,21-100
+1855,nqg,nqg,Microsoft Edge,532,0,True,True,0.97096276,>500
+1856,xkr,xkr,Google Chrome,108,2,True,True,0.0649572,101-500
+1857,wjn,wjn,Microsoft Edge,564,0,True,True,0.9189687,>500
+1858,gor,gor,Firefox,168,3,True,True,0.11822452,101-500
+1859,gvp,gvp,Google Chrome,225,2,True,True,0.62851727,101-500
+1860,oqa,oqa,Google Chrome,506,0,True,True,0.7693841,>500
+1861,nuh,nuh,Firefox,93,2,True,True,0.47823226,21-100
+1862,sps,sps,Microsoft Edge,280,3,True,True,0.1232922,101-500
+1863,blf,blf,Firefox,814,1,True,True,0.50772285,>500
+1864,wht,wht,Google Chrome,576,3,True,True,0.91788864,>500
+1865,tza,tza,Firefox,1172,0,True,True,0.696932,>500
+1866,sfi,sfi,Google Chrome,1067,3,True,True,0.53560317,>500
+1867,sfi,sfi,Google Chrome,4566,3,True,True,0.57748926,>500
+1868,kik,kik,Google Chrome,1576,3,True,True,0.93037933,>500
+1869,fou,fou,Google Chrome,430,3,True,True,0.77952737,101-500
+1870,wxf,wxf,Firefox,81,3,True,True,0.1146315,21-100
+1871,rgo,rgo,Microsoft Edge,888,2,True,True,0.922906,>500
+1872,ykq,ykq,Microsoft Edge,432,2,True,True,0.84983313,101-500
+1873,ycb,ycb,Google Chrome,111,2,True,True,0.5166646,101-500
+1874,ats,ats,Firefox,528,0,True,True,0.4236839,>500
+1875,vek,vek,Firefox,995,3,True,True,0.0009419434,>500
+1876,shh,shh,Firefox,35,1,True,True,0.9017071,21-100
+1877,fuz,fuz,Firefox,377,1,True,True,0.7588659,101-500
+1878,tyw,tyw,Microsoft Edge,177,2,True,True,0.7129143,101-500
+1879,qof,qof,Google Chrome,196,2,True,True,0.47861722,101-500
+1880,fwf,fwf,Firefox,127,3,True,True,0.5530024,101-500
+1881,prb,prb,Firefox,122,0,True,True,0.29988688,101-500
+1882,cvw,cvw,Firefox,1446,3,True,True,0.514434,>500
+1883,cxu,cxu,Google Chrome,105,3,True,True,0.3666878,101-500
+1884,jrc,jrc,Firefox,2340,1,True,True,0.6917735,>500
+1885,eqw,eqw,Firefox,2124,2,True,True,0.38392854,>500
+1886,oni,oni,Firefox,258,1,True,True,0.46140543,101-500
+1887,fgn,fgn,Microsoft Edge,1362,0,True,True,0.84441966,>500
+1888,lgz,lgz,Firefox,1236,3,True,True,0.9260684,>500
+1889,khv,khv,Firefox,408,2,True,True,0.5141876,101-500
+1890,cxu,cxu,Google Chrome,230,0,True,True,0.41756576,101-500
+1891,xgv,xgv,Firefox,114,3,True,True,0.4598929,101-500
+1892,flj,flj,Google Chrome,76,2,True,True,0.89614964,21-100
+1893,qkd,qkd,Microsoft Edge,72,3,True,True,0.7900324,21-100
+1894,fuz,fuz,Firefox,660,2,True,True,0.8486484,>500
+1895,rvh,rvh,Google Chrome,222,2,True,True,0.46242428,101-500
+1896,cxt,cxt,Microsoft Edge,130,3,True,True,0.4055454,101-500
+1897,hfy,hfy,Google Chrome,239,0,True,True,0.38169697,101-500
+1898,kks,kks,Firefox,636,3,True,True,0.8115256,>500
+1899,ien,ien,Microsoft Edge,316,2,True,True,0.14816272,101-500
+1900,pgm,pgm,Firefox,197,0,True,True,0.83003896,101-500
+1901,tza,tza,Firefox,288,3,True,True,0.43468642,101-500
+1902,usg,usg,Firefox,418,2,True,True,0.6841999,101-500
+1903,ngs,ngs,Google Chrome,137,1,True,True,0.48716784,101-500
+1904,esu,lgd,Firefox,362,2,False,False,0.40073374,101-500
+1905,ats,ats,Firefox,91,2,True,True,0.3223512,21-100
+1906,wwk,wwk,Google Chrome,89,3,True,True,0.3172333,21-100
+1907,qsw,qsw,Google Chrome,130,3,True,True,0.21666245,101-500
+1908,mqo,mqo,Microsoft Edge,843,0,True,True,0.87493426,>500
+1909,urs,slq,Google Chrome,369,2,False,False,0.122087106,101-500
+1910,swe,swe,Opera,819,2,True,True,1.0,>500
+1911,hdz,hdz,Firefox,1011,0,True,True,0.7072313,>500
+1912,slq,slq,Google Chrome,821,1,True,True,0.84574693,>500
+1913,muz,muz,Google Chrome,283,0,True,True,0.91131383,101-500
+1914,opp,opp,Firefox,841,0,True,True,0.561972,>500
+1915,myl,myl,Google Chrome,917,1,True,True,0.62194765,>500
+1916,shh,shh,Firefox,216,3,True,True,0.8547731,101-500
+1917,fwh,fwh,Google Chrome,967,2,True,True,0.8874096,>500
+1918,gid,gid,Google Chrome,1600,2,True,True,0.83159906,>500
+1919,nqg,nqg,Microsoft Edge,311,2,True,True,0.76209974,101-500
+1920,zro,zro,Firefox,91,3,True,True,0.18602255,21-100
+1921,xwz,xwz,Google Chrome,1122,2,True,True,0.6051593,>500
+1922,wjn,wjn,Microsoft Edge,1453,2,True,True,0.912646,>500
+1923,zok,lra,Microsoft Edge,694,1,False,False,0.17185108,>500
+1924,meh,meh,Firefox,2991,2,True,True,0.873507,>500
+1925,cxu,cxu,Google Chrome,144,2,True,True,0.59418464,101-500
+1926,mqo,mqo,Microsoft Edge,286,3,True,True,0.8216038,101-500
+1927,slq,slq,Google Chrome,321,3,True,True,0.25917923,101-500
+1928,pre,pre,Google Chrome,273,0,True,True,0.81445134,101-500
+1929,cbo,cbo,Google Chrome,250,3,True,True,0.71019155,101-500
+1930,sps,sps,Microsoft Edge,251,1,True,True,0.6226236,101-500
+1931,kwi,kwi,Firefox,599,1,True,True,0.4727267,>500
+1932,jfm,jfm,Google Chrome,81,0,True,True,0.11095353,21-100
+1933,fgc,fgc,Firefox,808,3,True,True,0.4435011,>500
+1934,fek,fek,Firefox,163,2,True,True,0.29934862,101-500
+1935,nlm,nlm,Firefox,257,2,True,True,0.53823864,101-500
+1936,ald,ald,Google Chrome,444,0,True,True,0.41619852,101-500
+1937,zro,zro,Firefox,615,0,True,True,0.23619458,>500
+1938,khv,khv,Firefox,1241,3,True,True,0.8333334,>500
+1939,rvh,rvh,Google Chrome,1584,2,True,True,0.8410145,>500
+1940,vfo,vfo,Google Chrome,152,3,True,True,0.62975967,101-500
+1941,ofq,ofq,Firefox,1723,3,True,True,0.81519115,>500
+1942,xkr,xkr,Google Chrome,1280,0,True,True,0.7489246,>500
+1943,qsw,qsw,Google Chrome,628,3,True,True,0.7414569,>500
+1944,wxf,wxf,Firefox,130,2,True,True,0.25737685,101-500
+1945,fwh,fwh,Google Chrome,1413,3,True,True,0.87521166,>500
+1946,pgm,pgm,Firefox,959,2,True,True,0.8959897,>500
+1947,mmm,mmm,Firefox,339,2,True,True,0.42359924,101-500
+1948,yvq,yvq,Google Chrome,623,3,True,True,0.483237,>500
+1949,pqd,pqd,Firefox,223,0,True,True,0.4852501,101-500
+1950,vsb,vsb,Firefox,1504,1,True,True,0.45077816,>500
+1951,cjr,cjr,Google Chrome,217,2,True,True,0.7156604,101-500
+1952,khv,khv,Firefox,87,3,True,True,0.1423014,21-100
+1953,zus,zus,Firefox,3022,2,True,True,0.7180692,>500
+1954,skm,skm,Google Chrome,645,3,True,True,0.7403679,>500
+1955,iib,iib,Firefox,2573,2,True,True,0.85368407,>500
+1956,fuy,fuy,Google Chrome,409,0,True,True,0.7396593,101-500
+1957,ncb,ncb,Google Chrome,72,1,True,True,0.22968258,21-100
+1958,cpn,cpn,Firefox,470,1,True,True,0.31624436,101-500
+1959,myl,myl,Google Chrome,439,3,True,True,0.31882468,101-500
+1960,uey,uey,Google Chrome,883,3,True,True,0.84030527,>500
+1961,fou,fou,Google Chrome,135,2,True,True,0.6847561,101-500
+1962,cut,cut,Firefox,586,2,True,True,0.8604033,>500
+1963,guh,guh,Google Chrome,722,1,True,True,0.38306153,>500
+1964,snv,snv,Firefox,804,0,True,True,0.7541557,>500
+1965,kwi,kwi,Firefox,895,2,True,True,0.7370797,>500
+1966,iju,iju,Google Chrome,231,2,True,True,0.5651422,101-500
+1967,gtj,gtj,Google Chrome,298,0,True,True,0.2964691,101-500
+1968,kks,kks,Firefox,59,3,True,True,0.6939492,21-100
+1969,skm,skm,Google Chrome,83,3,True,True,0.9676473,21-100
+1970,pgu,pgu,Firefox,516,3,True,True,0.30596468,>500
+1971,azx,azx,Google Chrome,182,2,True,True,0.5199919,101-500
+1972,wjn,wjn,Microsoft Edge,62,0,True,True,0.88876075,21-100
+1973,ykq,ykq,Microsoft Edge,515,3,True,True,0.90324986,>500
+1974,tza,tza,Firefox,643,1,True,True,0.60484433,>500
+1975,gcr,gcr,Microsoft Edge,1191,1,True,True,0.9435111,>500
+1976,snv,snv,Firefox,280,0,True,True,0.567641,101-500
+1977,nqg,nqg,Microsoft Edge,416,1,True,True,0.966966,101-500
+1978,ncb,ncb,Google Chrome,494,1,True,True,0.8180525,101-500
+1979,skm,skm,Google Chrome,111,1,True,True,0.63562346,101-500
+1980,zbn,zbn,Firefox,314,0,True,True,0.14079306,101-500
+1981,hfy,hfy,Google Chrome,1039,1,True,True,0.40850544,>500
+1982,xkr,oqa,Google Chrome,208,3,False,False,0.07441493,101-500
+1983,szr,szr,Firefox,1056,2,True,True,0.5195906,>500
+1984,slq,slq,Google Chrome,56,2,True,True,0.9154997,21-100
+1985,swe,swe,Opera,335,0,True,True,1.0,101-500
+1986,zqs,zqs,Microsoft Edge,343,2,True,True,0.91135174,101-500
+1987,aho,aho,Google Chrome,137,0,True,True,0.14650415,101-500
+1988,pgu,pgu,Firefox,408,2,True,True,0.5190203,101-500
+1989,cpn,cpn,Firefox,148,2,True,True,0.67236054,101-500
+1990,ont,ont,Microsoft Edge,728,3,True,True,0.5385674,>500
+1991,opp,opp,Firefox,522,2,True,True,0.75936383,>500
+1992,flj,flj,Google Chrome,757,0,True,True,0.20891395,>500
+1993,tsn,tsn,Firefox,1356,1,True,True,0.74983054,>500
+1994,qbf,qbf,Google Chrome,354,0,True,True,0.5565493,101-500
+1995,eus,eus,Microsoft Edge,695,1,True,True,0.75292724,>500
+1996,cqp,cqp,Firefox,147,0,True,True,0.29913753,101-500
+1997,xwz,xwz,Google Chrome,967,3,True,True,0.7561966,>500
+1998,cqp,cqp,Firefox,60,1,True,True,0.34536558,21-100
+1999,gcr,gcr,Microsoft Edge,555,0,True,True,0.8659719,>500
+2000,wjn,wjn,Microsoft Edge,330,2,True,True,0.58926034,101-500
+2001,urs,skm,Google Chrome,2221,2,False,False,0.024167914,>500
+2002,ubr,ubr,Google Chrome,4576,1,True,True,0.8017667,>500
+2003,syt,syt,Firefox,306,0,True,True,0.24183384,101-500
+2004,tjc,tjc,Google Chrome,196,1,True,True,0.8455765,101-500
+2005,fuz,fuz,Firefox,1665,2,True,True,0.8349973,>500
+2006,shh,shh,Firefox,74,3,True,True,0.7553002,21-100
+2007,cjr,cjr,Google Chrome,443,2,True,True,0.8151099,101-500
+2008,pqd,pqd,Firefox,875,0,True,True,0.21368183,>500
+2009,btl,btl,Google Chrome,100,0,True,True,0.24155815,21-100
+2010,fvc,fvc,Google Chrome,3175,0,True,True,0.23279884,>500
+2011,fuy,fuy,Google Chrome,296,1,True,True,0.48977953,101-500
+2012,vlm,vlm,Google Chrome,85,3,True,True,0.46894005,21-100
+2013,eus,eus,Microsoft Edge,1042,2,True,True,0.8934106,>500
+2014,nyk,nyk,Firefox,247,0,True,True,0.25709462,101-500
+2015,uof,uof,Google Chrome,106,1,True,True,0.15082261,101-500
+2016,btl,btl,Google Chrome,238,3,True,True,0.43650615,101-500
+2017,skm,skm,Google Chrome,42,2,True,True,0.9577994,21-100
+2018,syt,syt,Firefox,71,3,True,True,0.0810243,21-100
+2019,czi,czi,Firefox,517,2,True,True,0.55947536,>500
+2020,fmz,fmz,Google Chrome,333,1,True,True,0.7019633,101-500
+2021,kks,kks,Firefox,133,0,True,True,0.7198861,101-500
+2022,wht,wht,Google Chrome,744,1,True,True,0.1576238,>500
+2023,wfs,wfs,Google Chrome,195,1,True,True,0.52681315,101-500
+2024,wem,wem,Google Chrome,265,1,True,True,0.636966,101-500
+2025,obm,obm,Firefox,266,2,True,True,0.6370939,101-500
+2026,xgv,xgv,Firefox,506,0,True,True,0.8691517,>500
+2027,guh,guh,Google Chrome,118,2,True,True,0.016380265,101-500
+2028,oqa,oqa,Google Chrome,485,1,True,True,0.29377922,101-500
+2029,czi,czi,Firefox,1146,0,True,True,0.7018158,>500
+2030,wjn,wjn,Microsoft Edge,84,3,True,True,0.77720916,21-100
+2031,hjs,hjs,Microsoft Edge,602,2,True,True,0.92917824,>500
+2032,vzc,vzc,Google Chrome,1502,2,True,True,0.91632915,>500
+2033,crn,crn,Microsoft Edge,130,0,True,True,0.57296205,101-500
+2034,mgs,mgs,Firefox,222,3,True,True,0.73315454,101-500
+2035,fuy,fuy,Google Chrome,290,3,True,True,0.7780977,101-500
+2036,kbf,kbf,Firefox,612,1,True,True,0.10833554,>500
+2037,opp,opp,Firefox,77,3,True,True,0.20094624,21-100
+2038,flj,flj,Google Chrome,97,3,True,True,0.6689576,21-100
+2039,tfi,tfi,Firefox,614,3,True,True,0.8242404,>500
+2040,lio,lio,Firefox,605,1,True,True,0.864536,>500
+2041,uey,uey,Google Chrome,62,0,True,True,0.44279528,21-100
+2042,slq,slq,Google Chrome,305,1,True,True,0.89541316,101-500
+2043,crn,crn,Microsoft Edge,161,1,True,True,0.35385793,101-500
+2044,nrb,nrb,Firefox,1034,2,True,True,0.6461663,>500
+2045,eoe,eoe,Firefox,977,3,True,True,0.6995364,>500
+2046,tza,tza,Firefox,435,3,True,True,0.7977371,101-500
+2047,zqs,zqs,Microsoft Edge,330,3,True,True,0.878709,101-500
+2048,uey,uey,Google Chrome,388,3,True,True,0.4713571,101-500
+2049,vzc,vzc,Google Chrome,588,1,True,True,0.88037914,>500
+2050,iyf,cjr,Google Chrome,188,1,False,False,0.08372517,101-500
+2051,jmq,jmq,Google Chrome,62,2,True,True,0.91089725,21-100
+2052,yuz,yuz,Firefox,600,1,True,True,0.77813154,>500
+2053,qof,qof,Google Chrome,1419,1,True,True,0.94614154,>500
+2054,opp,opp,Firefox,204,1,True,True,0.42493087,101-500
+2055,cjr,cjr,Google Chrome,600,1,True,True,0.85498434,>500
+2056,esu,esu,Firefox,1837,1,True,True,0.61282223,>500
+2057,tzn,tzn,Google Chrome,1242,3,True,True,0.59156907,>500
+2058,btl,btl,Google Chrome,1979,2,True,True,0.8702193,>500
+2059,skm,skm,Google Chrome,244,1,True,True,0.71970093,101-500
+2060,jfm,jfm,Google Chrome,512,2,True,True,0.42696023,>500
+2061,skm,skm,Google Chrome,643,1,True,True,0.9499274,>500
+2062,sii,sii,Firefox,879,1,True,True,0.86920214,>500
+2063,snn,snn,Microsoft Edge,242,1,True,True,0.45397216,101-500
+2064,ckl,ckl,Microsoft Edge,2558,0,True,True,0.6924551,>500
+2065,slq,slq,Google Chrome,494,3,True,True,0.53465796,101-500
+2066,kwi,kwi,Firefox,79,0,True,True,0.8496743,21-100
+2067,avt,avt,Firefox,1596,0,True,True,0.8555468,>500
+2068,slq,slq,Google Chrome,40,1,True,True,0.8437461,21-100
+2069,zro,zro,Firefox,2129,1,True,True,0.57752806,>500
+2070,tkz,tkz,Google Chrome,254,2,True,True,0.25157347,101-500
+2071,fyg,fyg,Microsoft Edge,303,2,True,True,0.78872925,101-500
+2072,xby,xby,Firefox,140,0,True,True,0.15553795,101-500
+2073,mmo,mmo,Google Chrome,282,0,True,True,0.46884394,101-500
+2074,byo,byo,Firefox,311,2,True,True,0.1767124,101-500
+2075,cil,cil,Google Chrome,366,0,True,True,0.30584604,101-500
+2076,azo,azo,Google Chrome,237,2,True,True,0.6195989,101-500
+2077,skm,skm,Google Chrome,202,1,True,True,0.93878603,101-500
+2078,wfs,wfs,Google Chrome,934,2,True,True,0.8838516,>500
+2079,tkz,tkz,Google Chrome,98,3,True,True,0.18179914,21-100
+2080,xgv,xgv,Firefox,852,2,True,True,0.6055354,>500
+2081,sii,sii,Firefox,441,3,True,True,0.4843063,101-500
+2082,vfo,vfo,Google Chrome,437,2,True,True,0.88416994,101-500
+2083,dbi,dbi,Microsoft Edge,849,2,True,True,0.6717291,>500
+2084,hll,guh,Google Chrome,64,2,False,False,0.007001221,21-100
+2085,pxi,pxi,Firefox,475,0,True,True,0.5735586,101-500
+2086,slq,slq,Google Chrome,45,0,True,True,0.7408017,21-100
+2087,sdx,sdx,Google Chrome,441,1,True,True,0.4877269,101-500
+2088,ncb,ncb,Google Chrome,765,0,True,True,0.70922625,>500
+2089,nzq,nzq,Firefox,166,1,True,True,0.56009007,101-500
+2090,cyd,cyd,Microsoft Edge,952,1,True,True,0.9578007,>500
+2091,bgn,bgn,Firefox,211,2,True,True,0.26166427,101-500
+2092,xvr,xvr,Firefox,402,1,True,True,0.6617642,101-500
+2093,vfo,vfo,Google Chrome,805,3,True,True,0.8808944,>500
+2094,snv,snv,Firefox,413,2,True,True,0.6061805,101-500
+2095,bfg,bfg,Firefox,50,3,True,True,0.10749751,21-100
+2096,qof,qof,Google Chrome,1166,1,True,True,0.92810065,>500
+2097,sii,sii,Firefox,373,1,True,True,0.78640825,101-500
+2098,flj,flj,Google Chrome,22,3,True,True,0.10781587,21-100
+2099,eoe,eoe,Firefox,2337,1,True,True,0.67188245,>500
+2100,flj,flj,Google Chrome,1433,1,True,True,0.30367598,>500
+2101,fuy,fuy,Google Chrome,156,2,True,True,0.2648007,101-500
+2102,cjr,cjr,Google Chrome,600,1,True,True,0.5807545,>500
+2103,fvc,fvc,Google Chrome,264,2,True,True,0.6553838,101-500
+2104,sdx,sdx,Google Chrome,2038,2,True,True,0.8598011,>500
+2105,wjn,wjn,Microsoft Edge,47,3,True,True,0.65236646,21-100
+2106,flj,flj,Google Chrome,92,3,True,True,0.27746773,21-100
+2107,ebm,ebm,Google Chrome,1654,3,True,True,0.486548,>500
+2108,wcf,wcf,Firefox,156,3,True,True,0.66034245,101-500
+2109,fjb,fjb,Microsoft Edge,457,0,True,True,0.64650816,101-500
+2110,tza,tza,Firefox,777,1,True,True,0.43851992,>500
+2111,ien,ien,Microsoft Edge,877,3,True,True,0.5396745,>500
+2112,ptb,ptb,Firefox,1038,3,True,True,0.90327084,>500
+2113,nuh,nuh,Firefox,2598,1,True,True,0.9102578,>500
+2114,tsn,tsn,Firefox,135,2,True,True,0.7378764,101-500
+2115,nzq,nzq,Firefox,2218,3,True,True,0.6436351,>500
+2116,kwi,kwi,Firefox,273,1,True,True,0.6058157,101-500
+2117,azo,azo,Google Chrome,223,2,True,True,0.6586422,101-500
+2118,skm,skm,Google Chrome,251,1,True,True,0.6900383,101-500
+2119,hxt,hxt,Google Chrome,77,2,True,True,0.37438017,21-100
+2120,tsn,tsn,Firefox,84,0,True,True,0.66032207,21-100
+2121,zbn,zbn,Firefox,2777,1,True,True,0.75985265,>500
+2122,cnh,cnh,Firefox,105,2,True,True,0.75242037,101-500
+2123,jrc,jrc,Firefox,881,2,True,True,0.7279302,>500
+2124,qof,qof,Google Chrome,210,0,True,True,0.66766316,101-500
+2125,flj,flj,Google Chrome,427,2,True,True,0.9461039,101-500
+2126,nlm,nlm,Firefox,248,0,True,True,0.45844957,101-500
+2127,fcq,fcq,Google Chrome,776,3,True,True,0.8669874,>500
+2128,pgi,pgi,Google Chrome,86,1,True,True,0.39770836,21-100
+2129,lgd,lgd,Firefox,462,3,True,True,0.44811466,101-500
+2130,tfi,tfi,Firefox,204,1,True,True,0.57786816,101-500
+2131,rvh,rvh,Google Chrome,2181,0,True,True,0.8541517,>500
+2132,szr,szr,Firefox,76,1,True,True,0.55650306,21-100
+2133,tdk,tdk,Firefox,206,1,True,True,0.6383453,101-500
+2134,wht,wht,Google Chrome,379,0,True,True,0.8207028,101-500
+2135,nzq,nzq,Firefox,364,3,True,True,0.7436922,101-500
+2136,fvc,fvc,Google Chrome,1615,0,True,True,0.82343686,>500
+2137,byo,byo,Firefox,1295,0,True,True,0.5609793,>500
+2138,jkt,jkt,Microsoft Edge,389,2,True,True,0.7690764,101-500
+2139,yvq,yvq,Google Chrome,1189,0,True,True,0.6522996,>500
+2140,hjs,hjs,Microsoft Edge,415,3,True,True,0.94561327,101-500
+2141,fwh,fwh,Google Chrome,1129,1,True,True,0.89409995,>500
+2142,nrb,nrb,Firefox,98,0,True,True,0.14400756,21-100
+2143,cje,cje,Google Chrome,193,0,True,True,0.77093196,101-500
+2144,qsw,qsw,Google Chrome,422,1,True,True,0.8601267,101-500
+2145,qof,qof,Google Chrome,353,3,True,True,0.7003686,101-500
+2146,flj,flj,Google Chrome,55,0,True,True,0.49389833,21-100
+2147,gvp,wem,Google Chrome,104,3,False,False,0.0021506697,101-500
+2148,hrj,hrj,Google Chrome,140,1,True,True,0.18198797,101-500
+2149,skm,skm,Google Chrome,417,1,True,True,0.7302078,101-500
+2150,nsf,nsf,Google Chrome,5286,0,True,True,0.78648186,>500
+2151,bfg,bfg,Firefox,105,3,True,True,0.23710659,101-500
+2152,opp,jpm,Firefox,676,2,False,False,0.06360917,>500
+2153,vzc,vzc,Google Chrome,133,2,True,True,0.3507072,101-500
+2154,fyf,fyf,Firefox,184,1,True,True,0.17525496,101-500
+2155,sfi,sfi,Google Chrome,183,0,True,True,0.7906174,101-500
+2156,uwr,uwr,Firefox,368,1,True,True,0.40372047,101-500
+2157,gor,gor,Firefox,304,1,True,True,0.37105438,101-500
+2158,bgn,bgn,Firefox,1626,3,True,True,0.44514206,>500
+2159,cjr,cjr,Google Chrome,361,3,True,True,0.69148225,101-500
+2160,vmy,vmy,Google Chrome,709,0,True,True,0.59469676,>500
+2161,txk,txk,Firefox,2174,1,True,True,0.7442032,>500
+2162,ats,ats,Firefox,214,3,True,True,0.57656324,101-500
+2163,sfi,sfi,Google Chrome,463,0,True,True,0.95445156,101-500
+2164,lgz,lgz,Firefox,84,3,True,True,0.4301925,21-100
+2165,wfs,wfs,Google Chrome,537,2,True,True,0.74612963,>500
+2166,vlm,vlm,Google Chrome,223,2,True,True,0.42202538,101-500
+2167,fou,fou,Google Chrome,79,1,True,True,0.76426834,21-100
+2168,yuz,yuz,Firefox,98,3,True,True,0.6361064,21-100
+2169,fvc,fvc,Google Chrome,253,0,True,True,0.90495056,101-500
+2170,jxu,jxu,Firefox,203,1,True,True,0.769152,101-500
+2171,xwz,xwz,Google Chrome,138,1,True,True,0.35501185,101-500
+2172,czi,czi,Firefox,156,3,True,True,0.3919259,101-500
+2173,fcq,fcq,Google Chrome,1928,1,True,True,0.881023,>500
+2174,pgu,pgu,Firefox,243,3,True,True,0.072411075,101-500
+2175,vek,vek,Firefox,1749,3,True,True,0.24338618,>500
+2176,obm,obm,Firefox,411,0,True,True,0.21569675,101-500
+2177,lio,lio,Firefox,517,3,True,True,0.7439549,>500
+2178,cjr,cjr,Google Chrome,72,0,True,True,0.077609204,21-100
+2179,slq,flj,Google Chrome,124,2,False,True,0.0007958263,101-500
+2180,ebm,ebm,Google Chrome,135,2,True,True,0.330118,101-500
+2181,eoe,eoe,Firefox,1427,1,True,True,0.64304346,>500
+2182,ftq,ftq,Firefox,66,0,True,True,0.5030949,21-100
+2183,vlm,vlm,Google Chrome,876,0,True,True,0.34307858,>500
+2184,fjb,fjb,Microsoft Edge,4104,0,True,True,0.9281942,>500
+2185,prb,prb,Firefox,186,2,True,True,0.29935512,101-500
+2186,hrj,hrj,Google Chrome,205,3,True,True,0.5960591,101-500
+2187,txk,txk,Firefox,2142,3,True,True,0.8756806,>500
+2188,qfy,qfy,Microsoft Edge,292,2,True,True,0.5303114,101-500
+2189,jpm,jpm,Firefox,60,2,True,True,0.03762304,21-100
+2190,cjr,cjr,Google Chrome,832,3,True,True,0.9449849,>500
+2191,nlm,nlm,Firefox,405,3,True,True,0.48923153,101-500
+2192,lgz,lgz,Firefox,277,3,True,True,0.72062474,101-500
+2193,wwk,wwk,Google Chrome,127,2,True,True,0.9543258,101-500
+2194,ncb,ncb,Google Chrome,709,3,True,True,0.96193725,>500
+2195,zct,zct,Google Chrome,3598,0,True,True,0.8465244,>500
+2196,tjc,tjc,Google Chrome,349,3,True,True,0.679604,101-500
+2197,crn,crn,Microsoft Edge,277,2,True,True,0.268143,101-500
+2198,ulu,ulu,Microsoft Edge,144,0,True,True,0.37931442,101-500
+2199,ulu,ulu,Microsoft Edge,84,2,True,True,0.60615385,21-100
+2200,jpm,jpm,Firefox,460,2,True,True,0.8520677,101-500
+2201,lgd,lgd,Firefox,77,1,True,True,0.3832821,21-100
+2202,hew,hew,Firefox,94,2,True,True,0.28942904,21-100
+2203,ats,ats,Firefox,706,3,True,True,0.75737536,>500
+2204,wem,wem,Google Chrome,1499,1,True,True,0.7823568,>500
+2205,tmn,tmn,Firefox,109,3,True,True,0.104994364,101-500
+2206,avt,avt,Firefox,1487,0,True,True,0.86995834,>500
+2207,lio,lio,Firefox,204,3,True,True,0.14386411,101-500
+2208,qqe,qqe,Google Chrome,2224,0,True,True,0.8963907,>500
+2209,nqg,nqg,Microsoft Edge,289,1,True,True,0.94648623,101-500
+2210,vfo,vfo,Google Chrome,1045,0,True,True,0.8911453,>500
+2211,iib,iib,Firefox,570,1,True,True,0.62837666,>500
+2212,mmo,mmo,Google Chrome,2446,0,True,True,0.51211816,>500
+2213,myl,myl,Google Chrome,343,1,True,True,0.79282504,101-500
+2214,sqb,sqb,Google Chrome,924,2,True,True,0.28777662,>500
+2215,blf,blf,Firefox,151,3,True,True,0.05579588,101-500
+2216,snv,snv,Firefox,825,3,True,True,0.7391874,>500
+2217,rgo,rgo,Microsoft Edge,58,3,True,True,0.31502306,21-100
+2218,ncb,ncb,Google Chrome,361,2,True,True,0.15418857,101-500
+2219,tsn,tsn,Firefox,1164,3,True,True,0.774519,>500
+2220,tft,tft,Firefox,938,2,True,True,0.8265007,>500
+2221,snv,snv,Firefox,562,3,True,True,0.48651078,>500
+2222,gid,gid,Google Chrome,399,1,True,True,0.64564633,101-500
+2223,skm,skm,Google Chrome,60,3,True,True,0.68312365,21-100
+2224,skm,skm,Google Chrome,89,0,True,True,0.9269224,21-100
+2225,uhx,uhx,Firefox,137,2,True,True,0.11849566,101-500
+2226,cuw,cuw,Google Chrome,127,0,True,True,0.18258455,101-500
+2227,mgs,mgs,Firefox,70,1,True,True,0.61379635,21-100
+2228,lgz,lgz,Firefox,122,3,True,True,0.3070695,101-500
+2229,opp,opp,Firefox,261,3,True,True,0.4067385,101-500
+2230,ftq,ftq,Firefox,565,1,True,True,0.7935233,>500
+2231,uwp,uwp,Firefox,99,3,True,True,0.411724,21-100
+2232,pcv,pcv,Google Chrome,653,2,True,True,0.8498771,>500
+2233,cvw,cvw,Firefox,1049,0,True,True,0.62992024,>500
+2234,gcr,gcr,Microsoft Edge,1920,2,True,True,0.9189488,>500
+2235,jpm,jpm,Firefox,100,2,True,True,0.29637483,21-100
+2236,bou,bou,Google Chrome,254,2,True,True,0.74451345,101-500
+2237,flj,skm,Google Chrome,280,2,False,False,0.2887758,101-500
+2238,rmf,rmf,Microsoft Edge,56,2,True,True,0.1475325,21-100
+2239,szr,szr,Firefox,510,0,True,True,0.38070235,>500
+2240,azn,azn,Google Chrome,116,2,True,True,0.19831021,101-500
+2241,ykq,ykq,Microsoft Edge,4684,0,True,True,0.7242637,>500
+2242,hxt,hxt,Google Chrome,62,3,True,True,0.76734835,21-100
+2243,udj,udj,Microsoft Edge,91,2,True,True,0.70534444,21-100
+2244,ckl,ckl,Microsoft Edge,81,3,True,True,0.1639942,21-100
+2245,muz,muz,Google Chrome,2518,2,True,True,0.7572181,>500
+2246,cjr,cjr,Google Chrome,228,1,True,True,0.2836895,101-500
+2247,qof,qof,Google Chrome,1866,1,True,True,0.8879698,>500
+2248,wfs,wfs,Google Chrome,301,0,True,True,0.44677287,101-500
+2249,fkf,fkf,Firefox,433,3,True,True,0.15580538,101-500
+2250,pcv,pcv,Google Chrome,214,2,True,True,0.7263208,101-500
+2251,kks,kks,Firefox,1888,2,True,True,0.60085636,>500
+2252,skm,skm,Google Chrome,83,2,True,True,0.78977793,21-100
+2253,fmz,fmz,Google Chrome,489,2,True,True,0.5214832,101-500
+2254,xgv,xgv,Firefox,118,2,True,True,0.4067648,101-500
+2255,qkd,qkd,Microsoft Edge,520,2,True,True,0.76217127,>500
+2256,jpm,jpm,Firefox,693,1,True,True,0.50269103,>500
+2257,uwr,uwr,Firefox,150,2,True,True,0.27960593,101-500
+2258,cyd,cyd,Microsoft Edge,282,2,True,True,0.8000826,101-500
+2259,uhx,uhx,Firefox,1523,0,True,True,0.73741287,>500
+2260,azx,guh,Google Chrome,105,1,False,False,0.10221021,101-500
+2261,mqo,mqo,Microsoft Edge,94,0,True,True,0.2603302,21-100
+2262,fvc,fvc,Google Chrome,222,1,True,True,0.56754357,101-500
+2263,fcq,fcq,Google Chrome,902,3,True,True,0.8490711,>500
+2264,dit,npo,Firefox,957,0,False,False,0.021932751,>500
+2265,avt,avt,Firefox,2733,1,True,True,0.8798315,>500
+2266,kwi,kwi,Firefox,79,1,True,True,0.52720845,21-100
+2267,ofq,ofq,Firefox,441,2,True,True,0.7831217,101-500
+2268,jmq,jmq,Google Chrome,426,0,True,True,0.5429404,101-500
+2269,mgs,mgs,Firefox,66,0,True,True,0.5025577,21-100
+2270,fgn,fgn,Microsoft Edge,1579,3,True,True,0.84972817,>500
+2271,cxu,cxu,Google Chrome,200,3,True,True,0.6906424,101-500
+2272,sii,sii,Firefox,1067,3,True,True,0.9203901,>500
+2273,hew,hew,Firefox,108,2,True,True,0.37517342,101-500
+2274,qsw,qsw,Google Chrome,63,3,True,True,0.5837464,21-100
+2275,ncb,ncb,Google Chrome,166,3,True,True,0.62809765,101-500
+2276,fmz,fmz,Google Chrome,96,1,True,True,0.15752205,21-100
+2277,cbo,cbo,Google Chrome,106,0,True,True,0.5203832,101-500
+2278,pxi,pxi,Firefox,6484,3,True,True,0.5684582,>500
+2279,xgb,xgb,Firefox,1828,3,True,True,0.58053255,>500
+2280,wht,wht,Google Chrome,337,0,True,True,0.546416,101-500
+2281,skm,skm,Google Chrome,165,0,True,True,0.005356744,101-500
+2282,nwt,nwt,Google Chrome,1177,1,True,True,0.8808223,>500
+2283,slq,slq,Google Chrome,200,3,True,True,0.41201055,101-500
+2284,byo,byo,Firefox,114,2,True,True,0.7570294,101-500
+2285,pgi,pgi,Google Chrome,180,2,True,True,0.47812662,101-500
+2286,sgd,sgd,Firefox,2337,2,True,True,0.66189116,>500
+2287,fwf,fwf,Firefox,64,2,True,True,0.67128307,21-100
+2288,zyk,zyk,Google Chrome,51,2,True,True,0.030118473,21-100
+2289,zrx,zrx,Microsoft Edge,780,3,True,True,0.86358654,>500
+2290,cyi,cyi,Google Chrome,2147,2,True,True,0.6990449,>500
+2291,muz,muz,Google Chrome,98,2,True,True,0.795756,21-100
+2292,swe,swe,Opera,587,1,True,True,1.0,>500
+2293,sps,sps,Microsoft Edge,173,2,True,True,0.3766529,101-500
+2294,tyw,tyw,Microsoft Edge,936,0,True,True,0.858323,>500
+2295,mgs,mgs,Firefox,186,3,True,True,0.68619466,101-500
+2296,lgz,lgz,Firefox,364,1,True,True,0.8672169,101-500
+2297,esu,esu,Firefox,242,0,True,True,0.14834349,101-500
+2298,zyk,zyk,Google Chrome,147,1,True,True,0.47257626,101-500
+2299,zht,zht,Firefox,658,1,True,True,0.84531623,>500
+2300,nzq,nzq,Firefox,148,2,True,True,0.67124647,101-500
+2301,nqg,nqg,Microsoft Edge,189,1,True,True,0.5596127,101-500
+2302,wjn,wjn,Microsoft Edge,389,3,True,True,0.9276315,101-500
+2303,ycb,ycb,Google Chrome,235,0,True,True,0.8849375,101-500
+2304,fcq,fcq,Google Chrome,779,0,True,True,0.8674965,>500
+2305,cut,cut,Firefox,220,1,True,True,0.39745268,101-500
+2306,usy,usy,Firefox,171,0,True,True,0.54452956,101-500
+2307,fvc,fvc,Google Chrome,351,3,True,True,0.4216379,101-500
+2308,wwk,wwk,Google Chrome,93,0,True,True,0.60974437,21-100
+2309,bgn,bgn,Firefox,1189,2,True,True,0.8904262,>500
+2310,skm,skm,Google Chrome,93,2,True,True,0.60368127,21-100
+2311,ngs,ngs,Google Chrome,444,1,True,True,0.7247259,101-500
+2312,cbo,cbo,Google Chrome,103,2,True,True,0.81243813,101-500
+2313,zht,zht,Firefox,465,0,True,True,0.8053512,101-500
+2314,sps,sps,Microsoft Edge,688,1,True,True,0.89371294,>500
+2315,slq,slq,Google Chrome,79,1,True,True,0.801837,21-100
+2316,muz,muz,Google Chrome,168,2,True,True,0.3548171,101-500
+2317,skm,skm,Google Chrome,235,2,True,True,0.9348568,101-500
+2318,fuy,fuy,Google Chrome,142,3,True,True,0.4303857,101-500
+2319,xby,xby,Firefox,78,2,True,True,0.07525753,21-100
+2320,ald,ald,Google Chrome,351,0,True,True,0.4473372,101-500
+2321,lgd,lgd,Firefox,77,3,True,True,0.39333013,21-100
+2322,gtj,gtj,Google Chrome,2009,1,True,True,0.7549189,>500
+2323,shh,shh,Firefox,62,3,True,True,0.78669584,21-100
+2324,ptb,ptb,Firefox,616,0,True,True,0.82374305,>500
+2325,esu,esu,Firefox,97,2,True,True,0.36812508,21-100
+2326,txk,txk,Firefox,808,2,True,True,0.6767007,>500
+2327,bgn,bgn,Firefox,1769,0,True,True,0.27184337,>500
+2328,tft,tft,Firefox,980,1,True,True,0.9145273,>500
+2329,zro,zro,Firefox,148,3,True,True,0.06823827,101-500
+2330,wfs,wfs,Google Chrome,1060,1,True,True,0.8256755,>500
+2331,deb,deb,Firefox,348,2,True,True,0.73763,101-500
+2332,eoe,eoe,Firefox,1239,0,True,True,0.85652757,>500
+2333,khv,khv,Firefox,346,2,True,True,0.25373167,101-500
+2334,fgn,fgn,Microsoft Edge,166,3,True,True,0.7779394,101-500
+2335,dbi,dbi,Microsoft Edge,809,1,True,True,0.8813107,>500
+2336,yvq,yvq,Google Chrome,3924,0,True,True,0.8640251,>500
+2337,wjn,wjn,Microsoft Edge,56,2,True,True,0.283233,21-100
+2338,cnh,cnh,Firefox,90,2,True,True,0.58449763,21-100
+2339,tvt,tvt,Firefox,2846,1,True,True,0.8450724,>500
+2340,nfh,nfh,Google Chrome,288,2,True,True,0.32759175,101-500
+2341,dbi,dbi,Microsoft Edge,844,1,True,True,0.3747825,>500
+2342,muz,muz,Google Chrome,108,0,True,True,0.2817018,101-500
+2343,gtj,gtj,Google Chrome,898,3,True,True,0.89967453,>500
+2344,fmz,fmz,Google Chrome,256,3,True,True,0.49215764,101-500
+2345,myl,myl,Google Chrome,51,3,True,True,0.25569955,21-100
+2346,txk,txk,Firefox,244,1,True,True,0.7689078,101-500
+2347,esu,esu,Firefox,1320,0,True,True,0.4429538,>500
+2348,hll,guh,Google Chrome,114,2,False,False,0.015515186,101-500
+2349,cxt,cxt,Microsoft Edge,197,0,True,True,0.93311083,101-500
+2350,slq,slq,Google Chrome,144,2,True,True,0.9307849,101-500
+2351,muz,muz,Google Chrome,356,1,True,True,0.9423615,101-500
+2352,skm,skm,Google Chrome,134,1,True,True,0.8715355,101-500
+2353,jpm,jpm,Firefox,187,0,True,True,0.57848126,101-500
+2354,hjs,hjs,Microsoft Edge,713,2,True,True,0.937672,>500
+2355,guh,hll,Google Chrome,77,0,False,False,0.022290923,21-100
+2356,pre,pre,Google Chrome,171,1,True,True,0.5804814,101-500
+2357,fvc,fvc,Google Chrome,1668,2,True,True,0.94167143,>500
+2358,zyk,zyk,Google Chrome,245,0,True,True,0.7704709,101-500
+2359,fou,fou,Google Chrome,68,0,True,True,0.75309294,21-100
+2360,kwi,kwi,Firefox,229,3,True,True,0.920089,101-500
+2361,pgi,pgi,Google Chrome,796,0,True,True,0.9086728,>500
+2362,avt,avt,Firefox,139,1,True,True,0.12783168,101-500
+2363,prb,prb,Firefox,418,0,True,True,0.89446586,101-500
+2364,ald,ald,Google Chrome,3531,1,True,True,0.6121099,>500
+2365,gid,gid,Google Chrome,77,0,True,True,0.120505035,21-100
+2366,cvw,cvw,Firefox,1028,2,True,True,0.8479023,>500
+2367,psg,psg,Google Chrome,1133,0,True,True,0.8679245,>500
+2368,jkt,jkt,Microsoft Edge,213,3,True,True,0.70330703,101-500
+2369,nlm,nlm,Firefox,1073,1,True,True,0.7318323,>500
+2370,wcf,wcf,Firefox,83,2,True,True,0.48007745,21-100
+2371,avt,avt,Firefox,168,0,True,True,0.50514627,101-500
+2372,btl,btl,Google Chrome,569,0,True,True,0.50325096,>500
+2373,skm,skm,Google Chrome,72,2,True,True,0.7279975,21-100
+2374,xkr,xkr,Google Chrome,974,3,True,True,0.4312428,>500
+2375,bou,bou,Google Chrome,311,2,True,True,0.819098,101-500
+2376,prb,prb,Firefox,1427,2,True,True,0.90113556,>500
+2377,iyf,iyf,Google Chrome,108,2,True,True,0.5055891,101-500
+2378,fcq,fcq,Google Chrome,1604,1,True,True,0.7965341,>500
+2379,xby,xby,Firefox,1631,1,True,True,0.6656501,>500
+2380,slq,slq,Google Chrome,150,0,True,True,0.8423229,101-500
+2381,lgd,lgd,Firefox,2628,2,True,True,0.19902363,>500
+2382,lgz,lgz,Firefox,167,1,True,True,0.33169717,101-500
+2383,zyk,zyk,Google Chrome,95,2,True,True,0.8254178,21-100
+2384,wuy,wuy,Google Chrome,173,2,True,True,0.8044144,101-500
+2385,jmq,jmq,Google Chrome,523,1,True,True,0.5865986,>500
+2386,yvq,yvq,Google Chrome,1880,3,True,True,0.8472002,>500
+2387,syt,syt,Firefox,219,2,True,True,0.16621253,101-500
+2388,fvc,fvc,Google Chrome,3575,2,True,True,0.8706453,>500
+2389,snv,snv,Firefox,292,2,True,True,0.7171739,101-500
+2390,nwt,nwt,Google Chrome,879,3,True,True,0.86420196,>500
+2391,eqo,fvc,Google Chrome,74,0,False,False,0.0050284043,21-100
+2392,bos,bos,Firefox,365,2,True,True,0.55179214,101-500
+2393,wfs,wfs,Google Chrome,426,1,True,True,0.61905235,101-500
+2394,cyd,cyd,Microsoft Edge,86,1,True,True,0.8757385,21-100
+2395,udj,udj,Microsoft Edge,650,1,True,True,0.77678084,>500
+2396,prb,prb,Firefox,1007,1,True,True,0.7193037,>500
+2397,bez,bez,Microsoft Edge,542,2,True,True,0.85816836,>500
+2398,vlm,vlm,Google Chrome,338,0,True,True,0.66728777,101-500
+2399,gtj,gtj,Google Chrome,2718,3,True,True,0.4692268,>500
+2400,zbn,zbn,Firefox,695,2,True,True,0.74213946,>500
+2401,oni,oni,Firefox,127,2,True,True,0.33384877,101-500
+2402,jxu,jxu,Firefox,1332,3,True,True,0.7775173,>500
+2403,zbn,zbn,Firefox,699,2,True,True,0.69859123,>500
+2404,nwt,nwt,Google Chrome,1894,1,True,True,0.829732,>500
+2405,blf,blf,Firefox,437,2,True,True,0.13009335,101-500
+2406,xby,xby,Firefox,759,1,True,True,0.5010106,>500
+2407,npo,npo,Firefox,3569,1,True,True,0.69568044,>500
+2408,tkz,tkz,Google Chrome,337,2,True,True,0.16720119,101-500
+2409,wwk,wwk,Google Chrome,162,3,True,True,0.87385267,101-500
+2410,esu,esu,Firefox,361,1,True,True,0.58613545,101-500
+2411,syt,syt,Firefox,1409,0,True,True,0.67201567,>500
+2412,skm,skm,Google Chrome,161,2,True,True,0.5955241,101-500
+2413,xxb,xxb,Firefox,152,0,True,True,0.027876034,101-500
+2414,rgo,rgo,Microsoft Edge,808,0,True,True,0.9299065,>500
+2415,pgi,pgi,Google Chrome,182,3,True,True,0.8725525,101-500
+2416,cjr,cjr,Google Chrome,1008,3,True,True,0.94712204,>500
+2417,qfy,qfy,Microsoft Edge,774,1,True,True,0.82276833,>500
+2418,cnh,cnh,Firefox,326,0,True,True,0.46566337,101-500
+2419,cbo,cbo,Google Chrome,95,2,True,True,0.6004341,21-100
+2420,xby,xby,Firefox,224,0,True,True,0.5080396,101-500
+2421,wxf,wxf,Firefox,69,2,True,True,0.23415351,21-100
+2422,eoe,eoe,Firefox,2694,0,True,True,0.7957511,>500
+2423,byo,byo,Firefox,768,3,True,True,0.30234793,>500
+2424,mgs,mgs,Firefox,193,2,True,True,0.38732004,101-500
+2425,jkc,jkc,Firefox,434,0,True,True,0.49801308,101-500
+2426,gor,gor,Firefox,1071,0,True,True,0.42386517,>500
+2427,ckl,ckl,Microsoft Edge,2180,2,True,True,0.7102426,>500
+2428,pgm,pgm,Firefox,309,3,True,True,0.14871255,101-500
+2429,tza,tza,Firefox,293,0,True,True,0.5946248,101-500
+2430,qdv,qdv,Google Chrome,150,1,True,True,0.049863514,101-500
+2431,zll,zll,Microsoft Edge,207,2,True,True,0.81830716,101-500
+2432,nfh,nfh,Google Chrome,666,1,True,True,0.5570035,>500
+2433,gcr,gcr,Microsoft Edge,2124,0,True,True,0.91184795,>500
+2434,qdv,qdv,Google Chrome,119,0,True,True,0.32852012,101-500
+2435,pgi,pgi,Google Chrome,215,0,True,True,0.8813179,101-500
+2436,cum,cum,Microsoft Edge,2264,3,True,True,0.8632945,>500
+2437,wuy,wuy,Google Chrome,307,1,True,True,0.8560747,101-500
+2438,cxt,cxt,Microsoft Edge,151,2,True,True,0.9433105,101-500
+2439,nfh,nfh,Google Chrome,402,3,True,True,0.45366198,101-500
+2440,cbo,cbo,Google Chrome,159,0,True,True,0.7537248,101-500
+2441,pxi,pxi,Firefox,471,0,True,True,0.42146146,101-500
+2442,nsf,nsf,Google Chrome,2938,0,True,True,0.5984999,>500
+2443,syt,syt,Firefox,165,2,True,True,0.7493825,101-500
+2444,uwp,uwp,Firefox,2462,1,True,True,0.7763364,>500
+2445,zbn,zbn,Firefox,323,2,True,True,0.82960325,101-500
+2446,lgz,lgz,Firefox,501,2,True,True,0.50531614,>500
+2447,tfi,tfi,Firefox,488,1,True,True,0.60604113,101-500
+2448,fyf,fyf,Firefox,2203,3,True,True,0.5322127,>500
+2449,fou,fou,Google Chrome,199,0,True,True,0.7063602,101-500
+2450,bou,bou,Google Chrome,146,1,True,True,0.615587,101-500
+2451,cjr,cjr,Google Chrome,767,0,True,True,0.8528225,>500
+2452,tyw,tyw,Microsoft Edge,994,1,True,True,0.90085125,>500
+2453,fgc,fgc,Firefox,147,1,True,True,0.8338422,101-500
+2454,cjr,cjr,Google Chrome,396,0,True,True,0.46060556,101-500
+2455,cjr,cjr,Google Chrome,97,3,True,True,0.01681237,21-100
+2456,qkd,qkd,Microsoft Edge,456,2,True,True,0.4700978,101-500
+2457,hjs,hjs,Microsoft Edge,107,1,True,True,0.95815814,101-500
+2458,skm,skm,Google Chrome,150,0,True,True,0.6499496,101-500
+2459,xgb,xgb,Firefox,123,0,True,True,0.064381704,101-500
+2460,ald,ald,Google Chrome,2893,2,True,True,0.55516917,>500
+2461,lio,lio,Firefox,316,3,True,True,0.8244325,101-500
+2462,pre,pre,Google Chrome,103,2,True,True,0.19372636,101-500
+2463,cjr,cjr,Google Chrome,74,3,True,True,0.052805245,21-100
+2464,xwz,xwz,Google Chrome,1391,1,True,True,0.83902735,>500
+2465,dfo,dfo,Firefox,835,3,True,True,0.62552947,>500
+2466,tza,tza,Firefox,266,2,True,True,0.25700513,101-500
+2467,flj,flj,Google Chrome,72,0,True,True,0.69028306,21-100
+2468,bfg,bfg,Firefox,1642,3,True,True,0.57807046,>500
+2469,lio,lio,Firefox,294,2,True,True,0.84396404,101-500
+2470,cbo,cbo,Google Chrome,305,1,True,True,0.4924278,101-500
+2471,meh,meh,Firefox,2670,0,True,True,0.8818676,>500
+2472,azo,azo,Google Chrome,145,3,True,True,0.39961252,101-500
+2473,gor,gor,Firefox,557,3,True,True,0.16682501,>500
+2474,shh,shh,Firefox,645,1,True,True,0.7440369,>500
+2475,deb,deb,Firefox,1264,3,True,True,0.5963248,>500
+2476,cyd,cyd,Microsoft Edge,386,0,True,True,0.756242,101-500
+2477,fal,fal,Firefox,140,1,True,True,0.5734668,101-500
+2478,ulu,ulu,Microsoft Edge,130,3,True,True,0.26581398,101-500
+2479,snv,snv,Firefox,181,3,True,True,0.3990784,101-500
+2480,qqe,qqe,Google Chrome,392,3,True,True,0.7347089,101-500
+2481,skm,slq,Google Chrome,37,1,False,False,0.023462012,21-100
+2482,ftq,ftq,Firefox,118,2,True,True,0.8078231,101-500
+2483,zqs,zqs,Microsoft Edge,154,0,True,True,0.8012595,101-500
+2484,syt,syt,Firefox,664,1,True,True,0.29961956,>500
+2485,slq,slq,Google Chrome,434,2,True,True,0.8717241,101-500
+2486,sgd,sgd,Firefox,1752,3,True,True,0.60169184,>500
+2487,fmz,fmz,Google Chrome,398,1,True,True,0.6506798,101-500
+2488,xgv,xgv,Firefox,258,1,True,True,0.7154267,101-500
+2489,flj,skm,Google Chrome,47,1,False,False,0.01603245,21-100
+2490,ftq,ftq,Firefox,70,0,True,True,0.7032613,21-100
+2491,nqg,nqg,Microsoft Edge,265,2,True,True,0.95521456,101-500
+2492,vlm,vlm,Google Chrome,173,2,True,True,0.3812401,101-500
+2493,uwr,uwr,Firefox,129,1,True,True,0.13142496,101-500
+2494,sps,sps,Microsoft Edge,72,0,True,True,0.6018502,21-100
+2495,meh,meh,Firefox,63,1,True,True,0.051738404,21-100
+2496,jxu,jxu,Firefox,233,1,True,True,0.70230114,101-500
+2497,prb,prb,Firefox,677,3,True,True,0.4549056,>500
+2498,pre,pre,Google Chrome,135,1,True,True,0.12907037,101-500
+2499,zht,zht,Firefox,96,0,True,True,0.7310432,21-100
+2500,yuz,yuz,Firefox,107,3,True,True,0.4659819,101-500
+2501,cnh,cnh,Firefox,113,1,True,True,0.41850996,101-500
+2502,zct,cjr,Google Chrome,75,0,False,False,0.009067662,21-100
+2503,meh,meh,Firefox,1813,0,True,True,0.8660428,>500
+2504,ycb,oqa,Google Chrome,642,3,False,False,0.0066141672,>500
+2505,blf,blf,Firefox,553,0,True,True,0.7212218,>500
+2506,oqa,oqa,Google Chrome,1068,2,True,True,0.7209156,>500
+2507,shh,shh,Firefox,266,2,True,True,0.8610227,101-500
+2508,snv,snv,Firefox,1459,3,True,True,0.70652187,>500
+2509,jat,jat,Microsoft Edge,598,1,True,True,0.24967942,>500
+2510,ftq,ftq,Firefox,92,3,True,True,0.4541157,21-100
+2511,qkd,qkd,Microsoft Edge,52,3,True,True,0.7115728,21-100
+2512,gid,gid,Google Chrome,92,0,True,True,0.09312086,21-100
+2513,wjn,wjn,Microsoft Edge,1233,0,True,True,0.9281703,>500
+2514,fou,fou,Google Chrome,56,0,True,True,0.6623931,21-100
+2515,cjr,cjr,Google Chrome,937,0,True,True,0.38673002,>500
+2516,wuy,wuy,Google Chrome,101,3,True,True,0.5922154,101-500
+2517,zct,zct,Google Chrome,89,0,True,True,0.4242605,21-100
+2518,szr,szr,Firefox,343,2,True,True,0.16430219,101-500
+2519,uey,uey,Google Chrome,999,0,True,True,0.80791295,>500
+2520,cqp,cqp,Firefox,696,3,True,True,0.07097429,>500
+2521,fjb,fjb,Microsoft Edge,9430,2,True,True,0.8528458,>500
+2522,shh,shh,Firefox,233,3,True,True,0.9473623,101-500
+2523,xgb,xgb,Firefox,268,3,True,True,0.12395793,101-500
+2524,fmz,fmz,Google Chrome,567,3,True,True,0.6604082,>500
+2525,xgv,xgv,Firefox,107,0,True,True,0.54641485,101-500
+2526,aho,aho,Google Chrome,226,1,True,True,0.5229282,101-500
+2527,uwr,uwr,Firefox,131,0,True,True,0.28166965,101-500
+2528,nyk,nyk,Firefox,278,2,True,True,0.3442499,101-500
+2529,cut,cut,Firefox,645,0,True,True,0.4195517,>500
+2530,nrb,nrb,Firefox,535,3,True,True,0.7577726,>500
+2531,hew,hew,Firefox,342,3,True,True,0.52163905,101-500
+2532,udj,udj,Microsoft Edge,115,0,True,True,0.68991154,101-500
+2533,wcf,wcf,Firefox,139,1,True,True,0.8301175,101-500
+2534,gor,gor,Firefox,1253,2,True,True,0.8786996,>500
+2535,opp,opp,Firefox,241,3,True,True,0.21873137,101-500
+2536,xvr,xvr,Firefox,134,0,True,True,0.5462181,101-500
+2537,uwr,uwr,Firefox,326,3,True,True,0.28308493,101-500
+2538,skm,skm,Google Chrome,534,3,True,True,0.71892625,>500
+2539,nsf,nsf,Google Chrome,1874,1,True,True,0.6517987,>500
+2540,sdx,sdx,Google Chrome,1842,3,True,True,0.91300654,>500
+2541,yrb,yrb,Microsoft Edge,257,0,True,True,0.058691755,101-500
+2542,zyk,zyk,Google Chrome,150,1,True,True,0.8463535,101-500
+2543,azo,azo,Google Chrome,2985,1,True,True,0.61225706,>500
+2544,zyk,zyk,Google Chrome,250,2,True,True,0.9106483,101-500
+2545,pgu,pgu,Firefox,165,0,True,True,0.45233038,101-500
+2546,btl,btl,Google Chrome,2756,1,True,True,0.6094208,>500
+2547,ien,ien,Microsoft Edge,317,2,True,True,0.7318344,101-500
+2548,vfo,vfo,Google Chrome,898,3,True,True,0.6086416,>500
+2549,eoe,eoe,Firefox,1960,3,True,True,0.8612268,>500
+2550,qof,qof,Google Chrome,192,0,True,True,0.6700345,101-500
+2551,tkz,tkz,Google Chrome,277,0,True,True,0.29764718,101-500
+2552,aho,aho,Google Chrome,1516,3,True,True,0.4683747,>500
+2553,uey,uey,Google Chrome,2061,2,True,True,0.8936262,>500
+2554,zqs,zqs,Microsoft Edge,153,0,True,True,0.8225289,101-500
+2555,kks,kks,Firefox,2635,1,True,True,0.7422184,>500
+2556,ycb,ycb,Google Chrome,493,2,True,True,0.8546179,101-500
+2557,zht,zht,Firefox,462,1,True,True,0.8722857,101-500
+2558,xvr,xvr,Firefox,1028,3,True,True,0.667987,>500
+2559,pgi,pgi,Google Chrome,79,2,True,True,0.6904993,21-100
+2560,flj,flj,Google Chrome,195,2,True,True,0.59599733,101-500
+2561,kwi,kwi,Firefox,241,2,True,True,0.37274098,101-500
+2562,xvr,xvr,Firefox,111,3,True,True,0.33097005,101-500
+2563,xkr,xkr,Google Chrome,605,2,True,True,0.017538682,>500
+2564,wvy,wvy,Firefox,434,1,True,True,0.8238294,101-500
+2565,tyw,tyw,Microsoft Edge,548,1,True,True,0.86008555,>500
+2566,kwi,kwi,Firefox,361,0,True,True,0.484435,101-500
+2567,meh,meh,Firefox,2765,2,True,True,0.8870605,>500
+2568,sii,sii,Firefox,411,2,True,True,0.7171201,101-500
+2569,qfy,qfy,Microsoft Edge,68,0,True,True,0.11170257,21-100
+2570,gtj,gtj,Google Chrome,2589,2,True,True,0.91988283,>500
+2571,gor,gor,Firefox,2170,0,True,True,0.7851637,>500
+2572,snv,snv,Firefox,593,1,True,True,0.8278116,>500
+2573,qkd,qkd,Microsoft Edge,235,0,True,True,0.6938408,101-500
+2574,uwr,uwr,Firefox,94,3,True,True,0.12471771,21-100
+2575,nrb,nrb,Firefox,825,0,True,True,0.76920444,>500
+2576,cut,cut,Firefox,633,1,True,True,0.7889613,>500
+2577,jmq,jmq,Google Chrome,65,0,True,True,0.861923,21-100
+2578,lgz,lgz,Firefox,178,0,True,True,0.57533485,101-500
+2579,tza,tza,Firefox,495,1,True,True,0.5811011,101-500
+2580,vlm,vlm,Google Chrome,117,1,True,True,0.46672195,101-500
+2581,kks,kks,Firefox,13,0,True,True,0.18289277,1-20
+2582,pou,pou,Firefox,879,0,True,True,0.8036455,>500
+2583,fgc,fgc,Firefox,167,0,True,True,0.19435728,101-500
+2584,slq,slq,Google Chrome,420,3,True,True,0.9136512,101-500
+2585,wvy,wvy,Firefox,312,2,True,True,0.35370988,101-500
+2586,nzq,nzq,Firefox,1824,0,True,True,0.6695174,>500
+2587,gid,gid,Google Chrome,1105,3,True,True,0.6706351,>500
+2588,ngs,ngs,Google Chrome,314,3,True,True,0.058686074,101-500
+2589,rvh,rvh,Google Chrome,1602,1,True,True,0.8274534,>500
+2590,sov,sov,Google Chrome,890,3,True,True,0.6456958,>500
+2591,sov,sov,Google Chrome,182,0,True,True,0.47877476,101-500
+2592,flj,flj,Google Chrome,120,0,True,True,0.2770162,101-500
+2593,eoe,eoe,Firefox,1464,0,True,True,0.8332833,>500
+2594,wxf,wxf,Firefox,133,0,True,True,0.40289187,101-500
+2595,jfm,jfm,Google Chrome,294,2,True,True,0.8612088,101-500
+2596,ngs,ngs,Google Chrome,1003,3,True,True,0.56584835,>500
+2597,zok,sps,Microsoft Edge,113,3,False,False,0.05549696,101-500
+2598,qsw,qsw,Google Chrome,67,3,True,True,0.27165657,21-100
+2599,ont,ont,Microsoft Edge,123,1,True,True,0.45480487,101-500
+2600,xgv,xgv,Firefox,228,1,True,True,0.51455116,101-500
+2601,snn,snn,Microsoft Edge,70,3,True,True,0.4089387,21-100
+2602,vek,vek,Firefox,541,0,True,True,0.4131291,>500
+2603,tft,tft,Firefox,2311,1,True,True,0.779592,>500
+2604,tft,tft,Firefox,551,2,True,True,0.63586193,>500
+2605,npo,npo,Firefox,3405,1,True,True,0.67198396,>500
+2606,yvq,yvq,Google Chrome,2289,1,True,True,0.6732986,>500
+2607,jks,jks,Microsoft Edge,459,2,True,True,0.5071073,101-500
+2608,qsw,qsw,Google Chrome,541,1,True,True,0.41539752,>500
+2609,vlm,vlm,Google Chrome,138,1,True,True,0.75688267,101-500
+2610,tdk,tdk,Firefox,647,3,True,True,0.74223214,>500
+2611,nzq,nzq,Firefox,108,0,True,True,0.4746219,101-500
+2612,vsb,vsb,Firefox,714,2,True,True,0.12265688,>500
+2613,slq,skm,Google Chrome,51,3,False,False,0.111254975,21-100
+2614,tft,tft,Firefox,1094,0,True,True,0.7095371,>500
+2615,sqb,sqb,Google Chrome,225,1,True,True,0.4169998,101-500
+2616,pgi,pgi,Google Chrome,79,3,True,True,0.75137144,21-100
+2617,qsw,qsw,Google Chrome,553,1,True,True,0.6771766,>500
+2618,opp,opp,Firefox,298,0,True,True,0.4226701,101-500
+2619,fou,fou,Google Chrome,212,1,True,True,0.845289,101-500
+2620,tsn,tsn,Firefox,925,0,True,True,0.8733693,>500
+2621,blf,blf,Firefox,571,2,True,True,0.5443135,>500
+2622,yrb,yrb,Microsoft Edge,243,1,True,True,0.46697396,101-500
+2623,nqg,nqg,Microsoft Edge,85,1,True,True,0.07711392,21-100
+2624,oec,oec,Firefox,397,3,True,True,0.4934164,101-500
+2625,cbo,cbo,Google Chrome,258,3,True,True,0.5042183,101-500
+2626,tzn,tzn,Google Chrome,539,1,True,True,0.8538875,>500
+2627,iib,iib,Firefox,1165,1,True,True,0.87006915,>500
+2628,ebm,ebm,Google Chrome,73,2,True,True,0.07083926,21-100
+2629,qfy,qfy,Microsoft Edge,732,1,True,True,0.6597734,>500
+2630,hrj,hrj,Google Chrome,145,1,True,True,0.567523,101-500
+2631,itt,itt,Google Chrome,112,0,True,True,0.023819268,101-500
+2632,tft,tft,Firefox,2383,3,True,True,0.8053696,>500
+2633,deb,deb,Firefox,391,1,True,True,0.7377164,101-500
+2634,slq,slq,Google Chrome,282,0,True,True,0.85527515,101-500
+2635,tsn,tsn,Firefox,524,0,True,True,0.7951921,>500
+2636,meh,meh,Firefox,2469,2,True,True,0.793439,>500
+2637,akx,akx,Google Chrome,229,1,True,True,0.2504624,101-500
+2638,sqb,sqb,Google Chrome,153,0,True,True,0.16120297,101-500
+2639,jfm,jfm,Google Chrome,479,1,True,True,0.87094855,101-500
+2640,nqg,nqg,Microsoft Edge,492,0,True,True,0.9582887,101-500
+2641,ngs,ngs,Google Chrome,187,1,True,True,0.5536327,101-500
+2642,cec,cec,Firefox,2649,0,True,True,0.68585664,>500
+2643,cjr,cjr,Google Chrome,531,2,True,True,0.63160706,>500
+2644,vfo,vfo,Google Chrome,219,2,True,True,0.54718596,101-500
+2645,czi,czi,Firefox,204,1,True,True,0.5009183,101-500
+2646,hjs,hjs,Microsoft Edge,342,2,True,True,0.8651802,101-500
+2647,zyk,zyk,Google Chrome,788,0,True,True,0.858656,>500
+2648,flj,flj,Google Chrome,99,1,True,True,0.5193604,21-100
+2649,cxt,cxt,Microsoft Edge,144,1,True,True,0.28038228,101-500
+2650,jfm,jfm,Google Chrome,430,2,True,True,0.74928796,101-500
+2651,nrb,nrb,Firefox,1019,1,True,True,0.7968271,>500
+2652,eqw,esu,Firefox,479,1,False,False,0.0070274696,101-500
+2653,kik,kik,Google Chrome,1086,0,True,True,0.6335196,>500
+2654,tjc,tjc,Google Chrome,232,1,True,True,0.68003833,101-500
+2655,jks,jks,Microsoft Edge,95,0,True,True,0.8657903,21-100
+2656,iyf,iyf,Google Chrome,437,3,True,True,0.38696587,101-500
+2657,vos,vos,Firefox,503,2,True,True,0.71329343,>500
+2658,kik,kik,Google Chrome,3395,1,True,True,0.8405843,>500
+2659,ufc,ufc,Google Chrome,428,3,True,True,0.017402522,101-500
+2660,skm,skm,Google Chrome,83,3,True,True,0.6337169,21-100
+2661,ebm,ebm,Google Chrome,310,2,True,True,0.17186135,101-500
+2662,byo,byo,Firefox,616,1,True,True,0.74680024,>500
+2663,flj,flj,Google Chrome,58,2,True,True,0.4309405,21-100
+2664,flj,flj,Google Chrome,45,0,True,True,0.56114244,21-100
+2665,iib,iib,Firefox,454,0,True,True,0.8989574,101-500
+2666,vsb,vsb,Firefox,761,3,True,True,0.23746037,>500
+2667,cec,cec,Firefox,245,3,True,True,0.46840996,101-500
+2668,cqp,cqp,Firefox,141,0,True,True,0.07319879,101-500
+2669,skm,skm,Google Chrome,549,3,True,True,0.9508788,>500
+2670,deb,deb,Firefox,69,2,True,True,0.19954275,21-100
+2671,cnh,cnh,Firefox,484,1,True,True,0.60954237,101-500
+2672,ulu,ulu,Microsoft Edge,248,2,True,True,0.4313757,101-500
+2673,hjs,hjs,Microsoft Edge,352,0,True,True,0.8292225,101-500
+2674,ebm,ebm,Google Chrome,235,1,True,True,0.2797702,101-500
+2675,swe,swe,Opera,74,3,True,True,1.0,21-100
+2676,tza,tza,Firefox,530,2,True,True,0.7145817,>500
+2677,fuy,fuy,Google Chrome,169,1,True,True,0.41047665,101-500
+2678,wcf,wcf,Firefox,100,3,True,True,0.59373796,21-100
+2679,qsw,qsw,Google Chrome,269,1,True,True,0.61057913,101-500
+2680,txk,txk,Firefox,2266,2,True,True,0.79847777,>500
+2681,rvh,rvh,Google Chrome,2891,0,True,True,0.86182284,>500
+2682,akx,akx,Google Chrome,320,0,True,True,0.22419246,101-500
+2683,fmz,fmz,Google Chrome,921,3,True,True,0.62579745,>500
+2684,ncb,ncb,Google Chrome,973,3,True,True,0.8725529,>500
+2685,zus,fwf,Firefox,2,1,False,False,0.0033055507,1-20
+2686,ont,ont,Microsoft Edge,1105,2,True,True,0.45809197,>500
+2687,mmm,mmm,Firefox,223,1,True,True,0.035918217,101-500
+2688,vlm,vlm,Google Chrome,88,0,True,True,0.49548224,21-100
+2689,vfo,vfo,Google Chrome,210,0,True,True,0.5767452,101-500
+2690,oec,oec,Firefox,126,3,True,True,0.44823465,101-500
+2691,nzq,nzq,Firefox,558,2,True,True,0.82904357,>500
+2692,vjw,vjw,Google Chrome,1206,3,True,True,0.8908492,>500
+2693,xby,xby,Firefox,1951,3,True,True,0.1776385,>500
+2694,tjc,tjc,Google Chrome,231,0,True,True,0.70249605,101-500
+2695,bfg,bfg,Firefox,118,1,True,True,0.5401248,101-500
+2696,slq,slq,Google Chrome,162,0,True,True,0.78492033,101-500
+2697,lio,lio,Firefox,140,0,True,True,0.46285385,101-500
+2698,fuz,fuz,Firefox,191,2,True,True,0.80873734,101-500
+2699,szr,szr,Firefox,593,2,True,True,0.6566312,>500
+2700,bou,bou,Google Chrome,228,1,True,True,0.38230485,101-500
+2701,eus,eus,Microsoft Edge,483,0,True,True,0.84684616,101-500
+2702,gtj,gtj,Google Chrome,1149,1,True,True,0.5405285,>500
+2703,qsw,qsw,Google Chrome,984,2,True,True,0.63069147,>500
+2704,uhx,uhx,Firefox,1483,3,True,True,0.4629723,>500
+2705,vzc,vzc,Google Chrome,989,3,True,True,0.8283966,>500
+2706,zbn,zbn,Firefox,924,0,True,True,0.77595687,>500
+2707,fou,fou,Google Chrome,85,2,True,True,0.9317042,21-100
+2708,cxu,cxu,Google Chrome,118,1,True,True,0.16919506,101-500
+2709,vjw,vjw,Google Chrome,497,1,True,True,0.8916222,101-500
+2710,pcv,pcv,Google Chrome,669,3,True,True,0.73153996,>500
+2711,wvy,wvy,Firefox,477,2,True,True,0.64673585,101-500
+2712,rvh,rvh,Google Chrome,2044,3,True,True,0.8117382,>500
+2713,ien,ien,Microsoft Edge,1924,3,True,True,0.807843,>500
+2714,tzn,tzn,Google Chrome,817,2,True,True,0.79935455,>500
+2715,nyk,nyk,Firefox,353,1,True,True,0.5536595,101-500
+2716,rvh,rvh,Google Chrome,294,0,True,True,0.4934453,101-500
+2717,bfg,bfg,Firefox,172,1,True,True,0.45117772,101-500
+2718,zus,zus,Firefox,1928,3,True,True,0.836546,>500
+2719,ngs,ngs,Google Chrome,819,1,True,True,0.81086725,>500
+2720,skm,skm,Google Chrome,79,1,True,True,0.42259517,21-100
+2721,vfo,vfo,Google Chrome,978,2,True,True,0.7247955,>500
+2722,cut,cut,Firefox,1140,0,True,True,0.8594106,>500
+2723,wfs,wfs,Google Chrome,279,0,True,True,0.53751105,101-500
+2724,yvq,yvq,Google Chrome,960,1,True,True,0.65544593,>500
+2725,fyf,fyf,Firefox,1283,0,True,True,0.81241596,>500
+2726,tsn,tsn,Firefox,272,2,True,True,0.74711627,101-500
+2727,eus,eus,Microsoft Edge,3181,1,True,True,0.88100547,>500
+2728,hdz,hdz,Firefox,1795,0,True,True,0.69754225,>500
+2729,snv,snv,Firefox,289,1,True,True,0.42687598,101-500
+2730,hzx,hzx,Microsoft Edge,184,1,True,True,0.6323644,101-500
+2731,slq,slq,Google Chrome,236,1,True,True,0.9130655,101-500
+2732,pgi,pgi,Google Chrome,70,3,True,True,0.7615715,21-100
+2733,fwf,fwf,Firefox,87,1,True,True,0.61778414,21-100
+2734,oni,oni,Firefox,387,1,True,True,0.41750586,101-500
+2735,wcf,wcf,Firefox,110,0,True,True,0.51903135,101-500
+2736,opp,opp,Firefox,470,2,True,True,0.6020703,101-500
+2737,jqq,jqq,Google Chrome,1159,0,True,True,0.729062,>500
+2738,pgu,pgu,Firefox,660,3,True,True,0.22005868,>500
+2739,ulu,ulu,Microsoft Edge,169,3,True,True,0.81735,101-500
+2740,qkd,qkd,Microsoft Edge,68,2,True,True,0.35157752,21-100
+2741,qkd,qkd,Microsoft Edge,198,1,True,True,0.57633364,101-500
+2742,hfy,hfy,Google Chrome,1617,1,True,True,0.45594022,>500
+2743,muz,muz,Google Chrome,121,0,True,True,0.5016543,101-500
+2744,cqp,cqp,Firefox,111,3,True,True,0.1466229,101-500
+2745,flj,flj,Google Chrome,74,0,True,True,0.77396655,21-100
+2746,vsb,vsb,Firefox,2470,3,True,True,0.34835306,>500
+2747,jfm,jfm,Google Chrome,609,1,True,True,0.7073857,>500
+2748,zro,zro,Firefox,1115,2,True,True,0.3531227,>500
+2749,skm,skm,Google Chrome,63,0,True,True,0.8626935,21-100
+2750,vzc,vzc,Google Chrome,1435,0,True,True,0.8608812,>500
+2751,muz,muz,Google Chrome,110,3,True,True,0.58768964,101-500
+2752,zus,zus,Firefox,1482,2,True,True,0.6441689,>500
+2753,gor,gor,Firefox,2914,3,True,True,0.25068438,>500
+2754,kks,kks,Firefox,703,3,True,True,0.5403224,>500
+2755,cec,cec,Firefox,181,1,True,True,0.4783066,101-500
+2756,qfy,qfy,Microsoft Edge,772,2,True,True,0.8431225,>500
+2757,yvq,eqo,Google Chrome,158,2,False,False,0.027263522,101-500
+2758,ncb,ncb,Google Chrome,788,0,True,True,0.92388374,>500
+2759,lhr,lhr,Firefox,591,2,True,True,0.60216403,>500
+2760,nlm,nlm,Firefox,1110,2,True,True,0.7785234,>500
+2761,hvh,guh,Google Chrome,149,1,False,False,0.01812683,101-500
+2762,tyw,tyw,Microsoft Edge,1000,1,True,True,0.9183195,>500
+2763,lfq,lfq,Firefox,946,1,True,True,0.8033317,>500
+2764,ncb,ncb,Google Chrome,199,3,True,True,0.10680719,101-500
+2765,vfo,vfo,Google Chrome,843,1,True,True,0.72696745,>500
+2766,guh,guh,Google Chrome,83,0,True,True,0.2952007,21-100
+2767,kzt,kzt,Firefox,44,3,True,True,0.3518986,21-100
+2768,nyk,nyk,Firefox,323,1,True,True,0.23007587,101-500
+2769,ofq,ofq,Firefox,1157,0,True,True,0.8050141,>500
+2770,eus,eus,Microsoft Edge,171,2,True,True,0.7091596,101-500
+2771,oec,oec,Firefox,4769,2,True,True,0.51188695,>500
+2772,nrb,nrb,Firefox,59,1,True,True,0.08686487,21-100
+2773,fwf,fwf,Firefox,295,0,True,True,0.7788545,101-500
+2774,czi,czi,Firefox,178,3,True,True,0.34625676,101-500
+2775,pcv,pcv,Google Chrome,1037,0,True,True,0.86616254,>500
+2776,esu,esu,Firefox,200,3,True,True,0.40373445,101-500
+2777,vfo,vfo,Google Chrome,57,2,True,True,0.26751313,21-100
+2778,jfm,jfm,Google Chrome,63,0,True,True,0.82253927,21-100
+2779,cil,cil,Google Chrome,942,2,True,True,0.6132334,>500
+2780,ajo,ajo,Firefox,995,0,True,True,0.45614165,>500
+2781,skm,skm,Google Chrome,144,1,True,True,0.9725511,101-500
+2782,guh,guh,Google Chrome,751,1,True,True,0.3972101,>500
+2783,uof,uof,Google Chrome,593,0,True,True,0.795823,>500
+2784,qkd,qkd,Microsoft Edge,199,0,True,True,0.7967665,101-500
+2785,gzi,gzi,Firefox,4429,1,True,True,0.4700931,>500
+2786,ptb,ptb,Firefox,985,1,True,True,0.668252,>500
+2787,skm,skm,Google Chrome,64,3,True,True,0.86056286,21-100
+2788,dfo,dfo,Firefox,848,0,True,True,0.66551286,>500
+2789,syt,syt,Firefox,313,1,True,True,0.43078485,101-500
+2790,vek,vek,Firefox,946,2,True,True,0.31360322,>500
+2791,qfy,qfy,Microsoft Edge,827,2,True,True,0.7808647,>500
+2792,ulu,ulu,Microsoft Edge,87,0,True,True,0.6498081,21-100
+2793,byo,byo,Firefox,525,3,True,True,0.32482135,>500
+2794,skm,skm,Google Chrome,318,1,True,True,0.9553508,101-500
+2795,jat,jat,Microsoft Edge,1964,2,True,True,0.35455397,>500
+2796,sii,sii,Firefox,1615,1,True,True,0.9453178,>500
+2797,fxg,fxg,Firefox,5695,0,True,True,0.7751463,>500
+2798,uhx,uhx,Firefox,283,2,True,True,0.2402453,101-500
+2799,muz,muz,Google Chrome,109,3,True,True,0.3456852,101-500
+2800,czi,czi,Firefox,388,2,True,True,0.53365886,101-500
+2801,nzq,nzq,Firefox,202,1,True,True,0.7779033,101-500
+2802,wuy,wuy,Google Chrome,754,0,True,True,0.8864138,>500
+2803,bgn,bgn,Firefox,489,2,True,True,0.60231733,101-500
+2804,nuh,nuh,Firefox,1596,2,True,True,0.8743572,>500
+2805,ubr,ubr,Google Chrome,3082,0,True,True,0.5973107,>500
+2806,flj,skm,Google Chrome,125,1,False,False,0.29673272,101-500
+2807,fmz,fmz,Google Chrome,1069,0,True,True,0.87337154,>500
+2808,jpm,jpm,Firefox,803,2,True,True,0.6413304,>500
+2809,pgm,pgm,Firefox,82,3,True,True,0.57570076,21-100
+2810,gtj,gtj,Google Chrome,513,3,True,True,0.49990138,>500
+2811,ycb,ycb,Google Chrome,81,1,True,True,0.09962788,21-100
+2812,syt,syt,Firefox,501,2,True,True,0.49501207,>500
+2813,wvy,wvy,Firefox,9707,1,True,True,0.83820707,>500
+2814,oqa,oqa,Google Chrome,691,0,True,True,0.62191,>500
+2815,fxg,fxg,Firefox,8476,1,True,True,0.82641053,>500
+2816,jew,jew,Firefox,214,3,True,True,0.51473624,101-500
+2817,skm,skm,Google Chrome,2017,0,True,True,0.8875744,>500
+2818,slq,slq,Google Chrome,125,2,True,True,0.9175367,101-500
+2819,pcv,pcv,Google Chrome,1294,3,True,True,0.8293661,>500
+2820,pgu,pgu,Firefox,210,0,True,True,0.22442375,101-500
+2821,kks,kks,Firefox,562,0,True,True,0.6669811,>500
+2822,hjs,hjs,Microsoft Edge,272,1,True,True,0.73280877,101-500
+2823,mqo,mqo,Microsoft Edge,200,2,True,True,0.72164154,101-500
+2824,ofq,ofq,Firefox,140,0,True,True,0.8024978,101-500
+2825,wem,wem,Google Chrome,1194,0,True,True,0.6442736,>500
+2826,cut,cut,Firefox,422,1,True,True,0.6495533,101-500
+2827,gid,gid,Google Chrome,473,1,True,True,0.53665185,101-500
+2828,wvy,wvy,Firefox,1732,1,True,True,0.67498523,>500
+2829,hzx,hzx,Microsoft Edge,77,1,True,True,0.06836745,21-100
+2830,muz,muz,Google Chrome,122,0,True,True,0.17879407,101-500
+2831,vlm,vlm,Google Chrome,104,2,True,True,0.63211876,101-500
+2832,muz,muz,Google Chrome,478,3,True,True,0.74619097,101-500
+2833,khv,khv,Firefox,241,2,True,True,0.47366774,101-500
+2834,slq,slq,Google Chrome,259,0,True,True,0.44134054,101-500
+2835,wem,wem,Google Chrome,128,1,True,True,0.34468526,101-500
+2836,yvq,yvq,Google Chrome,3481,3,True,True,0.82392305,>500
+2837,hzx,hzx,Microsoft Edge,104,3,True,True,0.9427113,101-500
+2838,szr,szr,Firefox,1275,1,True,True,0.5586035,>500
+2839,ats,ats,Firefox,81,1,True,True,0.46553978,21-100
+2840,hrj,hrj,Google Chrome,380,0,True,True,0.52365357,101-500
+2841,zht,zht,Firefox,1430,1,True,True,0.71652085,>500
+2842,blf,blf,Firefox,482,2,True,True,0.52999794,101-500
+2843,fmz,fmz,Google Chrome,565,0,True,True,0.32937604,>500
+2844,nqg,nqg,Microsoft Edge,795,3,True,True,0.9204265,>500
+2845,nqg,nqg,Microsoft Edge,211,2,True,True,0.8516263,101-500
+2846,muz,muz,Google Chrome,188,1,True,True,0.8202185,101-500
+2847,mqo,mqo,Microsoft Edge,1438,1,True,True,0.8771549,>500
+2848,tyw,tyw,Microsoft Edge,295,2,True,True,0.8049127,101-500
+2849,zro,zro,Firefox,538,2,True,True,0.40066206,>500
+2850,wjn,wjn,Microsoft Edge,62,0,True,True,0.8072183,21-100
+2851,rgo,rgo,Microsoft Edge,939,0,True,True,0.9134022,>500
+2852,vfo,vfo,Google Chrome,1047,0,True,True,0.9334237,>500
+2853,kwi,kwi,Firefox,59,2,True,True,0.19296707,21-100
+2854,iib,iib,Firefox,1168,2,True,True,0.8243508,>500
+2855,xgv,xgv,Firefox,782,1,True,True,0.88031065,>500
+2856,vmy,vmy,Google Chrome,132,3,True,True,0.24610355,101-500
+2857,czi,czi,Firefox,333,3,True,True,0.5524473,101-500
+2858,nzq,nzq,Firefox,245,3,True,True,0.7002415,101-500
+2859,snv,snv,Firefox,471,2,True,True,0.7570109,101-500
+2860,nqg,nqg,Microsoft Edge,134,2,True,True,0.51440936,101-500
+2861,vfo,vfo,Google Chrome,229,2,True,True,0.6899875,101-500
+2862,hzx,hzx,Microsoft Edge,104,0,True,True,0.87825996,101-500
+2863,nqg,nqg,Microsoft Edge,155,0,True,True,0.9656906,101-500
+2864,flj,flj,Google Chrome,299,3,True,True,0.96767086,101-500
+2865,hjs,hjs,Microsoft Edge,327,0,True,True,0.97804326,101-500
+2866,kik,kik,Google Chrome,360,2,True,True,0.5910606,101-500
+2867,slq,slq,Google Chrome,76,3,True,True,0.42471948,21-100
+2868,wem,wem,Google Chrome,196,0,True,True,0.7413396,101-500
+2869,tvt,tvt,Firefox,802,3,True,True,0.7912329,>500
+2870,ptb,ptb,Firefox,930,0,True,True,0.62180436,>500
+2871,shh,shh,Firefox,272,3,True,True,0.90761393,101-500
+2872,skm,skm,Google Chrome,94,3,True,True,0.87935054,21-100
+2873,wjn,wjn,Microsoft Edge,314,1,True,True,0.73594844,101-500
+2874,muz,muz,Google Chrome,607,0,True,True,0.72523093,>500
+2875,dbi,dbi,Microsoft Edge,193,3,True,True,0.6750112,101-500
+2876,snv,snv,Firefox,960,3,True,True,0.7301265,>500
+2877,bos,bos,Firefox,135,3,True,True,0.27530572,101-500
+2878,swe,swe,Opera,2033,2,True,True,1.0,>500
+2879,nyk,nyk,Firefox,529,0,True,True,0.09231065,>500
+2880,iju,iju,Google Chrome,523,1,True,True,0.50078654,>500
+2881,ngs,ngs,Google Chrome,838,2,True,True,0.76158357,>500
+2882,cut,cut,Firefox,1301,1,True,True,0.82897234,>500
+2883,jks,jks,Microsoft Edge,645,3,True,True,0.7118649,>500
+2884,sfi,sfi,Google Chrome,237,1,True,True,0.7595784,101-500
+2885,rmf,rmf,Microsoft Edge,60,3,True,True,0.23342437,21-100
+2886,kzt,kzt,Firefox,724,0,True,True,0.5806732,>500
+2887,qkd,qkd,Microsoft Edge,109,1,True,True,0.35686746,101-500
+2888,btl,btl,Google Chrome,348,3,True,True,0.6068321,101-500
+2889,zct,zct,Google Chrome,99,1,True,True,0.6581753,21-100
+2890,iyf,iyf,Google Chrome,71,3,True,True,0.027584918,21-100
+2891,lhr,lhr,Firefox,342,0,True,True,0.49176988,101-500
+2892,qkd,qkd,Microsoft Edge,115,1,True,True,0.33225468,101-500
+2893,cyd,cyd,Microsoft Edge,148,3,True,True,0.8068927,101-500
+2894,hew,hew,Firefox,2818,3,True,True,0.49764034,>500
+2895,fwf,fwf,Firefox,171,3,True,True,0.90315956,101-500
+2896,vek,vek,Firefox,205,3,True,True,0.1906651,101-500
+2897,wht,wht,Google Chrome,357,3,True,True,0.52543366,101-500
+2898,fal,fal,Firefox,662,1,True,True,0.84621865,>500
+2899,cjr,cjr,Google Chrome,622,3,True,True,0.5104413,>500
+2900,byo,byo,Firefox,1426,1,True,True,0.22093903,>500
+2901,skm,skm,Google Chrome,326,0,True,True,0.971999,101-500
+2902,flj,slq,Google Chrome,47,3,False,False,0.06593947,21-100
+2903,oph,oph,Microsoft Edge,2039,3,True,True,0.7905519,>500
+2904,bgn,bgn,Firefox,3789,2,True,True,0.92663383,>500
+2905,wfs,wfs,Google Chrome,281,1,True,True,0.48382276,101-500
+2906,qqe,qqe,Google Chrome,1587,2,True,True,0.775065,>500
+2907,xvr,xvr,Firefox,409,2,True,True,0.390997,101-500
+2908,akx,akx,Google Chrome,652,0,True,True,0.85822815,>500
+2909,iju,iju,Google Chrome,936,2,True,True,0.63914406,>500
+2910,fgc,fgc,Firefox,1008,1,True,True,0.35508832,>500
+2911,usg,usg,Firefox,3402,3,True,True,0.5550919,>500
+2912,xvr,xvr,Firefox,208,2,True,True,0.17354599,101-500
+2913,bfg,bfg,Firefox,123,3,True,True,0.31063578,101-500
+2914,vsb,vsb,Firefox,854,0,True,True,0.22941935,>500
+2915,slq,slq,Google Chrome,150,1,True,True,0.6958635,101-500
+2916,zqs,zqs,Microsoft Edge,93,3,True,True,0.16303876,21-100
+2917,ats,ats,Firefox,256,0,True,True,0.3928401,101-500
+2918,kwi,kwi,Firefox,678,3,True,True,0.80993885,>500
+2919,ftq,ftq,Firefox,64,2,True,True,0.69273686,21-100
+2920,skm,skm,Google Chrome,97,0,True,True,0.88033956,21-100
+2921,khv,khv,Firefox,301,0,True,True,0.2616052,101-500
+2922,qfy,qfy,Microsoft Edge,696,0,True,True,0.8842184,>500
+2923,cjr,cjr,Google Chrome,225,1,True,True,0.79699486,101-500
+2924,ykq,ykq,Microsoft Edge,167,2,True,True,0.57721895,101-500
+2925,snv,snv,Firefox,261,1,True,True,0.70703566,101-500
+2926,pgi,pgi,Google Chrome,1074,3,True,True,0.8488931,>500
+2927,fou,fou,Google Chrome,200,3,True,True,0.5249346,101-500
+2928,oni,oni,Firefox,408,3,True,True,0.5757534,101-500
+2929,ajo,ajo,Firefox,1727,2,True,True,0.7752561,>500
+2930,tkz,tkz,Google Chrome,434,3,True,True,0.50733215,101-500
+2931,jkc,jkc,Firefox,485,2,True,True,0.1180045,101-500
+2932,vfo,vfo,Google Chrome,262,2,True,True,0.7267156,101-500
+2933,slq,slq,Google Chrome,432,0,True,True,0.6911173,101-500
+2934,oec,oec,Firefox,338,2,True,True,0.44863507,101-500
+2935,hew,hew,Firefox,492,0,True,True,0.79841256,101-500
+2936,hzx,hzx,Microsoft Edge,123,0,True,True,0.5964647,101-500
+2937,xxb,xxb,Firefox,335,2,True,True,0.2550634,101-500
+2938,tfi,tfi,Firefox,346,2,True,True,0.8247063,101-500
+2939,lgz,lgz,Firefox,58,2,True,True,0.54269594,21-100
+2940,xxb,xxb,Firefox,3554,3,True,True,0.55691993,>500
+2941,gcr,gcr,Microsoft Edge,1649,3,True,True,0.93441164,>500
+2942,vfo,vfo,Google Chrome,414,1,True,True,0.84674644,101-500
+2943,zus,zus,Firefox,2063,0,True,True,0.63798153,>500
+2944,sps,sps,Microsoft Edge,289,3,True,True,0.2713536,101-500
+2945,bfg,bfg,Firefox,473,1,True,True,0.571538,101-500
+2946,pgm,pgm,Firefox,253,0,True,True,0.32714275,101-500
+2947,tvt,tvt,Firefox,1515,2,True,True,0.87665516,>500
+2948,bos,bos,Firefox,141,0,True,True,0.27461398,101-500
+2949,xgv,xgv,Firefox,518,2,True,True,0.7254379,>500
+2950,guh,guh,Google Chrome,46,3,True,True,0.10069473,21-100
+2951,vlm,vlm,Google Chrome,470,0,True,True,0.8709665,101-500
+2952,wwk,wwk,Google Chrome,227,0,True,True,0.9370226,101-500
+2953,zok,zok,Microsoft Edge,150,2,True,True,0.25836647,101-500
+2954,pyb,pyb,Firefox,697,0,True,True,0.7673589,>500
+2955,fjb,fjb,Microsoft Edge,459,1,True,True,0.69509214,101-500
+2956,azn,wht,Google Chrome,83,0,False,False,0.016606256,21-100
+2957,pyb,pyb,Firefox,276,1,True,True,0.72477406,101-500
+2958,obm,obm,Firefox,758,3,True,True,0.6425196,>500
+2959,tsn,tsn,Firefox,504,1,True,True,0.8345499,>500
+2960,vlm,vlm,Google Chrome,97,0,True,True,0.3521971,21-100
+2961,zrx,zrx,Microsoft Edge,279,2,True,True,0.8112724,101-500
+2962,fuy,fuy,Google Chrome,365,0,True,True,0.49197394,101-500
+2963,ptb,ptb,Firefox,111,1,True,True,0.07179601,101-500
+2964,cxu,cxu,Google Chrome,95,0,True,True,0.48413584,21-100
+2965,szr,szr,Firefox,116,0,True,True,0.20501223,101-500
+2966,kik,kik,Google Chrome,815,0,True,True,0.8128505,>500
+2967,nqg,nqg,Microsoft Edge,343,3,True,True,0.97149515,101-500
+2968,kik,kik,Google Chrome,100,3,True,True,0.7902422,21-100
+2969,ftq,ftq,Firefox,527,0,True,True,0.9407151,>500
+2970,fgc,fgc,Firefox,1259,0,True,True,0.5506715,>500
+2971,gor,gor,Firefox,2323,3,True,True,0.379625,>500
+2972,vzc,vzc,Google Chrome,4083,1,True,True,0.7341929,>500
+2973,opp,opp,Firefox,1303,2,True,True,0.74465036,>500
+2974,ulu,ulu,Microsoft Edge,188,2,True,True,0.53990936,101-500
+2975,fmz,fmz,Google Chrome,226,3,True,True,0.6240995,101-500
+2976,sii,sii,Firefox,577,0,True,True,0.89750737,>500
+2977,gtj,gtj,Google Chrome,218,1,True,True,0.49271,101-500
+2978,nqg,nqg,Microsoft Edge,103,1,True,True,0.93332267,101-500
+2979,hvh,hvh,Google Chrome,180,1,True,True,0.69833046,101-500
+2980,fcq,fcq,Google Chrome,88,3,True,True,0.3608268,21-100
+2981,pxi,pxi,Firefox,2017,2,True,True,0.5474374,>500
+2982,hzx,hzx,Microsoft Edge,432,1,True,True,0.9242328,101-500
+2983,jrc,jrc,Firefox,115,3,True,True,0.11788053,101-500
+2984,hjs,hjs,Microsoft Edge,232,1,True,True,0.812138,101-500
+2985,dfo,dfo,Firefox,350,1,True,True,0.50384104,101-500
+2986,myl,myl,Google Chrome,376,0,True,True,0.6983312,101-500
+2987,ykq,ykq,Microsoft Edge,306,1,True,True,0.48653552,101-500
+2988,slq,slq,Google Chrome,38,0,True,True,0.77436244,21-100
+2989,nzq,nzq,Firefox,146,2,True,True,0.36564824,101-500
+2990,pgi,pgi,Google Chrome,325,2,True,True,0.8684861,101-500
+2991,cjr,cjr,Google Chrome,961,2,True,True,0.59461087,>500
+2992,yvq,yvq,Google Chrome,623,2,True,True,0.24279095,>500
+2993,jkc,jkc,Firefox,982,2,True,True,0.55708563,>500
+2994,sbz,xkr,Google Chrome,392,1,False,False,0.022014491,101-500
+2995,qqe,qqe,Google Chrome,2861,1,True,True,0.784138,>500
+2996,prb,prb,Firefox,178,1,True,True,0.8381991,101-500
+2997,skm,skm,Google Chrome,179,3,True,True,0.49791473,101-500
+2998,uhx,uhx,Firefox,651,1,True,True,0.460013,>500
+2999,fmz,fmz,Google Chrome,498,1,True,True,0.5320284,101-500
+3000,txk,txk,Firefox,1915,3,True,True,0.84357744,>500
+3001,kwi,kwi,Firefox,353,3,True,True,0.93553543,101-500
+3002,txk,txk,Firefox,945,2,True,True,0.7523403,>500
+3003,hll,hll,Google Chrome,93,0,True,True,0.00827267,21-100
+3004,bos,bos,Firefox,810,2,True,True,0.44831648,>500
+3005,vog,vog,Firefox,613,3,True,True,0.25967175,>500
+3006,vlm,vlm,Google Chrome,1134,2,True,True,0.7882011,>500
+3007,opp,opp,Firefox,349,0,True,True,0.44049084,101-500
+3008,kik,kik,Google Chrome,115,0,True,True,0.4112549,101-500
+3009,shh,shh,Firefox,33,1,True,True,0.5054367,21-100
+3010,slq,hxt,Google Chrome,151,0,False,False,0.005793445,101-500
+3011,tvt,tvt,Firefox,908,2,True,True,0.8477745,>500
+3012,tfi,tfi,Firefox,602,0,True,True,0.85182226,>500
+3013,hll,guh,Google Chrome,148,1,False,False,0.0036243051,101-500
+3014,sii,sii,Firefox,240,2,True,True,0.70545876,101-500
+3015,wht,wht,Google Chrome,403,1,True,True,0.6157748,101-500
+3016,jkc,fwf,Firefox,180,1,False,False,0.014259599,101-500
+3017,guh,guh,Google Chrome,86,0,True,True,0.060525887,21-100
+3018,tmn,tmn,Firefox,379,0,True,True,0.023381136,101-500
+3019,kwi,kwi,Firefox,423,2,True,True,0.7119944,101-500
+3020,qbf,qbf,Google Chrome,122,1,True,True,0.31332886,101-500
+3021,nrb,nrb,Firefox,124,0,True,True,0.19291091,101-500
+3022,ncb,ncb,Google Chrome,231,2,True,True,0.7957126,101-500
+3023,gcr,gcr,Microsoft Edge,180,1,True,True,0.8824828,101-500
+3024,cut,cut,Firefox,138,3,True,True,0.73499244,101-500
+3025,bgn,bgn,Firefox,873,1,True,True,0.526464,>500
+3026,cka,cka,Firefox,97,1,True,True,0.32978806,21-100
+3027,nkb,slq,Google Chrome,255,1,False,False,0.17166603,101-500
+3028,hrj,hrj,Google Chrome,495,1,True,True,0.5219621,101-500
+3029,cxt,cxt,Microsoft Edge,47,2,True,True,0.18458396,21-100
+3030,wwk,wwk,Google Chrome,160,3,True,True,0.8443695,101-500
+3031,zrx,zrx,Microsoft Edge,572,1,True,True,0.8175446,>500
+3032,fvc,fvc,Google Chrome,434,2,True,True,0.87831783,101-500
+3033,mgs,mgs,Firefox,131,1,True,True,0.49441144,101-500
+3034,lhr,lhr,Firefox,38,3,True,True,0.08421822,21-100
+3035,nlm,nlm,Firefox,493,1,True,True,0.6871668,101-500
+3036,wjn,wjn,Microsoft Edge,594,2,True,True,0.8525171,>500
+3037,hew,hew,Firefox,821,1,True,True,0.70999014,>500
+3038,sps,sps,Microsoft Edge,387,0,True,True,0.7704706,101-500
+3039,lio,lio,Firefox,426,1,True,True,0.7473189,101-500
+3040,fyf,fyf,Firefox,445,3,True,True,0.5215488,101-500
+3041,cuw,zyk,Google Chrome,73,2,False,False,0.02124437,21-100
+3042,uwr,uwr,Firefox,880,1,True,True,0.54490113,>500
+3043,pre,pre,Google Chrome,541,2,True,True,0.63193893,>500
+3044,snn,snn,Microsoft Edge,301,2,True,True,0.82353204,101-500
+3045,avt,avt,Firefox,1513,1,True,True,0.8738564,>500
+3046,kwi,fwf,Firefox,109,2,False,False,0.0085457,101-500
+3047,shh,shh,Firefox,325,2,True,True,0.9436579,101-500
+3048,psg,psg,Google Chrome,930,1,True,True,0.8832841,>500
+3049,ncb,ncb,Google Chrome,446,0,True,True,0.7193471,101-500
+3050,uof,uof,Google Chrome,391,2,True,True,0.748888,101-500
+3051,zok,zok,Microsoft Edge,867,0,True,True,0.1797457,>500
+3052,ats,ats,Firefox,1067,1,True,True,0.60901904,>500
+3053,avt,avt,Firefox,1043,2,True,True,0.77677864,>500
+3054,fwf,fwf,Firefox,262,0,True,True,0.78786165,101-500
+3055,swe,swe,Opera,186,3,True,True,1.0,101-500
+3056,skm,skm,Google Chrome,46,3,True,True,0.81544983,21-100
+3057,qqe,qqe,Google Chrome,369,1,True,True,0.4549348,101-500
+3058,fwf,fwf,Firefox,280,1,True,True,0.78775626,101-500
+3059,oec,oec,Firefox,338,0,True,True,0.037018552,101-500
+3060,usg,usg,Firefox,706,0,True,True,0.26004604,>500
+3061,bgn,bgn,Firefox,717,2,True,True,0.85240984,>500
+3062,skm,skm,Google Chrome,248,1,True,True,0.91025156,101-500
+3063,zrx,zrx,Microsoft Edge,438,2,True,True,0.7579128,101-500
+3064,xvr,xvr,Firefox,611,0,True,True,0.6820505,>500
+3065,shh,shh,Firefox,503,0,True,True,0.8997099,>500
+3066,zll,zll,Microsoft Edge,169,1,True,True,0.61947346,101-500
+3067,eus,eus,Microsoft Edge,4364,1,True,True,0.9126389,>500
+3068,cje,cje,Google Chrome,265,0,True,True,0.61127645,101-500
+3069,guh,guh,Google Chrome,668,3,True,True,0.33816555,>500
+3070,shh,shh,Firefox,252,3,True,True,0.80143356,101-500
+3071,pgm,pgm,Firefox,65,0,True,True,0.5310064,21-100
+3072,slq,slq,Google Chrome,109,2,True,True,0.77107227,101-500
+3073,pgi,pgi,Google Chrome,235,1,True,True,0.5265817,101-500
+3074,kks,kks,Firefox,2151,1,True,True,0.75386363,>500
+3075,tft,tft,Firefox,635,3,True,True,0.8418162,>500
+3076,cuw,zyk,Google Chrome,100,1,False,False,0.01755979,21-100
+3077,qqe,qqe,Google Chrome,1253,2,True,True,0.7538733,>500
+3078,jpm,jpm,Firefox,786,0,True,True,0.35984024,>500
+3079,fcq,fcq,Google Chrome,1622,2,True,True,0.8563868,>500
+3080,sdx,sdx,Google Chrome,2787,0,True,True,0.9112883,>500
+3081,czi,czi,Firefox,340,0,True,True,0.45677125,101-500
+3082,lio,lio,Firefox,300,2,True,True,0.69295,101-500
+3083,wvy,wvy,Firefox,11977,0,True,True,0.76843524,>500
+3084,wem,wem,Google Chrome,614,0,True,True,0.7663978,>500
+3085,mmo,mmo,Google Chrome,79,2,True,True,0.020391256,21-100
+3086,pqd,pqd,Firefox,1048,0,True,True,0.144766,>500
+3087,nuh,nuh,Firefox,1339,1,True,True,0.8993556,>500
+3088,iba,iba,Google Chrome,861,1,True,True,0.7813841,>500
+3089,yrb,yrb,Microsoft Edge,73,3,True,True,0.07228716,21-100
+3090,mqo,mqo,Microsoft Edge,500,2,True,True,0.725004,101-500
+3091,gzi,gzi,Firefox,86,1,True,True,0.19107188,21-100
+3092,meh,byo,Firefox,102,2,False,False,0.018660193,101-500
+3093,snv,snv,Firefox,87,3,True,True,0.47258544,21-100
+3094,fek,fek,Firefox,168,3,True,True,0.0958399,101-500
+3095,pgi,pgi,Google Chrome,278,0,True,True,0.8655052,101-500
+3096,wht,wht,Google Chrome,718,3,True,True,0.79043424,>500
+3097,zrx,zrx,Microsoft Edge,203,0,True,True,0.49790817,101-500
+3098,syt,syt,Firefox,613,3,True,True,0.35987288,>500
+3099,bgn,bgn,Firefox,1431,1,True,True,0.3930382,>500
+3100,mvu,mvu,Google Chrome,222,2,True,True,0.59373933,101-500
+3101,xkr,xkr,Google Chrome,1600,2,True,True,0.5770441,>500
+3102,mmm,txk,Firefox,100,3,False,False,0.0023311973,21-100
+3103,mmm,mmm,Firefox,603,0,True,True,0.24427721,>500
+3104,qkd,qkd,Microsoft Edge,222,1,True,True,0.77267516,101-500
+3105,gvp,gvp,Google Chrome,124,0,True,True,0.31118596,101-500
+3106,pcv,pcv,Google Chrome,1830,1,True,True,0.6834195,>500
+3107,tza,tza,Firefox,213,3,True,True,0.58762646,101-500
+3108,gcr,gcr,Microsoft Edge,2262,2,True,True,0.91735023,>500
+3109,nqg,nqg,Microsoft Edge,104,1,True,True,0.9810428,101-500
+3110,tdk,tdk,Firefox,105,2,True,True,0.67797774,101-500
+3111,aho,aho,Google Chrome,974,0,True,True,0.62300336,>500
+3112,wvy,wvy,Firefox,124,0,True,True,0.34055513,101-500
+3113,tfi,tfi,Firefox,501,3,True,True,0.8462335,>500
+3114,fou,fou,Google Chrome,213,1,True,True,0.8133364,101-500
+3115,ptb,ptb,Firefox,1953,1,True,True,0.9040221,>500
+3116,lio,lio,Firefox,194,3,True,True,0.38023663,101-500
+3117,nsf,nsf,Google Chrome,3127,3,True,True,0.8432084,>500
+3118,jks,jks,Microsoft Edge,113,2,True,True,0.5706936,101-500
+3119,qqe,qqe,Google Chrome,137,2,True,True,0.47626808,101-500
+3120,uwp,uwp,Firefox,703,2,True,True,0.6250321,>500
+3121,tza,tza,Firefox,160,2,True,True,0.5796461,101-500
+3122,cut,cut,Firefox,146,0,True,True,0.5164644,101-500
+3123,rff,rff,Firefox,161,0,True,True,0.110822216,101-500
+3124,ien,ien,Microsoft Edge,243,1,True,True,0.63796866,101-500
+3125,wem,wem,Google Chrome,997,0,True,True,0.88666934,>500
+3126,jpm,jpm,Firefox,345,1,True,True,0.5847979,101-500
+3127,skm,skm,Google Chrome,138,1,True,True,0.8627621,101-500
+3128,muz,muz,Google Chrome,344,2,True,True,0.7699974,101-500
+3129,pgi,pgi,Google Chrome,456,0,True,True,0.8457331,101-500
+3130,pou,pou,Firefox,860,1,True,True,0.8501698,>500
+3131,iba,iba,Google Chrome,2003,3,True,True,0.85367066,>500
+3132,qof,qof,Google Chrome,1630,2,True,True,0.89021355,>500
+3133,sdx,sdx,Google Chrome,539,1,True,True,0.41368508,>500
+3134,cvw,cvw,Firefox,491,2,True,True,0.35965863,101-500
+3135,ufc,ufc,Google Chrome,1790,2,True,True,0.6741638,>500
+3136,tdk,shh,Firefox,229,2,False,False,0.026264284,101-500
+3137,zok,zok,Microsoft Edge,98,2,True,True,0.2349727,21-100
+3138,jkc,jkc,Firefox,1100,2,True,True,0.28908595,>500
+3139,mqo,mqo,Microsoft Edge,228,0,True,True,0.54276806,101-500
+3140,slq,slq,Google Chrome,209,3,True,True,0.88928384,101-500
+3141,pcv,pcv,Google Chrome,1458,1,True,True,0.84136665,>500
+3142,fou,fvc,Google Chrome,1,3,False,False,0.10851313,1-20
+3143,ncb,ncb,Google Chrome,406,0,True,True,0.90752405,101-500
+3144,mgs,mgs,Firefox,476,2,True,True,0.45642516,101-500
+3145,wuy,wuy,Google Chrome,1105,2,True,True,0.9178987,>500
+3146,cbo,cbo,Google Chrome,330,1,True,True,0.71930355,101-500
+3147,jkt,jkt,Microsoft Edge,770,1,True,True,0.7363632,>500
+3148,ald,ald,Google Chrome,326,2,True,True,0.45280036,101-500
+3149,fek,fek,Firefox,448,0,True,True,0.43501872,101-500
+3150,khv,khv,Firefox,4591,1,True,True,0.7575857,>500
+3151,lhr,lhr,Firefox,977,3,True,True,0.32657847,>500
+3152,xgv,xgv,Firefox,1034,3,True,True,0.78112704,>500
+3153,qfy,qfy,Microsoft Edge,1716,3,True,True,0.70911556,>500
+3154,pgm,pgm,Firefox,464,3,True,True,0.8028659,101-500
+3155,slq,slq,Google Chrome,259,1,True,True,0.8884486,101-500
+3156,tdk,tdk,Firefox,133,0,True,True,0.10695778,101-500
+3157,cjr,cjr,Google Chrome,137,2,True,True,0.2565236,101-500
+3158,jat,jat,Microsoft Edge,76,0,True,True,0.16359016,21-100
+3159,slq,slq,Google Chrome,961,2,True,True,0.9221696,>500
+3160,slq,slq,Google Chrome,93,2,True,True,0.37835696,21-100
+3161,psg,psg,Google Chrome,261,0,True,True,0.8876982,101-500
+3162,cxt,cxt,Microsoft Edge,95,2,True,True,0.26750928,21-100
+3163,nzq,nzq,Firefox,86,1,True,True,0.5303319,21-100
+3164,nrb,nrb,Firefox,429,3,True,True,0.3297,101-500
+3165,flj,flj,Google Chrome,164,2,True,True,0.62333095,101-500
+3166,uwp,uwp,Firefox,1211,3,True,True,0.7863585,>500
+3167,tft,tft,Firefox,2203,3,True,True,0.8589853,>500
+3168,zbn,zbn,Firefox,1665,0,True,True,0.53034675,>500
+3169,fwf,fwf,Firefox,133,1,True,True,0.5657425,101-500
+3170,nlm,nlm,Firefox,322,2,True,True,0.6485892,101-500
+3171,vfo,vfo,Google Chrome,1167,1,True,True,0.89651674,>500
+3172,fcq,fcq,Google Chrome,1880,2,True,True,0.92879885,>500
+3173,byo,byo,Firefox,588,0,True,True,0.2655367,>500
+3174,guh,guh,Google Chrome,212,3,True,True,0.0025881454,101-500
+3175,kwi,kwi,Firefox,875,2,True,True,0.71439636,>500
+3176,qfy,qfy,Microsoft Edge,580,3,True,True,0.70282197,>500
+3177,pgm,pgm,Firefox,1003,1,True,True,0.8222948,>500
+3178,pgi,pgi,Google Chrome,1082,1,True,True,0.8867162,>500
+3179,tft,tft,Firefox,1979,0,True,True,0.8797821,>500
+3180,byo,byo,Firefox,1153,0,True,True,0.70878464,>500
+3181,bez,bez,Microsoft Edge,639,0,True,True,0.9319017,>500
+3182,hjs,hjs,Microsoft Edge,72,3,True,True,0.7009329,21-100
+3183,oqa,oqa,Google Chrome,335,0,True,True,0.036852904,101-500
+3184,rgo,rgo,Microsoft Edge,72,0,True,True,0.84805155,21-100
+3185,usy,usy,Firefox,1605,1,True,True,0.14161338,>500
+3186,cqp,cqp,Firefox,505,2,True,True,0.35479116,>500
+3187,jkc,sii,Firefox,483,3,False,False,0.010465208,101-500
+3188,jat,jat,Microsoft Edge,906,3,True,True,0.44052455,>500
+3189,hdz,hdz,Firefox,689,1,True,True,0.60052174,>500
+3190,szr,szr,Firefox,271,1,True,True,0.44756675,101-500
+3191,opp,opp,Firefox,7608,1,True,True,0.69850355,>500
+3192,tmn,tmn,Firefox,145,2,True,True,0.0013575554,101-500
+3193,fgn,fgn,Microsoft Edge,1502,2,True,True,0.67583555,>500
+3194,cyd,cyd,Microsoft Edge,110,2,True,True,0.7440771,101-500
+3195,uof,uof,Google Chrome,90,2,True,True,0.37087795,21-100
+3196,hjs,hjs,Microsoft Edge,1287,2,True,True,0.93110114,>500
+3197,lgz,lgz,Firefox,1221,2,True,True,0.7629164,>500
+3198,nyk,nyk,Firefox,104,0,True,True,0.13181348,101-500
+3199,wfs,wfs,Google Chrome,675,3,True,True,0.6671768,>500
+3200,zyk,zyk,Google Chrome,186,3,True,True,0.70265216,101-500
+3201,nzq,nzq,Firefox,2028,1,True,True,0.89211607,>500
+3202,fuy,fuy,Google Chrome,685,1,True,True,0.5551856,>500
+3203,tdk,tdk,Firefox,1239,2,True,True,0.7792553,>500
+3204,xkr,xkr,Google Chrome,74,2,True,True,0.18574753,21-100
+3205,lgz,lgz,Firefox,924,0,True,True,0.93701494,>500
+3206,bou,bou,Google Chrome,495,0,True,True,0.73184264,101-500
+3207,gid,gid,Google Chrome,69,2,True,True,0.3143449,21-100
+3208,esu,esu,Firefox,798,2,True,True,0.6062957,>500
+3209,hjs,hjs,Microsoft Edge,334,0,True,True,0.9432933,101-500
+3210,shh,shh,Firefox,68,0,True,True,0.511742,21-100
+3211,uey,uey,Google Chrome,1795,3,True,True,0.93907124,>500
+3212,ptb,ptb,Firefox,1795,2,True,True,0.83864117,>500
+3213,tfi,tfi,Firefox,704,2,True,True,0.72496986,>500
+3214,jkc,kks,Firefox,147,1,False,False,0.00083953515,101-500
+3215,qqe,qqe,Google Chrome,1701,0,True,True,0.86229324,>500
+3216,xby,xby,Firefox,1565,2,True,True,0.36289036,>500
+3217,dbi,sps,Microsoft Edge,100,0,False,False,0.036440723,21-100
+3218,fgc,fgc,Firefox,130,2,True,True,0.27214944,101-500
+3219,ajo,ajo,Firefox,1427,1,True,True,0.7644495,>500
+3220,aho,aho,Google Chrome,1172,2,True,True,0.6003447,>500
+3221,shh,shh,Firefox,216,0,True,True,0.7981292,101-500
+3222,lgz,lgz,Firefox,311,2,True,True,0.67729425,101-500
+3223,guh,guh,Google Chrome,440,3,True,True,0.2885768,101-500
+3224,ncb,ncb,Google Chrome,269,0,True,True,0.7751116,101-500
+3225,vmy,vmy,Google Chrome,342,1,True,True,0.51463294,101-500
+3226,oec,oec,Firefox,1809,0,True,True,0.6747412,>500
+3227,cxu,cxu,Google Chrome,250,2,True,True,0.48859224,101-500
+3228,nlm,nlm,Firefox,890,1,True,True,0.8064719,>500
+3229,yuz,yuz,Firefox,124,3,True,True,0.52581286,101-500
+3230,btl,btl,Google Chrome,124,2,True,True,0.20034765,101-500
+3231,vzc,vzc,Google Chrome,93,2,True,True,0.18166514,21-100
+3232,pcv,pcv,Google Chrome,1054,0,True,True,0.8081591,>500
+3233,gid,gid,Google Chrome,1484,0,True,True,0.30417177,>500
+3234,fal,fal,Firefox,341,3,True,True,0.5312631,101-500
+3235,fxg,fxg,Firefox,11505,2,True,True,0.69906265,>500
+3236,nlm,nlm,Firefox,387,0,True,True,0.65171605,101-500
+3237,lgz,lgz,Firefox,559,1,True,True,0.89937335,>500
+3238,oqa,oqa,Google Chrome,350,3,True,True,0.57946664,101-500
+3239,slq,slq,Google Chrome,404,3,True,True,0.89947784,101-500
+3240,swe,swe,Opera,644,3,True,True,1.0,>500
+3241,lhr,lhr,Firefox,336,3,True,True,0.08584493,101-500
+3242,ulu,ulu,Microsoft Edge,68,0,True,True,0.4672308,21-100
+3243,cpn,cpn,Firefox,150,1,True,True,0.5358207,101-500
+3244,ftq,ftq,Firefox,709,0,True,True,0.95639646,>500
+3245,pyb,pyb,Firefox,592,3,True,True,0.8690144,>500
+3246,cum,cum,Microsoft Edge,3327,2,True,True,0.82417387,>500
+3247,pgi,pgi,Google Chrome,302,3,True,True,0.88467544,101-500
+3248,fjb,fjb,Microsoft Edge,8833,2,True,True,0.8665332,>500
+3249,wfs,wfs,Google Chrome,432,1,True,True,0.6265321,101-500
+3250,gtj,gtj,Google Chrome,2156,3,True,True,0.925646,>500
+3251,cxu,cxu,Google Chrome,96,1,True,True,0.5000489,21-100
+3252,fal,fal,Firefox,112,2,True,True,0.4657216,101-500
+3253,jmq,jmq,Google Chrome,226,2,True,True,0.6919213,101-500
+3254,jxu,jxu,Firefox,810,3,True,True,0.8634372,>500
+3255,gtj,gtj,Google Chrome,3535,0,True,True,0.8840582,>500
+3256,lfq,lfq,Firefox,83,3,True,True,0.0972909,21-100
+3257,rvh,rvh,Google Chrome,147,1,True,True,0.18225974,101-500
+3258,hll,jmq,Google Chrome,320,1,False,False,0.038734127,101-500
+3259,ftq,ftq,Firefox,79,2,True,True,0.759148,21-100
+3260,usg,usg,Firefox,796,3,True,True,0.69337463,>500
+3261,obm,obm,Firefox,1354,1,True,True,0.58187866,>500
+3262,pgm,pgm,Firefox,203,0,True,True,0.64424855,101-500
+3263,pgu,pgu,Firefox,240,2,True,True,0.26781455,101-500
+3264,vjw,vjw,Google Chrome,1566,3,True,True,0.8349726,>500
+3265,mmm,mmm,Firefox,631,1,True,True,0.57794845,>500
+3266,kzt,kzt,Firefox,81,2,True,True,0.10273935,21-100
+3267,bgn,bgn,Firefox,1589,2,True,True,0.8105281,>500
+3268,mmm,mmm,Firefox,856,1,True,True,0.39652133,>500
+3269,gor,gor,Firefox,99,2,True,True,0.051111486,21-100
+3270,vlm,vlm,Google Chrome,309,0,True,True,0.87385577,101-500
+3271,nuh,nuh,Firefox,1068,2,True,True,0.8490169,>500
+3272,sfi,sfi,Google Chrome,805,3,True,True,0.8865268,>500
+3273,czi,czi,Firefox,745,0,True,True,0.8706209,>500
+3274,cut,cut,Firefox,210,0,True,True,0.5357936,101-500
+3275,muz,muz,Google Chrome,122,3,True,True,0.79153335,101-500
+3276,cjr,cjr,Google Chrome,439,1,True,True,0.8510586,101-500
+3277,fuz,fuz,Firefox,1457,3,True,True,0.45906857,>500
+3278,cjr,cjr,Google Chrome,630,1,True,True,0.66522473,>500
+3279,fwf,fwf,Firefox,421,3,True,True,0.80759704,101-500

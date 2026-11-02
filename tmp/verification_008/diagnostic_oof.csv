@@ -1,0 +1,51 @@
+session_id,utilisateur_reel,prediction,navigateur,nb_actions,pli,correct,reference_correcte,ecart_scores_top2,longueur
+1,azn,azn,Google Chrome,149,1,True,True,0.94342107,101-500
+2,rff,rff,Firefox,807,1,True,True,0.969885,>500
+3,rff,rff,Firefox,382,3,True,True,0.8652714,101-500
+4,jkt,jkt,Microsoft Edge,81,3,True,True,0.79404175,21-100
+5,fyg,fyg,Microsoft Edge,658,1,True,True,0.9366565,>500
+6,jew,jew,Firefox,229,2,True,True,0.9710733,101-500
+7,azn,azn,Google Chrome,87,3,True,True,0.9437579,21-100
+8,zll,zll,Microsoft Edge,155,0,True,True,0.93226385,101-500
+9,zll,zll,Microsoft Edge,54,1,True,True,0.8952363,21-100
+10,itt,itt,Google Chrome,421,3,True,True,0.85903805,101-500
+11,dit,dit,Firefox,108,0,True,True,0.81856513,101-500
+12,cyi,cyi,Google Chrome,2693,1,True,True,0.9821333,>500
+13,lra,lra,Microsoft Edge,501,2,True,True,0.48921913,>500
+14,jew,jew,Firefox,172,1,True,True,0.5118552,101-500
+15,dit,dit,Firefox,64,1,True,True,0.9588899,21-100
+16,cyi,cyi,Google Chrome,1671,1,True,True,0.98196155,>500
+17,lra,lra,Microsoft Edge,2016,0,True,True,0.95521563,>500
+18,cyi,cyi,Google Chrome,296,3,True,True,0.9199218,101-500
+19,lra,lra,Microsoft Edge,762,3,True,True,0.86506593,>500
+20,lra,lra,Microsoft Edge,277,1,True,True,0.08271067,101-500
+21,cyi,cyi,Google Chrome,334,0,True,True,0.97533655,101-500
+22,bez,bez,Microsoft Edge,206,1,True,True,0.93695074,101-500
+23,dit,dit,Firefox,152,3,True,True,0.9132194,101-500
+24,crn,crn,Microsoft Edge,53,1,True,True,0.876107,21-100
+25,fyg,fyg,Microsoft Edge,133,0,True,True,0.91835946,101-500
+26,bez,bez,Microsoft Edge,400,2,True,True,0.9776318,101-500
+27,jew,jew,Firefox,115,0,True,True,0.15950778,101-500
+28,itt,itt,Google Chrome,5253,2,True,True,0.90802836,>500
+29,fyg,fyg,Microsoft Edge,974,3,True,True,0.94482213,>500
+30,rff,rff,Firefox,102,0,True,True,0.7975694,101-500
+31,dit,dit,Firefox,1695,0,True,True,0.8620411,>500
+32,itt,itt,Google Chrome,901,1,True,True,0.90570295,>500
+33,crn,crn,Microsoft Edge,130,0,True,True,0.9495566,101-500
+34,crn,crn,Microsoft Edge,161,3,True,True,0.9081811,101-500
+35,fyg,fyg,Microsoft Edge,303,2,True,True,0.90147233,101-500
+36,jkt,jkt,Microsoft Edge,389,0,True,True,0.9431452,101-500
+37,crn,crn,Microsoft Edge,277,2,True,True,0.93773156,101-500
+38,azn,azn,Google Chrome,116,0,True,True,0.9248789,101-500
+39,dit,dit,Firefox,957,2,True,True,0.9732753,>500
+40,cyi,cyi,Google Chrome,2147,2,True,True,0.97335315,>500
+41,jkt,jkt,Microsoft Edge,213,1,True,True,0.93127114,101-500
+42,bez,bez,Microsoft Edge,542,0,True,True,0.96731395,>500
+43,zll,zll,Microsoft Edge,207,2,True,True,0.97662777,101-500
+44,itt,itt,Google Chrome,112,0,True,True,0.8325277,101-500
+45,jew,jew,Firefox,214,3,True,True,0.9840063,101-500
+46,azn,azn,Google Chrome,83,2,True,True,0.7105411,21-100
+47,zll,zll,Microsoft Edge,169,3,True,True,0.8464853,101-500
+48,rff,rff,Firefox,161,2,True,True,0.8784203,101-500
+49,jkt,jkt,Microsoft Edge,770,2,True,True,0.93128556,>500
+50,bez,bez,Microsoft Edge,639,3,True,True,0.95738095,>500

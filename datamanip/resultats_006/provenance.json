@@ -1,0 +1,9 @@
+{
+  "python": "3.13.12",
+  "files": {
+    "data/train.csv": "4f806a85d36910a5a4dd8178fd465b34e6049a84e11f4ecb82f1c1b75e51e892",
+    "datamanip/002_features.ipynb": "af0dc242467311f8edb9ec932c851ba009e629ba3be962edf436f384d774f32f",
+    "datamanip/sequence_experiment.py": "b63cf93a8092b33338897fd6fbfd559257f23654401f8db7908da888715d027e",
+    "datamanip/requirements_sequences.txt": "86866e1994d9bd4f1060cb4d470b6ab852c277766303d8b9583530c577ef7a12"
+  }
+}

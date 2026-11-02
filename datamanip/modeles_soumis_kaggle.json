@@ -1,0 +1,56 @@
+{
+  "ensemble_1": [
+    {
+      "modele": "LinearSVC",
+      "poids": 0.9,
+      "variables": "log",
+      "C": 20.0,
+      "dual": true,
+      "class_weight": null,
+      "max_iter": 30000,
+      "random_state": 42
+    },
+    {
+      "modele": "ExtraTreesClassifier",
+      "poids": 0.1,
+      "par_navigateur": true,
+      "n_estimators": 200,
+      "max_features": 0.5,
+      "class_weight": "balanced",
+      "n_jobs": 2,
+      "random_state": 42
+    }
+  ],
+  "ensemble_2": [
+    {
+      "modele": "LinearSVC",
+      "poids": 0.675,
+      "variables": "log",
+      "C": 50.0,
+      "dual": true,
+      "class_weight": null,
+      "max_iter": 30000,
+      "random_state": 42
+    },
+    {
+      "modele": "LinearSVC",
+      "poids": 0.225,
+      "variables": "contexte_rythme",
+      "C": 20.0,
+      "dual": true,
+      "class_weight": null,
+      "max_iter": 30000,
+      "random_state": 42
+    },
+    {
+      "modele": "ExtraTreesClassifier",
+      "poids": 0.1,
+      "par_navigateur": true,
+      "n_estimators": 200,
+      "max_features": 0.5,
+      "class_weight": "balanced",
+      "n_jobs": 2,
+      "random_state": 42
+    }
+  ]
+}

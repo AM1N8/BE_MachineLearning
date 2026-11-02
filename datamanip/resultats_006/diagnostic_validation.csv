@@ -1,0 +1,657 @@
+session_id,util_reel,navigateur,nb_actions,sessions_apprentissage,reference,prediction,erreur,corrige_reference,regression_reference
+272,ubr,Google Chrome,250,5,ubr,ubr,False,False,False
+234,kwi,Firefox,160,25,kwi,kwi,False,False,False
+523,nlm,Firefox,156,12,nlm,nlm,False,False,False
+45,vjw,Google Chrome,145,10,vjw,vjw,False,False,False
+1887,fgn,Microsoft Edge,1362,5,fgn,fgn,False,False,False
+1668,ajo,Firefox,153,10,szr,szr,True,False,False
+1807,opp,Firefox,6761,19,opp,opp,False,False,False
+3226,oec,Firefox,1809,15,oec,oec,False,False,False
+602,slq,Google Chrome,294,57,slq,slq,False,False,False
+2862,hzx,Microsoft Edge,104,16,hzx,hzx,False,False,False
+3180,byo,Firefox,1153,13,byo,byo,False,False,False
+2390,nwt,Google Chrome,879,16,nwt,nwt,False,False,False
+295,qbf,Google Chrome,755,10,qbf,qbf,False,False,False
+1397,vmy,Google Chrome,718,6,vmy,vmy,False,False,False
+1814,xkr,Google Chrome,1425,11,xkr,xkr,False,False,False
+2705,vzc,Google Chrome,989,10,vzc,vzc,False,False,False
+1915,myl,Google Chrome,917,9,myl,myl,False,False,False
+2248,wfs,Google Chrome,301,14,wfs,wfs,False,False,False
+3043,pre,Google Chrome,541,13,pre,pre,False,False,False
+1819,ptb,Firefox,1031,13,ptb,ptb,False,False,False
+520,zus,Firefox,2221,10,zus,zus,False,False,False
+966,czi,Firefox,1799,14,czi,czi,False,False,False
+2994,sbz,Google Chrome,392,4,xkr,skm,True,False,False
+677,zbn,Firefox,89,12,kwi,kwi,True,False,False
+1779,skm,Google Chrome,142,60,skm,skm,False,False,False
+2063,snn,Microsoft Edge,242,6,snn,snn,False,False,False
+1925,cxu,Google Chrome,144,8,cxu,cxu,False,False,False
+3261,obm,Firefox,1354,6,obm,obm,False,False,False
+2748,zro,Firefox,1115,10,zro,zro,False,False,False
+2376,prb,Firefox,1427,13,prb,prb,False,False,False
+2212,mmo,Google Chrome,2446,4,mmo,mmo,False,False,False
+2281,skm,Google Chrome,165,60,slq,skm,False,True,False
+421,oph,Microsoft Edge,92,6,hjs,oph,False,True,False
+2292,swe,Opera,587,18,swe,swe,False,False,False
+349,nrb,Firefox,214,12,nrb,nrb,False,False,False
+1865,tza,Firefox,1172,12,tza,tza,False,False,False
+3275,muz,Google Chrome,122,22,muz,muz,False,False,False
+1726,zht,Firefox,619,11,zht,zht,False,False,False
+616,oec,Firefox,113,15,oec,oec,False,False,False
+2674,ebm,Google Chrome,235,7,ebm,ebm,False,False,False
+1720,btl,Google Chrome,850,10,btl,btl,False,False,False
+137,rvh,Google Chrome,413,11,rvh,rvh,False,False,False
+1037,cil,Google Chrome,1576,6,cil,cil,False,False,False
+853,jfm,Google Chrome,293,14,jfm,jfm,False,False,False
+1801,cka,Firefox,141,4,cka,cka,False,False,False
+2557,zht,Firefox,462,11,zht,zht,False,False,False
+1580,tyw,Microsoft Edge,232,10,tyw,tyw,False,False,False
+1711,uwr,Firefox,932,12,uwr,uwr,False,False,False
+1465,ftq,Firefox,357,18,ftq,ftq,False,False,False
+1192,fkf,Firefox,2386,4,fkf,fkf,False,False,False
+1187,wxf,Firefox,147,6,wxf,wxf,False,False,False
+1445,xgv,Firefox,617,18,xgv,xgv,False,False,False
+1017,ptb,Firefox,110,13,ptb,ptb,False,False,False
+2560,flj,Google Chrome,195,33,flj,flj,False,False,False
+2786,ptb,Firefox,985,13,ptb,ptb,False,False,False
+2788,dfo,Firefox,848,9,dfo,dfo,False,False,False
+2978,nqg,Microsoft Edge,103,27,nqg,nqg,False,False,False
+3253,jmq,Google Chrome,226,14,jmq,jmq,False,False,False
+2760,nlm,Firefox,1110,12,nlm,nlm,False,False,False
+2362,avt,Firefox,139,12,nyk,avt,False,True,False
+489,uwp,Firefox,63,10,kks,uwp,False,True,False
+692,fcq,Google Chrome,2327,10,fcq,fcq,False,False,False
+1287,syt,Firefox,437,13,syt,syt,False,False,False
+2424,mgs,Firefox,193,10,mgs,mgs,False,False,False
+378,kwi,Firefox,783,25,kwi,kwi,False,False,False
+861,skm,Google Chrome,279,60,skm,skm,False,False,False
+2702,gtj,Google Chrome,1149,15,gtj,gtj,False,False,False
+1739,gid,Google Chrome,632,14,gid,gid,False,False,False
+1353,ngs,Google Chrome,308,13,ngs,ngs,False,False,False
+1380,slq,Google Chrome,32,57,slq,slq,False,False,False
+1295,kks,Firefox,322,22,kks,kks,False,False,False
+2502,zct,Google Chrome,75,11,cjr,zct,False,True,False
+3055,swe,Opera,186,18,swe,swe,False,False,False
+3140,slq,Google Chrome,209,57,slq,slq,False,False,False
+1541,rgo,Microsoft Edge,743,14,rgo,rgo,False,False,False
+44,ftq,Firefox,132,18,ftq,ftq,False,False,False
+1127,cil,Google Chrome,405,6,cil,cil,False,False,False
+1477,bfg,Firefox,84,13,bfg,bfg,False,False,False
+259,eqw,Firefox,96,5,kbf,kbf,True,False,False
+742,tjc,Google Chrome,78,7,tjc,tjc,False,False,False
+2741,qkd,Microsoft Edge,198,12,qkd,qkd,False,False,False
+1698,gcr,Microsoft Edge,968,11,gcr,gcr,False,False,False
+2519,uey,Google Chrome,999,14,uey,uey,False,False,False
+1981,hfy,Google Chrome,1039,6,hfy,hfy,False,False,False
+835,jkc,Firefox,1213,9,jkc,jkc,False,False,False
+919,mgs,Firefox,185,10,mgs,mgs,False,False,False
+304,lgd,Firefox,207,12,lgd,lgd,False,False,False
+3097,zrx,Microsoft Edge,203,10,zrx,zrx,False,False,False
+907,fgc,Firefox,447,11,fgc,fgc,False,False,False
+724,slq,Google Chrome,573,57,slq,slq,False,False,False
+2102,cjr,Google Chrome,600,37,cjr,cjr,False,False,False
+2671,cnh,Firefox,484,8,cnh,cnh,False,False,False
+2512,gid,Google Chrome,92,14,gid,gid,False,False,False
+2455,cjr,Google Chrome,97,37,slq,slq,True,False,False
+2974,ulu,Microsoft Edge,188,12,ulu,ulu,False,False,False
+439,usg,Firefox,810,8,usg,usg,False,False,False
+1592,zqs,Microsoft Edge,164,13,wjn,wjn,True,False,False
+244,eoe,Firefox,1977,11,eoe,eoe,False,False,False
+2203,ats,Firefox,706,10,ats,ats,False,False,False
+2427,ckl,Microsoft Edge,2180,5,ckl,ckl,False,False,False
+128,hvh,Google Chrome,76,6,hvh,hvh,False,False,False
+88,kks,Firefox,352,22,kwi,kks,False,True,False
+2874,muz,Google Chrome,607,22,muz,muz,False,False,False
+2033,crn,Microsoft Edge,130,3,crn,crn,False,False,False
+2348,hll,Google Chrome,114,7,hll,hll,False,False,False
+1128,pgu,Firefox,640,14,pgu,pgu,False,False,False
+1199,bfg,Firefox,197,13,bfg,bfg,False,False,False
+1759,khv,Firefox,896,10,khv,khv,False,False,False
+2900,byo,Firefox,1426,13,byo,byo,False,False,False
+1722,hzx,Microsoft Edge,298,16,hzx,hzx,False,False,False
+3179,tft,Firefox,1979,14,tft,tft,False,False,False
+1186,nlm,Firefox,196,12,nlm,nlm,False,False,False
+2866,kik,Google Chrome,360,12,kik,kik,False,False,False
+511,cxu,Google Chrome,249,8,cxu,cxu,False,False,False
+2050,iyf,Google Chrome,188,6,skm,cjr,True,False,False
+981,jat,Microsoft Edge,67,4,jat,jat,False,False,False
+873,yuz,Firefox,476,12,yuz,yuz,False,False,False
+2358,zyk,Google Chrome,245,17,zyk,zyk,False,False,False
+2208,qqe,Google Chrome,2224,12,qqe,qqe,False,False,False
+2178,cjr,Google Chrome,72,37,slq,slq,True,False,False
+651,shh,Firefox,340,27,shh,shh,False,False,False
+3015,wht,Google Chrome,403,16,wht,wht,False,False,False
+80,cxt,Microsoft Edge,250,12,cxt,cxt,False,False,False
+2105,wjn,Microsoft Edge,47,17,wjn,wjn,False,False,False
+148,zyk,Google Chrome,331,17,zyk,zyk,False,False,False
+1481,jxu,Firefox,123,8,jxu,jxu,False,False,False
+971,pgu,Firefox,305,14,pgu,pgu,False,False,False
+2771,oec,Firefox,4769,15,oec,oec,False,False,False
+2219,tsn,Firefox,1164,17,tsn,tsn,False,False,False
+3091,gzi,Firefox,86,5,gzi,gzi,False,False,False
+39,yuz,Firefox,803,12,yuz,yuz,False,False,False
+2224,skm,Google Chrome,89,60,skm,skm,False,False,False
+3269,gor,Firefox,99,13,lgz,lgz,True,False,False
+2849,zro,Firefox,538,10,zro,zro,False,False,False
+2619,fou,Google Chrome,212,17,fou,fou,False,False,False
+434,wcf,Firefox,60,7,wcf,wcf,False,False,False
+2998,uhx,Firefox,651,4,uhx,uhx,False,False,False
+2222,gid,Google Chrome,399,14,gid,gid,False,False,False
+2103,fvc,Google Chrome,264,23,hvh,fvc,False,True,False
+1325,kzt,Firefox,146,10,kzt,kzt,False,False,False
+2283,slq,Google Chrome,200,57,slq,slq,False,False,False
+1087,zht,Firefox,613,11,zht,zht,False,False,False
+2597,zok,Microsoft Edge,113,9,sps,sps,True,False,False
+1110,gtj,Google Chrome,97,15,gtj,gtj,False,False,False
+403,kks,Firefox,461,22,kks,kks,False,False,False
+783,cyd,Microsoft Edge,734,14,cyd,cyd,False,False,False
+2797,fxg,Firefox,5695,4,fxg,fxg,False,False,False
+1576,mmm,Firefox,262,12,byo,byo,True,False,False
+2344,fmz,Google Chrome,256,12,fmz,fmz,False,False,False
+1998,cqp,Firefox,60,7,cqp,cqp,False,False,False
+975,xvr,Firefox,464,11,xvr,xvr,False,False,False
+296,hdz,Firefox,136,6,hdz,hdz,False,False,False
+2990,pgi,Google Chrome,325,20,pgi,pgi,False,False,False
+838,btl,Google Chrome,612,10,btl,btl,False,False,False
+2398,vlm,Google Chrome,338,21,vlm,vlm,False,False,False
+735,shh,Firefox,147,27,shh,shh,False,False,False
+308,akx,Google Chrome,144,11,akx,akx,False,False,False
+1469,tyw,Microsoft Edge,345,10,tyw,tyw,False,False,False
+425,vek,Firefox,74,13,vek,vek,False,False,False
+1556,dbi,Microsoft Edge,1093,9,dbi,dbi,False,False,False
+2320,ald,Google Chrome,351,12,ald,ald,False,False,False
+2346,txk,Firefox,244,13,txk,txk,False,False,False
+2756,qfy,Microsoft Edge,772,10,qfy,qfy,False,False,False
+1713,vlm,Google Chrome,203,21,vlm,vlm,False,False,False
+2328,tft,Firefox,980,14,tft,tft,False,False,False
+605,fvc,Google Chrome,1883,23,fvc,fvc,False,False,False
+863,nzq,Firefox,1337,21,nzq,nzq,False,False,False
+1985,swe,Opera,335,18,swe,swe,False,False,False
+2393,wfs,Google Chrome,426,14,wfs,wfs,False,False,False
+1790,cut,Firefox,121,14,cut,cut,False,False,False
+1448,cjr,Google Chrome,118,37,skm,cjr,False,True,False
+1775,opp,Firefox,626,19,opp,opp,False,False,False
+3166,uwp,Firefox,1211,10,uwp,uwp,False,False,False
+218,txk,Firefox,325,13,txk,txk,False,False,False
+2213,myl,Google Chrome,343,9,myl,myl,False,False,False
+122,yvq,Google Chrome,1700,10,yvq,yvq,False,False,False
+913,fgc,Firefox,1424,11,fgc,fgc,False,False,False
+293,lfq,Firefox,1964,4,lfq,lfq,False,False,False
+1343,iju,Google Chrome,1451,6,iju,iju,False,False,False
+667,sps,Microsoft Edge,270,16,sps,sps,False,False,False
+2496,jxu,Firefox,233,8,jxu,jxu,False,False,False
+3083,wvy,Firefox,11977,10,wvy,wvy,False,False,False
+2451,cjr,Google Chrome,767,37,cjr,cjr,False,False,False
+1148,cyd,Microsoft Edge,455,14,cyd,cyd,False,False,False
+2896,vek,Firefox,205,13,vek,vek,False,False,False
+1428,bfg,Firefox,572,13,bfg,bfg,False,False,False
+2669,skm,Google Chrome,549,60,skm,skm,False,False,False
+679,jpm,Firefox,97,17,jpm,jpm,False,False,False
+1396,jrc,Firefox,316,7,jrc,jrc,False,False,False
+2819,pcv,Google Chrome,1294,12,pcv,pcv,False,False,False
+2339,tvt,Firefox,2846,7,tvt,tvt,False,False,False
+2459,xgb,Firefox,123,6,xgb,xgb,False,False,False
+1498,tsn,Firefox,1048,17,tsn,tsn,False,False,False
+2477,fal,Firefox,140,10,fal,fal,False,False,False
+1300,skm,Google Chrome,292,60,skm,skm,False,False,False
+2744,cqp,Firefox,111,7,cqp,cqp,False,False,False
+3200,zyk,Google Chrome,186,17,zyk,zyk,False,False,False
+2053,qof,Google Chrome,1419,13,qof,qof,False,False,False
+1025,jkc,Firefox,1562,9,jkc,jkc,False,False,False
+1314,zct,Google Chrome,7628,11,zct,zct,False,False,False
+942,kik,Google Chrome,1407,12,kik,kik,False,False,False
+1528,lio,Firefox,210,14,lio,lio,False,False,False
+6,shh,Firefox,288,27,shh,shh,False,False,False
+3,zrx,Microsoft Edge,608,10,zrx,zrx,False,False,False
+2141,fwh,Google Chrome,1129,10,fwh,fwh,False,False,False
+1075,uey,Google Chrome,120,14,uey,uey,False,False,False
+2464,xwz,Google Chrome,1391,5,xwz,xwz,False,False,False
+388,ajo,Firefox,327,10,szr,ajo,False,True,False
+1505,lgz,Firefox,197,20,lgz,lgz,False,False,False
+890,vlm,Google Chrome,756,21,vlm,vlm,False,False,False
+3108,gcr,Microsoft Edge,2262,11,gcr,gcr,False,False,False
+736,iba,Google Chrome,221,6,iba,iba,False,False,False
+2971,gor,Firefox,2323,13,gor,gor,False,False,False
+1461,aho,Google Chrome,201,8,aho,aho,False,False,False
+2508,snv,Firefox,1459,17,snv,snv,False,False,False
+247,zus,Firefox,1100,10,zus,zus,False,False,False
+3127,skm,Google Chrome,138,60,skm,skm,False,False,False
+1405,meh,Firefox,2952,13,meh,meh,False,False,False
+1818,wfs,Google Chrome,419,14,wfs,wfs,False,False,False
+3134,cvw,Firefox,491,10,cvw,cvw,False,False,False
+1365,szr,Firefox,83,12,szr,szr,False,False,False
+2775,pcv,Google Chrome,1037,12,pcv,pcv,False,False,False
+2367,psg,Google Chrome,1133,6,psg,psg,False,False,False
+2388,fvc,Google Chrome,3575,23,fvc,fvc,False,False,False
+1310,deb,Firefox,130,8,deb,deb,False,False,False
+475,vyu,Firefox,1976,6,vyu,vyu,False,False,False
+751,slq,Google Chrome,71,57,slq,slq,False,False,False
+3196,hjs,Microsoft Edge,1287,30,hjs,hjs,False,False,False
+2948,bos,Firefox,141,7,bos,bos,False,False,False
+1136,fyf,Firefox,247,6,fyf,fyf,False,False,False
+821,slq,Google Chrome,606,57,slq,slq,False,False,False
+2659,ufc,Google Chrome,428,4,ufc,ufc,False,False,False
+1114,sii,Firefox,243,15,sii,sii,False,False,False
+3022,ncb,Google Chrome,231,16,ncb,ncb,False,False,False
+42,eoe,Firefox,2706,11,eoe,eoe,False,False,False
+1635,azo,Google Chrome,2746,8,azo,azo,False,False,False
+1648,qsw,Google Chrome,155,16,qsw,qsw,False,False,False
+2262,fvc,Google Chrome,222,23,fvc,fvc,False,False,False
+1209,pgm,Firefox,818,16,pgm,pgm,False,False,False
+1824,snn,Microsoft Edge,95,6,snn,snn,False,False,False
+2436,cum,Microsoft Edge,2264,4,cum,cum,False,False,False
+2020,fmz,Google Chrome,333,12,fmz,fmz,False,False,False
+2861,vfo,Google Chrome,229,28,vfo,vfo,False,False,False
+2811,ycb,Google Chrome,81,9,ycb,ycb,False,False,False
+2809,pgm,Firefox,82,16,pgm,pgm,False,False,False
+1952,khv,Firefox,87,10,khv,khv,False,False,False
+698,guh,Google Chrome,237,12,guh,guh,False,False,False
+2098,flj,Google Chrome,22,33,flj,flj,False,False,False
+827,lhr,Firefox,100,10,lhr,lhr,False,False,False
+2130,tfi,Firefox,204,10,tfi,tfi,False,False,False
+565,wuy,Google Chrome,383,12,wuy,wuy,False,False,False
+2645,czi,Firefox,204,14,czi,czi,False,False,False
+1184,ulu,Microsoft Edge,269,12,ulu,ulu,False,False,False
+3089,yrb,Microsoft Edge,73,8,yrb,yrb,False,False,False
+2665,iib,Firefox,454,12,iib,iib,False,False,False
+1122,usg,Firefox,1035,8,usg,usg,False,False,False
+1600,wem,Google Chrome,469,12,wem,wem,False,False,False
+801,cpn,Firefox,87,8,cpn,cpn,False,False,False
+2673,hjs,Microsoft Edge,352,30,hjs,hjs,False,False,False
+791,fwf,Firefox,207,26,fwf,fwf,False,False,False
+2166,vlm,Google Chrome,223,21,vlm,vlm,False,False,False
+433,sii,Firefox,775,15,sii,sii,False,False,False
+987,kwi,Firefox,367,25,kwi,kwi,False,False,False
+2954,pyb,Firefox,697,8,pyb,pyb,False,False,False
+298,azn,Google Chrome,87,3,wht,wht,True,False,False
+398,vek,Firefox,172,13,vek,vek,False,False,False
+1286,blf,Firefox,7393,9,blf,blf,False,False,False
+497,tdk,Firefox,94,11,tdk,tdk,False,False,False
+2817,skm,Google Chrome,2017,60,skm,skm,False,False,False
+406,vfo,Google Chrome,2096,28,vfo,vfo,False,False,False
+764,rgo,Microsoft Edge,730,14,rgo,rgo,False,False,False
+1207,tzn,Google Chrome,261,10,tzn,tzn,False,False,False
+2916,zqs,Microsoft Edge,93,13,zqs,zqs,False,False,False
+2621,blf,Firefox,571,9,blf,blf,False,False,False
+3012,tfi,Firefox,602,10,tfi,tfi,False,False,False
+514,pgi,Google Chrome,85,20,pgi,pgi,False,False,False
+1938,khv,Firefox,1241,10,khv,khv,False,False,False
+2892,qkd,Microsoft Edge,115,12,qkd,qkd,False,False,False
+2937,xxb,Firefox,335,4,xxb,xxb,False,False,False
+1858,gor,Firefox,168,13,pgu,pgu,True,False,False
+105,cut,Firefox,590,14,cut,cut,False,False,False
+1060,meh,Firefox,2853,13,meh,meh,False,False,False
+2142,nrb,Firefox,98,12,nrb,nrb,False,False,False
+1390,tvt,Firefox,254,7,tvt,tvt,False,False,False
+2806,flj,Google Chrome,125,33,skm,skm,True,False,False
+1413,wht,Google Chrome,530,16,wht,wht,False,False,False
+1479,xkr,Google Chrome,862,11,oqa,xkr,False,True,False
+1757,jks,Microsoft Edge,87,6,jks,jks,False,False,False
+921,aho,Google Chrome,79,8,aho,aho,False,False,False
+756,qfy,Microsoft Edge,145,10,qfy,qfy,False,False,False
+1941,ofq,Firefox,1723,9,ofq,ofq,False,False,False
+210,wxf,Firefox,197,6,wxf,wxf,False,False,False
+1458,usy,Firefox,303,5,usy,usy,False,False,False
+1657,hxt,Google Chrome,130,6,hxt,hxt,False,False,False
+369,szr,Firefox,530,12,szr,szr,False,False,False
+1719,yrb,Microsoft Edge,1024,8,yrb,yrb,False,False,False
+709,oec,Firefox,1294,15,oec,oec,False,False,False
+224,sqb,Google Chrome,783,7,sqb,sqb,False,False,False
+2808,jpm,Firefox,803,17,jpm,jpm,False,False,False
+239,vfo,Google Chrome,1289,28,vfo,vfo,False,False,False
+1557,zus,Firefox,287,10,zus,zus,False,False,False
+3064,xvr,Firefox,611,11,xvr,xvr,False,False,False
+502,cec,Firefox,80,8,cec,cec,False,False,False
+795,esu,Firefox,101,11,lgd,lgd,True,False,False
+2959,tsn,Firefox,504,17,tsn,tsn,False,False,False
+1040,tdk,Firefox,97,11,lgz,tdk,False,True,False
+2649,cxt,Microsoft Edge,144,12,cxt,cxt,False,False,False
+995,prb,Firefox,990,13,prb,prb,False,False,False
+1262,dbi,Microsoft Edge,692,9,dbi,dbi,False,False,False
+896,jmq,Google Chrome,757,14,jmq,jmq,False,False,False
+2370,wcf,Firefox,83,7,wcf,wcf,False,False,False
+2412,skm,Google Chrome,161,60,skm,skm,False,False,False
+2469,lio,Firefox,294,14,lio,lio,False,False,False
+3206,bou,Google Chrome,495,9,bou,bou,False,False,False
+3266,kzt,Firefox,81,10,kzt,kzt,False,False,False
+2196,tjc,Google Chrome,349,7,tjc,tjc,False,False,False
+1549,qkd,Microsoft Edge,423,12,qkd,qkd,False,False,False
+3271,nuh,Firefox,1068,9,nuh,nuh,False,False,False
+521,pgi,Google Chrome,71,20,pgi,pgi,False,False,False
+2439,nfh,Google Chrome,402,5,nfh,nfh,False,False,False
+2655,jks,Microsoft Edge,95,6,jks,jks,False,False,False
+103,bgn,Firefox,1705,22,bgn,bgn,False,False,False
+3205,lgz,Firefox,924,20,lgz,lgz,False,False,False
+1288,hzx,Microsoft Edge,135,16,hzx,hzx,False,False,False
+2736,opp,Firefox,470,19,opp,opp,False,False,False
+2955,fjb,Microsoft Edge,459,9,fjb,fjb,False,False,False
+2682,akx,Google Chrome,320,11,akx,akx,False,False,False
+1131,muz,Google Chrome,84,22,muz,muz,False,False,False
+1338,sdx,Google Chrome,3164,9,sdx,sdx,False,False,False
+445,psg,Google Chrome,961,6,psg,psg,False,False,False
+2113,nuh,Firefox,2598,9,nuh,nuh,False,False,False
+380,zbn,Firefox,773,12,zbn,zbn,False,False,False
+1503,vfo,Google Chrome,139,28,vfo,vfo,False,False,False
+788,fgc,Firefox,365,11,fgc,fgc,False,False,False
+999,shh,Firefox,254,27,shh,shh,False,False,False
+2767,kzt,Firefox,44,10,kzt,kzt,False,False,False
+84,hrj,Google Chrome,95,11,gvp,gvp,True,False,False
+2873,wjn,Microsoft Edge,314,17,wjn,wjn,False,False,False
+956,ncb,Google Chrome,121,16,ncb,ncb,False,False,False
+1211,qsw,Google Chrome,99,16,qsw,qsw,False,False,False
+1604,fek,Firefox,231,6,fek,fek,False,False,False
+666,cje,Google Chrome,99,6,cje,cje,False,False,False
+539,fou,Google Chrome,61,17,fou,fou,False,False,False
+2535,opp,Firefox,241,19,opp,opp,False,False,False
+1438,nqg,Microsoft Edge,915,27,nqg,nqg,False,False,False
+3038,sps,Microsoft Edge,387,16,sps,sps,False,False,False
+1940,vfo,Google Chrome,152,28,vfo,vfo,False,False,False
+2918,kwi,Firefox,678,25,kwi,kwi,False,False,False
+575,pou,Firefox,121,6,fal,fal,True,False,False
+156,nqg,Microsoft Edge,600,27,nqg,nqg,False,False,False
+796,jfm,Google Chrome,362,14,jfm,jfm,False,False,False
+3243,cpn,Firefox,150,8,cpn,cpn,False,False,False
+2627,iib,Firefox,1165,12,iib,iib,False,False,False
+1669,jfm,Google Chrome,60,14,jfm,jfm,False,False,False
+1476,pre,Google Chrome,550,13,pre,pre,False,False,False
+2431,zll,Microsoft Edge,207,3,zll,zll,False,False,False
+2603,tft,Firefox,2311,14,tft,tft,False,False,False
+641,ald,Google Chrome,101,12,pre,ald,False,True,False
+130,byo,Firefox,362,13,byo,byo,False,False,False
+43,fvc,Google Chrome,109,23,fvc,fvc,False,False,False
+2360,kwi,Firefox,229,25,kwi,kwi,False,False,False
+1035,hrj,Google Chrome,319,11,hrj,hrj,False,False,False
+3019,kwi,Firefox,423,25,kwi,kwi,False,False,False
+307,ulu,Microsoft Edge,146,12,ulu,ulu,False,False,False
+2435,pgi,Google Chrome,215,20,pgi,pgi,False,False,False
+1342,pgm,Firefox,556,16,pgm,pgm,False,False,False
+2408,tkz,Google Chrome,337,6,muz,muz,True,False,False
+250,fou,Google Chrome,36,17,fou,fou,False,False,False
+2233,cvw,Firefox,1049,10,cvw,cvw,False,False,False
+1926,mqo,Microsoft Edge,286,7,mqo,mqo,False,False,False
+877,bgn,Firefox,2016,22,bgn,bgn,False,False,False
+3172,fcq,Google Chrome,1880,10,fcq,fcq,False,False,False
+120,jmq,Google Chrome,231,14,jmq,jmq,False,False,False
+535,nzq,Firefox,228,21,nzq,nzq,False,False,False
+2692,vjw,Google Chrome,1206,10,vjw,vjw,False,False,False
+3209,hjs,Microsoft Edge,334,30,hjs,hjs,False,False,False
+2119,hxt,Google Chrome,77,6,hxt,hxt,False,False,False
+826,slq,Google Chrome,274,57,slq,slq,False,False,False
+1166,nzq,Firefox,216,21,nzq,nzq,False,False,False
+150,tfi,Firefox,911,10,tfi,tfi,False,False,False
+3077,qqe,Google Chrome,1253,12,qqe,qqe,False,False,False
+2190,cjr,Google Chrome,832,37,cjr,cjr,False,False,False
+2476,cyd,Microsoft Edge,386,14,cyd,cyd,False,False,False
+1964,snv,Firefox,804,17,snv,snv,False,False,False
+2490,ftq,Firefox,70,18,ftq,ftq,False,False,False
+3231,vzc,Google Chrome,93,10,vzc,vzc,False,False,False
+1512,gcr,Microsoft Edge,200,11,gcr,gcr,False,False,False
+556,eoe,Firefox,274,11,eoe,eoe,False,False,False
+2201,lgd,Firefox,77,12,lgd,lgd,False,False,False
+1629,syt,Firefox,1666,13,syt,syt,False,False,False
+301,kks,Firefox,1917,22,kks,kks,False,False,False
+1917,fwh,Google Chrome,967,10,fwh,fwh,False,False,False
+355,uof,Google Chrome,262,6,uof,uof,False,False,False
+2578,lgz,Firefox,178,20,lgz,lgz,False,False,False
+8,slq,Google Chrome,73,57,slq,slq,False,False,False
+1866,sfi,Google Chrome,1067,13,sfi,sfi,False,False,False
+2084,hll,Google Chrome,64,7,hxt,hxt,True,False,False
+351,oqa,Google Chrome,449,12,oqa,oqa,False,False,False
+1514,hjs,Microsoft Edge,208,30,hjs,hjs,False,False,False
+3152,xgv,Firefox,1034,18,xgv,xgv,False,False,False
+929,gvp,Google Chrome,261,11,gvp,gvp,False,False,False
+38,flj,Google Chrome,151,33,flj,flj,False,False,False
+59,fwf,Firefox,80,26,fwf,fwf,False,False,False
+1154,fal,Firefox,401,10,fal,fal,False,False,False
+3267,bgn,Firefox,1589,22,bgn,bgn,False,False,False
+1804,akx,Google Chrome,1004,11,akx,akx,False,False,False
+1050,xgv,Firefox,126,18,xgv,xgv,False,False,False
+1901,tza,Firefox,288,12,tza,tza,False,False,False
+423,udj,Microsoft Edge,280,8,udj,udj,False,False,False
+2615,sqb,Google Chrome,225,7,sqb,sqb,False,False,False
+1423,zyk,Google Chrome,181,17,zyk,zyk,False,False,False
+544,eus,Microsoft Edge,2753,11,eus,eus,False,False,False
+1721,cjr,Google Chrome,130,37,cjr,cjr,False,False,False
+746,pqd,Firefox,108,7,pqd,pqd,False,False,False
+3189,hdz,Firefox,689,6,hdz,hdz,False,False,False
+407,swe,Opera,71,18,swe,swe,False,False,False
+1115,azx,Google Chrome,341,8,azx,azx,False,False,False
+1554,ebm,Google Chrome,5280,7,ebm,ebm,False,False,False
+2813,wvy,Firefox,9707,10,wvy,wvy,False,False,False
+722,ien,Microsoft Edge,609,7,ien,ien,False,False,False
+2059,skm,Google Chrome,244,60,skm,skm,False,False,False
+2679,qsw,Google Chrome,269,16,qsw,qsw,False,False,False
+1633,nzq,Firefox,158,21,nzq,nzq,False,False,False
+2246,cjr,Google Chrome,228,37,cjr,cjr,False,False,False
+1322,wuy,Google Chrome,346,12,wuy,wuy,False,False,False
+1605,cuw,Google Chrome,88,4,cuw,cuw,False,False,False
+3018,tmn,Firefox,379,5,khv,khv,True,False,False
+3010,slq,Google Chrome,151,57,slq,slq,False,False,False
+2884,sfi,Google Chrome,237,13,sfi,sfi,False,False,False
+2749,skm,Google Chrome,63,60,skm,skm,False,False,False
+2513,wjn,Microsoft Edge,1233,17,wjn,wjn,False,False,False
+271,jrc,Firefox,167,7,jrc,jrc,False,False,False
+2722,cut,Firefox,1140,14,cut,cut,False,False,False
+753,czi,Firefox,130,14,czi,czi,False,False,False
+1681,ien,Microsoft Edge,898,7,ien,ien,False,False,False
+2209,nqg,Microsoft Edge,289,27,nqg,nqg,False,False,False
+2070,tkz,Google Chrome,254,6,muz,tkz,False,True,False
+2987,ykq,Microsoft Edge,306,6,ykq,ykq,False,False,False
+1133,deb,Firefox,977,8,deb,deb,False,False,False
+1879,qof,Google Chrome,196,13,qof,qof,False,False,False
+2640,nqg,Microsoft Edge,492,27,nqg,nqg,False,False,False
+2395,udj,Microsoft Edge,650,8,udj,udj,False,False,False
+386,uof,Google Chrome,158,6,uof,uof,False,False,False
+2902,flj,Google Chrome,47,33,slq,slq,True,False,False
+2471,meh,Firefox,2670,13,meh,meh,False,False,False
+1254,hzx,Microsoft Edge,161,16,hzx,hzx,False,False,False
+659,kbf,Firefox,370,5,kbf,kbf,False,False,False
+704,pyb,Firefox,595,8,pyb,pyb,False,False,False
+85,urs,Google Chrome,10625,4,urs,urs,False,False,False
+1982,xkr,Google Chrome,208,11,xkr,xkr,False,False,False
+2147,gvp,Google Chrome,104,11,gvp,gvp,False,False,False
+1351,shh,Firefox,596,27,shh,shh,False,False,False
+327,eus,Microsoft Edge,156,11,eus,eus,False,False,False
+311,cyd,Microsoft Edge,102,14,cyd,cyd,False,False,False
+392,lgd,Firefox,605,12,lgd,lgd,False,False,False
+1886,oni,Firefox,258,6,oni,oni,False,False,False
+571,lnq,Firefox,456,4,lnq,lnq,False,False,False
+1735,wuy,Google Chrome,997,12,wuy,wuy,False,False,False
+430,ofq,Firefox,318,9,ofq,ofq,False,False,False
+2470,cbo,Google Chrome,305,10,cbo,cbo,False,False,False
+75,yxw,Firefox,852,4,yxw,yxw,False,False,False
+344,swe,Opera,815,18,swe,swe,False,False,False
+109,pgu,Firefox,155,14,pgu,pgu,False,False,False
+2653,kik,Google Chrome,1086,12,kik,kik,False,False,False
+1547,vsb,Firefox,140,9,usy,usy,True,False,False
+2089,nzq,Firefox,166,21,nzq,nzq,False,False,False
+2285,pgi,Google Chrome,180,20,pgi,pgi,False,False,False
+727,uwr,Firefox,553,12,uwr,uwr,False,False,False
+2013,eus,Microsoft Edge,1042,11,eus,eus,False,False,False
+1491,kks,Firefox,209,22,kks,kks,False,False,False
+1393,dit,Firefox,152,4,dit,dit,False,False,False
+595,snv,Firefox,118,17,snv,snv,False,False,False
+2764,ncb,Google Chrome,199,16,slq,ncb,False,True,False
+2154,fyf,Firefox,184,6,fyf,fyf,False,False,False
+737,qdv,Google Chrome,95,4,qdv,qdv,False,False,False
+3146,cbo,Google Chrome,330,10,cbo,cbo,False,False,False
+2206,avt,Firefox,1487,12,avt,avt,False,False,False
+1715,xby,Firefox,870,11,xby,xby,False,False,False
+1496,cec,Firefox,110,8,wvy,wvy,True,False,False
+280,hjs,Microsoft Edge,1226,30,hjs,hjs,False,False,False
+3027,nkb,Google Chrome,255,6,slq,slq,True,False,False
+2969,ftq,Firefox,527,18,ftq,ftq,False,False,False
+1108,cyi,Google Chrome,296,4,cyi,cyi,False,False,False
+1411,nwt,Google Chrome,705,16,nwt,nwt,False,False,False
+3136,tdk,Firefox,229,11,fek,fek,True,False,False
+2441,pxi,Firefox,471,6,pxi,pxi,False,False,False
+110,hjs,Microsoft Edge,185,30,hjs,hjs,False,False,False
+2120,tsn,Firefox,84,17,tsn,tsn,False,False,False
+60,sps,Microsoft Edge,427,16,sps,sps,False,False,False
+265,jfm,Google Chrome,491,14,jfm,jfm,False,False,False
+2834,slq,Google Chrome,259,57,slq,slq,False,False,False
+2189,jpm,Firefox,60,17,opp,jpm,False,True,False
+581,eqo,Google Chrome,1626,4,eqo,eqo,False,False,False
+1599,fuz,Firefox,643,11,fuz,fuz,False,False,False
+2017,skm,Google Chrome,42,60,skm,skm,False,False,False
+2373,skm,Google Chrome,72,60,skm,skm,False,False,False
+1676,xby,Firefox,73,11,xgv,xgv,True,False,False
+112,qbf,Google Chrome,538,10,qbf,qbf,False,False,False
+3248,fjb,Microsoft Edge,8833,9,fjb,fjb,False,False,False
+959,oqa,Google Chrome,1262,12,oqa,oqa,False,False,False
+1117,sps,Microsoft Edge,608,16,sps,sps,False,False,False
+241,fuz,Firefox,204,11,fuz,fuz,False,False,False
+765,vog,Firefox,1182,4,vog,vog,False,False,False
+3268,mmm,Firefox,856,12,mmm,mmm,False,False,False
+220,azo,Google Chrome,142,8,azo,azo,False,False,False
+1619,yvq,Google Chrome,100,10,muz,muz,True,False,False
+598,zqs,Microsoft Edge,1716,13,zqs,zqs,False,False,False
+1712,sfi,Google Chrome,272,13,sfi,sfi,False,False,False
+3123,rff,Firefox,161,3,rff,rff,False,False,False
+3006,vlm,Google Chrome,1134,21,vlm,vlm,False,False,False
+1656,iba,Google Chrome,810,6,iba,iba,False,False,False
+1223,sii,Firefox,204,15,sii,sii,False,False,False
+1990,ont,Microsoft Edge,728,4,ont,ont,False,False,False
+313,hrj,Google Chrome,445,11,hrj,hrj,False,False,False
+3181,bez,Microsoft Edge,639,3,bez,bez,False,False,False
+1304,rgo,Microsoft Edge,1370,14,rgo,rgo,False,False,False
+2450,bou,Google Chrome,146,9,bou,bou,False,False,False
+1826,skm,Google Chrome,203,60,skm,skm,False,False,False
+1360,fuz,Firefox,85,11,fuz,fuz,False,False,False
+2539,nsf,Google Chrome,1874,5,nsf,nsf,False,False,False
+1829,ngs,Google Chrome,117,13,ngs,ngs,False,False,False
+2125,flj,Google Chrome,427,33,flj,flj,False,False,False
+201,lgz,Firefox,252,20,lgz,lgz,False,False,False
+653,flj,Google Chrome,501,33,flj,flj,False,False,False
+1789,nyk,Firefox,171,12,pgu,nyk,False,True,False
+2307,fvc,Google Chrome,351,23,fvc,fvc,False,False,False
+2579,tza,Firefox,495,12,tza,tza,False,False,False
+264,tzn,Google Chrome,71,10,tzn,tzn,False,False,False
+1937,zro,Firefox,615,10,zro,zro,False,False,False
+2308,wwk,Google Chrome,93,10,wwk,wwk,False,False,False
+1617,cxt,Microsoft Edge,765,12,cxt,cxt,False,False,False
+362,wem,Google Chrome,297,12,wem,wem,False,False,False
+2124,qof,Google Chrome,210,13,qof,qof,False,False,False
+3210,shh,Firefox,68,27,shh,shh,False,False,False
+1980,zbn,Firefox,314,12,nrb,nrb,True,False,False
+2899,cjr,Google Chrome,622,37,cjr,cjr,False,False,False
+2016,btl,Google Chrome,238,10,btl,btl,False,False,False
+1210,tft,Firefox,2981,14,tft,tft,False,False,False
+2565,tyw,Microsoft Edge,548,10,tyw,tyw,False,False,False
+1767,hjs,Microsoft Edge,1378,30,hjs,hjs,False,False,False
+3024,cut,Firefox,138,14,cut,cut,False,False,False
+1939,rvh,Google Chrome,1584,11,rvh,rvh,False,False,False
+1475,vos,Firefox,1187,4,vos,vos,False,False,False
+1752,nqg,Microsoft Edge,116,27,nqg,nqg,False,False,False
+2572,snv,Firefox,593,17,snv,snv,False,False,False
+1533,fwf,Firefox,204,26,fwf,fwf,False,False,False
+1316,fwf,Firefox,48,26,fwf,fwf,False,False,False
+1516,nwt,Google Chrome,478,16,nwt,nwt,False,False,False
+2759,lhr,Firefox,591,10,lhr,lhr,False,False,False
+1530,oqa,Google Chrome,687,12,oqa,oqa,False,False,False
+2584,slq,Google Chrome,420,57,slq,slq,False,False,False
+2027,guh,Google Chrome,118,12,hll,hll,True,False,False
+1126,zct,Google Chrome,224,11,cjr,cjr,True,False,False
+2138,jkt,Microsoft Edge,389,3,jkt,jkt,False,False,False
+757,jqq,Google Chrome,522,6,jqq,jqq,False,False,False
+2238,rmf,Microsoft Edge,56,5,rmf,rmf,False,False,False
+258,muz,Google Chrome,136,22,muz,muz,False,False,False
+2852,vfo,Google Chrome,1047,28,vfo,vfo,False,False,False
+1737,pgm,Firefox,150,16,pgm,pgm,False,False,False
+1914,opp,Firefox,841,19,opp,opp,False,False,False
+1908,mqo,Microsoft Edge,843,7,mqo,mqo,False,False,False
+2061,skm,Google Chrome,643,60,skm,skm,False,False,False
+794,pgu,Firefox,157,14,nyk,nyk,True,False,False
+2985,dfo,Firefox,350,9,dfo,dfo,False,False,False
+178,zok,Microsoft Edge,111,9,sps,sps,True,False,False
+991,wwk,Google Chrome,416,10,wwk,wwk,False,False,False
+2570,gtj,Google Chrome,2589,15,gtj,gtj,False,False,False
+1255,xvr,Firefox,195,11,xvr,xvr,False,False,False
+2612,vsb,Firefox,714,9,vsb,vsb,False,False,False
+1328,ats,Firefox,460,10,ats,ats,False,False,False
+2531,hew,Firefox,342,7,hew,hew,False,False,False
+1156,szr,Firefox,348,12,szr,szr,False,False,False
+888,nrb,Firefox,72,12,vog,vog,True,False,False
+1522,fyg,Microsoft Edge,133,3,fyg,fyg,False,False,False
+2687,mmm,Firefox,223,12,lgz,lgz,True,False,False
+3096,wht,Google Chrome,718,16,wht,wht,False,False,False
+3211,uey,Google Chrome,1795,14,uey,uey,False,False,False
+2776,esu,Firefox,200,11,esu,esu,False,False,False
+625,prb,Firefox,839,13,prb,prb,False,False,False
+627,xby,Firefox,994,11,xby,xby,False,False,False
+1598,vfo,Google Chrome,51,28,vfo,vfo,False,False,False
+2407,npo,Firefox,3569,5,npo,npo,False,False,False
+1765,obm,Firefox,139,6,obm,obm,False,False,False
+197,iyf,Google Chrome,2149,6,iyf,iyf,False,False,False
+906,mvu,Google Chrome,139,4,mvu,mvu,False,False,False
+3215,qqe,Google Chrome,1701,12,qqe,qqe,False,False,False
+2860,nqg,Microsoft Edge,134,27,nqg,nqg,False,False,False
+3219,ajo,Firefox,1427,10,ajo,ajo,False,False,False
+237,nyk,Firefox,180,12,nyk,nyk,False,False,False
+1092,flj,Google Chrome,163,33,flj,flj,False,False,False
+1649,czi,Firefox,320,14,czi,czi,False,False,False
+2347,esu,Firefox,1320,11,esu,esu,False,False,False
+891,jpm,Firefox,78,17,jpm,jpm,False,False,False
+914,rvh,Google Chrome,287,11,rvh,rvh,False,False,False
+2751,muz,Google Chrome,110,22,muz,muz,False,False,False
+584,avt,Firefox,1523,12,avt,avt,False,False,False
+548,ftq,Firefox,263,18,ftq,ftq,False,False,False
+1139,ngs,Google Chrome,1952,13,jmq,ngs,False,True,False
+2273,hew,Firefox,108,7,hew,hew,False,False,False
+323,flj,Google Chrome,78,33,flj,flj,False,False,False
+1267,fou,Google Chrome,51,17,fou,fou,False,False,False
+2766,guh,Google Chrome,83,12,guh,guh,False,False,False
+1794,yuz,Firefox,157,12,yuz,yuz,False,False,False
+2322,gtj,Google Chrome,2009,15,gtj,gtj,False,False,False
+771,nyk,Firefox,166,12,nyk,nyk,False,False,False
+491,qsw,Google Chrome,903,16,qsw,qsw,False,False,False
+393,gvp,Google Chrome,323,11,gvp,gvp,False,False,False
+1948,yvq,Google Chrome,623,10,yvq,yvq,False,False,False
+2733,fwf,Firefox,87,26,fwf,fwf,False,False,False
+3086,pqd,Firefox,1048,7,pqd,pqd,False,False,False
+1880,fwf,Firefox,127,26,fwf,fwf,False,False,False
+927,sov,Google Chrome,639,5,sov,sov,False,False,False
+123,syt,Firefox,170,13,kks,xgb,True,False,False
+107,fuy,Google Chrome,487,12,fuy,fuy,False,False,False
+3125,wem,Google Chrome,997,12,wem,wem,False,False,False
+2807,fmz,Google Chrome,1069,12,fmz,fmz,False,False,False
+932,xgv,Firefox,418,18,xgv,xgv,False,False,False
+3036,wjn,Microsoft Edge,594,17,wjn,wjn,False,False,False
+2832,muz,Google Chrome,478,22,muz,muz,False,False,False
+3222,lgz,Firefox,311,20,lgz,lgz,False,False,False
+1864,wht,Google Chrome,576,16,wht,wht,False,False,False
+2680,txk,Firefox,2266,13,txk,txk,False,False,False
+1464,cje,Google Chrome,285,6,cje,cje,False,False,False
+1928,pre,Google Chrome,273,13,pre,pre,False,False,False
+1090,lra,Microsoft Edge,2016,3,zok,lra,False,True,False
+2460,ald,Google Chrome,2893,12,ald,ald,False,False,False
+2318,fuy,Google Chrome,142,12,fuy,fuy,False,False,False
+938,sii,Firefox,458,15,sii,sii,False,False,False
+1165,nwt,Google Chrome,1518,16,nwt,nwt,False,False,False
+2268,jmq,Google Chrome,426,14,jmq,jmq,False,False,False
+2980,fcq,Google Chrome,88,10,fcq,fcq,False,False,False
+154,wfs,Google Chrome,95,14,wfs,wfs,False,False,False
+2537,uwr,Firefox,326,12,uwr,uwr,False,False,False
+55,pcv,Google Chrome,548,12,pcv,pcv,False,False,False
+2041,uey,Google Chrome,62,14,uey,uey,False,False,False
+493,iib,Firefox,1763,12,iib,iib,False,False,False
+2540,sdx,Google Chrome,1842,9,sdx,sdx,False,False,False
+299,bos,Firefox,128,7,bos,bos,False,False,False
+580,slq,Google Chrome,309,57,slq,slq,False,False,False
+209,cbo,Google Chrome,232,10,cbo,cbo,False,False,False
+1398,bgn,Firefox,535,22,bgn,bgn,False,False,False
+1415,fuy,Google Chrome,131,12,fuy,fuy,False,False,False
+1606,itt,Google Chrome,5253,3,sbz,sbz,True,False,False
+1137,fwf,Firefox,44,26,fwf,fwf,False,False,False
+436,lhd,Firefox,949,6,lhd,lhd,False,False,False
+354,lio,Firefox,230,14,lio,lio,False,False,False
+953,ncb,Google Chrome,570,16,ncb,ncb,False,False,False
+1067,bgn,Firefox,854,22,bgn,bgn,False,False,False
+451,fwh,Google Chrome,1058,10,fwh,fwh,False,False,False
+324,cnh,Firefox,2575,8,cnh,cnh,False,False,False
+1051,azx,Google Chrome,435,8,azx,azx,False,False,False
+2504,ycb,Google Chrome,642,9,wwk,wwk,True,False,False
+1071,slq,Google Chrome,146,57,slq,slq,False,False,False
+3009,shh,Firefox,33,27,shh,shh,False,False,False
+2486,sgd,Firefox,1752,6,sgd,sgd,False,False,False
+1571,jew,Firefox,115,3,fgc,flj,True,False,False

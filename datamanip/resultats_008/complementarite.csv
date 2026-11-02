@@ -1,0 +1,11 @@
+modele,corrections_reference,regressions_reference,erreurs_communes
+log_C3,5,24,83
+log_C5,6,23,82
+log_C10,7,20,81
+log_C20,7,19,81
+log_C50,7,17,81
+contexte_rythme_C3,9,22,79
+contexte_rythme_C5,8,22,80
+contexte_rythme_C10,8,21,80
+contexte_rythme_C20,8,18,80
+contexte_rythme_C50,8,18,80
